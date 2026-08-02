@@ -31,18 +31,23 @@ jobs:
       - name: Build raw Windows package
         run: npm run package:portable:raw
 
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup --no-progress -y
+
       - name: Create installer and portable package
         shell: pwsh
         run: |
           $out = Join-Path $env:GITHUB_WORKSPACE 'out'
-          $raw = Join-Path $out 'SnowRunnerXMLEditor-win32-x64'
+          $raw = Get-ChildItem -LiteralPath $out -Directory -Filter '*-win32-x64' |
+            Select-Object -First 1 -ExpandProperty FullName
           $app = Join-Path $out 'SnowRunnerXMLEditor'
           $installer = Join-Path $out 'SnowRunnerXMLEditor.exe'
           $updateInstaller = Join-Path $out 'SnowRunnerXMLEditor_update.exe'
           $portable = Join-Path $out 'SnowRunnerXMLEditor_portable.zip'
 
-          if (-not (Test-Path -LiteralPath $raw)) {
-            throw "Raw package was not created: $raw"
+          if (-not $raw -or -not (Test-Path -LiteralPath $raw)) {
+            throw "Raw package was not created in: $out"
           }
 
           if (Test-Path -LiteralPath $app) {
