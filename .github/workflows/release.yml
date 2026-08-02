@@ -56,6 +56,11 @@ jobs:
 
           Move-Item -LiteralPath $raw -Destination $app
 
+          $appExecutable = Join-Path $app 'SnowRunnerXMLEditor.exe'
+          if (-not (Test-Path -LiteralPath $appExecutable)) {
+            throw "Expected application executable was not found: $appExecutable"
+          }
+
           $isccCandidates = @(
             (Join-Path ${env:ProgramFiles(x86)} 'Inno Setup 6\ISCC.exe'),
             (Join-Path $env:ProgramFiles 'Inno Setup 6\ISCC.exe')
@@ -103,7 +108,27 @@ jobs:
           if ($env:GITHUB_REF_NAME -match '-') {
             $releaseArgs += '--prerelease'
           }
-          & gh release create @releaseArgs
+          $null = & gh release view $env:GITHUB_REF_NAME --repo $env:GITHUB_REPOSITORY 2>$null
+          $releaseExists = ($LASTEXITCODE -eq 0)
+
+          if ($releaseExists) {
+            & gh release upload $env:GITHUB_REF_NAME @assets --repo $env:GITHUB_REPOSITORY --clobber
+            if ($LASTEXITCODE -ne 0) {
+              throw 'GitHub Release asset upload failed'
+            }
+
+            $editArgs = @(
+              $env:GITHUB_REF_NAME,
+              '--repo', $env:GITHUB_REPOSITORY,
+              '--title', "SnowRunner XML Editor Next $env:GITHUB_REF_NAME"
+            )
+            if ($env:GITHUB_REF_NAME -match '-') {
+              $editArgs += '--prerelease'
+            }
+            & gh release edit @editArgs
+          } else {
+            & gh release create @releaseArgs
+          }
           if ($LASTEXITCODE -ne 0) {
-            throw 'GitHub Release creation failed'
+            throw 'GitHub Release publication failed'
           }

@@ -22,6 +22,7 @@ class ForgeConfig {
 	getConfig() {
 		return {
 			packagerConfig: {
+				name: 'SnowRunnerXMLEditor',
 				overwrite: true,
 				icon: '.vite/build/favicon.ico'
 			},
