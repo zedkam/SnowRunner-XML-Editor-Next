@@ -93,7 +93,17 @@ jobs:
             (Join-Path $out 'SnowRunnerXMLEditor_portable.zip'),
             (Join-Path $out 'SHA256SUMS.txt')
           )
-          & gh release create $env:GITHUB_REF_NAME $assets --repo $env:GITHUB_REPOSITORY --title "SnowRunner XML Editor Next $env:GITHUB_REF_NAME" --generate-notes
+          $releaseArgs = @(
+            $env:GITHUB_REF_NAME
+          ) + $assets + @(
+            '--repo', $env:GITHUB_REPOSITORY,
+            '--title', "SnowRunner XML Editor Next $env:GITHUB_REF_NAME",
+            '--generate-notes'
+          )
+          if ($env:GITHUB_REF_NAME -match '-') {
+            $releaseArgs += '--prerelease'
+          }
+          & gh release create @releaseArgs
           if ($LASTEXITCODE -ne 0) {
             throw 'GitHub Release creation failed'
           }
