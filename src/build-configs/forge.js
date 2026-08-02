@@ -1,4 +1,4 @@
-import { execSync } from 'node:child_process'
+import { execFileSync, execSync } from 'node:child_process'
 import { existsSync, readFileSync } from 'node:fs'
 import { cp, readFile, readdir, rename, rm, writeFile } from 'node:fs/promises'
 import { basename, dirname, join } from 'node:path'
@@ -35,6 +35,12 @@ class ForgeConfig {
 					await writeFile(path, constsData.replaceAll(/PROGRAM_VERSION =.*?\r\n/g, `PROGRAM_VERSION = '${version}'\r\n`))
 				},
 				async postPackage(_, { outputPaths }) {
+					if (process.env.SNOWRUNNER_SKIP_RELEASE_ARTIFACTS === '1') {
+						console.info('Skip installer/archive release artifacts')
+
+						return
+					}
+
 					class Paths {
 						out = join(_dirname, '../../out')
 						build = outputPaths[0]
@@ -91,7 +97,18 @@ class ForgeConfig {
 					const configData = String(await readFile(paths.innoSetupConfig))
 
 					await writeFile(paths.innoSetupConfig, configData.replaceAll(/#define MyAppVersion .*?\r\n/g, `#define MyAppVersion "${version}"\r\n`))
-					execSync(paths.innoSetupConfig)
+					const isccCandidates = [
+						process.env.LOCALAPPDATA && join(process.env.LOCALAPPDATA, 'Programs/Inno Setup 6/ISCC.exe'),
+						process.env.ProgramFiles && join(process.env.ProgramFiles, 'Inno Setup 6/ISCC.exe'),
+						process.env['ProgramFiles(x86)'] && join(process.env['ProgramFiles(x86)'], 'Inno Setup 6/ISCC.exe')
+					].filter(Boolean)
+					const iscc = isccCandidates.find(existsSync)
+
+					if (!iscc) {
+						throw new Error('Inno Setup compiler ISCC.exe was not found')
+					}
+
+					execFileSync(iscc, [paths.innoSetupConfig], { cwd: paths.innoSetup, stdio: 'inherit' })
 					if (existsSync(paths.installer)) {
 						await cp(paths.installer, paths.updateInstaller)
 						await cp(paths.installer, paths.installerWithVersion)

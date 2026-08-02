@@ -53,8 +53,8 @@ const { descriptor } = toRefs(props)
 
 const areasRef = computed(() => props.areas ?? descriptor.value.areas)
 const valueTips = computed(() => ({
-  min: getValueTip(descriptor.value.limit?.minValue, texts.inputMin, Number.NEGATIVE_INFINITY),
-  max: getValueTip(descriptor.value.limit?.maxValue, texts.inputMax, Number.POSITIVE_INFINITY),
+  min: getValueTip(getLimitMin(descriptor.value.limit), texts.inputMin, Number.NEGATIVE_INFINITY),
+  max: getValueTip(getLimitMax(descriptor.value.limit), texts.inputMax, Number.POSITIVE_INFINITY),
   default: getValueTip(descriptor.value.default, texts.inputDefault),
   get hasAny() {
     return this.min !== undefined || this.max !== undefined || this.default !== undefined
@@ -77,6 +77,18 @@ function getValueTip(
   return limitValue === undefined || limitValue === exclude
     ? undefined
     : formatString(text, String(limitValue))
+}
+
+function getLimitMin(limit: IAttrDescriptor['limit']) {
+  return limit && 'minValue' in limit
+    ? limit.minValue
+    : undefined
+}
+
+function getLimitMax(limit: IAttrDescriptor['limit']) {
+  return limit && 'maxValue' in limit
+    ? limit.maxValue
+    : undefined
 }
 
 function getAreaTip(

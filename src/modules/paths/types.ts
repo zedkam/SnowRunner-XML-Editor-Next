@@ -1,7 +1,7 @@
 /** Пути. */
 export interface IPaths {
-  /** URL json файла обновления. */
-  publicInfo: string
+  /** URL API релизов GitHub. */
+  releaseApi: string
 
   /** URL страницы скачивания программы. */
   downloadPage: string

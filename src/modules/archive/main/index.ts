@@ -5,7 +5,7 @@ import Mods from '/mods/data/mods/main'
 import Sizes from '/mods/data/sizes/main'
 import type { IDir, IFile } from '/mods/files/main'
 import { Dir, Dirs, File } from '/mods/files/main'
-import { Loading } from '/mods/main'
+import Loading from '/mods/loading/main'
 import Messages from '/mods/messages/main'
 import { providePublic, publicMethod } from '/utils/bridge/main'
 

@@ -1,0 +1,94 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate source
+        run: npm run check
+
+      - name: Build raw Windows package
+        run: npm run package:portable:raw
+
+      - name: Create installer and portable package
+        shell: pwsh
+        run: |
+          $out = Join-Path $env:GITHUB_WORKSPACE 'out'
+          $raw = Join-Path $out 'SnowRunnerXMLEditor-win32-x64'
+          $app = Join-Path $out 'SnowRunnerXMLEditor'
+          $installer = Join-Path $out 'SnowRunnerXMLEditor.exe'
+          $updateInstaller = Join-Path $out 'SnowRunnerXMLEditor_update.exe'
+          $portable = Join-Path $out 'SnowRunnerXMLEditor_portable.zip'
+
+          if (-not (Test-Path -LiteralPath $raw)) {
+            throw "Raw package was not created: $raw"
+          }
+
+          if (Test-Path -LiteralPath $app) {
+            Remove-Item -LiteralPath $app -Recurse -Force
+          }
+
+          Move-Item -LiteralPath $raw -Destination $app
+
+          $isccCandidates = @(
+            (Join-Path ${env:ProgramFiles(x86)} 'Inno Setup 6\ISCC.exe'),
+            (Join-Path $env:ProgramFiles 'Inno Setup 6\ISCC.exe')
+          ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) }
+          $iscc = $isccCandidates | Select-Object -First 1
+
+          if (-not $iscc) {
+            throw 'Inno Setup compiler was not found'
+          }
+
+          & $iscc (Join-Path $env:GITHUB_WORKSPACE 'inno-setup\installer.config.iss')
+          if ($LASTEXITCODE -ne 0 -or -not (Test-Path -LiteralPath $installer)) {
+            throw 'Installer creation failed'
+          }
+
+          Copy-Item -LiteralPath $installer -Destination $updateInstaller -Force
+          Compress-Archive -Path (Join-Path $app '*') -DestinationPath $portable -CompressionLevel Optimal
+
+          $assets = @($installer, $updateInstaller, $portable)
+          $checksums = $assets | ForEach-Object {
+            $hash = (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash.ToLowerInvariant()
+            "$hash  $([IO.Path]::GetFileName($_))"
+          }
+          $checksums | Set-Content -LiteralPath (Join-Path $out 'SHA256SUMS.txt') -Encoding ascii
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
+        run: |
+          $out = Join-Path $env:GITHUB_WORKSPACE 'out'
+          $assets = @(
+            (Join-Path $out 'SnowRunnerXMLEditor.exe'),
+            (Join-Path $out 'SnowRunnerXMLEditor_update.exe'),
+            (Join-Path $out 'SnowRunnerXMLEditor_portable.zip'),
+            (Join-Path $out 'SHA256SUMS.txt')
+          )
+          & gh release create $env:GITHUB_REF_NAME $assets --repo $env:GITHUB_REPOSITORY --title "SnowRunner XML Editor Next $env:GITHUB_REF_NAME" --generate-notes
+          if ($LASTEXITCODE -ne 0) {
+            throw 'GitHub Release creation failed'
+          }

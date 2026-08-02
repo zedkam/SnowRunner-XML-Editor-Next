@@ -1,8 +1,11 @@
 /** Название программы. */
-export const APP_NAME = 'SnowRunner XML Editor'
+export const APP_NAME = 'SnowRunner XML Editor Next'
+
+/** Репозиторий продолжения проекта. */
+export const GITHUB_REPOSITORY = 'zedkam/SnowRunner-XML-Editor-Next'
 
 /** Версия программы. */
-export const PROGRAM_VERSION = '1.2.0'
+export const PROGRAM_VERSION = '2.0.0-beta.1'
 
 /** В любом случае показать devtools. */
 export const FORCE_DEVTOOLS = false

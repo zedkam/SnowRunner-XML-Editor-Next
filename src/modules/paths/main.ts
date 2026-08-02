@@ -2,6 +2,7 @@ import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 import type { IPaths } from './types'
+import { GITHUB_REPOSITORY } from '/consts'
 import { providePublic, publicField } from '/utils/bridge/main'
 
 export type * from './types'
@@ -45,18 +46,18 @@ function getInitialDateTime() {
  */
 @providePublic()
 class Paths {
-  /** URL для обновления. */
-  private readonly updaterURL = 'https://verzsut.github.io/sxmle_updater'
+  /** URL API релизов GitHub. */
+  private readonly githubReleaseApiURL = `https://api.github.com/repos/${GITHUB_REPOSITORY}/releases`
 
-  /** URL репозитория. */
-  private readonly ioReposURL = 'https://verzsut.github.io/SnowRunner-XML-Editor-Desktop'
+  /** URL репозитория GitHub. */
+  private readonly githubRepositoryURL = `https://github.com/${GITHUB_REPOSITORY}`
 
   /** Объект путей. */
   @publicField()
   private accessor object: IPaths = {
-    publicInfo: `${this.updaterURL}/public.json`,
-    downloadPage: `${this.ioReposURL}/download.html`,
-    update: `${this.updaterURL}/update/`,
+    releaseApi: this.githubReleaseApiURL,
+    downloadPage: `${this.githubRepositoryURL}/releases`,
+    update: `${this.githubRepositoryURL}/releases/download`,
     root: resolve('../../'),
     pages: resolve('../renderer/src/renderer/pages'),
     config: json('config'),

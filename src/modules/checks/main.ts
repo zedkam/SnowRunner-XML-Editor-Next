@@ -1,8 +1,5 @@
 import { app } from 'electron'
-import dns from 'node:dns'
-import { get } from 'node:https'
 import TextsLoader from './texts'
-import type { PubFile } from './types'
 import Archive from '/mods/archive/main'
 import Backup from '/mods/backup/main'
 import Config from '/mods/data/config/main'
@@ -12,6 +9,7 @@ import { ErrorText, ProgramError } from '/mods/errors/main'
 import type { IFSEntry } from '/mods/files/main'
 import { Dirs, Files } from '/mods/files/main'
 import Paths from '/mods/paths/main'
+import { getLatestAvailableRelease } from '/mods/updates/github'
 import { providePublic, publicMethod } from '/utils/bridge/main'
 
 export type * from './types'
@@ -26,9 +24,6 @@ const texts = await TextsLoader.loadMain()
 class Checks {
   /** Папка с xml файлами из initial.pak. */
   private readonly mediaFolder = '[media]'
-
-  /** Сайт GitHub. */
-  private readonly githubURL = 'github.com'
 
   /**
    * Проверить наличие прав администратора у программы (требуется для чтения/записи файлов).  
@@ -95,40 +90,15 @@ class Checks {
    */
   @publicMethod()
   async checkUpdate(whateverCheck?: boolean): Promise<string | undefined> {
-    const { promise, resolve, reject } = Promise.withResolvers<string | undefined>()
-
     if (!Config.checkUpdates && !whateverCheck) {
       return
     }
 
-    dns.resolve(this.githubURL, error => {
-      if (error) {
-        return reject(new ProgramError(ErrorText.gitHubConnectError, error))
-      }
-
-      get(Paths.publicInfo, response => {
-        let rawData = ''
-
-        response
-          .setEncoding('utf8')
-          .on('data', chunk => rawData += chunk)
-          .on('end', async () => {
-            const data: PubFile = JSON.parse(rawData)
-            const version = Config.version
-            const hasNewVersion = version < data.latestVersion
-            const isBetaNewVersion = version.includes('-beta') && version.split('-beta')[0] === data.latestVersion
-
-            resolve(hasNewVersion || isBetaNewVersion
-              ? data.latestVersion
-              : undefined
-            )
-          })
-      }).on('error', error => {
-        reject(new ProgramError(ErrorText.gitHubConnectError, error))
-      })
-    })
-
-    return promise
+    try {
+      return (await getLatestAvailableRelease(Config.version))?.version
+    } catch (error: any) {
+      throw new ProgramError(ErrorText.gitHubConnectError, error)
+    }
   }
 
   /**

@@ -1,0 +1,2246 @@
+{
+  "schema": 1,
+  "generatedAt": "2026-08-01T16:25:58.056Z",
+  "archive": "D:\\SteamLibrary\\steamapps\\common\\SnowRunner\\preload\\paks\\client\\initial.pak",
+  "sources": [
+    {
+      "source": "dlc_15_5",
+      "files": 56,
+      "trucks": 2
+    },
+    {
+      "source": "dlc_16",
+      "files": 89,
+      "trucks": 3
+    },
+    {
+      "source": "dlc_16_5",
+      "files": 73,
+      "trucks": 2
+    },
+    {
+      "source": "dlc_17",
+      "files": 63,
+      "trucks": 2
+    },
+    {
+      "source": "dlc_17_5",
+      "files": 71,
+      "trucks": 2
+    },
+    {
+      "source": "dlc_18",
+      "files": 59,
+      "trucks": 2
+    }
+  ],
+  "files": [
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/suspensions/s_freightliner_fld120.xml",
+      "key": "s_freightliner_fld120_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/suspensions/s_western_star_6900xd.xml",
+      "key": "s_western_star_6900xd_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/frame_addon_freightliner_fld120_kung.xml",
+      "key": "frame_addon_freightliner_fld120_kung_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/frame_addon_freightliner_fld120_repairs.xml",
+      "key": "frame_addon_freightliner_fld120_repairs_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/frame_addon_watertank_long.xml",
+      "key": "frame_addon_watertank_long_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/pacific_p16_bunk_log_addon.xml",
+      "key": "pacific_p16_bunk_log_addon_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/western_star_6900xd_frame_addon_tow.xml",
+      "key": "western_star_6900xd_frame_addon_tow_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/addons/western_star_6900xd_rear_lights.xml",
+      "key": "western_star_6900xd_rear_lights_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/cargo/cargo_logs_long_pacific_p16_trailer_log_pole.xml",
+      "key": "cargo_logs_long_pacific_p16_trailer_log_pole_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_beacon_1.xml",
+      "key": "freightliner_fld120_beacon_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_bumper_1.xml",
+      "key": "freightliner_fld120_bumper_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_bumper_2.xml",
+      "key": "freightliner_fld120_bumper_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_bumper_default.xml",
+      "key": "freightliner_fld120_bumper_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_diff_lock_default.xml",
+      "key": "freightliner_fld120_diff_lock_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_diff_lock.xml",
+      "key": "freightliner_fld120_diff_lock_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_exhaust_1.xml",
+      "key": "freightliner_fld120_exhaust_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_exhaust_2.xml",
+      "key": "freightliner_fld120_exhaust_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_exhaust_default.xml",
+      "key": "freightliner_fld120_exhaust_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_gabarite_default.xml",
+      "key": "freightliner_fld120_gabarite_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_horn_1.xml",
+      "key": "freightliner_fld120_horn_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_horn_default.xml",
+      "key": "freightliner_fld120_horn_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_snorkel_1.xml",
+      "key": "freightliner_fld120_snorkel_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_snorkel_default.xml",
+      "key": "freightliner_fld120_snorkel_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_spotlight_1.xml",
+      "key": "freightliner_fld120_spotlight_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_transferbox_allwheels.xml",
+      "key": "freightliner_fld120_transferbox_allwheels_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_transferbox_default.xml",
+      "key": "freightliner_fld120_transferbox_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_visor_1.xml",
+      "key": "freightliner_fld120_visor_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_visor_2.xml",
+      "key": "freightliner_fld120_visor_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120_tuning/freightliner_fld120_visor_default.xml",
+      "key": "freightliner_fld120_visor_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120.xml",
+      "key": "freightliner_fld120_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/trailers/pacific_p16_trailer_log_pole.xml",
+      "key": "pacific_p16_trailer_log_pole_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_beacon_default.xml",
+      "key": "western_star_6900xd_beacon_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_bumper_1.xml",
+      "key": "western_star_6900xd_bumper_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_bumper_default.xml",
+      "key": "western_star_6900xd_bumper_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_diff_lock_default.xml",
+      "key": "western_star_6900xd_diff_lock_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_diff_lock.xml",
+      "key": "western_star_6900xd_diff_lock_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_exhaust_1.xml",
+      "key": "western_star_6900xd_exhaust_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_exhaust_2.xml",
+      "key": "western_star_6900xd_exhaust_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_exhaust_default.xml",
+      "key": "western_star_6900xd_exhaust_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_flasher_bar.xml",
+      "key": "western_star_6900xd_flasher_bar_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_gabarite_default.xml",
+      "key": "western_star_6900xd_gabarite_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_horn_1.xml",
+      "key": "western_star_6900xd_horn_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_horn_2.xml",
+      "key": "western_star_6900xd_horn_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_horn_default.xml",
+      "key": "western_star_6900xd_horn_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_roofrack_1.xml",
+      "key": "western_star_6900xd_roofrack_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_searchlight_1.xml",
+      "key": "western_star_6900xd_searchlight_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_snorkel_1.xml",
+      "key": "western_star_6900xd_snorkel_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_snorkel_default.xml",
+      "key": "western_star_6900xd_snorkel_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_spare_wheel_1.xml",
+      "key": "western_star_6900xd_spare_wheel_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_spot_light_1.xml",
+      "key": "western_star_6900xd_spot_light_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_visor_1.xml",
+      "key": "western_star_6900xd_visor_1_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_visor_2.xml",
+      "key": "western_star_6900xd_visor_2_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd_tuning/western_star_6900xd_visor_default.xml",
+      "key": "western_star_6900xd_visor_default_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd.xml",
+      "key": "western_star_6900xd_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/wheels/wheels_freightliner_fld120.xml",
+      "key": "wheels_freightliner_fld120_dlc_15_5"
+    },
+    {
+      "source": "dlc_15_5",
+      "path": "_dlc/dlc_15_5/classes/wheels/wheels_western_star_6900xd.xml",
+      "key": "wheels_western_star_6900xd_dlc_15_5"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/engines/e_us_truck_old_hib_billert.xml",
+      "key": "e_us_truck_old_hib_billert_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/engines/e_us_truck_old_plad_440.xml",
+      "key": "e_us_truck_old_plad_440_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/suspensions/s_hib_billert_1980.xml",
+      "key": "s_hib_billert_1980_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/suspensions/s_plad_440.xml",
+      "key": "s_plad_440_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/suspensions/s_sleiter_st833_chimera.xml",
+      "key": "s_sleiter_st833_chimera_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/hib_billert_1980_frame_addon_kung.xml",
+      "key": "hib_billert_1980_frame_addon_kung_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/plad_440_frame_addon_sideboard_2.xml",
+      "key": "plad_440_frame_addon_sideboard_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/saddle_motorized.xml",
+      "key": "saddle_motorized_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/sleiter_st833_chimera_addon_crane.xml",
+      "key": "sleiter_st833_chimera_addon_crane_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/sleiter_st833_chimera_frame_addon_flatbed_2.xml",
+      "key": "sleiter_st833_chimera_frame_addon_flatbed_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/sleiter_st833_chimera_frame_addon_flatbed_3.xml",
+      "key": "sleiter_st833_chimera_frame_addon_flatbed_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/sleiter_st833_chimera_frame_addon_sideboard_2.xml",
+      "key": "sleiter_st833_chimera_frame_addon_sideboard_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/addons/sleiter_st833_chimera_frame_addon_sideboard_3.xml",
+      "key": "sleiter_st833_chimera_frame_addon_sideboard_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/cargo/cargo_logs_long_semitrailer_foldable.xml",
+      "key": "cargo_logs_long_semitrailer_foldable_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/cargo/cargo_logs_long_semitrailer_log_double_ls.xml",
+      "key": "cargo_logs_long_semitrailer_log_double_ls_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/cargo/cargo_logs_short_semitrailer_log_double_ls.xml",
+      "key": "cargo_logs_short_semitrailer_log_double_ls_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_beacon_1.xml",
+      "key": "hib_billert_1980_beacon_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_bumper_1.xml",
+      "key": "hib_billert_1980_bumper_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_bumper_2.xml",
+      "key": "hib_billert_1980_bumper_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_bumper_default.xml",
+      "key": "hib_billert_1980_bumper_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_diff_lock_default.xml",
+      "key": "hib_billert_1980_diff_lock_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_diff_lock.xml",
+      "key": "hib_billert_1980_diff_lock_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_exhaust_1.xml",
+      "key": "hib_billert_1980_exhaust_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_exhaust_2.xml",
+      "key": "hib_billert_1980_exhaust_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_exhaust_default.xml",
+      "key": "hib_billert_1980_exhaust_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_farkop_default.xml",
+      "key": "hib_billert_1980_farkop_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_horn_1.xml",
+      "key": "hib_billert_1980_horn_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_horn_2.xml",
+      "key": "hib_billert_1980_horn_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_horn_3.xml",
+      "key": "hib_billert_1980_horn_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_roofrack_1.xml",
+      "key": "hib_billert_1980_roofrack_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_snorkel_1.xml",
+      "key": "hib_billert_1980_snorkel_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_snorkel_default.xml",
+      "key": "hib_billert_1980_snorkel_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_spotlight_1.xml",
+      "key": "hib_billert_1980_spotlight_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_spotlight_2.xml",
+      "key": "hib_billert_1980_spotlight_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_visor_1.xml",
+      "key": "hib_billert_1980_visor_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_visor_default.xml",
+      "key": "hib_billert_1980_visor_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980_tuning/hib_billert_1980_wheel_addon_1.xml",
+      "key": "hib_billert_1980_wheel_addon_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/hib_billert_1980.xml",
+      "key": "hib_billert_1980_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_beacon_1.xml",
+      "key": "plad_440_beacon_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_bumper_1.xml",
+      "key": "plad_440_bumper_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_bumper_2.xml",
+      "key": "plad_440_bumper_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_bumper_default.xml",
+      "key": "plad_440_bumper_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_diff_lock_default.xml",
+      "key": "plad_440_diff_lock_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_diff_lock.xml",
+      "key": "plad_440_diff_lock_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_exhaust_1.xml",
+      "key": "plad_440_exhaust_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_exhaust_2.xml",
+      "key": "plad_440_exhaust_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_exhaust_3.xml",
+      "key": "plad_440_exhaust_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_exhaust_default.xml",
+      "key": "plad_440_exhaust_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_fender_addon.xml",
+      "key": "plad_440_fender_addon_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_horn_1.xml",
+      "key": "plad_440_horn_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_horn_2.xml",
+      "key": "plad_440_horn_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_roofrack_1.xml",
+      "key": "plad_440_roofrack_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_snorkel_1.xml",
+      "key": "plad_440_snorkel_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_snorkel_2.xml",
+      "key": "plad_440_snorkel_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_snorkel_default.xml",
+      "key": "plad_440_snorkel_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_spot_light_1.xml",
+      "key": "plad_440_spot_light_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_visor_1.xml",
+      "key": "plad_440_visor_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_visor_2.xml",
+      "key": "plad_440_visor_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_wheel_addon_2.xml",
+      "key": "plad_440_wheel_addon_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440_tuning/plad_440_wheel_addon.xml",
+      "key": "plad_440_wheel_addon_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/plad_440.xml",
+      "key": "plad_440_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_beacon_1.xml",
+      "key": "sleiter_st833_chimera_beacon_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_bumper_1.xml",
+      "key": "sleiter_st833_chimera_bumper_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_bumper_2.xml",
+      "key": "sleiter_st833_chimera_bumper_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_bumper_3.xml",
+      "key": "sleiter_st833_chimera_bumper_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_bumper_default.xml",
+      "key": "sleiter_st833_chimera_bumper_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_cabin_protection.xml",
+      "key": "sleiter_st833_chimera_cabin_protection_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_diff_lock_default.xml",
+      "key": "sleiter_st833_chimera_diff_lock_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_diff_lock.xml",
+      "key": "sleiter_st833_chimera_diff_lock_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_exhaust_1.xml",
+      "key": "sleiter_st833_chimera_exhaust_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_exhaust_2.xml",
+      "key": "sleiter_st833_chimera_exhaust_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_exhaust_3.xml",
+      "key": "sleiter_st833_chimera_exhaust_3_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_exhaust_default.xml",
+      "key": "sleiter_st833_chimera_exhaust_default_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_foglight_1.xml",
+      "key": "sleiter_st833_chimera_foglight_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_horn_1.xml",
+      "key": "sleiter_st833_chimera_horn_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_horn_2.xml",
+      "key": "sleiter_st833_chimera_horn_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_roofrack_1.xml",
+      "key": "sleiter_st833_chimera_roofrack_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_snorkel_1.xml",
+      "key": "sleiter_st833_chimera_snorkel_1_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_snorkel_2.xml",
+      "key": "sleiter_st833_chimera_snorkel_2_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera_tuning/sleiter_st833_chimera_wheel_addon.xml",
+      "key": "sleiter_st833_chimera_wheel_addon_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera.xml",
+      "key": "sleiter_st833_chimera_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/trailers/semitrailer_big_crane.xml",
+      "key": "semitrailer_big_crane_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/trailers/semitrailer_foldable_log.xml",
+      "key": "semitrailer_foldable_log_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/trucks/trailers/semitrailer_log_double_ls.xml",
+      "key": "semitrailer_log_double_ls_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/semitrailer_foldable_log.xml",
+      "key": "semitrailer_foldable_log_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/wheels_offroad_double_faun.xml",
+      "key": "wheels_offroad_double_faun_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/wheels_offroad_single_hib_billert_1980.xml",
+      "key": "wheels_offroad_single_hib_billert_1980_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/wheels_offroad_single_sleiter_st833_chimera.xml",
+      "key": "wheels_offroad_single_sleiter_st833_chimera_dlc_16"
+    },
+    {
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/wheels_plad_440.xml",
+      "key": "wheels_plad_440_dlc_16"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/engines/e_us_truck_modern_heavy_padera_std4.xml",
+      "key": "e_us_truck_modern_heavy_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/engines/e_us_truck_old_heavy_avenhorn_a15.xml",
+      "key": "e_us_truck_old_heavy_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/gearboxes/gearboxes_special_modern_padera_std4.xml",
+      "key": "gearboxes_special_modern_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/gearboxes/gearboxes_special_old_avenhorn_a15.xml",
+      "key": "gearboxes_special_old_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/suspensions/s_avenhorn_a15.xml",
+      "key": "s_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/suspensions/s_padera_std4.xml",
+      "key": "s_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/big_crane_us_02_padera_std4.xml",
+      "key": "big_crane_us_02_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/big_crane_us_avenhorn_a15.xml",
+      "key": "big_crane_us_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/big_crane_us_padera_std4.xml",
+      "key": "big_crane_us_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/crane_loglift_padera_std4.xml",
+      "key": "crane_loglift_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_kung_avenhorn_a15.xml",
+      "key": "frame_addon_kung_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_log_medium_padera_std4.xml",
+      "key": "frame_addon_log_medium_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_log_short_padera_std4.xml",
+      "key": "frame_addon_log_short_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_maintainer_2.xml",
+      "key": "frame_addon_maintainer_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_padera_std4_kung.xml",
+      "key": "frame_addon_padera_std4_kung_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_padera_std4_sideboard.xml",
+      "key": "frame_addon_padera_std4_sideboard_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_seismic_vibrator_avenhorn_a15.xml",
+      "key": "frame_addon_seismic_vibrator_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/frame_addon_seismic_vibrator_padera_std4.xml",
+      "key": "frame_addon_seismic_vibrator_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/minicrane_avenhorn_a15.xml",
+      "key": "minicrane_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/minicrane_rear_us_padera_std4.xml",
+      "key": "minicrane_rear_us_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/padera_std4_subframe.xml",
+      "key": "padera_std4_subframe_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_beacon_1.xml",
+      "key": "avenhorn_a15_beacon_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_beacon_2.xml",
+      "key": "avenhorn_a15_beacon_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_beacon_3.xml",
+      "key": "avenhorn_a15_beacon_3_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_bumper_1.xml",
+      "key": "avenhorn_a15_bumper_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_bumper_2.xml",
+      "key": "avenhorn_a15_bumper_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_bumper_default.xml",
+      "key": "avenhorn_a15_bumper_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_exhaust_1.xml",
+      "key": "avenhorn_a15_exhaust_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_exhaust_2.xml",
+      "key": "avenhorn_a15_exhaust_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_exhaust_default.xml",
+      "key": "avenhorn_a15_exhaust_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_gabarite_1.xml",
+      "key": "avenhorn_a15_gabarite_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_horn_1.xml",
+      "key": "avenhorn_a15_horn_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_snorkel_1.xml",
+      "key": "avenhorn_a15_snorkel_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_snorkel_2.xml",
+      "key": "avenhorn_a15_snorkel_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_snorkel_default.xml",
+      "key": "avenhorn_a15_snorkel_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_spot_light_1.xml",
+      "key": "avenhorn_a15_spot_light_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_visor_1.xml",
+      "key": "avenhorn_a15_visor_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_visor_2.xml",
+      "key": "avenhorn_a15_visor_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_visor_3.xml",
+      "key": "avenhorn_a15_visor_3_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15_tuning/avenhorn_a15_wheel_addon.xml",
+      "key": "avenhorn_a15_wheel_addon_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15.xml",
+      "key": "avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/cargo/cargo_burnt_logs_medium_frame_addon_padera_std4.xml",
+      "key": "cargo_burnt_logs_medium_frame_addon_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/cargo/cargo_logs_medium_frame_addon_padera_std4.xml",
+      "key": "cargo_logs_medium_frame_addon_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_bumper_1.xml",
+      "key": "padera_std4_bumper_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_bumper_2.xml",
+      "key": "padera_std4_bumper_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_bumper_default.xml",
+      "key": "padera_std4_bumper_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_diff_lock_default.xml",
+      "key": "padera_std4_diff_lock_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_exhaust_1.xml",
+      "key": "padera_std4_exhaust_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_exhaust_2.xml",
+      "key": "padera_std4_exhaust_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_exhaust_default.xml",
+      "key": "padera_std4_exhaust_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_horn_1.xml",
+      "key": "padera_std4_horn_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_protection_1.xml",
+      "key": "padera_std4_protection_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_roofrack_1.xml",
+      "key": "padera_std4_roofrack_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_snorkel_1.xml",
+      "key": "padera_std4_snorkel_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_snorkel_2.xml",
+      "key": "padera_std4_snorkel_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_spare_wheels.xml",
+      "key": "padera_std4_spare_wheels_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_spot_light_1.xml",
+      "key": "padera_std4_spot_light_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_visor_1.xml",
+      "key": "padera_std4_visor_1_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_visor_2.xml",
+      "key": "padera_std4_visor_2_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4_tuning/padera_std4_wings_default.xml",
+      "key": "padera_std4_wings_default_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/padera_std4.xml",
+      "key": "padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_avenhorn_a15.xml",
+      "key": "wheels_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_allterrain_double_avenhorn_a15.xml",
+      "key": "wheels_heavy_allterrain_double_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_allterrain_double_padera_std4.xml",
+      "key": "wheels_heavy_allterrain_double_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_double1_avenhorn_a15.xml",
+      "key": "wheels_heavy_double1_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_double1_padera_std4.xml",
+      "key": "wheels_heavy_double1_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_double2_avenhorn_a15.xml",
+      "key": "wheels_heavy_double2_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_double2_padera_std4.xml",
+      "key": "wheels_heavy_double2_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_highway_double_avenhorn_a15.xml",
+      "key": "wheels_heavy_highway_double_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_highway_double_padera_std4.xml",
+      "key": "wheels_heavy_highway_double_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_offroad_double_avenhorn_a15.xml",
+      "key": "wheels_heavy_offroad_double_avenhorn_a15_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_offroad_double_padera_std4.xml",
+      "key": "wheels_heavy_offroad_double_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/wheels/wheels_heavy_padera_std4.xml",
+      "key": "wheels_heavy_padera_std4_dlc_16_5"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/engines/e_ru_truck_old_voron_g5352.xml",
+      "key": "e_ru_truck_old_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/engines/e_truck_old_jangsu_rx600.xml",
+      "key": "e_truck_old_jangsu_rx600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/gearboxes/gearboxes_jangsu_rx_600.xml",
+      "key": "gearboxes_jangsu_rx_600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/gearboxes/gearboxes_voron_g5352.xml",
+      "key": "gearboxes_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/suspensions/s_jangsu_rx600.xml",
+      "key": "s_jangsu_rx600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/suspensions/s_voron_g5352.xml",
+      "key": "s_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/big_crane_us_02_voron_g5352.xml",
+      "key": "big_crane_us_02_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_heavy_repair_voron_g5352.xml",
+      "key": "frame_addon_heavy_repair_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_jangsu_rx600_sideboard.xml",
+      "key": "frame_addon_jangsu_rx600_sideboard_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_jangsu_rx600_sparewheel.xml",
+      "key": "frame_addon_jangsu_rx600_sparewheel_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_log_medium_high_voron_g5352.xml",
+      "key": "frame_addon_log_medium_high_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_log_short_voron_g5352.xml",
+      "key": "frame_addon_log_short_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_seismic_vibrator_jangsu_rx600.xml",
+      "key": "frame_addon_seismic_vibrator_jangsu_rx600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_tank_small_02.xml",
+      "key": "frame_addon_tank_small_02_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_voron_g5352_kung.xml",
+      "key": "frame_addon_voron_g5352_kung_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_voron_g5352_sideboard.xml",
+      "key": "frame_addon_voron_g5352_sideboard_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/frame_addon_voron_g5352_sparewheel.xml",
+      "key": "frame_addon_voron_g5352_sparewheel_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/minicrane_ru_voron_g5352.xml",
+      "key": "minicrane_ru_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/addons/minicrane_us_voron_g5352.xml",
+      "key": "minicrane_us_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/cargo/cargo_burnt_logs_medium_frame_addon_voron_g5352.xml",
+      "key": "cargo_burnt_logs_medium_frame_addon_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/cargo/cargo_logs_medium_frame_addon_voron_g5352.xml",
+      "key": "cargo_logs_medium_frame_addon_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_bumper_1.xml",
+      "key": "jangsu_rx600_bumper_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_bumper_2.xml",
+      "key": "jangsu_rx600_bumper_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_bumper_default.xml",
+      "key": "jangsu_rx600_bumper_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_cabin_protector.xml",
+      "key": "jangsu_rx600_cabin_protector_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_exhaust_1.xml",
+      "key": "jangsu_rx600_exhaust_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_exhaust_2.xml",
+      "key": "jangsu_rx600_exhaust_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_exhaust_default.xml",
+      "key": "jangsu_rx600_exhaust_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_horn_1.xml",
+      "key": "jangsu_rx600_horn_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_roofrack.xml",
+      "key": "jangsu_rx600_roofrack_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_snorkel_1.xml",
+      "key": "jangsu_rx600_snorkel_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_snorkel_2.xml",
+      "key": "jangsu_rx600_snorkel_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600_tuning/jangsu_rx600_visor_1.xml",
+      "key": "jangsu_rx600_visor_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/jangsu_rx600.xml",
+      "key": "jangsu_rx600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/trailers/trailer_drilling_machine.xml",
+      "key": "trailer_drilling_machine_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/trailers/train_dlc_17.xml",
+      "key": "train_dlc_17_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/trailers/train_wagons_dlc_17.xml",
+      "key": "train_wagons_dlc_17_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_bumper_1.xml",
+      "key": "voron_g5352_bumper_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_bumper_2.xml",
+      "key": "voron_g5352_bumper_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_bumper_default.xml",
+      "key": "voron_g5352_bumper_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_diff_lock_default.xml",
+      "key": "voron_g5352_diff_lock_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_exhaust_1.xml",
+      "key": "voron_g5352_exhaust_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_exhaust_2.xml",
+      "key": "voron_g5352_exhaust_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_exhaust_default.xml",
+      "key": "voron_g5352_exhaust_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_horn_1.xml",
+      "key": "voron_g5352_horn_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_protection_1.xml",
+      "key": "voron_g5352_protection_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_roofrack_1.xml",
+      "key": "voron_g5352_roofrack_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_snorkel_1.xml",
+      "key": "voron_g5352_snorkel_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_snorkel_2.xml",
+      "key": "voron_g5352_snorkel_2_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_snorkel_default.xml",
+      "key": "voron_g5352_snorkel_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_towbar_default.xml",
+      "key": "voron_g5352_towbar_default_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_towbar_extend.xml",
+      "key": "voron_g5352_towbar_extend_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352_tuning/voron_g5352_visor_1.xml",
+      "key": "voron_g5352_visor_1_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/trucks/voron_g5352.xml",
+      "key": "voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/train_wheel_dlc17.xml",
+      "key": "train_wheel_dlc17_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_heavy_mudtires_single_voron_g5352.xml",
+      "key": "wheels_heavy_mudtires_single_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_heavy_mudtires_single2_voron_g5352.xml",
+      "key": "wheels_heavy_mudtires_single2_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_heavy_offroad_single_voron_g5352.xml",
+      "key": "wheels_heavy_offroad_single_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_heavy_single_voron_g5352.xml",
+      "key": "wheels_heavy_single_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_heavy_single2_voron_g5352.xml",
+      "key": "wheels_heavy_single2_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_jangsu_rx600.xml",
+      "key": "wheels_jangsu_rx600_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_trailer_drill.xml",
+      "key": "wheels_trailer_drill_dlc_17"
+    },
+    {
+      "source": "dlc_17",
+      "path": "_dlc/dlc_17/classes/wheels/wheels_voron_g5352.xml",
+      "key": "wheels_voron_g5352_dlc_17"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/engines/e_us_truck_modern_mercedes_benz_actros_6x6.xml",
+      "key": "e_us_truck_modern_mercedes_benz_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/engines/e_us_truck_modern_mercedes_benz_zetros_6x6.xml",
+      "key": "e_us_truck_modern_mercedes_benz_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/gearboxes/gearboxes_mercedes_benz_actros_6x6.xml",
+      "key": "gearboxes_mercedes_benz_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/gearboxes/gearboxes_mercedes_benz_zetros_6x6.xml",
+      "key": "gearboxes_mercedes_benz_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/suspensions/s_mercedes_benz_actros_6x6.xml",
+      "key": "s_mercedes_benz_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/suspensions/s_mercedes_benz_zetros_6x6.xml",
+      "key": "s_mercedes_benz_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/big_crane_us_mercedes_zetros_6x6.xml",
+      "key": "big_crane_us_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/bunk_log_addon_mercedes_zetros_6x6.xml",
+      "key": "bunk_log_addon_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/crane_loglift_mercedes_zetros_6x6.xml",
+      "key": "crane_loglift_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_flatbed_2_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_flatbed_2_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_kung_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_kung_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_log_short_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_log_short_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_seismic_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_seismic_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_sideboard_2_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_sideboard_2_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_tank_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_tank_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_watertank_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_watertank_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/minicrane_mercedes_actros_6x6.xml",
+      "key": "minicrane_mercedes_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/saddle_high_mercedes_actros_6x6.xml",
+      "key": "saddle_high_mercedes_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/saddle_high_mercedes_zetros_6x6.xml",
+      "key": "saddle_high_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_beacon_1.xml",
+      "key": "mercedes_benz_actros_6x6_beacon_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_bumper_1.xml",
+      "key": "mercedes_benz_actros_6x6_bumper_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_bumper_2.xml",
+      "key": "mercedes_benz_actros_6x6_bumper_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_bumper_default.xml",
+      "key": "mercedes_benz_actros_6x6_bumper_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_diff_lock_default.xml",
+      "key": "mercedes_benz_actros_6x6_diff_lock_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_exhaust_1.xml",
+      "key": "mercedes_benz_actros_6x6_exhaust_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_exhaust_2.xml",
+      "key": "mercedes_benz_actros_6x6_exhaust_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_exhaust_default.xml",
+      "key": "mercedes_benz_actros_6x6_exhaust_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_horn_1.xml",
+      "key": "mercedes_benz_actros_6x6_horn_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_horn_2.xml",
+      "key": "mercedes_benz_actros_6x6_horn_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_protection_1.xml",
+      "key": "mercedes_benz_actros_6x6_protection_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_roofrack_1.xml",
+      "key": "mercedes_benz_actros_6x6_roofrack_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_snorkel_1.xml",
+      "key": "mercedes_benz_actros_6x6_snorkel_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_snorkel_default.xml",
+      "key": "mercedes_benz_actros_6x6_snorkel_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_spot_light_1.xml",
+      "key": "mercedes_benz_actros_6x6_spot_light_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_subframe_default.xml",
+      "key": "mercedes_benz_actros_6x6_subframe_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_subframe.xml",
+      "key": "mercedes_benz_actros_6x6_subframe_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_top_fender.xml",
+      "key": "mercedes_benz_actros_6x6_top_fender_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_visor_1.xml",
+      "key": "mercedes_benz_actros_6x6_visor_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_visor_2.xml",
+      "key": "mercedes_benz_actros_6x6_visor_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6.xml",
+      "key": "mercedes_benz_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_bumper_1.xml",
+      "key": "mercedes_benz_zetros_6x6_bumper_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_bumper_2.xml",
+      "key": "mercedes_benz_zetros_6x6_bumper_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_bumper_default.xml",
+      "key": "mercedes_benz_zetros_6x6_bumper_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_diff_lock_default.xml",
+      "key": "mercedes_benz_zetros_6x6_diff_lock_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_exhaust_1.xml",
+      "key": "mercedes_benz_zetros_6x6_exhaust_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_exhaust_2.xml",
+      "key": "mercedes_benz_zetros_6x6_exhaust_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_exhaust_default.xml",
+      "key": "mercedes_benz_zetros_6x6_exhaust_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_horn_1.xml",
+      "key": "mercedes_benz_zetros_6x6_horn_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_protection_1.xml",
+      "key": "mercedes_benz_zetros_6x6_protection_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_roofrack_1.xml",
+      "key": "mercedes_benz_zetros_6x6_roofrack_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_snorkel_1.xml",
+      "key": "mercedes_benz_zetros_6x6_snorkel_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_snorkel_2.xml",
+      "key": "mercedes_benz_zetros_6x6_snorkel_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_snorkel_default.xml",
+      "key": "mercedes_benz_zetros_6x6_snorkel_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_subframe_default.xml",
+      "key": "mercedes_benz_zetros_6x6_subframe_default_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_subframe.xml",
+      "key": "mercedes_benz_zetros_6x6_subframe_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_visor_1.xml",
+      "key": "mercedes_benz_zetros_6x6_visor_1_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_visor_2.xml",
+      "key": "mercedes_benz_zetros_6x6_visor_2_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6.xml",
+      "key": "mercedes_benz_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_allterrain_double_mercedes_actros.xml",
+      "key": "wheels_heavy_allterrain_double_mercedes_actros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_double1_mercedes_actros.xml",
+      "key": "wheels_heavy_double1_mercedes_actros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_double2_mercedes_actros.xml",
+      "key": "wheels_heavy_double2_mercedes_actros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_highway_double_mercedes_actros.xml",
+      "key": "wheels_heavy_highway_double_mercedes_actros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_mercedes_benz_actros_6x6.xml",
+      "key": "wheels_heavy_mercedes_benz_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_mercedes_benz_zetros_6x6.xml",
+      "key": "wheels_heavy_mercedes_benz_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_mudtires_single_mercedes_zetros.xml",
+      "key": "wheels_heavy_mudtires_single_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_mudtires_single2_mercedes_zetros.xml",
+      "key": "wheels_heavy_mudtires_single2_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_mudtires_tayga_mercedes_zetros.xml",
+      "key": "wheels_heavy_mudtires_tayga_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_offroad_double_mercedes_actros.xml",
+      "key": "wheels_heavy_offroad_double_mercedes_actros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_offroad_single_mercedes_zetros.xml",
+      "key": "wheels_heavy_offroad_single_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_single_mercedes_zetros.xml",
+      "key": "wheels_heavy_single_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/wheels/wheels_heavy_single2_mercedes_zetros.xml",
+      "key": "wheels_heavy_single2_mercedes_zetros_dlc_17_5"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/engines/e_truck_engine_hib_billert_m816.xml",
+      "key": "e_truck_engine_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/engines/e_truck_engine_mercer_6x6r_230.xml",
+      "key": "e_truck_engine_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/gearboxes/gearboxes_hib_billert_m816.xml",
+      "key": "gearboxes_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/gearboxes/gearboxes_mercer_6x6r_230.xml",
+      "key": "gearboxes_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/suspensions/s_hib_billert_m816.xml",
+      "key": "s_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/suspensions/s_mercer_6x6r_230.xml",
+      "key": "s_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/addons/bunk_log_addon_mercer_r230.xml",
+      "key": "bunk_log_addon_mercer_r230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/addons/minicrane_ru_mercer_r230.xml",
+      "key": "minicrane_ru_mercer_r230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/addons/saddle_high_hib_billert_m816.xml",
+      "key": "saddle_high_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/addons/saddle_motorized_hib_billert_m816.xml",
+      "key": "saddle_motorized_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_230_diff_lock.xml",
+      "key": "hib_billert_m816_230_diff_lock_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_bumper_1.xml",
+      "key": "hib_billert_m816_bumper_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_bumper_2.xml",
+      "key": "hib_billert_m816_bumper_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_bumper_default.xml",
+      "key": "hib_billert_m816_bumper_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_exhaust_1.xml",
+      "key": "hib_billert_m816_exhaust_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_exhaust_2.xml",
+      "key": "hib_billert_m816_exhaust_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_exhaust_default.xml",
+      "key": "hib_billert_m816_exhaust_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_horn_1.xml",
+      "key": "hib_billert_m816_horn_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_protection_1.xml",
+      "key": "hib_billert_m816_protection_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_roofrack_1.xml",
+      "key": "hib_billert_m816_roofrack_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_snorkel_1.xml",
+      "key": "hib_billert_m816_snorkel_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_snorkel_2.xml",
+      "key": "hib_billert_m816_snorkel_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_snorkel_default.xml",
+      "key": "hib_billert_m816_snorkel_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_transferbox_allwheels.xml",
+      "key": "hib_billert_m816_transferbox_allwheels_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_transferbox_default.xml",
+      "key": "hib_billert_m816_transferbox_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_visor_1.xml",
+      "key": "hib_billert_m816_visor_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816_tuning/hib_billert_m816_visor_2.xml",
+      "key": "hib_billert_m816_visor_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/hib_billert_m816.xml",
+      "key": "hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_bumper_1.xml",
+      "key": "mercer_6x6r_230_bumper_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_bumper_2.xml",
+      "key": "mercer_6x6r_230_bumper_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_bumper_default.xml",
+      "key": "mercer_6x6r_230_bumper_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_diff_lock.xml",
+      "key": "mercer_6x6r_230_diff_lock_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_exhaust_1.xml",
+      "key": "mercer_6x6r_230_exhaust_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_exhaust_2.xml",
+      "key": "mercer_6x6r_230_exhaust_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_exhaust_default.xml",
+      "key": "mercer_6x6r_230_exhaust_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_frame_default.xml",
+      "key": "mercer_6x6r_230_frame_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_frame_extended.xml",
+      "key": "mercer_6x6r_230_frame_extended_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_horn_1.xml",
+      "key": "mercer_6x6r_230_horn_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_protection_1.xml",
+      "key": "mercer_6x6r_230_protection_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_roofrack.xml",
+      "key": "mercer_6x6r_230_roofrack_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_snorkel_1.xml",
+      "key": "mercer_6x6r_230_snorkel_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_snorkel_2.xml",
+      "key": "mercer_6x6r_230_snorkel_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_snorkel_default.xml",
+      "key": "mercer_6x6r_230_snorkel_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_visor_1.xml",
+      "key": "mercer_6x6r_230_visor_1_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_visor_2.xml",
+      "key": "mercer_6x6r_230_visor_2_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_visor_default.xml",
+      "key": "mercer_6x6r_230_visor_default_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230_tuning/mercer_6x6r_230_wheel_addon.xml",
+      "key": "mercer_6x6r_230_wheel_addon_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230.xml",
+      "key": "mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/trailers/semitrailer_gooseneck_3.xml",
+      "key": "semitrailer_gooseneck_3_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/trailers/semitrailer_star_dlc_18.xml",
+      "key": "semitrailer_star_dlc_18_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/trucks/trailers/semitrailer_steam_turbine.xml",
+      "key": "semitrailer_steam_turbine_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/mercer_semitrailer_gooseneck_3.xml",
+      "key": "mercer_semitrailer_gooseneck_3_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_heavy_allterrain_double_mercer_6x6r_230.xml",
+      "key": "wheels_heavy_allterrain_double_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_heavy_double1_mercer_6x6r_230.xml",
+      "key": "wheels_heavy_double1_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_heavy_double2_mercer_6x6r_230.xml",
+      "key": "wheels_heavy_double2_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_heavy_highway_double_mercer_6x6r_230.xml",
+      "key": "wheels_heavy_highway_double_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_heavy_offroad_double_mercer_6x6r_230.xml",
+      "key": "wheels_heavy_offroad_double_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_hib_billert_m816.xml",
+      "key": "wheels_hib_billert_m816_dlc_18"
+    },
+    {
+      "source": "dlc_18",
+      "path": "_dlc/dlc_18/classes/wheels/wheels_mercer_6x6r_230.xml",
+      "key": "wheels_mercer_6x6r_230_dlc_18"
+    }
+  ],
+  "collisions": [
+    {
+      "key": "semitrailer_foldable_log_dlc_16",
+      "source": "dlc_16",
+      "path": "_dlc/dlc_16/classes/wheels/semitrailer_foldable_log.xml"
+    }
+  ],
+  "imageLinks": [
+    {
+      "source": "dlc_15_5",
+      "file": "freightliner_fld120",
+      "xml": "_dlc/dlc_15_5/classes/trucks/freightliner_fld120.xml",
+      "truckImage": "freightlinerFLD120mchr",
+      "uiIcon": "shopImgFreightlineFLD120",
+      "referencedPath": "ui/textures/shopImgFreightlineFLD120",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_15_5",
+      "file": "western_star_6900xd",
+      "xml": "_dlc/dlc_15_5/classes/trucks/western_star_6900xd.xml",
+      "truckImage": "WesternStar6900XDmhcr",
+      "uiIcon": "shopImgWS6900XD",
+      "referencedPath": "ui/textures/shopImgWS6900XD",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_16",
+      "file": "hib_billert_1980",
+      "xml": "_dlc/dlc_16/classes/trucks/hib_billert_1980.xml",
+      "truckImage": "HibBillertmchr",
+      "uiIcon": "shopImgHibBillert",
+      "referencedPath": "ui/textures/shopImgHibBillert",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_16",
+      "file": "plad_440",
+      "xml": "_dlc/dlc_16/classes/trucks/plad_440.xml",
+      "truckImage": "Plad440mchr",
+      "uiIcon": "shopImgPlad440",
+      "referencedPath": "ui/textures/shopImgPlad440",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_16",
+      "file": "sleiter_st833_chimera",
+      "xml": "_dlc/dlc_16/classes/trucks/sleiter_st833_chimera.xml",
+      "truckImage": "SleiterChimeramchr",
+      "uiIcon": "shopImgSleiterChimera",
+      "referencedPath": "ui/textures/shopImgSleiterChimera",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_16_5",
+      "file": "avenhorn_a15",
+      "xml": "_dlc/dlc_16_5/classes/trucks/avenhorn_a15.xml",
+      "truckImage": "avenhorna15mchr",
+      "uiIcon": "shopImgAvenhornA15",
+      "referencedPath": "ui/textures/shopImgAvenhornA15",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_16_5",
+      "file": "padera_std4",
+      "xml": "_dlc/dlc_16_5/classes/trucks/padera_std4.xml",
+      "truckImage": "paderastd4mchr",
+      "uiIcon": "shopImgPaderaSTD4",
+      "referencedPath": "ui/textures/shopImgPaderaSTD4",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_17",
+      "file": "jangsu_rx600",
+      "xml": "_dlc/dlc_17/classes/trucks/jangsu_rx600.xml",
+      "truckImage": "jangsurx600mchr",
+      "uiIcon": "shopImgJangsuRx600",
+      "referencedPath": "ui/textures/shopImgJangsuRx600",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_17",
+      "file": "voron_g5352",
+      "xml": "_dlc/dlc_17/classes/trucks/voron_g5352.xml",
+      "truckImage": "vorong5352mchr",
+      "uiIcon": "shopImgVoronG5352",
+      "referencedPath": "ui/textures/shopImgVoronG5352",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_17_5",
+      "file": "mercedes_benz_actros_6x6",
+      "xml": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_actros_6x6.xml",
+      "truckImage": "mercedesBenzActrosmchr",
+      "uiIcon": "shopImgMercedesBenzActros",
+      "referencedPath": "ui/textures/shopImgMercedesBenzActros",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_17_5",
+      "file": "mercedes_benz_zetros_6x6",
+      "xml": "_dlc/dlc_17_5/classes/trucks/mercedes_benz_zetros_6x6.xml",
+      "truckImage": "mercedesBenzZetrosmchr",
+      "uiIcon": "shopImgMercedesBenzZetros",
+      "referencedPath": "ui/textures/shopImgMercedesBenzZetros",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_18",
+      "file": "hib_billert_m816",
+      "xml": "_dlc/dlc_18/classes/trucks/hib_billert_m816.xml",
+      "truckImage": "hipBillertM816mchr",
+      "uiIcon": "shopImgHipBillertM816",
+      "referencedPath": "ui/textures/shopImgHipBillertM816",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    },
+    {
+      "source": "dlc_18",
+      "file": "mercer_6x6r_230",
+      "xml": "_dlc/dlc_18/classes/trucks/mercer_6x6r_230.xml",
+      "truckImage": "mercerR230mchr",
+      "uiIcon": "shopImgMercerR230",
+      "referencedPath": "ui/textures/shopImgMercerR230",
+      "sourceFile": null,
+      "copiedTo": null,
+      "status": "missing"
+    }
+  ]
+}

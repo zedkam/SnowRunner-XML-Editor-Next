@@ -123,6 +123,7 @@ export default [
 		'*.scss',
 		'*.css',
 		'*.json',
+		'src/modules/data/defaults/generated.ts',
 		'*.html',
 	],
 }]

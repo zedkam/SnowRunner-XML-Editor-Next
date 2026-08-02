@@ -1,9 +1,11 @@
 import type { IDefaults } from './types'
+import generated from './generated'
 
 export type * from './types'
 
 /** Стандартные значения параметров таблицы. */
 export default {
+  ...generated,
   trailer_sideboard_2_default: {
     'Truck > TruckData': {
       FuelCapacity: '0',

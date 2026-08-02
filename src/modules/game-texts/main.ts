@@ -1,5 +1,5 @@
 import type { FSWatcher } from 'node:fs'
-import { Archive } from '../main'
+import Archive from '/mods/archive/main'
 import type { IGameTexts, ITranslation } from './types'
 import Config, { Lang } from '/mods/data/config/main'
 import { Dirs } from '/mods/files/main'

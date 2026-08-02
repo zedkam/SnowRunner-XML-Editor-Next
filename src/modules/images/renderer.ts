@@ -18,7 +18,6 @@ class Images {
    */
   async getSrc(category: Category, file: IFile, xml: TruckXML): Promise<string> {
     const images = new Dir(this.getImagePath(category))
-    const image = images.file(`${file.name}.webp`)
     const defaultImage = images.file('default.webp')
 
     const modID = Mods.getModID(file)
@@ -31,9 +30,22 @@ class Images {
         : defaultImage.path
     }
     
-    return await this.imageExists(image)
-      ? image.path
-      : defaultImage.path
+    const imageNames = [
+      file.name,
+      xml.GameData?.UiDesc?.UiIcon328x458
+    ].filter((name): name is string => Boolean(name))
+
+    for (const name of imageNames) {
+      for (const extension of ['webp', 'png', 'jpg', 'jpeg']) {
+        const image = images.file(`${name}.${extension}`)
+
+        if (await this.imageExists(image)) {
+          return image.path
+        }
+      }
+    }
+
+    return defaultImage.path
   }
 
   /**

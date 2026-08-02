@@ -1,21 +1,27 @@
 {
 	"name": "snowrunner-xml-editor-desktop",
-	"productName": "SnowRunnerXMLEditor",
-	"version": "1.2.0",
+	"productName": "SnowRunner XML Editor Next",
+	"version": "2.0.0-beta.1",
 	"description": "Allows you to visually edit the game's XML files.",
 	"type": "module",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop.git"
+		"url": "https://github.com/zedkam/SnowRunner-XML-Editor-Next.git"
 	},
 	"main": ".vite/build/index.js",
 	"scripts": {
 		"package": "electron-forge package --platform=win32 --arch=x64",
+		"package:portable:raw": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:SNOWRUNNER_SKIP_RELEASE_ARTIFACTS='1'; npm.cmd run package\"",
+		"package:portable": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/release/build-portable.ps1",
 		"package-prod": "npm i && cross-env NODE_ENV=production electron-forge package --platform=win32 --arch=x64",
 		"start": "cross-env NODE_ENV=development electron-forge start",
 		"lint": "eslint src/**",
 		"lint:fix": "npm run lint -- --fix",
-		"check": "tsc --project src/tsconfig.json --noEmit && vue-tsc --project src/tsconfig.json --noEmit"
+		"check": "tsc --project src/tsconfig.json --noEmit && vue-tsc --project src/tsconfig.json --noEmit",
+		"diagnose": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/diagnostics/check-dlc-readiness.ps1",
+		"generate:content": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-content.ps1",
+		"generate:images": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-game-images.ps1",
+		"test:roundtrip": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/roundtrip-test.ps1"
 	},
 	"keywords": [],
 	"author": {
@@ -31,7 +37,6 @@
 		"@electron-forge/cli": "^7.8.0",
 		"@electron-forge/plugin-vite": "^7.8.0",
 		"@eslint/js": "^9.25.0",
-		"@types/eslint__js": "^9.14.0",
 		"@types/memoizee": "^0.4.12",
 		"@typescript-eslint/eslint-plugin": "^8.30.1",
 		"@typescript-eslint/parser": "^8.30.1",

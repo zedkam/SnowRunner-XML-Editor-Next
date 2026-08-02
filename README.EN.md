@@ -1,4 +1,15 @@
-# SnowRunner XML Editor Desktop (EN)
+# SnowRunner XML Editor Next (EN)
+
+## Project status
+
+This repository is an independent continuation of
+[VerZsuT/SnowRunner-XML-Editor-Desktop](https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop).
+The original project is no longer actively maintained, so this continuation
+updates support for released DLCs, fixes bugs, refreshes assets, and provides
+its own release channel. It is not an official Saber Interactive or Focus
+Entertainment repository. The original copyright and MIT license are retained.
+
+The continuation currently starts at `2.0.0-beta.1`.
 
 This program allows you to edit the XML files of the SnowRunner game by editing the visual parameter table.  
 The editor unpacks the necessary files from _initial.pak_ to a temporary folder, after which it goes to work with them. When saving, changes are made to the archive.  

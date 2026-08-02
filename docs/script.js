@@ -6,7 +6,7 @@ const SOURCE = 'source'
 const LEGACY = 'legacy'
 
 const GITHUB_SOURCE = 'GitHub'
-const RELEASES_URL = 'https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop/releases/download'
+const RELEASES_URL = 'https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/download'
 
 function genLink(version, type, legacy) {
   return `${RELEASES_URL}/${version}/SnowRunnerXMLEditor${legacy ? '_legacy' : ''}.${type}`

@@ -18,7 +18,13 @@ export default defineConfig(forgeEnv => {
 				formats: ['es']
 			},
 			rollupOptions: {
-				external: [...external]
+				external: [...external],
+				output: {
+					// Electron main-process modules have top-level initialization and
+					// several intentional runtime imports. Keeping them in one bundle
+					// avoids a circular dependency across Rollup chunks.
+					inlineDynamicImports: true
+				}
 			}
 		},
 		plugins: [
