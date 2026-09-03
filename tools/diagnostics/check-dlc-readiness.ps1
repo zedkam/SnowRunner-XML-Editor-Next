@@ -1,6 +1,6 @@
 param(
   [string]$ProjectRoot = '',
-  [string[]]$DlcIds = @('dlc_15_5', 'dlc_16', 'dlc_16_5', 'dlc_17', 'dlc_17_5', 'dlc_18')
+  [string[]]$DlcIds = @('dlc_15_5', 'dlc_16', 'dlc_16_5', 'dlc_17', 'dlc_17_5', 'dlc_18', 'dlc_18_1')
 )
 
 $ErrorActionPreference = 'Stop'
@@ -39,7 +39,8 @@ $rows = foreach ($id in $DlcIds) {
 
 $imageNames = @(
   'mercer_6x6r_230', 'hib_billert_m816', 'jangsu_rx600', 'voron_g5352',
-  'mercedes_benz_actros_6x6', 'mercedes_benz_zetros_6x6', 'avenhorn_a15', 'padera_std4'
+  'mercedes_benz_actros_6x6', 'mercedes_benz_zetros_6x6', 'avenhorn_a15', 'padera_std4',
+  'mercedes_3850', 'mercedes_mamute_1519'
 )
 $imageRows = foreach ($name in $imageNames) {
   $link = $imageLinks | Where-Object file -eq $name | Select-Object -First 1

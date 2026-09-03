@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generatedAt": "2026-08-01T16:25:58.056Z",
+  "generatedAt": "2026-09-03T06:18:27.886Z",
   "archive": "D:\\SteamLibrary\\steamapps\\common\\SnowRunner\\preload\\paks\\client\\initial.pak",
   "sources": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "source": "dlc_16_5",
-      "files": 73,
+      "files": 74,
       "trucks": 2
     },
     {
@@ -25,12 +25,17 @@
     },
     {
       "source": "dlc_17_5",
-      "files": 71,
+      "files": 76,
       "trucks": 2
     },
     {
       "source": "dlc_18",
       "files": 59,
+      "trucks": 2
+    },
+    {
+      "source": "dlc_18_1",
+      "files": 78,
       "trucks": 2
     }
   ],
@@ -857,6 +862,11 @@
     },
     {
       "source": "dlc_16_5",
+      "path": "_dlc/dlc_16_5/classes/trucks/addons/minicrane_pacific_p12.xml",
+      "key": "minicrane_pacific_p12_dlc_16_5"
+    },
+    {
+      "source": "dlc_16_5",
       "path": "_dlc/dlc_16_5/classes/trucks/addons/minicrane_rear_us_padera_std4.xml",
       "key": "minicrane_rear_us_padera_std4_dlc_16_5"
     },
@@ -1492,6 +1502,11 @@
     },
     {
       "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_heavy_repair_mercedes_zetros_6x6.xml",
+      "key": "frame_addon_heavy_repair_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
       "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_kung_mercedes_zetros_6x6.xml",
       "key": "frame_addon_kung_mercedes_zetros_6x6_dlc_17_5"
     },
@@ -1502,8 +1517,18 @@
     },
     {
       "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_mantainer_mercedes_actros_6x6.xml",
+      "key": "frame_addon_mantainer_mercedes_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
       "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_seismic_mercedes_zetros_6x6.xml",
       "key": "frame_addon_seismic_mercedes_zetros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/frame_addon_sideboard_2_mercedes_actros_6x6.xml",
+      "key": "frame_addon_sideboard_2_mercedes_actros_6x6_dlc_17_5"
     },
     {
       "source": "dlc_17_5",
@@ -1524,6 +1549,16 @@
       "source": "dlc_17_5",
       "path": "_dlc/dlc_17_5/classes/trucks/addons/minicrane_mercedes_actros_6x6.xml",
       "key": "minicrane_mercedes_actros_6x6_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/minicrane_us_mercedes_inverted.xml",
+      "key": "minicrane_us_mercedes_inverted_dlc_17_5"
+    },
+    {
+      "source": "dlc_17_5",
+      "path": "_dlc/dlc_17_5/classes/trucks/addons/s_saddle_low_mercedes_actros_6x6.xml",
+      "key": "s_saddle_low_mercedes_actros_6x6_dlc_17_5"
     },
     {
       "source": "dlc_17_5",
@@ -2089,6 +2124,396 @@
       "source": "dlc_18",
       "path": "_dlc/dlc_18/classes/wheels/wheels_mercer_6x6r_230.xml",
       "key": "wheels_mercer_6x6r_230_dlc_18"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/engines/e_truck_engine_mercedes_3850.xml",
+      "key": "e_truck_engine_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/engines/e_truck_engine_mercedes_mamute_1519.xml",
+      "key": "e_truck_engine_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/gearboxes/gearboxes_mercedes_3850.xml",
+      "key": "gearboxes_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/gearboxes/gearboxes_mercedes_mamute_1519.xml",
+      "key": "gearboxes_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/suspensions/s_mercedes_3850.xml",
+      "key": "s_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/suspensions/s_mercedes_mamute_1519.xml",
+      "key": "s_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/big_crane_us_mercedes_3850.xml",
+      "key": "big_crane_us_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/bunk_log_addon_mercedes_3850.xml",
+      "key": "bunk_log_addon_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/crane_loglift_mercedes_3850.xml",
+      "key": "crane_loglift_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_flatbed_2_mercedes_3850.xml",
+      "key": "frame_addon_flatbed_2_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_log_medium_mercedes_3850.xml",
+      "key": "frame_addon_log_medium_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_log_short_mercedes_3850.xml",
+      "key": "frame_addon_log_short_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_log_short_mercedes_mamute.xml",
+      "key": "frame_addon_log_short_mercedes_mamute_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_3850_service.xml",
+      "key": "frame_addon_mercedes_3850_service_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_mamute_1519_kung.xml",
+      "key": "frame_addon_mercedes_mamute_1519_kung_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_mercedes_mamute_1519_sideboard.xml",
+      "key": "frame_addon_mercedes_mamute_1519_sideboard_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_sideboard_2_mercedes_3850.xml",
+      "key": "frame_addon_sideboard_2_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_tank_mercedes_3850.xml",
+      "key": "frame_addon_tank_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_tow_platform_mercedes_3850.xml",
+      "key": "frame_addon_tow_platform_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/frame_addon_watertank_mercedes_3850.xml",
+      "key": "frame_addon_watertank_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/minicrane_mercedes_3850.xml",
+      "key": "minicrane_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/minicrane_us_mercedes_3850.xml",
+      "key": "minicrane_us_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/minicrane_us_mercedes_mamute.xml",
+      "key": "minicrane_us_mercedes_mamute_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/saddle_high_mercedes_3850.xml",
+      "key": "saddle_high_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/saddle_low_02_mercedes_3850.xml",
+      "key": "saddle_low_02_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/addons/saddle_low_02.xml",
+      "key": "saddle_low_02_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/cargo/cargo_logs_medium_frame_addon_mercedes_3850.xml",
+      "key": "cargo_logs_medium_frame_addon_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_bumper_1.xml",
+      "key": "mercedes_3850_bumper_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_bumper_2.xml",
+      "key": "mercedes_3850_bumper_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_bumper_default.xml",
+      "key": "mercedes_3850_bumper_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_diff_lock_default.xml",
+      "key": "mercedes_3850_diff_lock_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_exhaust_1.xml",
+      "key": "mercedes_3850_exhaust_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_exhaust_2.xml",
+      "key": "mercedes_3850_exhaust_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_exhaust_default.xml",
+      "key": "mercedes_3850_exhaust_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_frame_default.xml",
+      "key": "mercedes_3850_frame_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_frame_extended.xml",
+      "key": "mercedes_3850_frame_extended_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_horn_1.xml",
+      "key": "mercedes_3850_horn_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_horn_default.xml",
+      "key": "mercedes_3850_horn_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_protection_1.xml",
+      "key": "mercedes_3850_protection_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_roofrack_1.xml",
+      "key": "mercedes_3850_roofrack_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_snorkel_1.xml",
+      "key": "mercedes_3850_snorkel_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_snorkel_2.xml",
+      "key": "mercedes_3850_snorkel_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_sparewheel.xml",
+      "key": "mercedes_3850_sparewheel_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_visor_1.xml",
+      "key": "mercedes_3850_visor_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_visor_2.xml",
+      "key": "mercedes_3850_visor_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_visor_default.xml",
+      "key": "mercedes_3850_visor_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850_tuning/mercedes_3850_wings_default.xml",
+      "key": "mercedes_3850_wings_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+      "key": "mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_1.xml",
+      "key": "mercedes_mamute_1519_bumper_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_2.xml",
+      "key": "mercedes_mamute_1519_bumper_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_default.xml",
+      "key": "mercedes_mamute_1519_bumper_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_diff_lock_default.xml",
+      "key": "mercedes_mamute_1519_diff_lock_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_1.xml",
+      "key": "mercedes_mamute_1519_exhaust_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_2.xml",
+      "key": "mercedes_mamute_1519_exhaust_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_default.xml",
+      "key": "mercedes_mamute_1519_exhaust_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_frame_default.xml",
+      "key": "mercedes_mamute_1519_frame_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_horn_1.xml",
+      "key": "mercedes_mamute_1519_horn_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_mudguard_default.xml",
+      "key": "mercedes_mamute_1519_mudguard_default_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_protection_1.xml",
+      "key": "mercedes_mamute_1519_protection_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_snorkel_1.xml",
+      "key": "mercedes_mamute_1519_snorkel_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_snorkel_2.xml",
+      "key": "mercedes_mamute_1519_snorkel_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_spare_wheels.xml",
+      "key": "mercedes_mamute_1519_spare_wheels_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_sparewheel.xml",
+      "key": "mercedes_mamute_1519_sparewheel_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_visor_1.xml",
+      "key": "mercedes_mamute_1519_visor_1_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_visor_2.xml",
+      "key": "mercedes_mamute_1519_visor_2_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519.xml",
+      "key": "mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_allterrain_double_mercedes_3850.xml",
+      "key": "wheels_heavy_allterrain_double_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_double1_mercedes_3850.xml",
+      "key": "wheels_heavy_double1_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_double2_mercedes_3850.xml",
+      "key": "wheels_heavy_double2_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_highway_double_mercedes_3850.xml",
+      "key": "wheels_heavy_highway_double_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_mudtires_single_mercedes_mamute_1519.xml",
+      "key": "wheels_heavy_mudtires_single_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_mudtires_single2_mercedes_mamute_1519.xml",
+      "key": "wheels_heavy_mudtires_single2_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_offroad_double_mercedes_3850.xml",
+      "key": "wheels_heavy_offroad_double_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_offroad_single_mercedes_mamute_1519.xml",
+      "key": "wheels_heavy_offroad_single_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_single_mercedes_mamute_1519.xml",
+      "key": "wheels_heavy_single_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_heavy_single2_mercedes_mamute_1519.xml",
+      "key": "wheels_heavy_single2_mercedes_mamute_1519_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_mercedes_3850.xml",
+      "key": "wheels_mercedes_3850_dlc_18_1"
+    },
+    {
+      "source": "dlc_18_1",
+      "path": "_dlc/dlc_18_1/classes/wheels/wheels_mercedes_mamute_1519.xml",
+      "key": "wheels_mercedes_mamute_1519_dlc_18_1"
     }
   ],
   "collisions": [
@@ -2106,9 +2531,11 @@
       "truckImage": "freightlinerFLD120mchr",
       "uiIcon": "shopImgFreightlineFLD120",
       "referencedPath": "ui/textures/shopImgFreightlineFLD120",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_if7.pct",
+      "copiedTo": "src/images/trucks/freightliner_fld120.png",
+      "status": "copied",
+      "texturePage": "if7",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_15_5",
@@ -2117,9 +2544,11 @@
       "truckImage": "WesternStar6900XDmhcr",
       "uiIcon": "shopImgWS6900XD",
       "referencedPath": "ui/textures/shopImgWS6900XD",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i10.pct",
+      "copiedTo": "src/images/trucks/western_star_6900xd.png",
+      "status": "copied",
+      "texturePage": "i10",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_16",
@@ -2128,9 +2557,11 @@
       "truckImage": "HibBillertmchr",
       "uiIcon": "shopImgHibBillert",
       "referencedPath": "ui/textures/shopImgHibBillert",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_idf.pct",
+      "copiedTo": "src/images/trucks/hib_billert_1980.png",
+      "status": "copied",
+      "texturePage": "idf",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_16",
@@ -2139,9 +2570,11 @@
       "truckImage": "Plad440mchr",
       "uiIcon": "shopImgPlad440",
       "referencedPath": "ui/textures/shopImgPlad440",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i67.pct",
+      "copiedTo": "src/images/trucks/plad_440.png",
+      "status": "copied",
+      "texturePage": "i67",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_16",
@@ -2150,9 +2583,11 @@
       "truckImage": "SleiterChimeramchr",
       "uiIcon": "shopImgSleiterChimera",
       "referencedPath": "ui/textures/shopImgSleiterChimera",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i5b.pct",
+      "copiedTo": "src/images/trucks/sleiter_st833_chimera.png",
+      "status": "copied",
+      "texturePage": "i5b",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_16_5",
@@ -2161,9 +2596,11 @@
       "truckImage": "avenhorna15mchr",
       "uiIcon": "shopImgAvenhornA15",
       "referencedPath": "ui/textures/shopImgAvenhornA15",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i154.pct",
+      "copiedTo": "src/images/trucks/avenhorn_a15.png",
+      "status": "copied",
+      "texturePage": "i154",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_16_5",
@@ -2172,9 +2609,11 @@
       "truckImage": "paderastd4mchr",
       "uiIcon": "shopImgPaderaSTD4",
       "referencedPath": "ui/textures/shopImgPaderaSTD4",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i6a.pct",
+      "copiedTo": "src/images/trucks/padera_std4.png",
+      "status": "copied",
+      "texturePage": "i6a",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_17",
@@ -2183,9 +2622,11 @@
       "truckImage": "jangsurx600mchr",
       "uiIcon": "shopImgJangsuRx600",
       "referencedPath": "ui/textures/shopImgJangsuRx600",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_ica.pct",
+      "copiedTo": "src/images/trucks/jangsu_rx600.png",
+      "status": "copied",
+      "texturePage": "ica",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_17",
@@ -2194,9 +2635,11 @@
       "truckImage": "vorong5352mchr",
       "uiIcon": "shopImgVoronG5352",
       "referencedPath": "ui/textures/shopImgVoronG5352",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i25.pct",
+      "copiedTo": "src/images/trucks/voron_g5352.png",
+      "status": "copied",
+      "texturePage": "i25",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_17_5",
@@ -2205,9 +2648,11 @@
       "truckImage": "mercedesBenzActrosmchr",
       "uiIcon": "shopImgMercedesBenzActros",
       "referencedPath": "ui/textures/shopImgMercedesBenzActros",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i8e.pct",
+      "copiedTo": "src/images/trucks/mercedes_benz_actros_6x6.png",
+      "status": "copied",
+      "texturePage": "i8e",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_17_5",
@@ -2216,9 +2661,11 @@
       "truckImage": "mercedesBenzZetrosmchr",
       "uiIcon": "shopImgMercedesBenzZetros",
       "referencedPath": "ui/textures/shopImgMercedesBenzZetros",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i8b.pct",
+      "copiedTo": "src/images/trucks/mercedes_benz_zetros_6x6.png",
+      "status": "copied",
+      "texturePage": "i8b",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_18",
@@ -2227,9 +2674,11 @@
       "truckImage": "hipBillertM816mchr",
       "uiIcon": "shopImgHipBillertM816",
       "referencedPath": "ui/textures/shopImgHipBillertM816",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_idc.pct",
+      "copiedTo": "src/images/trucks/hib_billert_m816.png",
+      "status": "copied",
+      "texturePage": "idc",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
     },
     {
       "source": "dlc_18",
@@ -2238,9 +2687,37 @@
       "truckImage": "mercerR230mchr",
       "uiIcon": "shopImgMercerR230",
       "referencedPath": "ui/textures/shopImgMercerR230",
-      "sourceFile": null,
-      "copiedTo": null,
-      "status": "missing"
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i85.pct",
+      "copiedTo": "src/images/trucks/mercer_6x6r_230.png",
+      "status": "copied",
+      "texturePage": "i85",
+      "mappingMethod": "gfx-symbol-legacy-minus-3"
+    },
+    {
+      "source": "dlc_18_1",
+      "file": "mercedes_3850",
+      "xml": "_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+      "truckImage": "mercedesBenz3850mchr",
+      "uiIcon": "shopImgMercedesBenz3850",
+      "referencedPath": "ui/textures/shopImgMercedesBenz3850",
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i412.pct",
+      "copiedTo": "src/images/trucks/mercedes_3850.png",
+      "status": "copied",
+      "texturePage": "i412",
+      "mappingMethod": "fallback-late-dlc"
+    },
+    {
+      "source": "dlc_18_1",
+      "file": "mercedes_mamute_1519",
+      "xml": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519.xml",
+      "truckImage": "mercedesBenzMamutemchr",
+      "uiIcon": "shopImgMercedesBenzMamute",
+      "referencedPath": "ui/textures/shopImgMercedesBenzMamute",
+      "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i415.pct",
+      "copiedTo": "src/images/trucks/mercedes_mamute_1519.png",
+      "status": "copied",
+      "texturePage": "i415",
+      "mappingMethod": "gfx-symbol-direct"
     }
   ]
 }

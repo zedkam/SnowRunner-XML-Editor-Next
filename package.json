@@ -1,7 +1,7 @@
 {
 	"name": "snowrunner-xml-editor-desktop",
 	"productName": "SnowRunner XML Editor Next",
-	"version": "2.0.0-beta.1",
+	"version": "2.0.0-beta.2",
 	"description": "Allows you to visually edit the game's XML files.",
 	"type": "module",
 	"repository": {
@@ -10,10 +10,10 @@
 	},
 	"main": ".vite/build/index.js",
 	"scripts": {
-		"package": "electron-forge package --platform=win32 --arch=x64",
+	"package": "node tools/release/package.mjs",
 		"package:portable:raw": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$env:SNOWRUNNER_SKIP_RELEASE_ARTIFACTS='1'; npm.cmd run package\"",
 		"package:portable": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/release/build-portable.ps1",
-		"package-prod": "npm i && cross-env NODE_ENV=production electron-forge package --platform=win32 --arch=x64",
+	"package-prod": "npm i && cross-env NODE_ENV=production node tools/release/package.mjs",
 		"start": "cross-env NODE_ENV=development electron-forge start",
 		"lint": "eslint src/**",
 		"lint:fix": "npm run lint -- --fix",

@@ -1,6 +1,6 @@
 # Матрица поддержки DLC
 
-Дата среза: 2026-08-01. Проверен установленный архив
+Дата среза: 2026-09-03. Проверен установленный архив
 `D:\SteamLibrary\steamapps\common\SnowRunner\preload\paks\client\initial.pak`
 в режиме чтения; файлы игры не изменялись и не копировались в репозиторий.
 
@@ -10,10 +10,11 @@
 |---|---|---|---|
 | `dlc_15_5` | Freightliner FLD120, Western Star 6900XD, Pacific P16 log trailer | 56 | Extraction + generated defaults; image links recorded; UI smoke test pending |
 | `dlc_16` | HIB Billert 1980, PLAD 440, Sleiter ST833 Chimera | 89 | Extraction + generated defaults; image links recorded; UI smoke test pending |
-| `dlc_16_5` | Avenhorn A15, Padera STD-4 | 73 | Extraction + generated defaults; image links recorded; UI smoke test pending |
+| `dlc_16_5` | Avenhorn A15, Padera STD-4 | 74 | Extraction + generated defaults; image links recorded; UI smoke test pending |
 | `dlc_17` | Jangsu RX600, Voron G-5352, drill/train trailers | 63 | Extraction + generated defaults; image links recorded; UI smoke test pending |
-| `dlc_17_5` | Mercedes-Benz Actros 6x6, Mercedes-Benz Zetros 6x6 | 71 | Extraction + generated defaults; image links recorded; UI smoke test pending |
+| `dlc_17_5` | Mercedes-Benz Actros 6x6, Mercedes-Benz Zetros 6x6 | 76 | Extraction + generated defaults; image links recorded; UI smoke test pending |
 | `dlc_18` | HIB Billert M816, Mercer 6x6R 230, Gooseneck/steam turbine trailers | 59 | Extraction + generated defaults; image links recorded; UI smoke test pending |
+| `dlc_18_1` | Mercedes-Benz 3850, Mercedes Mamute 1519 | 78 | Extraction + generated defaults; image links extracted from current `gfx.pak`; UI smoke test pending |
 
 Нельзя выводить внутренний source id только из названия сезона. При первом запуске
 сканер должен сохранить фактические имена папок `_dlc`, а UI может отдельно

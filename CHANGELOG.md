@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0-beta.2] - 2026-09-03
+
+Обновление каталога под текущую установку SnowRunner.
+
+- добавлена поддержка `dlc_18_1`;
+- добавлены Mercedes-Benz 3850 и Mercedes Mamute 1519 с XML defaults и изображениями;
+- обновлён snapshot до 495 XML и 494 defaults-ключей;
+- image manifest синхронизирован с результатом извлечения из `gfx.pak` (`copied=15`, `missing=0`);
+- добавлены XML round-trip проверки для обеих новых машин;
+- контрольный inventory обновлён по текущему `initial.pak`.
+
 ## [2.0.0-beta.1] - Unreleased
 
 Первый тестовый выпуск продолжения проекта.

@@ -4562,6 +4562,384 @@ export default {
       "TerminalFix": "true"
     }
   },
+  "big_crane_us_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(1; 0; 0)",
+      "FirstPersonPos": "(-5.75; 3.76; -3.8)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BonePistonBase",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneShaft_cdt",
+      "ModelFrame": "BonePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "RollerRear",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneShaft_cdt",
+      "ModelFrame": "RollerRearEnd"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "RollerFront",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneShaft_cdt",
+      "ModelFrame": "RollerFrontEnd"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneFrontRightBase",
+      "ParentFrame": "BoneFrontRightBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFrontRightAnchor_cdt",
+      "ModelFrame": "BoneFrontRightAnchor"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneFrontLeftBase",
+      "ParentFrame": "BoneFrontLeftBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFrontLeftAnchor_cdt",
+      "ModelFrame": "BoneFrontLeftAnchor"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneRearRightBase",
+      "ParentFrame": "BoneRearRightBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRearRightAnchor_cdt",
+      "ModelFrame": "BoneRearRightAnchor"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(7)": {
+      "ModelFrame": "BoneRearLeftBase",
+      "ParentFrame": "BoneRearLeftBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(7) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRearLeftAnchor_cdt",
+      "ModelFrame": "BoneRearLeftAnchor"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(7) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(7) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": ".65",
+      "CoeffEndMovementSpeedOYWithLoad": ".5",
+      "CoeffEndMovementSpeedXZ": ".8",
+      "CoeffEndMovementSpeedXZWithLoad": ".6"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(0.1; 0; 0)",
+      "ModelFrames": "BoneRoot_cdt,BoneCabin_cdt,BoneShaft_cdt,BoneShaft1_cdt"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "7500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "6"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneShaft1_cdt",
+      "Pos": "(8.229; 2.654; 0)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "BigCraneUsMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/bigcrane_us/bigcrane_us_turn_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/bigcrane_us/bigcrane_us_turn_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/bigcrane_us/bigcrane_us_turn_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/common/crane_powergroups_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "addons/common/crane_powergroups_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/common/crane_powergroups_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_BIG_CRANE_US_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_BIG_CRANE_US_NAME"
+    },
+    "TruckAddon > HeadLight": {
+      "AttenEnd": "32",
+      "Color": "g(255; 212; 154) x 3.2",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.525; 0.536; -0.287)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "Color": "g(255; 235; 215) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.091; 0.576; -0.984)",
+      "Size": ".3"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "Color": "g(255; 235; 215) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(0.697; 0.632; 0.412)",
+      "Size": ".3"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(3)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.091; 0.576; -0.984)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(4)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(0.697; 0.632; 0.412)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "Org": "(1.091; 0.576; -0.984)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "Org": "(0.697; 0.632; 0.412)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.606; 0.565; -0.835)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.606; 0.565; 0.835)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.175; 0.344; -1.134)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.175; 0.344; 1.134)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/big_crane_us"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(2.5; 0; 0)",
+      "Mass": "2000"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(-0.5; 1.3; 0.6)",
+      "Mass": "2000",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "400",
+      "ModelFrame": "BoneShaft_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "Internal",
+      "Mass": "400",
+      "ModelFrame": "BoneShaft1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "5",
+      "MinLimit": "0",
+      "Name": "Crane",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "100000",
+      "Tau": "0.2",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "55",
+      "MinLimit": "0",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "800000",
+      "Tau": "0.4",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "355",
+      "MinLimit": "-355",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "500000",
+      "Tau": "0.1",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneFrontLeftBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneFrontLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneFrontRightBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneFrontRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneRearLeftBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body": {
+      "ModelFrame": "BoneRearLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "ModelFrame": "BoneRearRightBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Body": {
+      "ModelFrame": "BoneRearRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(6)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(6) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(7)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(7) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneFrontLeftBase_cdt,BoneFrontRightBase_cdt,BoneRearLeftBase_cdt,BoneRearRightBase_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "Id": "anchors_extend"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": "1.7",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "Id": "anchors_push"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "1.3",
+      "TerminalFix": "true"
+    }
+  },
   "big_crane_us_mercedes_zetros_6x6_dlc_17_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -5315,6 +5693,154 @@ export default {
       "TerminalFix": "true"
     }
   },
+  "bunk_log_addon_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "Price": "6000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0; 0; 0)",
+      "OffsetStep": "(-4.0; 0; 0)",
+      "ParentFrames": "BoneFront_cdt",
+      "Quantity": "1",
+      "UseTrailerFrame": "true"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(-3.5; 0; 0)",
+      "Type": "BunkLogMercedes3850"
+    },
+    "TruckAddon > GameData > LoadArea": {
+      "Max": "(3.801; 1.763; 2.475)",
+      "Min": "(-3.058; -0.007; -2.475)",
+      "Subtype": "TrailerPoleLogLong",
+      "Type": "CargoLogsLong"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_BUNK_LOG_ADDON_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_BUNK_LOG_ADDON_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/bunk_log_addon"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "100"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneExtra_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Friction": "2.0",
+      "ImpactType": "Truck",
+      "Mass": "800",
+      "ModelFrame": "BoneFork_cdt",
+      "NetSyncUseGravity": "True",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "10",
+      "ModelFrame": "BoneLeftSupport_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body": {
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "1",
+      "ModelFrame": "BoneLeftFoot_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "5",
+      "MinLimit": "-100",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Damping": ".01",
+      "Spring": "0.02",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "10",
+      "MinLimit": "0",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "200",
+      "Spring": "1500",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "10",
+      "ModelFrame": "BoneRightSupport_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Body": {
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "1",
+      "ModelFrame": "BoneRightFoot_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Body > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "5",
+      "MinLimit": "-100",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Body > Constraint > Motor": {
+      "Damping": ".02",
+      "Spring": "0.04",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "12",
+      "MinLimit": "0",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "200",
+      "Spring": "2000",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "120",
+      "MinLimit": "-120",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "500",
+      "Spring": "1000",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "bunk_log_addon_mercedes_zetros_6x6_dlc_17_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -6023,6 +6549,50 @@ export default {
       "Type": "Spring"
     }
   },
+  "cargo_logs_medium_frame_addon_mercedes_3850_dlc_18_1": {
+    "TruckAddon > GameData > InstallSlot": {
+      "CargoAddonSubtype": "FrameAddonLogsMediumMercedes3850",
+      "CargoLength": "1",
+      "CargoType": "CargoLogsMedium",
+      "ManualLoads": "3"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "frame_addon_log_medium_mercedes_3850"
+    },
+    "TruckAddon > GameData > Sounds": {
+      "InstallSound": "cargo_manual/cargo_manual_logs_medium",
+      "ManualSound": "cargo_manual/cargo_manual_logs_medium",
+      "TransportedSound": ""
+    },
+    "TruckAddon > GameData > SpawnLoadOrigin": {
+      "Position": "(-3.504; 1.152; 0.000)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/cargo/cargo_logs_medium_frame_addon"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0; -0.3; 0)",
+      "Friction": "0.1",
+      "ImpactType": "Foliage",
+      "Mass": "4000",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ImpactType": "Truck",
+      "Mass": "4000",
+      "ModelFrame": "BonePrismaticShift_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "false"
+    }
+  },
   "cargo_logs_medium_frame_addon_padera_std4_dlc_16_5": {
     "TruckAddon > GameData > InstallSlot": {
       "CargoAddonSubtype": "FrameAddonLogsMediumPaderaSTD4",
@@ -6154,6 +6724,465 @@ export default {
     },
     "TruckAddon > PhysicsModel > NetSync": {
       "Legacy": "false"
+    }
+  },
+  "crane_loglift_mercedes_3850_dlc_18_1": {
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(0.653; -0.757; 0)",
+      "FirstPersonPos": "(-2.025; 4.856; 0.585)",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BonePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BonePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneLever1",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0.381; 0; 0)",
+      "AttachToFrame": "BoneArm2_cdt",
+      "ModelFrame": "BoneLever2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArmPistonBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneLever2",
+      "ModelFrame": "BoneArmPiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneGrabblerStickBase",
+      "ParentFrame": "BoneGrabberL_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneGrabberR_cdt",
+      "ModelFrame": "BoneGrabbleStick"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneGrabblerPiston",
+      "ParentFrame": "BoneGrabberL_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneGrabberR_cdt",
+      "ModelFrame": "BoneGrabblerPistonBase"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > ControlledConstraints > Constraint": {
+      "Action": "9",
+      "ActionId": "fork_crane",
+      "Id": "fork_crane",
+      "LocaleUid": "UI_FORK_CRANE",
+      "Name": "GrapplerBase",
+      "SpeedMult": ".03"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": ".8",
+      "CoeffEndMovementSpeedOYWithLoad": ".8",
+      "CoeffEndMovementSpeedXZ": ".8",
+      "CoeffEndMovementSpeedXZWithLoad": ".8"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(0.1; 0; 0)",
+      "ModelFrames": "BoneRoot_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArm3_cdt"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(1)": {
+      "Name": "Arm3",
+      "SpeedMult": ".8",
+      "Value": "-.2"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(2)": {
+      "Name": "Cabin",
+      "SpeedMult": ".8",
+      "StartDelay": ".3",
+      "Value": "2.234"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "7900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "LogCrane"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "LogLiftMercedes3850"
+    },
+    "TruckAddon > GameData > SoundClose": {
+      "Name": "addons/crane_loglift/crane_loglift_restore",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundGrabberAction": {
+      "Name": "addons/crane_loglift/crane_loglift_grabber_action",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundGrabberMoveLoop": {
+      "Name": "addons/crane_loglift/crane_loglift_grabber_loop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundGrabberMoveStart": {
+      "Name": "addons/crane_loglift/crane_loglift_grabber_start",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundGrabberMoveStop": {
+      "Name": "addons/crane_loglift/crane_loglift_grabber_stop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/crane_loglift/crane_loglift_crane_loop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/crane_loglift/crane_loglift_crane_start",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/crane_loglift/crane_loglift_crane_stop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenLoop": {
+      "Name": "addons/crane_loglift/crane_loglift_cabin_loop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStart": {
+      "Name": "addons/crane_loglift/crane_loglift_cabin_start",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStop": {
+      "Name": "addons/crane_loglift/crane_loglift_cabin_stop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/crane_loglift/crane_loglift_legs_loop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/crane_loglift/crane_loglift_legs_stop",
+      "Range": "10",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_CRANE_LOGLIFT_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_CRANE_LOGLIFT_1_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/crane_loglift_padera_std4"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "900"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Mass": "600",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1)": {
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body": {
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body": {
+      "Collisions": "All",
+      "Mass": "200",
+      "ModelFrame": "BoneArm3_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body": {
+      "Collisions": "None",
+      "Mass": "40",
+      "ModelFrame": "BoneGrabberHingeOZ_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "Collisions": "None",
+      "Mass": "40",
+      "ModelFrame": "BoneGrabberHingeOY_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body": {
+      "ForceBodyParams": "true",
+      "Mass": "40",
+      "ModelFrame": "BoneGrabberHingeOX_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneGrabberL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Body:nth-of-type(1) > Constraint": {
+      "Name": "LeftGrappler"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneGrabberR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Body:nth-of-type(2) > Constraint": {
+      "Name": "RightGrappler"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(-1; 0; 0)",
+      "MaxLimit": "180",
+      "MinLimit": "-180",
+      "Name": "GrapplerBase",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "120000",
+      "Tau": "0.4",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "70",
+      "MinLimit": "-70",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Damping": "200",
+      "Spring": "0",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "230",
+      "MinLimit": "-10",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Damping": "200",
+      "Spring": "0",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2",
+      "MinLimit": "-1",
+      "Name": "Arm3",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "800000",
+      "Tau": "0.4",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "179",
+      "MinLimit": "0",
+      "Name": "Arm2",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "800000",
+      "Tau": "0.2",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "75",
+      "MinLimit": "-40",
+      "Name": "Arm1",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "800000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(2)": {
+      "CenterOfMassOffset": "(0; 0; -0.662)",
+      "Mass": "200",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.234",
+      "MinLimit": "0",
+      "Name": "Cabin",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(2) > Constraint > Motor": {
+      "Force": "50000",
+      "Tau": "0.4",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "80000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLegExtR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneLegRotR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body > Body": {
+      "ModelFrame": "BoneFootR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneLegExtL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneLegRotL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body > Body": {
+      "ModelFrame": "BoneFootL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneBaseL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneBaseR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Action": "1",
+      "LocaleUid": "UI_ANCHORS",
+      "Name": "Anchors",
+      "ParentBodies": "BoneLegExtR_cdt, BoneLegRotR_cdt, BoneFootR_cdt, BoneLegExtL_cdt, BoneLegRotL_cdt, BoneFootL_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": "0.72",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_rot",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorRot",
+      "Position": "90",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(3)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(3) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "1.1",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Group": {
+      "Action": "2",
+      "Id": "crane_grab",
+      "LocaleUid": "UI_CRANE_GRAB"
+    },
+    "TruckAddon > PoweredConstraints > Group > Constraint:nth-of-type(1)": {
+      "Name": "RightGrappler",
+      "Position": "100",
+      "SpeedMult": "2"
+    },
+    "TruckAddon > PoweredConstraints > Group > Constraint:nth-of-type(2)": {
+      "Name": "LeftGrappler",
+      "Position": "100",
+      "SpeedMult": "2"
     }
   },
   "crane_loglift_mercedes_zetros_6x6_dlc_17_5": {
@@ -6978,6 +8007,24 @@ export default {
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body > Body": {
       "ModelFrame": "BoneFootL_cdt"
     },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneBaseL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneBaseR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
     "TruckAddon > PhysicsModel > Body > Constraint": {
       "Type": "Fixed"
     },
@@ -7184,6 +8231,157 @@ export default {
       "UiIcon30x30": "",
       "UiIcon40x40": "",
       "UiName": "UI_ENGINE_HIB_BILLERT_M816_02_NAME"
+    }
+  },
+  "e_truck_engine_mercedes_3850_dlc_18_1": {
+    "EngineVariants > Engine:nth-of-type(1)": {
+      "BrakesDelay": "0.36",
+      "CriticalDamageThreshold": "0.715",
+      "DamageCapacity": "210",
+      "DamagedConsumptionModifier": "1.38",
+      "DamagedMaxTorqueMultiplier": "0.719",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.035",
+      "FuelConsumption": "7.85",
+      "MaxDeltaAngVel": "2.25",
+      "Name": "engine_truck_mercedes_3850_0",
+      "Torque": "153050"
+    },
+    "EngineVariants > Engine:nth-of-type(1) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "7200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_TRUCK_MERCEDES_3850_0_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_TRUCK_MERCEDES_3850_0_NAME"
+    },
+    "EngineVariants > Engine:nth-of-type(2)": {
+      "BrakesDelay": "0.35",
+      "CriticalDamageThreshold": "0.682",
+      "DamageCapacity": "220",
+      "DamagedConsumptionModifier": "1.28",
+      "DamagedMaxTorqueMultiplier": "0.806",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.038",
+      "FuelConsumption": "6.9",
+      "MaxDeltaAngVel": "2.4",
+      "Name": "engine_truck_mercedes_3850_1",
+      "Torque": "186250"
+    },
+    "EngineVariants > Engine:nth-of-type(2) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "7500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_TRUCK_MERCEDES_3850_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_TRUCK_MERCEDES_3850_1_NAME"
+    },
+    "EngineVariants > Engine:nth-of-type(3)": {
+      "BrakesDelay": "0.32",
+      "CriticalDamageThreshold": "0.5",
+      "DamageCapacity": "240",
+      "DamagedConsumptionModifier": "1.22",
+      "DamagedMaxTorqueMultiplier": "0.78",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.04",
+      "FuelConsumption": "8.1",
+      "MaxDeltaAngVel": "2.5",
+      "Name": "engine_truck_mercedes_3850_2",
+      "Torque": "192320"
+    },
+    "EngineVariants > Engine:nth-of-type(3) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "7900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_TRUCK_MERCEDES_3850_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_TRUCK_MERCEDES_3850_2_NAME"
+    }
+  },
+  "e_truck_engine_mercedes_mamute_1519_dlc_18_1": {
+    "EngineVariants > Engine:nth-of-type(1)": {
+      "BrakesDelay": "0.4",
+      "CriticalDamageThreshold": "0.589",
+      "DamageCapacity": "170",
+      "DamagedConsumptionModifier": "1.5",
+      "DamagedMaxTorqueMultiplier": "0.864",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.035",
+      "FuelConsumption": "8.0",
+      "MaxDeltaAngVel": "1.2",
+      "Name": "engine_truck_mercedes_mamute_1519_0",
+      "Torque": "144700"
+    },
+    "EngineVariants > Engine:nth-of-type(1) > GameData": {
+      "Price": "7200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_MERCEDES_MAMUTE_1519_0_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_MERCEDES_MAMUTE_1519_0_NAME"
+    },
+    "EngineVariants > Engine:nth-of-type(2)": {
+      "BrakesDelay": "0.36",
+      "CriticalDamageThreshold": "0.682",
+      "DamageCapacity": "220",
+      "DamagedConsumptionModifier": "1.514",
+      "DamagedMaxTorqueMultiplier": "0.86",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.04",
+      "FuelConsumption": "7.6",
+      "MaxDeltaAngVel": "1.22",
+      "Name": "engine_truck_mercedes_mamute_1519_1",
+      "Torque": "162950"
+    },
+    "EngineVariants > Engine:nth-of-type(2) > GameData": {
+      "Price": "7500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_MERCEDES_MAMUTE_1519_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_MERCEDES_MAMUTE_1519_1_NAME"
+    },
+    "EngineVariants > Engine:nth-of-type(3)": {
+      "BrakesDelay": "0.34",
+      "CriticalDamageThreshold": "0.4",
+      "DamageCapacity": "250",
+      "DamagedConsumptionModifier": "2.145",
+      "DamagedMaxTorqueMultiplier": "0.645",
+      "DamagedMinTorqueMultiplier": "1.0",
+      "EngineResponsiveness": "0.042",
+      "FuelConsumption": "7.0",
+      "MaxDeltaAngVel": "1.25",
+      "Name": "engine_truck_mercedes_mamute_1519_2",
+      "Torque": "186300"
+    },
+    "EngineVariants > Engine:nth-of-type(3) > GameData": {
+      "Price": "7900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "EngineVariants > Engine:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_ENGINE_MERCEDES_MAMUTE_1519_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ENGINE_MERCEDES_MAMUTE_1519_2_NAME"
     }
   },
   "e_truck_engine_mercer_6x6r_230_dlc_18": {
@@ -7669,6 +8867,100 @@ export default {
       "UiName": "UI_ENGINE_US_TRUCK_OLD_PLAD_440_NAME"
     }
   },
+  "frame_addon_flatbed_2_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "4200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0.98; 0.276; 0)",
+      "OffsetStep": "(-2.478; 0; 0)",
+      "Quantity": "2"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0;-0.05;0)",
+      "Type": "FrameAddonFlatbed2Mercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_FLATBED_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_FLATBED_2_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.026; 0.232; -1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "Pos": "(-2.846; 0.215; 0.087)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.026; 0.232; 1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-0.307; 0.232; -1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-0.307; 0.232; 1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-2.624; 0.232; -1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-2.624; 0.232; 1.351)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "Pos": "(-2.846; 0.215; -1.247)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "Pos": "(-2.846; 0.215; 1.247)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "Pos": "(-2.846; 0.215; -0.087)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_flatbed_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "400"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "frame_addon_flatbed_2_mercedes_zetros_6x6_dlc_17_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -7992,6 +9284,452 @@ export default {
     "TruckAddon > WheelRepairsHide > Mesh": {
       "Frame": "spare_wheel",
       "HideThreshold": "0.0"
+    }
+  },
+  "frame_addon_heavy_repair_mercedes_zetros_6x6_dlc_17_5": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(1; -0.32; 0)",
+      "FirstPersonPos": "(0.75; 3.76; 0.8)",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneRotationBaseHingeBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BoneRotationBaseHinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneRotationBasePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRotationBaseHinge",
+      "ModelFrame": "BoneRotationBasePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArm1HingeBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm2_cdt",
+      "ModelFrame": "BoneArm1Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneArm1PistonBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1Hinge",
+      "ModelFrame": "BoneArm1Piston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneRightAnchorExtHinge",
+      "ParentFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRightAnchor_cdt",
+      "ModelFrame": "BoneRightAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneLeftAnchorExtHinge",
+      "ParentFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneLeftAnchor_cdt",
+      "ModelFrame": "BoneLeftAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": "1.0",
+      "CoeffEndMovementSpeedOYWithLoad": "0.5",
+      "CoeffEndMovementSpeedXZ": "1.0",
+      "CoeffEndMovementSpeedXZWithLoad": "0.5"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(0.1; 0; 0)",
+      "ModelFrames": "BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt,BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(1)": {
+      "Name": "Arm1",
+      "SpeedMult": "1.0",
+      "Value": "80"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(2)": {
+      "Name": "Arm2",
+      "SpeedMult": "1.0",
+      "StartDelay": ".43",
+      "Value": "125"
+    },
+    "TruckAddon > FuelMass > Body": {
+      "Mass": "1120"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "6700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(1.963; -0.212; 0.000)",
+      "OffsetStep": "(0; 0; 0)",
+      "Quantity": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.964; 1.377; 0.667)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.552; 1.377; 0.667)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.964; 1.377; -0.667)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(4)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.552; 1.377; -0.667)"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArmExtEnd_cdt",
+      "Pos": "(-0.337; 1.822; -0.948)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "FrameAddonMercedesZetrosKung"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_benz_zetros_6x6_subframe"
+    },
+    "TruckAddon > GameData > SoundClose": {
+      "Name": "addons/minicrane_us/minicrane_us_close",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStart": {
+      "Name": "addons/minicrane_us/minicrane_us_open_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/common/crane_powergroups_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "addons/common/crane_powergroups_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/common/crane_powergroups_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_HEAVY_REPAIR_02_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_HEAVY_REPAIR_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.964; 1.377; 0.667)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.552; 1.377; 0.667)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.964; 1.377; -0.667)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(4)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.552; 1.377; -0.667)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_heavy_repair_mercedes_zetros_6x6"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0.5; 0; 0)",
+      "ImpactType": "Truck",
+      "Mass": "2000",
+      "ModelFrame": "BoneAddon_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "900",
+      "ModelFrame": "BoneCrane_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1)": {
+      "Mass": "600",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArmExt1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExt2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": "0.8",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "157",
+      "MinLimit": "0",
+      "Name": "Arm2",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "Arm1",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "80000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLeftAnchorExt_cdt,BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": ".74",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "0.9",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "400",
+      "RepairsCapacity": "220",
+      "WheelRepairsCapacity": "2"
     }
   },
   "frame_addon_heavy_repair_voron_g5352_dlc_17": {
@@ -8336,6 +10074,72 @@ export default {
       "Type": "Rigid"
     }
   },
+  "frame_addon_log_medium_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "Price": "6000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0; 0; 0)",
+      "ParentFrames": "BoneRoot_cdt",
+      "Quantity": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(-2.351; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Type": "FrameAddonLogMediumMercedes3850"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(1)": {
+      "Max": "(-3.612; 1.823; 1.236)",
+      "Min": "(-6.655; 0.272; -1.111)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLogsMediumMercedes3850",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsMedium"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(2)": {
+      "Max": "(-0.17; 1.823; 1.236)",
+      "Min": "(-3.612; 0.272; -1.111)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLogsMediumMercedes3850",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsMedium"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_LOG_MEDIUM_ADDON_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_log_medium"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "500"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ImpactType": "Truck",
+      "Mass": "400",
+      "ModelFrame": "BoneFork_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "frame_addon_log_medium_padera_std4_dlc_16_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -8389,6 +10193,143 @@ export default {
     "TruckAddon > PhysicsModel > Body > Body": {
       "ImpactType": "Truck",
       "Mass": "400",
+      "ModelFrame": "BoneFork_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "frame_addon_log_short_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "Price": "6000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0; 0; 0)",
+      "ParentFrames": "BoneRoot_cdt",
+      "Quantity": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(-2.351; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Type": "FrameAddonLogShortMercedes3850"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(1)": {
+      "Max": "(-0.178; 2.145; 1.198)",
+      "Min": "(-3.038; 0.182; -1.198)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLog",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsShort"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(2)": {
+      "Max": "(-3.038; 2.145; 1.198)",
+      "Min": "(-5.897; 0.182; -1.198)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLog",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsShort"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_LOG_SHORT_ADDON_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_log_short"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "400"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ImpactType": "Truck",
+      "Mass": "300",
+      "ModelFrame": "BoneFork_cdt",
+      "NoCameraCollision": "True"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "frame_addon_log_short_mercedes_mamute_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "Price": "6000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0; 0; 0)",
+      "ParentFrames": "BoneRoot_cdt",
+      "Quantity": "1"
+    },
+    "TruckAddon > GameData > CraneSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-5.815; -0.258; 0.000)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Type": "FrameAddonLogShortMercedesMamute"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(1)": {
+      "Max": "(-0.178; 2.145; 1.198)",
+      "Min": "(-3.038; 0.182; -1.198)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLog",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsShort"
+    },
+    "TruckAddon > GameData > LoadArea:nth-of-type(2)": {
+      "Max": "(-3.038; 2.145; 1.198)",
+      "Min": "(-5.897; 0.182; -1.198)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Subtype": "FrameAddonLog",
+      "TrailerLoad": "true",
+      "Type": "CargoLogsShort"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_LOG_SHORT_ADDON_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_LOG_SHORT_ADDON_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-5.815; -0.258; 0.000)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_log_short_mercedes_mamute"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "400"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ImpactType": "Truck",
+      "Mass": "300",
       "ModelFrame": "BoneFork_cdt",
       "NoCameraCollision": "True"
     },
@@ -8891,6 +10832,892 @@ export default {
       "WheelRepairsCapacity": "5"
     }
   },
+  "frame_addon_mantainer_mercedes_actros_6x6_dlc_17_5": {
+    "TruckAddon > FuelMass > Body": {
+      "Mass": "3920"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "Pos": "(-4.578; 0.860; 0)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "Pos": "(-4.656; 0.950; 1.175)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "Pos": "(-4.656; 0.950; -1.175)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "FrameAddonMantainerMercedesActros"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_MAINTAINER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_MAINTAINER_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "Pos": "(-4.578; 0.860; 0)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "Pos": "(-4.656; 0.950; 1.175)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "Pos": "(-4.656; 0.950; -1.175)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-0.206; 3.428; 1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(10)": {
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-2.236; 3.428; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(11)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-4.311; 3.282; -1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(12)": {
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-4.311; 3.282; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-0.206; 3.428; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(3)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-2.236; 3.428; 1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(4)": {
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-2.236; 3.428; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(5)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-4.311; 3.282; 1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(6)": {
+      "Dir": "(0; -0.5; 1)",
+      "Pos": "(-4.311; 3.282; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(7)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-0.206; 3.428; -1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(8)": {
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-0.206; 3.428; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(9)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -0.5; -1)",
+      "Pos": "(-2.236; 3.428; -1.241)",
+      "Size": "0.1"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; 1)",
+      "Org": "(-0.206; 3.428; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; 1)",
+      "Org": "(-2.236; 3.428; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(3)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; 1)",
+      "Org": "(-4.311; 3.282; 1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(4)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; -1)",
+      "Org": "(-0.206; 3.428; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(5)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; -1)",
+      "Org": "(-2.236; 3.428; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(6)": {
+      "Color": "g(255; 255; 255) x 1",
+      "Dir": "(0; -1; -1)",
+      "Org": "(-4.311; 3.282; -1.241)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-0.206; 3.428; 1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.754; 1.283; -1.066)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(11)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-3.343; 1.539; -1.349)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(12)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-3.343; 1.539; 1.349)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(13)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-1.343; 1.539; -1.349)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(14)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-1.343; 1.539; 1.349)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(15)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(0.132; 1.386; -1.299)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(16)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(0.132; 1.386; 1.299)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-2.236; 3.428; 1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-4.311; 3.282; 1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-0.206; 3.428; -1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-2.236; 3.428; -1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-4.311; 3.282; -1.241)",
+      "Size": ".5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.281; 0.927)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.281; -0.927)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.754; 1.283; 1.066)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-5.060; 0.911; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Pos": "(-4.776; 1.282; 0.800)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Pos": "(-4.776; 1.282; -0.800)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.282; -0.800)",
+      "Size": "0.6"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.282; 0.800)",
+      "Size": "0.6"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-5.060; 0.911; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.281; 0.927)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.776; 1.281; -0.927)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "Pos": "(-5.060; 0.911; 0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_mantainer_mercedes_actros_6x6"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "3150"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneMudguardRight_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneMudguardLeft_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "1400",
+      "RepairsCapacity": "400",
+      "WheelRepairsCapacity": "4"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.75",
+      "Type": "Gearbox"
+    }
+  },
+  "frame_addon_mercedes_3850_service_dlc_18_1": {
+    "TruckAddon > FuelMass > Body": {
+      "Mass": "3080"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "7500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "Mercedes3850Service"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_exhaust_default"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_MAINTAINER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_MAINTAINER_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(1)": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(0.854; 2.931; -1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(2)": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(0.854; 2.931; -1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(3)": {
+      "Pos": "(0.854; 2.931; -1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Light": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(0.854; 2.931; -1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Model": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "Org": "(0.854; 2.931; -1.093)",
+      "ParentFrame": "BoneRotatorRight"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(1)": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(0.854; 2.931; 1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(2)": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(0.854; 2.931; 1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(3)": {
+      "Pos": "(0.854; 2.931; 1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Light": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(0.854; 2.931; 1.093)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Model": {
+      "Dir": "(0.96; -0.1; 0.262)",
+      "Org": "(0.854; 2.931; 1.093)",
+      "ParentFrame": "BoneRotatorLeft"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(3) > Flare:nth-of-type(1)": {
+      "AspectRatio": "1",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.471; 0.901; 0.962)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(3) > Flare:nth-of-type(2)": {
+      "AspectRatio": "1",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.471; 0.901; -0.962)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Pos": "(-4.459; 0.899; 1.126)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Pos": "(-4.459; 0.899; -1.126)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.459; 0.899; -1.126)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.459; 0.899; 1.126)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(5)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; -1.101)",
+      "Size": "0.6"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(6)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; 1.101)",
+      "Size": "0.6"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(7)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; -1.101)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(8)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; 1.101)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(1)": {
+      "Pos": "(-5.463; 0.763; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; -1.101)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(3)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.247; 2.732; 1.101)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Pos": "(-4.471; 0.901; 0.962)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Pos": "(-4.471; 0.901; -0.962)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "Pos": "(-5.463; 0.763; 0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_mercedes_3850_service"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "2750",
+      "ModelFrame": "BoneChassis_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "1",
+      "ModelFrame": "BoneTool_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "0.003",
+      "MinLimit": "-0.003",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "5",
+      "Spring": "0.3",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLock_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneHose_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Rotator:nth-of-type(1)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorRight",
+      "RotationAxis": "(0; 1; 0)",
+      "RotationSpeed": "3.92"
+    },
+    "TruckAddon > Rotator:nth-of-type(2)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorLeft",
+      "RotationAxis": "(0; 1; 0)",
+      "RotationSpeed": "3.85"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "1350",
+      "RepairsCapacity": "400",
+      "WheelRepairsCapacity": "4"
+    }
+  },
+  "frame_addon_mercedes_mamute_1519_kung_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(1)": {
+      "Frame": "fuel_01",
+      "HideThreshold": "0.5"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(2)": {
+      "Frame": "fuel_02",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > FuelMass > Body": {
+      "Mass": "3120"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "MercedesMamute1519Kung"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_CANVAS_COVERED_BODY_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_CANVAS_COVERED_BODY_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Color": "g(255; 0; 0) x 0.2",
+      "Pos": "(-3.894; 1.668; 0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(11)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.619; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(12)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; 0.765)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Color": "g(255; 0; 0) x 0.2",
+      "Pos": "(-3.894; 1.668; -0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; -0.863)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.717; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.619; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; -0.765)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.668; 0.863)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-3.893; 1.717; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-3.893; 1.668; 0.0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Pos": "(-3.894; 1.668; 0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Pos": "(-3.894; 1.668; -0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "Pos": "(-3.893; 1.668; 0.0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_mercedes_mamute_1519_kung"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "2280",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneChainL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(10)": {
+      "ModelFrame": "BoneTentRear_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneChainR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneRepairL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneRepairR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "ModelFrame": "BoneWheel_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(6)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collision": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneAxe_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(6) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "0.009",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(6) > Constraint > Motor": {
+      "Damping": "0.1",
+      "Spring": "1",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(7)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collision": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneShovel_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(7) > Constraint": {
+      "LinearLimitsX": "(-0.006; 0)",
+      "LinearLimitsY": "(0; 0.008)",
+      "LinearLimitsZ": "(-0.005; 0.005)",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(7) > Constraint > Motor": {
+      "Damping": "0.1",
+      "Spring": "1",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(8)": {
+      "ModelFrame": "BoneTentSides_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(9)": {
+      "ModelFrame": "BoneTentTop_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > RepairsHide > Mesh:nth-of-type(1)": {
+      "Frame": "repair_02",
+      "HideThreshold": "0.5"
+    },
+    "TruckAddon > RepairsHide > Mesh:nth-of-type(2)": {
+      "Frame": "repair_02",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "240",
+      "RepairsCapacity": "900",
+      "WheelRepairsCapacity": "2"
+    },
+    "TruckAddon > WheelRepairsHide > Mesh": {
+      "Frame": "wheel_01",
+      "HideThreshold": "0.0"
+    }
+  },
+  "frame_addon_mercedes_mamute_1519_sideboard_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "1400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(-0.578; 1.839; 0.000)",
+      "OffsetStep": "(-2.6; 0; 0)",
+      "Quantity": "2"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Sideboard"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_SIDEBOARD_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_SIDEBOARD_2_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Color": "g(255; 0; 0) x 0.2",
+      "Pos": "(-4.509; 1.694; 0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(11)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.645; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(12)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; 0.765)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Color": "g(255; 0; 0) x 0.2",
+      "Pos": "(-4.509; 1.694; -0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; -0.863)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.743; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.645; -0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; -0.765)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.694; 0.863)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 0; 0) x 0.5",
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(-4.508; 1.743; 0.814)",
+      "Size": "0.03"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.509; 1.694; 0.0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Pos": "(-4.509; 1.694; 0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Pos": "(-4.509; 1.694; -0.814)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "Pos": "(-4.509; 1.694; 0.0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_mercedes_mamute_1519_sideboard"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "930",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneChainL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneChainR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collision": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneAxe_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "0.009",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint > Motor": {
+      "Damping": "0.1",
+      "Spring": "1",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collision": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneShovel_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "LinearLimitsX": "(-0.006; 0)",
+      "LinearLimitsY": "(0; 0.008)",
+      "LinearLimitsZ": "(-0.005; 0.005)",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint > Motor": {
+      "Damping": "0.1",
+      "Spring": "1",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "frame_addon_padera_std4_kung_dlc_16_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -8932,10 +11759,10 @@ export default {
       "Type": "PaderaSTD4Kung"
     },
     "TruckAddon > GameData > UiDesc": {
-      "UiDesc": "UI_ADDON_FRAME_KUNG_PADERA_STD4_DESC",
+      "UiDesc": "UI_ADDON_FRAME_HEAVY_REPAIR_02_DESC",
       "UiIcon30x30": "",
       "UiIcon40x40": "",
-      "UiName": "UI_ADDON_FRAME_KUNG_PADERA_STD4_NAME"
+      "UiName": "UI_ADDON_FRAME_HEAVY_REPAIR_NAME"
     },
     "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
       "FixedToTruck": "true",
@@ -9975,6 +12802,19 @@ export default {
       "FixedToTruck": "true",
       "Pos": "(-3.955; 1.121; 0)"
     },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.336; -0.509; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.336; -0.509; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.681; -1.001; 0)"
+    },
     "TruckAddon > ModelAttachments > Lightbar > Flare:nth-of-type(1)": {
       "ParentFrame": "BoneRotator",
       "Pos": "(-2.409; 2.161; 0.011)"
@@ -9993,6 +12833,49 @@ export default {
     "TruckAddon > ModelAttachments > Lightbar > Model": {
       "Org": "(-2.409; 2.161; 0.011)",
       "ParentFrame": "BoneRotator"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.336; -0.509; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.336; -0.509; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.336; -0.509; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.336; -0.509; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.681; -1.001; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.336; -0.479; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.336; -0.479; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.681; -1.001; 0)"
     },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/addons/frame_addon_seismic_mercedes_zetros_6x6"
@@ -11243,6 +14126,102 @@ export default {
       "Name": "SeismicVibrator"
     }
   },
+  "frame_addon_sideboard_2_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0.961; 0.327; 0)",
+      "OffsetStep": "(-2.486; 0; 0)",
+      "Quantity": "2"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "FrameAddonSideboard2Mercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_SIDEBOARD_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_SIDEBOARD_2_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_sideboard_2_mercedes_3850"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "600"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "frame_addon_sideboard_2_mercedes_actros_6x6_dlc_17_5": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonSlots": {
+      "InitialOffset": "(0.961; 0.327; 0)",
+      "OffsetStep": "(-2.486; 0; 0)",
+      "Quantity": "2"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "FrameAddonMercedesActros"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": ""
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_SIDEBOARD_2_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_SIDEBOARD_2_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_sideboard_2_mercedes_actros_6x6"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "600"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "frame_addon_sideboard_2_mercedes_zetros_6x6_dlc_17_5": {
     "TruckAddon": {
       "IsChassisFullOcclusion": "true"
@@ -11273,31 +14252,199 @@ export default {
       "UiName": "UI_ADDON_FRAME_SIDEBOARD_2_NAME"
     },
     "TruckAddon > PhysicsModel": {
-      "Mesh": "trucks/addons/frame_addon_sideboard_2"
+      "Mesh": "trucks/addons/frame_addon_sideboard_2_mercedes_zetros_6x6"
     },
     "TruckAddon > PhysicsModel > Body": {
       "Mass": "600"
     },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "frame_addon_tank_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > FuelMass > Body": {
+      "Mass": "5040"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "4"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "FrameAddonTankMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_TANK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_TANK_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(-0.910; -0.383; -0.160)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.095; 1.214; 1.138)",
+      "Size": ".25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "Pos": "(-2.024; 2.282; 0)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(11)": {
+      "Pos": "(-2.024; 2.282; -0.154)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(12)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-1.947; 0.961; 1.091)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(13)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-1.947; 0.961; -1.091)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(-0.905; -0.389; 0.174)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.095; 1.214; -1.138)",
+      "Size": ".25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.902; 1.07; 1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.902; 1.07; -1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.79; 1.07; 1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.79; 1.07; -1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-1.688; 1.107; 1.212)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-1.688; 1.107; -1.212)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "Pos": "(-2.024; 2.282; 0.154)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Dir": "(-0.910; -0.383; -0.160)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-3.093; 0.789; 1.020)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Dir": "(-0.905; -0.389; 0.174)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-3.093; 0.789; -1.020)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(3)": {
+      "Pos": "(-2.5; 0.2; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-0.901; -0.4; -0.167)",
+      "Pos": "(-2.021; 0.764; 0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-0.901; -0.4; 0.167)",
+      "Pos": "(-2.021; 0.764; -0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-2.021; 0.764; 0.978)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-2.021; 0.764; -0.978)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(1)": {
+      "Pos": "(-2.021; 0.764; 0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(2)": {
+      "Pos": "(-2.021; 0.764; -0.978)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-1.947; 0.961; 1.091)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-1.947; 0.961; -1.091)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light:nth-of-type(1)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-2.033; 0.780; 1.164)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light:nth-of-type(2)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-2.033; 0.780; -1.164)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_tank"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(1; 0; 0)",
+      "Mass": "600"
+    },
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneWireLeft_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneWireRight_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneWireRear_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 1; 0)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
       "Collisions": "None",
       "Mass": "5",
       "ModelFrame": "BoneFrameR_cdt"
     },
-    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
       "ExplicitParentFrame": "0",
       "Type": "Fixed"
     },
-    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
       "Collisions": "None",
       "Mass": "5",
       "ModelFrame": "BoneFrameL_cdt"
     },
-    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
       "ExplicitParentFrame": "1",
       "Type": "Fixed"
     },
     "TruckAddon > PhysicsModel > Body > Constraint": {
       "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "1800"
+    },
+    "TruckAddon > TruckData > LimitedFluid": {
+      "Center": "(0.636; 1.174; 0)",
+      "LengthX": "4.693",
+      "RadiusY": "0.934",
+      "RadiusZ": "1.167",
+      "Type": "Cylinder"
     }
   },
   "frame_addon_tank_mercedes_zetros_6x6_dlc_17_5": {
@@ -11529,6 +14676,269 @@ export default {
       "RadiusY": "0.473",
       "RadiusZ": "0.674",
       "Type": "Cylinder"
+    }
+  },
+  "frame_addon_tow_platform_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > ActionCategories > ActionCategory": {
+      "Action": "1",
+      "AvailableForFastMode": "true",
+      "Id": "tow_control",
+      "LocaleUid": "UI_TOW_CONTROL",
+      "RemoveChildActionsFromCustomPanelShowCounter": "true"
+    },
+    "TruckAddon > AutomaticIK > IKBone": {
+      "ModelFrame": "IK_1a",
+      "ParentFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRamp1_cdt",
+      "ModelFrame": "IK_1b"
+    },
+    "TruckAddon > AutomaticIK > IKBone > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > ControlledConstraints > Constraint:nth-of-type(1)": {
+      "Action": "9",
+      "BelongToCategorie": "tow_control",
+      "Id": "ramp_lower",
+      "LocaleUid": "UI_RAMP_LOWER",
+      "Name": "ramp_lower",
+      "SpeedMult": "1.5"
+    },
+    "TruckAddon > ControlledConstraints > Constraint:nth-of-type(2)": {
+      "Action": "9",
+      "BelongToCategorie": "tow_control",
+      "Id": "lights_turn",
+      "IgnoreUiButtons": "true",
+      "LocaleUid": "UI_LIGHTS_TURN",
+      "Name": "lights_turn",
+      "SpeedMult": "1.5"
+    },
+    "TruckAddon > ControlledConstraints > Constraint:nth-of-type(3)": {
+      "Action": "10",
+      "BelongToCategorie": "tow_control",
+      "Id": "ramp_extend",
+      "LocaleUid": "UI_RAMP_EXTEND",
+      "Name": "ramp_extend",
+      "SpeedMult": "3"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "3800",
+      "SoundForEachConstraint": "true",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "TowingPlatform"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKLoop:nth-of-type(1)": {
+      "ConstraintName": "ramp_lower",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_lower_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKLoop:nth-of-type(2)": {
+      "ConstraintName": "ramp_extend",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_extend_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKStart:nth-of-type(1)": {
+      "ConstraintName": "ramp_lower",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_lower_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKStart:nth-of-type(2)": {
+      "ConstraintName": "ramp_extend",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_extend_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKStop:nth-of-type(1)": {
+      "ConstraintName": "ramp_lower",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_lower_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > ConstraintSounds > SoundIKStop:nth-of-type(2)": {
+      "ConstraintName": "ramp_extend",
+      "Name": "addons/addon_tow_platform/addon_tow_platform_ramp_extend_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "FrameAddonTowPlatformMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_TOW_PLATFORM_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_TOW_PLATFORM_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket": {
+      "ParentFrame": "BoneRoot_cdt",
+      "Pos": "(1.563; 0.467; 0)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; -1.137)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; 1.137)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; -1)",
+      "ParentFrame": "BoneRamp1_cdt",
+      "Pos": "(-4.516; 3.126; -1.504)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; 1)",
+      "ParentFrame": "BoneRamp1_cdt",
+      "Pos": "(-4.516; 3.126; 1.504)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; -0.881)",
+      "Size": "0.5"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-1; 0; 0)",
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; 0.881)",
+      "Size": "0.5"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Color": "g(255; 0; 0) x 0.7",
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; -1.137)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Color": "g(255; 0; 0) x 0.7",
+      "ParentFrame": "BoneBacklights_cdt",
+      "Pos": "(-4.637; 3.019; 1.137)",
+      "Size": "0.2"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_tow_platform"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "400"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneHook_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "65",
+      "MinLimit": "-40",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "20",
+      "Spring": "0.1",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "200",
+      "ModelFrame": "BoneRamp1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "200",
+      "ModelFrame": "BoneRamp2_cdt",
+      "NoPackWheels": "true"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "2",
+      "MinLimit": "0",
+      "Name": "ramp_extend",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "100000",
+      "Tau": "0.2",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(2)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "20",
+      "ModelFrame": "BoneBacklights_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; -1)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "lights_turn",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Body:nth-of-type(2) > Constraint > Motor": {
+      "Force": "100",
+      "Tau": "0.1",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "ramp_lower",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint > Motor": {
+      "Force": "300000",
+      "Tau": "0.1",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
     }
   },
   "frame_addon_voron_g5352_kung_dlc_17": {
@@ -11853,6 +15263,193 @@ export default {
     },
     "TruckAddon > WaterMass > Body": {
       "Mass": "9800"
+    }
+  },
+  "frame_addon_watertank_mercedes_3850_dlc_18_1": {
+    "TruckAddon": {
+      "IsChassisFullOcclusion": "true"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "4"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "FrameAddonTankMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_FRAME_WATER_TANK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_FRAME_WATER_TANK_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(-0.910; -0.383; -0.160)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.095; 1.214; 1.138)",
+      "Size": ".25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "Pos": "(-2.024; 2.282; 0)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(11)": {
+      "Pos": "(-2.024; 2.282; -0.154)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(12)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-1.947; 0.961; 1.091)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(13)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-1.947; 0.961; -1.091)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(-0.905; -0.389; 0.174)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-2.095; 1.214; -1.138)",
+      "Size": ".25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.902; 1.07; 1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.902; 1.07; -1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(2.79; 1.07; 1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(2.79; 1.07; -1.323)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "Dir": "(0; 0; 1)",
+      "Pos": "(-1.688; 1.107; 1.212)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "Dir": "(0; 0; -1)",
+      "Pos": "(-1.688; 1.107; -1.212)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "Pos": "(-2.024; 2.282; 0.154)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Dir": "(-0.910; -0.383; -0.160)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-3.093; 0.789; 1.020)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Dir": "(-0.905; -0.389; 0.174)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(-3.093; 0.789; -1.020)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(3)": {
+      "Pos": "(-2.5; 0.2; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-0.901; -0.4; -0.167)",
+      "Pos": "(-2.021; 0.764; 0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-0.901; -0.4; 0.167)",
+      "Pos": "(-2.021; 0.764; -0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-2.021; 0.764; 0.978)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-2.021; 0.764; -0.978)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(1)": {
+      "Pos": "(-2.021; 0.764; 0.978)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light:nth-of-type(2)": {
+      "Pos": "(-2.021; 0.764; -0.978)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-1.947; 0.961; 1.091)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-1.947; 0.961; -1.091)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light:nth-of-type(1)": {
+      "Dir": "(-0.766; 0; 0.643)",
+      "Pos": "(-2.033; 0.780; 1.164)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light:nth-of-type(2)": {
+      "Dir": "(-0.766; 0; -0.643)",
+      "Pos": "(-2.033; 0.780; -1.164)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/frame_addon_watertank"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(1; 0; 0)",
+      "Mass": "1500"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneWireLeft_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneWireRight_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneWireRear_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 1; 0)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneFrameL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "WaterCapacity": "1800"
+    },
+    "TruckAddon > TruckData > LimitedFluid": {
+      "Center": "(0.636; 1.174; 0)",
+      "Color": "(86; 186; 255; 255)",
+      "LengthX": "4.693",
+      "RadiusY": "0.934",
+      "RadiusZ": "1.167",
+      "Type": "Cylinder"
+    },
+    "TruckAddon > WaterMass > Body": {
+      "Mass": "6300"
     }
   },
   "frame_addon_watertank_mercedes_zetros_6x6_dlc_17_5": {
@@ -15466,6 +19063,266 @@ export default {
       "FuelModifier": "1.65"
     }
   },
+  "gearboxes_mercedes_3850_dlc_18_1": {
+    "GearboxVariants > Gearbox:nth-of-type(1)": {
+      "AWDConsumptionModifier": "1.13",
+      "CriticalDamageThreshold": "0.85",
+      "DamageCapacity": "200",
+      "DamagedConsumptionModifier": "1.667",
+      "FuelConsumption": "2.95",
+      "IdleFuelModifier": "0.38",
+      "MaxBreakFreq": "50.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_3850_default"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "2100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData > GearboxParams": {
+      "IsHighGearExists": "false",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "false",
+      "IsLowerPlusGearExists": "false"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_DEFAULT_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(1)": {
+      "AngVel": "1.95",
+      "FuelModifier": "2.12"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(2)": {
+      "AngVel": "2.18",
+      "FuelModifier": "1.92"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(3)": {
+      "AngVel": "2.82",
+      "FuelModifier": "1.73"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(4)": {
+      "AngVel": "4.05",
+      "FuelModifier": "1.52"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(5)": {
+      "AngVel": "6.09",
+      "FuelModifier": "1.27"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(6)": {
+      "AngVel": "9.1",
+      "FuelModifier": "0.92"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > HighGear": {
+      "AngVel": "1.0",
+      "FuelModifier": "1.0"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > ReverseGear": {
+      "AngVel": "1.95",
+      "FuelModifier": "2.12"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2)": {
+      "AWDConsumptionModifier": "1.2",
+      "CriticalDamageThreshold": "0.591",
+      "DamageCapacity": "220",
+      "DamagedConsumptionModifier": "1.813",
+      "FuelConsumption": "3.18",
+      "IdleFuelModifier": "0.42",
+      "MaxBreakFreq": "20.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_3850_offroad"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "2300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData > GearboxParams": {
+      "IsHighGearExists": "true",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "true",
+      "IsLowerPlusGearExists": "true"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_OFFROAD_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_OFFROAD_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(1)": {
+      "AngVel": "2.1",
+      "FuelModifier": "2.21"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(2)": {
+      "AngVel": "2.29",
+      "FuelModifier": "2.1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(3)": {
+      "AngVel": "2.8",
+      "FuelModifier": "1.96"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(4)": {
+      "AngVel": "3.82",
+      "FuelModifier": "1.8"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(5)": {
+      "AngVel": "5.49",
+      "FuelModifier": "1.61"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(6)": {
+      "AngVel": "7.98",
+      "FuelModifier": "1.36"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(7)": {
+      "AngVel": "11.5",
+      "FuelModifier": "0.95"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > HighGear": {
+      "AngVel": "7.5",
+      "FuelModifier": "2.18"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > ReverseGear": {
+      "AngVel": "2.1",
+      "FuelModifier": "2.21"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3)": {
+      "AWDConsumptionModifier": "1.1",
+      "CriticalDamageThreshold": "0.75",
+      "DamageCapacity": "160",
+      "DamagedConsumptionModifier": "1.302",
+      "FuelConsumption": "2.9",
+      "IdleFuelModifier": "0.35",
+      "MaxBreakFreq": "7.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_3850_highrange"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "2500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData > GearboxParams": {
+      "IsHighGearExists": "true",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "false",
+      "IsLowerPlusGearExists": "false",
+      "IsManualLowGear": "false"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_HIGHRANGE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_HIGHRANGE_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(1)": {
+      "AngVel": "1.9",
+      "FuelModifier": "2.15"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(2)": {
+      "AngVel": "2.73",
+      "FuelModifier": "2.0"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(3)": {
+      "AngVel": "4.08",
+      "FuelModifier": "1.83"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(4)": {
+      "AngVel": "5.97",
+      "FuelModifier": "1.64"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(5)": {
+      "AngVel": "8.42",
+      "FuelModifier": "1.43"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(6)": {
+      "AngVel": "11.4",
+      "FuelModifier": "1.18"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(7)": {
+      "AngVel": "15.0",
+      "FuelModifier": "0.85"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > HighGear": {
+      "AngVel": "13.0",
+      "FuelModifier": "1.85"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > ReverseGear": {
+      "AngVel": "1.9",
+      "FuelModifier": "2.15"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4)": {
+      "AWDConsumptionModifier": "1.225",
+      "CriticalDamageThreshold": "0.591",
+      "DamageCapacity": "220",
+      "DamagedConsumptionModifier": "1.813",
+      "FuelConsumption": "3.24",
+      "IdleFuelModifier": "0.4",
+      "MaxBreakFreq": "25.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_3850_finetune"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > GameData": {
+      "AddonUnlockByObjective": "false",
+      "Price": "2800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > GameData > GearboxParams": {
+      "IsHighGearExists": "true",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "true",
+      "IsLowerPlusGearExists": "true",
+      "IsManualLowGear": "true"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_TRUCK_FINETUNE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_TRUCK_FINETUNE_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(1)": {
+      "AngVel": "2.1",
+      "FuelModifier": "2.21"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(2)": {
+      "AngVel": "2.29",
+      "FuelModifier": "2.1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(3)": {
+      "AngVel": "2.8",
+      "FuelModifier": "1.96"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(4)": {
+      "AngVel": "3.82",
+      "FuelModifier": "1.8"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(5)": {
+      "AngVel": "5.49",
+      "FuelModifier": "1.61"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(6)": {
+      "AngVel": "7.98",
+      "FuelModifier": "1.36"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > Gear:nth-of-type(7)": {
+      "AngVel": "11.5",
+      "FuelModifier": "0.95"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > HighGear": {
+      "AngVel": "7.5",
+      "FuelModifier": "2.18"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(4) > ReverseGear": {
+      "AngVel": "2.1",
+      "FuelModifier": "2.21"
+    }
+  },
   "gearboxes_mercedes_benz_actros_6x6_dlc_17_5": {
     "GearboxVariants > Gearbox:nth-of-type(1)": {
       "AWDConsumptionModifier": "1.15",
@@ -15956,6 +19813,189 @@ export default {
     "GearboxVariants > Gearbox:nth-of-type(4) > ReverseGear": {
       "AngVel": "1.99",
       "FuelModifier": "3.045"
+    }
+  },
+  "gearboxes_mercedes_mamute_1519_dlc_18_1": {
+    "GearboxVariants > Gearbox:nth-of-type(1)": {
+      "AWDConsumptionModifier": "1.2",
+      "CriticalDamageThreshold": "0.8",
+      "DamageCapacity": "180",
+      "DamagedConsumptionModifier": "1.224",
+      "FuelConsumption": "1.8",
+      "IdleFuelModifier": "0.21",
+      "MaxBreakFreq": "8.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_mamute_1519_default"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData": {
+      "Price": "2100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData > GearboxParams": {
+      "IsHighGearExists": "false",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "false",
+      "IsLowerPlusGearExists": "false"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_DEFAULT_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(1)": {
+      "AngVel": "1.64",
+      "FuelModifier": "1.8"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(2)": {
+      "AngVel": "2.2",
+      "FuelModifier": "1.69"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(3)": {
+      "AngVel": "3.72",
+      "FuelModifier": "1.54"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(4)": {
+      "AngVel": "6.68",
+      "FuelModifier": "1.38"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > Gear:nth-of-type(5)": {
+      "AngVel": "11.56",
+      "FuelModifier": "1.2"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > HighGear": {
+      "AngVel": "1.0",
+      "FuelModifier": "1.1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(1) > ReverseGear": {
+      "AngVel": "1.64",
+      "FuelModifier": "1.8"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2)": {
+      "AWDConsumptionModifier": "1.12",
+      "CriticalDamageThreshold": "0.6",
+      "DamageCapacity": "250",
+      "DamagedConsumptionModifier": "1.57",
+      "FuelConsumption": "2.2",
+      "IdleFuelModifier": "0.25",
+      "MaxBreakFreq": "15.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_mamute_1519_offroad"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData": {
+      "Price": "2300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData > GearboxParams": {
+      "IsHighGearExists": "true",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "true",
+      "IsLowerPlusGearExists": "true",
+      "IsManualLowGear": "false"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_OFFROAD_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_OFFROAD_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(1)": {
+      "AngVel": "1.95",
+      "FuelModifier": "2.2"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(2)": {
+      "AngVel": "2.32",
+      "FuelModifier": "2.04"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(3)": {
+      "AngVel": "3.317",
+      "FuelModifier": "1.84"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(4)": {
+      "AngVel": "5.26",
+      "FuelModifier": "1.62"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(5)": {
+      "AngVel": "8.462",
+      "FuelModifier": "1.36"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > Gear:nth-of-type(6)": {
+      "AngVel": "13.24",
+      "FuelModifier": "1.05"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > HighGear": {
+      "AngVel": "10.5",
+      "FuelModifier": "1.9"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(2) > ReverseGear": {
+      "AngVel": "1.95",
+      "FuelModifier": "2.2"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3)": {
+      "AWDConsumptionModifier": "1.15",
+      "CriticalDamageThreshold": "0.625",
+      "DamageCapacity": "160",
+      "DamagedConsumptionModifier": "1.192",
+      "FuelConsumption": "1.65",
+      "IdleFuelModifier": "0.155",
+      "MaxBreakFreq": "5.0",
+      "MinBreakFreq": "0.0",
+      "Name": "g_mercedes_mamute_1519_highrange"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData": {
+      "Price": "2500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData > GearboxParams": {
+      "IsHighGearExists": "true",
+      "IsLowerGearExists": "true",
+      "IsLowerMinusGearExists": "false",
+      "IsLowerPlusGearExists": "false"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_GEARBOX_HIGHRANGE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_GEARBOX_HIGHRANGE_NAME"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(1)": {
+      "AngVel": "1.7",
+      "FuelModifier": "1.8"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(2)": {
+      "AngVel": "2.524",
+      "FuelModifier": "1.677"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(3)": {
+      "AngVel": "3.904",
+      "FuelModifier": "1.55"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(4)": {
+      "AngVel": "5.836",
+      "FuelModifier": "1.4"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(5)": {
+      "AngVel": "8.32",
+      "FuelModifier": "1.25"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(6)": {
+      "AngVel": "11.356",
+      "FuelModifier": "1.07"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > Gear:nth-of-type(7)": {
+      "AngVel": "15",
+      "FuelModifier": "0.85"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > HighGear": {
+      "AngVel": "12.8",
+      "FuelModifier": "1.7"
+    },
+    "GearboxVariants > Gearbox:nth-of-type(3) > ReverseGear": {
+      "AngVel": "1.7",
+      "FuelModifier": "1.8"
     }
   },
   "gearboxes_mercer_6x6r_230_dlc_18": {
@@ -24509,6 +28549,2808 @@ export default {
       "Mesh": "trucks/jangsu_rx600_tuning/jangsu_rx600_visor_1"
     }
   },
+  "mercedes_3850_bumper_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.315; 0.665; 0.491)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.315; 0.665; -0.491)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_TOWLOOPS_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_TOWLOOPS_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.315; 0.665; 0.491)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.315; 0.665; -0.491)"
+    },
+    "TruckAddon > HeadLight": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.282; 0.184; 0)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.111; 0.778; -0.938)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.111; 0.778; 0.938)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(3)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.157; 0.778; -0.775)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(4)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.157; 0.778; 0.775)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.111; 0.778; -0.938)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.111; 0.778; 0.938)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.111; 0.778; 0.938)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(10)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; 0.282)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.111; 0.778; -0.938)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.157; 0.778; 0.775)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.157; 0.778; -0.775)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; -0.378)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; 0.378)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; -0.329)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; 0.329)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+      "ColorMultAtDay": "0.2",
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.117; -0.282)",
+      "Size": "0.2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.111; 0.778; 0.938)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.111; 0.778; -0.938)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(3)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.118; -0.331)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(4)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.309; 1.118; 0.331)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_bumper_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "60",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.9",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_3850_bumper_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "1300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.187; 0.684; 0.477)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.187; 0.684; -0.477)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_HEAVYDUTY_PIPE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_HEAVYDUTY_PIPE_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.187; 0.684; 0.477)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.187; 0.684; -0.477)"
+    },
+    "TruckAddon > HeadLight": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.282; 0.184; 0)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.100; 0.966; -0.870)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.100; 0.966; 0.870)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.100; 0.966; -0.870)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.100; 0.966; 0.870)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.100; 0.966; -0.870)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.100; 0.966; 0.870)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.100; 0.966; -0.870)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.100; 0.966; 0.870)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_bumper_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "65",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.85",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_3850_bumper_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.005; 0.308; 0.687)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.005; 0.308; -0.687)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_STOCK_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.005; 0.308; 0.687)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.005; 0.308; -0.687)"
+    },
+    "TruckAddon > HeadLight": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.282; 0.184; 0)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "Color": "g(255; 235; 195) x 1.5",
+      "Pos": "(2.973; 0.744; 0.824)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "Color": "g(255; 235; 195) x 1.5",
+      "Pos": "(2.973; 0.744; -0.824)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(3)": {
+      "Pos": "(2.973; 0.744; 0.824)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(4)": {
+      "Pos": "(2.973; 0.744; -0.824)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "Org": "(2.973; 0.744; 0.824)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "Org": "(2.973; 0.744; -0.824)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.973; 0.744; 0.824)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.973; 0.744; -0.824)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.986; 0.491; 0.853)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(1; 0; 0)",
+      "DirAngle": "120",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.986; 0.491; -0.853)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.239; 0.744; 0.824)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.239; 0.744; -0.824)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_bumper_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "150",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "1.0",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_3850_diff_lock_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "diff_lock",
+      "Price": "1000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850DiffLock"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_UPGRADE_DIFF_LOCK_SWITCHABLE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_UPGRADE_DIFF_LOCK_SWITCHABLE_NAME"
+    },
+    "TruckAddon > TruckData": {
+      "DiffLockInstalled": "true"
+    }
+  },
+  "mercedes_3850_dlc_18_1": {
+    "Truck > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneTieRodHinge2",
+      "ParentFrame": "BoneTieRod_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRackLeft",
+      "ModelFrame": "BoneTieRodPrismatic"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(10)": {
+      "ModelFrame": "BoneLeftFrontPistonIK1_1",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(10) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle1",
+      "ModelFrame": "BoneLeftFrontPistonIK1_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(10) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(10) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneMidRearPiston2_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle3",
+      "ModelFrame": "BoneMidRearPiston2_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneMidRearPiston1_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle2",
+      "ModelFrame": "BoneMidRearPiston1_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneRightRearIK1_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle2",
+      "ModelFrame": "BoneRightRearIK1_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneLeftRearIK1_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle2",
+      "ModelFrame": "BoneLeftRearIK1_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneRightRearIK2_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle3",
+      "ModelFrame": "BoneRightRearIK2_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(7)": {
+      "ModelFrame": "BoneLeftRearIK2_1",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(7) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle3",
+      "ModelFrame": "BoneLeftRearIK2_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(7) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(7) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8)": {
+      "ModelFrame": "BoneFrontSuspension1_1",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8) > IKBone": {
+      "ModelFrame": "BoneFrontSuspension1_2",
+      "ParentFrame": "BoneFrontSuspension1_1"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8) > IKBone > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle1",
+      "ModelFrame": "BoneFrontSuspension1_3"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8) > IKBone > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(8) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(9)": {
+      "ModelFrame": "BoneRightFrontPistonIK1_1",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(9) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneAxle1",
+      "ModelFrame": "BoneRightFrontPistonIK1_2"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(9) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone:nth-of-type(9) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "Truck > ControlledConstraints > Constraint": {
+      "Id": "chassis_steer",
+      "IsLinkedSteering": "true",
+      "Name": "TieRod"
+    },
+    "Truck > GameData": {
+      "Country": "US,NE,CE",
+      "ExcludeAddons": "pacific_p16_trailer_log_pole, trailer_log_pole_zikz_612h",
+      "Price": "94100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(1)": {
+      "DefaultAddon": "mercedes_3850_bumper_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(1) > Socket": {
+      "Names": "Mercedes3850Bumper",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10)": {
+      "DefaultAddon": "mercedes_3850_frame_default",
+      "RequiredAddonIfNoConflicts": "mercedes_3850_frame_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10) > Socket:nth-of-type(1)": {
+      "Names": "Mercedes3850FrameDefault",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10) > Socket:nth-of-type(2)": {
+      "Names": "Mercedes3850FrameExtended",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10) > Socket:nth-of-type(2) > ExtraParent": {
+      "Frame": "BoneCabin_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1)": {
+      "Names": "FrameAddonFlatbed2Mercedes3850",
+      "NamesBlock": "",
+      "Offset": "(-2.75; 0.9; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(0; 0.065; 0)",
+      "Types": "Mercedes3850Wings"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(0; -0.065; 0)",
+      "Types": "Mercedes3850Wings, Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(0.865; 0; 0)",
+      "TrailerNamesBlock": "Mercedes3850Sparewheel",
+      "Types": "MinicraneUSMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(5)": {
+      "Offset": "(-0.4; 0; 0)",
+      "Types": "LogLiftMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(6)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "LogLiftMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.11)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.11)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10)": {
+      "Names": "BunkLogMercedes3850",
+      "NamesBlock": "Mercedes3850Wings, MinicraneUSMercedes3850",
+      "Offset": "(-6.5; 0.9; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "LogLiftMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(11)": {
+      "Names": "SaddleHighMercedes3850",
+      "NamesBlock": "Mercedes3850Wings, Mercedes3850FrameExtended",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(3)": {
+      "Frame": "BoneCabin_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(12)": {
+      "Names": "SaddleLow2Mercedes3850",
+      "NamesBlock": "Mercedes3850Wings, Mercedes3850FrameExtended",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(3)": {
+      "Frame": "BoneCabin_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2)": {
+      "Names": "FrameAddonSideboard2Mercedes3850",
+      "NamesBlock": "",
+      "Offset": "(-2.75; 0.9; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(0; 0.135; 0)",
+      "Types": "Mercedes3850Wings"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(0; -0.135; 0)",
+      "Types": "Mercedes3850Wings, Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(0.865; 0; 0)",
+      "Types": "MinicraneUSMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(5)": {
+      "Offset": "(-0.1; 0; 0)",
+      "Types": "CraneMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(6)": {
+      "Offset": "(-0.45; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "LogLiftMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(7)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "LogLiftMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.11)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.11)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(3)": {
+      "Names": "FrameAddonKung",
+      "NamesBlock": "Mercedes3850Wings",
+      "Offset": "(-2.6; 0.99; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(3) > AddonsShift": {
+      "Offset": "(-0.65; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4)": {
+      "Names": "FrameAddonTankMercedes3850",
+      "NamesBlock": "Mercedes3850Wings",
+      "Offset": "(-3.27; 0.9; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.152; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.25; 0; 0)",
+      "Types": "Mercedes3850Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.25; 0; 0)",
+      "Types": "CraneMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "CraneMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(5)": {
+      "Names": "Mercedes3850Service",
+      "NamesBlock": "Mercedes3850Wings, Mercedes3850Sparewheel, Mercedes3850FrameDefault, Mercedes3850FrameExtended, Mercedes3850Snorkel, Trailer, Mercedes3850ExhaustAftermarket",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(5) > ExtraParent": {
+      "Frame": "BoneCabin_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6)": {
+      "Names": "FrameAddonTowPlatformMercedes3850",
+      "NamesBlock": "Mercedes3850Wings",
+      "Offset": "(-1.7; 1.13; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.07)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.07)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(7)": {
+      "Names": "FrameAddonSeismicVibratorPaderaSTD4",
+      "NamesBlock": "Mercedes3850FrameExtended",
+      "Offset": "(0.15; 0.905; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(7) > AddonsShift": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "Mercedes3850Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8)": {
+      "Names": "FrameAddonLogShortMercedes3850",
+      "NamesBlock": "Mercedes3850Wings",
+      "Offset": "(-2.35; 1.035; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.12; 0)",
+      "Types": "Mercedes3850Wings"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "Mercedes3850Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.75; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "LogLiftMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.15; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "LogLiftMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(5)": {
+      "Offset": "(-0.1; 0; 0)",
+      "TrailerNamesBlock": "",
+      "Types": "CraneMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift:nth-of-type(6)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "CraneMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9)": {
+      "Names": "FrameAddonLogMediumMercedes3850",
+      "NamesBlock": "Mercedes3850Wings",
+      "Offset": "(-1.85; 1.035; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9) > AddonsShift": {
+      "Offset": "(0; 0.12; 0)",
+      "Types": "Mercedes3850Wings"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12)": {
+      "DefaultAddon": "mercedes_3850_sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket": {
+      "Names": "Mercedes3850Sparewheel",
+      "NamesBlock": "CraneMercedes3850, MinicraneUSMercedes3850, LogLiftMercedes3850, FrameAddonLogMediumMercedes3850, FrameAddonTowPlatformMercedes3850",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket > AddonsShift": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1)": {
+      "Names": "MinicraneUSMercedes3850",
+      "NamesBlock": "SaddleLow2Mercedes3850, SaddleHighMercedes3850, FrameAddonKung, FrameAddonTankMercedes3850, FrameAddonLogMediumMercedes3850, Mercedes3850Service, FrameAddonTowPlatformMercedes3850, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonLogShortMercedes3850, FrameAddonSideboard2Mercedes3850",
+      "Offset": "(0.2; 0.92; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift": {
+      "Offset": "(-5.32; 0.13; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
+      "Names": "CraneMercedes3850",
+      "NamesBlock": "FrameAddonLogMediumMercedes3850, Mercedes3850Service, FrameAddonTowPlatformMercedes3850",
+      "Offset": "(0.18; -0.56; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "SaddleLow2Mercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(0; 0.15; 0)",
+      "Types": "SaddleHighMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.2; 0; 0)",
+      "Types": "Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3)": {
+      "Names": "LogLiftMercedes3850",
+      "NamesBlock": "FrameAddonKung, FrameAddonTankMercedes3850, FrameAddonLogMediumMercedes3850, Mercedes3850Service, FrameAddonTowPlatformMercedes3850, FrameAddonSeismicVibratorPaderaSTD4",
+      "Offset": "(-1.6; -0.46; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0.2; 0.15; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "Mercedes3850FrameExtended, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(0.2; 0.15; 0)",
+      "Types": "SaddleHighMercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "SaddleHighMercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(5)": {
+      "Offset": "(0.2; 0.15; 0)",
+      "Types": "SaddleLow2Mercedes3850"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(6)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "SaddleLow2Mercedes3850, Mercedes3850Roofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4)": {
+      "Names": "BigCraneUsMercedes3850",
+      "NamesBlock": "SaddleLow2Mercedes3850, SaddleHighMercedes3850, FrameAddonKung, FrameAddonTankMercedes3850, FrameAddonLogMediumMercedes3850, Mercedes3850Service, FrameAddonTowPlatformMercedes3850, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonLogShortMercedes3850, BunkLogMercedes3850, FrameAddonFlatbed2Mercedes3850, FrameAddonSideboard2Mercedes3850, Mercedes3850Roofrack",
+      "Offset": "(-3.15; 1.05; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1)": {
+      "Names": "Trailer",
+      "NamesBlock": "FrameAddonTowPlatformMercedes3850, FrameAddonMaintainer",
+      "Offset": "(-4.618; 0.676; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1) > AddonsShift": {
+      "Offset": "(-0.99; 0; 0)",
+      "Types": "Mercedes3850FrameExtended"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(2)": {
+      "Names": "Semitrailer, SemitrailerOiltank",
+      "Offset": "(-2.944; 1.15; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(3)": {
+      "Names": "LargeSemitrailer, LargeSemitrailerOiltank",
+      "Offset": "(-2.944; 1.38; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(15) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850StuffCurtain",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(16) > Socket": {
+      "InCockpit": "true",
+      "Names": "StuffAirfreshener",
+      "Offset": "(2.458; 2.65; -0.336)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(17) > Socket": {
+      "InCockpit": "true",
+      "Names": "StuffDashboard",
+      "Offset": "(2.799; 1.894; -0.002)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(18) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_01",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(19) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_02",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2)": {
+      "DefaultAddon": "mercedes_3850_exhaust_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket:nth-of-type(1)": {
+      "Names": "Mercedes3850Exhaust",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket:nth-of-type(1) > ExtraParent": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket:nth-of-type(2)": {
+      "Names": "Mercedes3850ExhaustAftermarket",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket:nth-of-type(2) > ExtraParent": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(20) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_03",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(21) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_04",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(22) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_05",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(23) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x1_06",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(24) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x2_01",
+      "ParentFrame": "BoneSunshield1_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(25) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_1x4_01",
+      "ParentFrame": "BoneSunshield1_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(26) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_Glass_Top",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(27) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_Glass_Bottom",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(28) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_Door_L",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(29) > Socket": {
+      "InCockpit": "true",
+      "Names": "Mercedes3850Sticker_Door_R",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(3)": {
+      "DefaultAddon": "mercedes_3850_visor_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(3) > Socket:nth-of-type(1)": {
+      "Names": "Mercedes3850VisorDefault",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(3) > Socket:nth-of-type(2)": {
+      "Names": "Mercedes3850Visor",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(4)": {
+      "DefaultAddon": "mercedes_3850_horn_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(4) > Socket": {
+      "Names": "Mercedes3850Horn",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(5)": {
+      "DefaultAddon": "mercedes_3850_wings_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(5) > Socket": {
+      "Names": "Mercedes3850Wings",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(5) > Socket > ExtraParent": {
+      "Frame": "BoneCabin_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(6) > Socket": {
+      "Names": "Mercedes3850Protection",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(7) > Socket": {
+      "Names": "Mercedes3850Roofrack",
+      "NamesBlock": "Mercedes3850Horn",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(8) > Socket": {
+      "Names": "Mercedes3850Snorkel",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(9)": {
+      "DefaultAddon": "mercedes_3850_diff_lock_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(9) > Socket": {
+      "Names": "Mercedes3850DiffLock",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(1)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.8; 1.3; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "default",
+      "Position": "(13.8; 1.5; -4.3)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(10)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.6; 2.2; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "1.2",
+      "Name": "spare_wheel",
+      "Position": "(1.6; 3.2; -4.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(11)": {
+      "FOV": "32.0",
+      "InterestPosition": "(7; 2.200; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "snorkel",
+      "Position": "(1; 3.5; 5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(12)": {
+      "FOV": "32.0",
+      "InterestPosition": "(8.13; 1.7; 1.2)",
+      "Interior": "true",
+      "Name": "bubble_head",
+      "Position": "(5.9; 2.4; -0.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(13)": {
+      "FOV": "32.0",
+      "InterestPosition": "(8.061; 2.3; 2.4)",
+      "Interior": "true",
+      "Name": "mirror_mount",
+      "Position": "(6.015; 2.4; -0.661)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(14)": {
+      "FOV": "32.0",
+      "InterestPosition": "(9.134; 2.791; 2.414)",
+      "Interior": "true",
+      "Name": "curtain",
+      "Position": "(6.015; 2.3; -0.793)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(15)": {
+      "FOV": "32.0",
+      "InterestPosition": "(8.13; 1.3; 3.1)",
+      "Interior": "true",
+      "Name": "sticker_1",
+      "Position": "(5.9; 2.2; -0.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(16)": {
+      "FOV": "32.0",
+      "InterestPosition": "(7.29; 3.23; 0.31)",
+      "Interior": "true",
+      "Name": "sticker_2",
+      "Position": "(6.2; 1.853; 0.306)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(17)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.716; 1.735; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "hoods_default",
+      "Position": "(13.576; 1.402; -3.863)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(18)": {
+      "FOV": "32.0",
+      "InterestPosition": "(7.161; 1.596; 0.841)",
+      "Interior": "true",
+      "Name": "door_l_sticker",
+      "Position": "(5.167; 2; -3.279)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(19)": {
+      "FOV": "32.0",
+      "InterestPosition": "(8.598; 1.658; 0)",
+      "Interior": "true",
+      "Name": "door_r_sticker",
+      "Position": "(4.916; 2; 3.172)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(2)": {
+      "FOV": "32.0",
+      "InterestPosition": "(2.6; 3.08; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "side_r",
+      "Position": "(-0.68; 4.81; -4.57)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(20)": {
+      "FOV": "32.0",
+      "InterestPosition": "(6.455; 2.666; -0.909)",
+      "Interior": "true",
+      "Name": "glass_sticker",
+      "Position": "(10.325; 2.2; 0.998)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(3)": {
+      "FOV": "32.0",
+      "InterestPosition": "(6.27; 2.28; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "side_l",
+      "Position": "(11.87; 5.28; -4.55)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(4)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5; 2; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "1",
+      "Name": "rear",
+      "Position": "(-2; 2.5; 4)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(5)": {
+      "FOV": "32.0",
+      "InterestPosition": "(6.5; 3; -0.5)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "roof",
+      "Position": "(11; 5.8; -2.8)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(6)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.5; 0.5; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "wheels",
+      "Position": "(9.900; 1.3; -6.13)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(7)": {
+      "FOV": "32.0",
+      "InterestPosition": "(1.1; 1.8; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "addon_1",
+      "Position": "(-7.9; 4.9; 6.38)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(8)": {
+      "FOV": "32.0",
+      "InterestPosition": "(1.3; 0.75; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "0",
+      "Name": "exhaust",
+      "Position": "(5.5; -0.15; -2.0)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(9)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.735; 2.091; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "exhaust_1",
+      "Position": "(0.191; 4.643; 4.422)"
+    },
+    "Truck > GameData > UiDesc": {
+      "UiDesc": "UI_VEHICLE_MERCEDES_3850_DESC",
+      "UiIcon30x30": "heavyVehicleImg30",
+      "UiIcon328x458": "shopImgMercedesBenz3850",
+      "UiIcon40x40": "heavyVehicleImg",
+      "UiIconLogo": "MercedesLogo80",
+      "UiName": "UI_VEHICLE_MERCEDES_3850_NAME"
+    },
+    "Truck > GameData > WinchSocket:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-1.726; 0.874; 0.446)"
+    },
+    "Truck > GameData > WinchSocket:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-1.726; 0.874; -0.446)"
+    },
+    "Truck > Landmark": {
+      "MaxScale": "2.2",
+      "Mesh": "landmarks/mercedes_3850_lmk",
+      "MinScale": "1.5"
+    },
+    "Truck > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850"
+    },
+    "Truck > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "Default",
+      "ImpactType": "Truck",
+      "Mass": "1450",
+      "ModelFrame": "BoneChassis_cdt",
+      "NetSync": "pv"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; -0.1; 0)",
+      "Collisions": "None",
+      "Mass": "2950",
+      "ModelFrame": "BoneChassisWeighter_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "Type": "Fixed"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "CenterOfMassOffset": "(0; -0.55; 0)",
+      "Collisions": "Default",
+      "ImpactType": "Truck",
+      "Mass": "2850",
+      "ModelFrame": "BoneCabin_cdt",
+      "NetSync": "pv"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(-0.8; -0.2; 0)",
+      "Collisions": "None",
+      "Mass": "3850",
+      "ModelFrame": "BoneCabinWeighter_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Constraint": {
+      "Type": "Fixed"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2)": {
+      "Mass": "0.5",
+      "ModelFrame": "BoneKey_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "25",
+      "MinLimit": "-40",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "0.002",
+      "Spring": "0.004",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneSunshield1_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneSunshield2_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(5)": {
+      "ModelFrame": "BoneSunshield3_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(5) > Constraint": {
+      "AxisLocal": "(-1; 0; 0)"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(6)": {
+      "Collisions": "None",
+      "Mass": "1",
+      "ModelFrame": "BoneBelt_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(6) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "-2",
+      "MinLimit": "-15",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(6) > Constraint > Motor": {
+      "Damping": "1",
+      "Spring": "1",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(7)": {
+      "Mass": "1",
+      "ModelFrame": "BoneCurtain_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(7) > Constraint": {
+      "LinearLimitsX": "(-0.08; 0.08)",
+      "Type": "Fixed"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "4",
+      "MinLimit": "-4",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "150000",
+      "Spring": "300000",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneTieRod_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "30",
+      "MinLimit": "-30",
+      "Name": "TieRod",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(3) > Constraint > Motor": {
+      "Force": "100",
+      "Tau": "1",
+      "Type": "Position"
+    },
+    "Truck > PhysicsModel > NetSync": {
+      "Legacy": "false"
+    },
+    "Truck > Rotator": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneEngineFan",
+      "RotationAxis": "(0; 1; 0)",
+      "RotationSpeed": "10"
+    },
+    "Truck > TruckData": {
+      "BackSteerSpeed": "0.018",
+      "DiffLockType": "Installed",
+      "EngineIconMesh": "env/engine_mercedes_3850",
+      "EngineIconScale": "1.0",
+      "EngineStartDelay": "3.2",
+      "ExhaustStartTime": "2.8",
+      "FuelCapacity": "380",
+      "Responsiveness": "0.18",
+      "SteerSpeed": "0.022",
+      "TruckImage": "mercedesBenz3850mchr",
+      "TruckType": "HEAVY_DUTY"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(1)": {
+      "Frame": "BoneAxle1"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(2)": {
+      "Frame": "BoneAxle2"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(3)": {
+      "Frame": "BoneAxle3"
+    },
+    "Truck > TruckData > Camera": {
+      "Center": "(-2.2; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > TruckData > Camera > Cockpit": {
+      "LimitsHor": "(-2.7; 1.5)",
+      "LimitsVer": "(-0.5; 0.5)",
+      "ParentFrame": "BoneCabin_cdt",
+      "ViewDir": "(1; -0.05; 0)",
+      "ViewPos": "(1.834; 2.388; 0.649)",
+      "WindshieldDiffuseTexture": "trucks/mercedes_3850_glass__d_a.tga",
+      "WindshieldShadingTexture": "trucks/mercedes_3850_glass__sh_d.tga"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(1)": {
+      "ClipDir": "(-0.936; 0; -0.4)",
+      "ClipOffset": "0.05",
+      "FOVScale": "2",
+      "MeshFrame": "mirror_left_1",
+      "Pos": "(2.416; 2.104; 1.534)",
+      "ReflectionDir": "(-0.936; 0; -0.4)",
+      "Size": "(0.25; 0.4)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(1) > SecondaryView": {
+      "ClipDir": "(-0.767; -0.445; -0.462)",
+      "ClipOffset": "0.1",
+      "CurveAngle": "40",
+      "FOVScale": "1",
+      "MeshFrame": "mirror_left_2",
+      "Pos": "(2.399; 2.376; 1.480)",
+      "Size": "(0.2; 0.2)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(2)": {
+      "ClipDir": "(-0.794; 0; 0.5)",
+      "ClipOffset": "0.15",
+      "FOVScale": "2",
+      "MeshFrame": "mirror_right",
+      "Pos": "(2.547; 2.093; -1.359)",
+      "ReflectionDir": "(-0.794; 0; 0.5)",
+      "Size": "(0.25; 0.4)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(3)": {
+      "ClipDir": "(0; -1; -0.85)",
+      "ClipOffset": "0.02",
+      "CurveAngle": "15",
+      "FOVScale": "1.5",
+      "LookAtOffset": "(0; -0.2; 0.2)",
+      "MeshFrame": "mirror_top",
+      "Pos": "(2.074; 2.467; 1.203)",
+      "ReflectionDir": "(0; -1; -0.85)",
+      "Size": "(0.32; 0.22)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Rear": {
+      "HorTransitionEnd": "-2.7",
+      "HorTransitionStart": "-0.8",
+      "LimitsVer": "(-0.5; 0.5)",
+      "ViewDir": "(1; -0.05; -0.1)",
+      "ViewPosOffset": "(0.1; -0.1; 0.67)"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(1)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.175",
+      "Scale": "0.59",
+      "Type": "wheels_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(10)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.205",
+      "Scale": "0.62",
+      "Type": "wheels_heavy_highway_double_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(11)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.185",
+      "Scale": "0.59",
+      "Type": "wheels_heavy_allterrain_double_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(12)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.205",
+      "Scale": "0.62",
+      "Type": "wheels_heavy_allterrain_double_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(2)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.185",
+      "Scale": "0.62",
+      "Type": "wheels_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(3)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.175",
+      "Scale": "0.59",
+      "Type": "wheels_heavy_double1_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(4)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.185",
+      "Scale": "0.62",
+      "Type": "wheels_heavy_double1_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(5)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.175",
+      "Scale": "0.59",
+      "Type": "wheels_heavy_double2_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(6)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.205",
+      "Scale": "0.62",
+      "Type": "wheels_heavy_double2_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(7)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.175",
+      "Scale": "0.59",
+      "Type": "wheels_heavy_offroad_double_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(8)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.205",
+      "Scale": "0.62",
+      "Type": "wheels_heavy_offroad_double_mercedes_3850"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(9)": {
+      "OffsetZ": "0.03",
+      "RearOffsetZ": "0.185",
+      "Scale": "0.59",
+      "Type": "wheels_heavy_highway_double_mercedes_3850"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(1)": {
+      "Max": "(-0.678, 0.850, 0.309)",
+      "Min": "(-1.107, 0.140, -0.309)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Type": "Gearbox"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(2)": {
+      "Max": "(1.430, 1.015, 0.170)",
+      "Min": "(0.152, 0.578, -0.273)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Type": "Gearbox"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(3)": {
+      "Max": "(2.682, 1.336, 0.451)",
+      "Min": "(1.036, 0.439, -0.451)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Type": "Engine"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(4)": {
+      "Max": "(0.035, 1.007, -0.531)",
+      "Min": "(-1.494, 0.329, -1.199)",
+      "ParentFrame": "BoneChassis_cdt",
+      "Type": "FuelTank"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(1)": {
+      "Damping": "0.9",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;75)",
+      "InputType": "speed",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_1",
+      "Org": "(2.581; 1.882; 0.799)",
+      "OutputAngles": "(-122; 112)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(2)": {
+      "Damping": "0.998",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "fuel",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_3",
+      "Org": "(2.574; 1.832; 0.507)",
+      "OutputAngles": "(-120; -240)",
+      "Scale": "0.9"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(3)": {
+      "Damping": "0.99",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "rpm",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_2",
+      "Org": "(2.609; 1.898; 0.653)",
+      "OutputAngles": "(-118; 122)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(4)": {
+      "Damping": "0.9",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_3",
+      "Org": "(2.613; 1.885; 0.545)",
+      "OutputAngles": "(-105; -30)",
+      "Scale": "0.9"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(5)": {
+      "Damping": "0.9",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_3",
+      "Org": "(2.613; 1.885; 0.468)",
+      "OutputAngles": "(105; 55)",
+      "Scale": "0.9"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(6)": {
+      "Damping": "0.9",
+      "Dir": "(-0.799; 0.601; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_3850_arrow_3",
+      "Org": "(2.598; 1.87; 0.507)",
+      "OutputAngles": "(-134; 90)",
+      "Scale": "1.1"
+    },
+    "Truck > TruckData > Driver": {
+      "AnimationSet": "HeavyTruck",
+      "LegsOffset": "(0; 0.07; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.908; 1.65; 0.639)",
+      "SteeringWheelPos": "(2.279; 2.032; 0.649)"
+    },
+    "Truck > TruckData > EngineSocket": {
+      "Default": "engine_truck_mercedes_3850_0",
+      "Type": "e_truck_engine_mercedes_3850"
+    },
+    "Truck > TruckData > FuelTank": {
+      "DamageCapacity": "200"
+    },
+    "Truck > TruckData > GearboxSocket": {
+      "Default": "g_mercedes_3850_default",
+      "Type": "gearboxes_mercedes_3850"
+    },
+    "Truck > TruckData > Intake": {
+      "Dir": "(1; 0; 0)",
+      "Origin": "(2.93; 1.329; 0)",
+      "Size": "0.35"
+    },
+    "Truck > TruckData > LimitedFluid": {
+      "Center": "(-0.73; 0.704; -0.865)",
+      "ParentFrame": "BoneCabin_cdt",
+      "SizeX": "1.449",
+      "SizeY": "0.537",
+      "SizeZ": "0.608",
+      "Type": "Box"
+    },
+    "Truck > TruckData > OcclusionMap": {
+      "HalfSizeZ": "1.81",
+      "MaxX": "3.28",
+      "MinX": "-4.92"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(1)": {
+      "Mesh": "env/minishaft",
+      "SocketPointA": "Shaft1a",
+      "SocketPointB": "Shaft1b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(2)": {
+      "Mesh": "env/minishaft",
+      "SocketPointA": "Shaft2a",
+      "SocketPointB": "Shaft2b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(3)": {
+      "Mesh": "env/minishaft",
+      "SocketPointA": "Shaft3a",
+      "SocketPointB": "Shaft3b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(4)": {
+      "Mesh": "env/minishaft",
+      "SocketPointA": "Shaft4a",
+      "SocketPointB": "Shaft4b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(5)": {
+      "Mesh": "env/minishaft",
+      "SocketPointA": "Shaft5a",
+      "SocketPointB": "Shaft5b"
+    },
+    "Truck > TruckData > Shakers > Shaker": {
+      "Frame": "BoneGearstick",
+      "MaxAngle": "(1; 0; 1)",
+      "MaxFrequency": "0.35",
+      "MinAngle": "(-1; 0; -1)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > TruckData > Sounds": {
+      "DisableReversePitch": "true",
+      "MinDist": "15.0",
+      "Origin": "(0.63; 0.74; -0.047)"
+    },
+    "Truck > TruckData > Sounds > AbruptStop": {
+      "Sound": "trucks/common/truck_swing_big_rnd_set/truck_swing_big_rnd"
+    },
+    "Truck > TruckData > Sounds > BrakeRelease": {
+      "Sound": "trucks/common/truck_brake_release_alt2_rnd_set/truck_brake_release_alt2_rnd"
+    },
+    "Truck > TruckData > Sounds > BrakesSqueal": {
+      "Sound": "trucks/tatra_force/tatra_force_brakes_squeal"
+    },
+    "Truck > TruckData > Sounds > ChassisStress": {
+      "Sound": "trucks/common/truck_stress_rnd_set/truck_stress_rnd"
+    },
+    "Truck > TruckData > Sounds > EngineAccel": {
+      "Sound": "trucks/tatra_force/tatra_force_acc"
+    },
+    "Truck > TruckData > Sounds > EngineHeavy": {
+      "Sound": "trucks/tatra_force/tatra_force_heavy"
+    },
+    "Truck > TruckData > Sounds > EngineHeavy_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/tatra_force/tatra_force_heavy_2d"
+    },
+    "Truck > TruckData > Sounds > EngineHigh": {
+      "Sound": "trucks/tatra_force/tatra_force_high"
+    },
+    "Truck > TruckData > Sounds > EngineHigh_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/tatra_force/tatra_force_high_2d"
+    },
+    "Truck > TruckData > Sounds > EngineIdle": {
+      "Sound": "trucks/tatra_force/tatra_force_idle"
+    },
+    "Truck > TruckData > Sounds > EngineIdle_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/tatra_force/tatra_force_idle_2d"
+    },
+    "Truck > TruckData > Sounds > EngineLow": {
+      "Sound": "trucks/tatra_force/tatra_force_low"
+    },
+    "Truck > TruckData > Sounds > EngineLow_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/tatra_force/tatra_force_low_2d"
+    },
+    "Truck > TruckData > Sounds > EngineRev": {
+      "Sound": "trucks/tatra_force/tatra_force_rev"
+    },
+    "Truck > TruckData > Sounds > EngineStart": {
+      "Sound": "trucks/tatra_force/tatra_force_start"
+    },
+    "Truck > TruckData > Sounds > EngineStop": {
+      "Sound": "trucks/tatra_force/tatra_force_stop"
+    },
+    "Truck > TruckData > Sounds > Handbrake": {
+      "Sound": "trucks/tatra_force/tatra_force_handbrake_on"
+    },
+    "Truck > TruckData > Sounds > HandbrakeOff": {
+      "Sound": "trucks/tatra_force/tatra_force_handbrake_off"
+    },
+    "Truck > TruckData > Sounds > Honk": {
+      "Sound": "trucks/tatra_force/tatra_force_honk"
+    },
+    "Truck > TruckData > Sounds > Reverse": {
+      "Sound": "trucks/tatra_force/tatra_force_back_beeper"
+    },
+    "Truck > TruckData > Steam": {
+      "Origin": "(1.757; 0.634; 0)"
+    },
+    "Truck > TruckData > SteeringRack": {
+      "Frame": "BoneRack",
+      "FrameSteerLeft": "BoneRackLeft",
+      "FrameSteerRight": "BoneRackRight",
+      "RackHalfSizeZ": "0.748"
+    },
+    "Truck > TruckData > SteeringWheel": {
+      "Frame": "BoneSteering"
+    },
+    "Truck > TruckData > SuspensionSocket": {
+      "Default": "mercedes_3850_suspension_default",
+      "MaxWheelRadiusWithoutSuspension": "1.5",
+      "Type": "s_mercedes_3850"
+    },
+    "Truck > TruckData > Wheels": {
+      "DefaultRim": "rim_mercedes_3850",
+      "DefaultTire": "tire_offroad_mercedes_3850",
+      "DefaultWheelType": "wheels_mercedes_3850"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(1)": {
+      "Pos": "(1.627; 0.3; 0.972)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(2)": {
+      "Pos": "(1.627; 0.3; 0.972)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(3)": {
+      "Pos": "(-2.19; 0.3; 0.802)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(4)": {
+      "Pos": "(-2.19; 0.3; 0.802)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(5)": {
+      "Pos": "(-3.698; 0.3; 0.802)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(6)": {
+      "Pos": "(-3.698; 0.3; 0.802)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > WinchUpgradeSocket": {
+      "Default": "w_medium_trucks_default",
+      "IsUpgradable": "true",
+      "Type": "winches_medium_trucks"
+    }
+  },
+  "mercedes_3850_exhaust_1_dlc_18_1": {
+    "TruckAddon > Exhaust": {
+      "Dir": "(-0.553; 0.624; 0.553)",
+      "IsLight": "false",
+      "Origin": "(0.576; 3.460; 0.894)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust_1",
+      "Category": "exhaust",
+      "Price": "1300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850ExhaustAftermarket"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_SNUB_HEATSHIELD_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_SNUB_HEATSHIELD_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_exhaust_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "None",
+      "Mass": "20",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Shakers > Shaker": {
+      "Frame": "BoneShakerExhaust",
+      "MaxAngle": "(2; 0.001; 2)",
+      "MaxFrequency": "3.9",
+      "MinAngle": "(0.3; 0.000; 0.3)",
+      "ParentFrame": "BoneCabin_cdt"
+    }
+  },
+  "mercedes_3850_exhaust_2_dlc_18_1": {
+    "TruckAddon > Exhaust:nth-of-type(1)": {
+      "Dir": "(0; 0.916; 0.400)",
+      "IsLight": "false",
+      "Origin": "(0.706; 3.484; 0.838)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > Exhaust:nth-of-type(2)": {
+      "Dir": "(0; 0.917; 0.400)",
+      "IsLight": "false",
+      "Origin": "(0.706; 3.557; 0.675)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust_1",
+      "Category": "exhaust",
+      "Price": "1400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850ExhaustAftermarket"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_SIDESPITTER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_SIDESPITTER_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_exhaust_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "None",
+      "Mass": "20",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Shakers > Shaker:nth-of-type(1)": {
+      "Frame": "BoneShakerExhaust1",
+      "MaxAngle": "(2; 2; 2)",
+      "MaxFrequency": "0.1",
+      "MinAngle": "(0.7; 0.7; 0.7)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > Shakers > Shaker:nth-of-type(2)": {
+      "Frame": "BoneShakerExhaust2",
+      "MaxAngle": "(1.6; 1.6; 1.6)",
+      "MaxFrequency": "0.1",
+      "MinAngle": "(0.5; 0.5; 0.5)",
+      "ParentFrame": "BoneCabin_cdt"
+    }
+  },
+  "mercedes_3850_exhaust_default_dlc_18_1": {
+    "TruckAddon > Exhaust": {
+      "Dir": "(-0.861; -0.508; 0)",
+      "Origin": "(-2.004; 0.263; 0.401)",
+      "ParentFrame": "BoneExhaustShaker",
+      "Speed": "2.0"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust",
+      "Category": "exhaust",
+      "Price": "1000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Exhaust"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_DEFAULT_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_exhaust_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "20",
+      "ModelFrame": "BoneChassis_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Shakers > Shaker": {
+      "Frame": "BoneExhaustShaker",
+      "MaxAngle": "(2; 0.001; 2)",
+      "MaxFrequency": "3.9",
+      "MinAngle": "(0.3; 0.000; 0.3)",
+      "ParentFrame": "BoneChassis_cdt"
+    }
+  },
+  "mercedes_3850_frame_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "3800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-4.618; 0.676; 0)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850FrameDefault"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_FRAME_DEFAULT_NAME",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_FRAME_DEFAULT_DESC"
+    },
+    "TruckAddon > GameData > WinchSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-4.618; 0.676; 0)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.566; 0.748; 1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.566; 0.748; -1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.699; 0.150; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.565; 0.748; 0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.565; 0.748; -0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.565; 0.748; 0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.565; 0.748; -0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.709; 0.232; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.566; 0.748; 1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.566; 0.748; -1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.709; 0.232; 0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_frame_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "20"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "mercedes_3850_frame_extended_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-5.656; 0.676; 0)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850FrameExtended"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_FRAME_EXTENDED_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_FRAME_EXTENDED_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-5.656; 0.676; 0)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-5.606; 0.748; 1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-5.606; 0.748; -1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-5.739; 0.150; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-5.606; 0.748; 0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-5.606; 0.748; -0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-5.606; 0.748; 0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-5.606; 0.748; -0.919)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-5.749; 0.232; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-5.606; 0.748; 1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-5.606; 0.748; -1.051)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-5.4; 0.232; 0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_frame_extended"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "170",
+      "ModelFrame": "BoneAddon_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "Collisions": "None",
+      "Mass": "80",
+      "ModelFrame": "BoneExplicit_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "mercedes_3850_horn_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "miscellenious",
+      "Price": "400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Horn"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_HORNS_TWIN_ONESIDE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_HORNS_TWIN_ONESIDE_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_horn_1"
+    }
+  },
+  "mercedes_3850_horn_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "miscellenious",
+      "Price": "300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Horn"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_HORNS_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_HORNS_STOCK_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_horn_default"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "false"
+    }
+  },
+  "mercedes_3850_protection_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "top",
+      "IsCustomizable": "true",
+      "Price": "2700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Protection"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_SAVIOR_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_SAVIOR_NAME"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.856; 3.089; -0.278)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.856; 3.089; 0.278)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(3)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.856; 3.089; 0)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.856; 3.089; -0.278)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.856; 3.089; 0.278)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(3)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.856; 3.089; 0)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(1)": {
+      "Color": "g(255; 111; 5) x 0.45",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(2.402; 2.971; 1.251)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(2)": {
+      "Color": "g(255; 111; 5) x 0.7",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(2.402; 2.971; 1.251)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(3)": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(2.402; 2.971; 1.251)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Light": {
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(2.402; 2.971; 1.251)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Model": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "Dir": "(1; 0.222; 0.563)",
+      "Org": "(2.402; 2.971; 1.251)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Reflections": "false",
+      "Scale": "(0.19; 0.19; 0.19)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(1)": {
+      "Color": "g(255; 111; 5) x 0.45",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(2.402; 2.971; -1.251)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(2)": {
+      "Color": "g(255; 111; 5) x 0.7",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(2.402; 2.971; -1.251)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(3)": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(2.402; 2.971; -1.251)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Light": {
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(2.402; 2.971; -1.251)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Model": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "Dir": "(1; 0.222; 0.563)",
+      "Org": "(2.402; 2.971; -1.251)",
+      "ParentFrame": "BoneRotatorRight",
+      "Reflections": "false",
+      "Scale": "(0.19; 0.19; 0.19)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_protection_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "50",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Rotator:nth-of-type(1)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorLeft",
+      "RotationSpeed": "3.8"
+    },
+    "TruckAddon > Rotator:nth-of-type(2)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorRight",
+      "RotationSpeed": "3.8"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.9",
+      "Type": "Gearbox"
+    }
+  },
+  "mercedes_3850_roofrack_1_dlc_18_1": {
+    "TruckAddon > FuelHide > Mesh:nth-of-type(1)": {
+      "Frame": "fuel_01",
+      "HideThreshold": "0.75"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(2)": {
+      "Frame": "fuel_02",
+      "HideThreshold": "0.5"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(3)": {
+      "Frame": "fuel_03",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "2300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Roofrack"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_roofrack_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "30",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "80",
+      "ModelFrame": "BoneFuel1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "0.02",
+      "MinLimit": "-0.03",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "1200",
+      "Spring": "2200",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneFuel2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "Collisions": "None",
+      "Mass": "80",
+      "ModelFrame": "BoneFuel3_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "0.02",
+      "MinLimit": "-0.04",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint > Motor": {
+      "Damping": "1200",
+      "Spring": "2200",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "50",
+      "ModelFrame": "BoneRepair_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "0.01",
+      "MinLimit": "-0.02",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint > Motor": {
+      "Damping": "2100",
+      "Spring": "3000",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > RepairsHide > Mesh": {
+      "Frame": "repair",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "160",
+      "RepairsCapacity": "150"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(1)": {
+      "Center": "(2.100; 3.221; -0.290)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.445",
+      "SizeY": "0.146",
+      "SizeZ": "0.325",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(2)": {
+      "Center": "(2.150; 3.223; -0.765)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.445",
+      "SizeY": "0.146",
+      "SizeZ": "0.325",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(3)": {
+      "Center": "(1.589; 3.223; -0.693)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(4)": {
+      "Center": "(1.544; 3.221; 0.056)",
+      "ParentFrame": "BoneFuel2_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(5)": {
+      "Center": "(1.544; 3.219; 0.701)",
+      "ParentFrame": "BoneFuel2_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(6)": {
+      "Center": "(1.075; 3.223; -0.596)",
+      "ParentFrame": "BoneFuel3_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(7)": {
+      "Center": "(1.091; 3.223; -0.029)",
+      "ParentFrame": "BoneFuel3_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(8)": {
+      "Center": "(1.074; 3.223; 0.689)",
+      "ParentFrame": "BoneFuel3_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    }
+  },
+  "mercedes_3850_snorkel_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "snorkel",
+      "Category": "snorkel",
+      "Price": "1100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Snorkel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SNORKEL_ROUNDCAP_SHORT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SNORKEL_ROUNDCAP_SHORT_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_snorkel_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "Default",
+      "Mass": "10",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Snorkel": {
+      "Origin": "(0.725; 2.593; -0.708)"
+    }
+  },
+  "mercedes_3850_snorkel_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "snorkel",
+      "Category": "snorkel",
+      "Price": "1700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Snorkel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SNORKEL_TALL_EXT_AIRFILTER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SNORKEL_TALL_EXT_AIRFILTER_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_snorkel_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "Default",
+      "Mass": "10",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Snorkel": {
+      "Origin": "(0.712; 2.652; -1.048)"
+    }
+  },
+  "mercedes_3850_sparewheel_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "spare_wheel",
+      "Category": "wheel_addon",
+      "Price": "1000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Sparewheel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SPARE_WHEEL_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SPARE_WHEEL_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_sparewheel"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "35",
+      "ModelFrame": "BoneWheelHolder_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "Collisions": "None",
+      "Mass": "50",
+      "ModelFrame": "BoneWheel_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "WheelRepairsCapacity": "2"
+    },
+    "TruckAddon > WheelRepairsHide > Mesh": {
+      "Frame": "wheel",
+      "HideThreshold": "0.0"
+    }
+  },
+  "mercedes_3850_visor_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "fender_front",
+      "Price": "1000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Visor"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SUNVISOR_ANGLED_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SUNVISOR_ANGLED_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_visor_1"
+    }
+  },
+  "mercedes_3850_visor_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "fender_front",
+      "Price": "1100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Visor"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SUNVISOR_NAVISTAR_DARKSLANT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SUNVISOR_NAVISTAR_DARKSLANT_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 140; 0) x 0.5",
+      "Dir": "(0; 0; -1)",
+      "DirAngle": "110",
+      "Pos": "(2.797; 2.728; -0.838)",
+      "Size": "0.5"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "AspectRatio": "1",
+      "Color": "g(255; 140; 0) x 0.5",
+      "Dir": "(0; 0; -1)",
+      "DirAngle": "110",
+      "Pos": "(2.797; 2.728; 0.838)",
+      "Size": "0.5"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_visor_2"
+    }
+  },
+  "mercedes_3850_visor_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "fender_front",
+      "Price": "800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850VisorDefault"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SUNVISOR_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SUNVISOR_STOCK_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.695; 2.777; 0.870)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.695; 2.777; -0.870)",
+      "Size": "0.4"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_visor_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "8",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "mercedes_3850_wings_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "fender_rear",
+      "Price": "600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "Mercedes3850Wings"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_REAR_FENDERS_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_REAR_FENDERS_STOCK_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_3850_tuning/mercedes_3850_wings_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "10",
+      "ModelFrame": "BoneAddonRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "Collisions": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Rigid"
+    }
+  },
   "mercedes_benz_actros_6x6_beacon_1_dlc_17_5": {
     "TruckAddon > GameData": {
       "CameraPreset": "roof",
@@ -25649,7 +32491,7 @@ export default {
     },
     "Truck > GameData": {
       "Country": "US,NE,CAS,CE,WA",
-      "ExcludeAddons": "pacific_p16_trailer_log_pole, trailer_log_pole_zikz_612h",
+      "ExcludeAddons": "pacific_p16_trailer_log_pole, trailer_log_pole_zikz_612h, frame_addon_sideboard_2, saddle_low, minicrane_us",
       "Price": "121000",
       "UnlockByExploration": "false",
       "UnlockByRank": "1"
@@ -25693,208 +32535,327 @@ export default {
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1)": {
       "Names": "LogLiftPaderaSTD4",
-      "NamesBlock": "FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddon, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, MercedesBenzActrosSubframe, SaddleLow",
+      "NamesBlock": "FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddon, FrameAddonMercedesActros, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, MercedesBenzActrosSubframe, SaddleLow, FrameAddonMantainerMercedesActros",
       "Offset": "(-0.6; -0.08; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.45; 0.15; 0)",
+      "Types": "SaddleLowMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.45; 0.15; 0)",
+      "Types": "SaddleHighMercedesActros"
+    },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneCabinTwist_cdt",
-      "Offset": "(0; -0.15; -0.04)"
+      "Offset": "(0; 0.0; -0.04)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneCabinTwist_cdt",
-      "Offset": "(0; -0.15; 0.04)"
+      "Offset": "(0; 0.0; 0.04)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(2)": {
       "Names": "MinicraneUS",
-      "NamesBlock": "FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddon, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, MercedesBenzActrosSubframe, SaddleHighMercedesActros",
+      "NamesBlock": "FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddon, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, MercedesBenzActrosSubframe, SaddleHighMercedesActros, SaddleLowMercedesActros, FrameAddonMantainerMercedesActros",
       "Offset": "(0.55; 1.28; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3)": {
-      "Names": "CraneMercedesActros",
-      "NamesBlock": "FrameAddonLogShort, BigCraneUs, FrameAddonSeismicVibratorPaderaSTD4, SaddleMotorized, SaddleLow",
-      "Offset": "(0.6; -0.29; 0)",
+      "Names": "MinicraneUSInverted",
+      "NamesBlock": "FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, FrameAddonMantainerMercedesActros",
+      "Offset": "(1.05; 1.35; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(1)": {
-      "Offset": "(0.35; 0.24; 0)",
+      "Offset": "(0; 0.24; 0)",
       "Types": "MercedesBenzActrosSubframe"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(2)": {
-      "Offset": "(0.35; 0.24; 0)",
+      "Offset": "(0; 0.24; 0)",
       "Types": "SaddleHighMercedesActros"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(3)": {
-      "Offset": "(0.35; 0.24; 0)",
-      "Types": "SaddleLow"
+      "Offset": "(0; 0.24; 0)",
+      "Types": "SaddleLowMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; -0.07; 0.02)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; -0.07; -0.02)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4)": {
+      "Names": "CraneMercedesActros",
+      "NamesBlock": "FrameAddonLogShort, BigCraneUs, FrameAddonSeismicVibratorPaderaSTD4, SaddleMotorized, SaddleLow, FrameAddonMantainerMercedesActros",
+      "Offset": "(0.6; -0.29; 0)",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(0.35; 0.24; 0)",
+      "Types": "MercedesBenzActrosRoofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(0.35; 0.24; 0)",
+      "Types": "MercedesBenzActrosSubframe"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.35; -0.24; 0)",
+      "Types": "MercedesBenzActrosSubframe, MercedesBenzActrosRoofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(0.35; 0.24; 0)",
+      "Types": "SaddleHighMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(5)": {
+      "Offset": "(-0.35; -0.24; 0)",
+      "Types": "SaddleHighMercedesActros, MercedesBenzActrosRoofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(6)": {
+      "Offset": "(0.35; 0.24; 0)",
+      "Types": "SaddleLowMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(7)": {
+      "Offset": "(-0.35; -0.24; 0)",
+      "Types": "SaddleLowMercedesActros, MercedesBenzActrosRoofrack"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(5)": {
       "Names": "BigCraneUs",
-      "NamesBlock": "MercedesBenzActrosTop, MercedesBenzActrosRoofrack, MercedesBenzActrosBeacon, FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, BunkLog, FrameAddon, SaddleHighMercedesActros, SaddleLow, SaddleLow",
+      "NamesBlock": "MercedesBenzActrosTop, MercedesBenzActrosRoofrack, MercedesBenzActrosBeacon, FrameAddonTank, FrameAddonLogShort, BigCraneUs, FrameAddonMercedesActros, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonKung, SaddleMotorized, BunkLog, FrameAddon, SaddleHighMercedesActros, SaddleLow, SaddleLowMercedesActros, FrameAddonMantainerMercedesActros",
       "Offset": "(-1.900; 1.280; 0)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > AddonsShift": {
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(5) > AddonsShift": {
       "Offset": "(0.0; 0.15; 0)",
       "Types": "MercedesBenzActrosSubframe"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(1)": {
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(5) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; 0.05)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(2)": {
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(5) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; -0.05)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1)": {
-      "Names": "FrameAddon",
-      "NamesBlock": "SaddleLow",
-      "Offset": "(-1.4; 1.28; 0)",
+      "Names": "FrameAddonMercedesActros",
+      "NamesBlock": "",
+      "Offset": "(-1.55; 1.245; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
-      "Offset": "(-0.25; 0.15; 0)",
+      "Offset": "(-0.34; 0.15; 0)",
       "Types": "MercedesBenzActrosSubframe"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
-      "Offset": "(-0.15; 0; 0)",
-      "Types": "CraneMercedesActros"
+      "Offset": "(-0.35; 0; 0)",
+      "TrailerNamesBlock": "Trailer, LogTrailer",
+      "Types": "MinicraneUSInverted, MercedesBenzActrosSubframeDefault"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(1)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.2; 0; 0.1)"
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.05; 0; 0)",
+      "Types": "MinicraneUSInverted, MercedesBenzActrosSubframe"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(2)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.2; 0; -0.1)"
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.5; 0; 0)",
+      "TrailerNamesBlock": "Trailer, LogTrailer",
+      "Types": "CraneMercedesActros, MercedesBenzActrosSubframeDefault"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
-      "Names": "FrameAddonTank",
-      "NamesBlock": "SaddleLow",
-      "Offset": "(-2.250; 1.280; 0)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift": {
-      "Offset": "(-0.55; 0.15; 0)",
-      "Types": "MercedesBenzActrosSubframe"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(1)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(0; 0; 0.05)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(2)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(0; 0; -0.05)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3)": {
-      "Names": "FrameAddonKung",
-      "NamesBlock": "SaddleLow",
-      "Offset": "(-1.9; 1.36; 0)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(1)": {
-      "Offset": "(-0.2; 0.1; 0)",
-      "Types": "MercedesBenzActrosSubframe"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(2)": {
-      "Offset": "(-0.2; 0; 0)",
-      "Types": "CraneMercedesActros"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(3)": {
-      "Offset": "(-0.4; 0; 0)",
-      "Types": "MercedesBenzActrosSubframeDefault, CraneMercedesActros"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.15; 0; -0.05)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.15; 0; 0.05)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4)": {
-      "Names": "FrameAddonSeismicVibratorPaderaSTD4",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
-      "Offset": "(0.8; 1.280; -0.000)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5)": {
-      "Names": "FrameAddonLogShort",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
-      "Offset": "(-1.276; 1.280; 0)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(6)": {
-      "Names": "BunkLog",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
-      "Offset": "(-5.8; 1.280; 0)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7)": {
-      "Names": "SaddleHighMercedesActros",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
-      "Offset": "(0; 0; 0)",
-      "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7) > ExtraParent": {
-      "Frame": "BoneCabinTwist_cdt",
-      "Offset": "(0; 0; 0)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(10)": {
       "Names": "SaddleLow",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
+      "NamesBlock": "MercedesBenzActrosSubframe",
       "Offset": "(-2.342; 1.280; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(1)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(10) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; 0.045)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(2)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(10) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; -0.045)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(3)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(10) > ExtraParent:nth-of-type(3)": {
       "Frame": "BoneCabinTwist_cdt",
       "Offset": "(0; 0; 0)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(11)": {
+      "Names": "SaddleLowMercedesActros",
+      "NamesBlock": "MercedesBenzActrosSubframe",
+      "Offset": "(-2.342; 1.280; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.045)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.045)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(11) > ExtraParent:nth-of-type(3)": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12)": {
       "Names": "SaddleMotorized",
-      "NamesBlock": "MercedesBenzActrosSubframe, SaddleLow",
+      "NamesBlock": "MercedesBenzActrosSubframe",
       "Offset": "(-1.75; -0.03; 0.000)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(1)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0.000; 0.000; 0.08)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(2)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0.000; 0.000; -0.08)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(3)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(3)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(1.100; 0.000; 0.07)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(4)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(4)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(1.100; 0.000; -0.07)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(5)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(12) > ExtraParent:nth-of-type(5)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(1.100; 0.000; 0.000)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
+      "Names": "FrameAddon",
+      "NamesBlock": "",
+      "Offset": "(-1.4; 1.28; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.25; 0.15; 0)",
+      "Types": "MercedesBenzActrosSubframe"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.15; 0; 0)",
+      "Types": "CraneMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.6; 0; 0)",
+      "TrailerNamesBlock": "Trailer, LogTrailer",
+      "Types": "MinicraneUSInverted, MercedesBenzActrosSubframeDefault"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.35; 0; 0)",
+      "Types": "MinicraneUSInverted, MercedesBenzActrosSubframe"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.2; 0; 0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.2; 0; -0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3)": {
+      "Names": "FrameAddonTank",
+      "NamesBlock": "",
+      "Offset": "(-2.250; 1.280; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift": {
+      "Offset": "(-0.55; 0.15; 0)",
+      "Types": "MercedesBenzActrosSubframe"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4)": {
+      "Names": "FrameAddonKung",
+      "NamesBlock": "",
+      "Offset": "(-1.9; 1.36; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.2; 0.1; 0)",
+      "Types": "MercedesBenzActrosSubframe"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.2; 0; 0)",
+      "Types": "CraneMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.4; 0; 0)",
+      "Types": "MercedesBenzActrosSubframeDefault, CraneMercedesActros"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.15; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.15; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5)": {
+      "Names": "FrameAddonMantainerMercedesActros",
+      "NamesBlock": "MercedesBenzActrosSubframeDefault, MercedesBenzActrosSubframe",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.15; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.15; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(6)": {
+      "Names": "FrameAddonSeismicVibratorPaderaSTD4",
+      "NamesBlock": "MercedesBenzActrosSubframe",
+      "Offset": "(0.8; 1.280; -0.000)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7)": {
+      "Names": "FrameAddonLogShort",
+      "NamesBlock": "MercedesBenzActrosSubframe",
+      "Offset": "(-1.276; 1.280; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8)": {
+      "Names": "BunkLog",
+      "NamesBlock": "MercedesBenzActrosSubframe",
+      "Offset": "(-5.8; 1.280; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9)": {
+      "Names": "SaddleHighMercedesActros",
+      "NamesBlock": "MercedesBenzActrosSubframe",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; 0; 0)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1)": {
       "Names": "Trailer, LogTrailer",
       "Offset": "(-3.955; 1.121; 0)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1) > AddonsShift": {
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
       "Offset": "(-0.5; 0.0; 0)",
       "Types": "MercedesBenzActrosSubframe"
     },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.62; -0.25; 0)",
+      "Types": "FrameAddonMantainerMercedesActros"
+    },
     "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(2)": {
       "Names": "Semitrailer, SemitrailerOiltank",
-      "Offset": "(-2.352; 1.619; 0)"
+      "Offset": "(-2.352; 1.54; 0)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(3)": {
       "Names": "LargeSemitrailer, LargeSemitrailerOiltank",
@@ -26036,15 +32997,6 @@ export default {
     },
     "Truck > GameData > CraneSocket:nth-of-type(2)": {
       "Pos": "(-0.810; 1.152; -0.395)"
-    },
-    "Truck > GameData > CraneSocket:nth-of-type(3)": {
-      "Pos": "(-3.955; 1.121; 0)"
-    },
-    "Truck > GameData > CraneSocket:nth-of-type(4)": {
-      "Pos": "(-4.042; 0.524; 1.054)"
-    },
-    "Truck > GameData > CraneSocket:nth-of-type(5)": {
-      "Pos": "(-4.042; 0.524; -1.054)"
     },
     "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(1)": {
       "FOV": "32.0",
@@ -26247,75 +33199,10 @@ export default {
     "Truck > GameData > WinchSocket:nth-of-type(2)": {
       "Pos": "(-0.810; 1.152; -0.395)"
     },
-    "Truck > GameData > WinchSocket:nth-of-type(3)": {
-      "Pos": "(-3.955; 1.121; 0)"
-    },
-    "Truck > GameData > WinchSocket:nth-of-type(4)": {
-      "Pos": "(-4.042; 0.524; 1.054)"
-    },
-    "Truck > GameData > WinchSocket:nth-of-type(5)": {
-      "Pos": "(-4.042; 0.524; -1.054)"
-    },
     "Truck > Landmark": {
       "MaxScale": "3.2",
       "Mesh": "landmarks/mercedes_benz_actros_6x6_lmk",
       "MinScale": "1.8"
-    },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.960; 0.910; 0.990)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.960; 0.910; -0.990)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > Ignition > Light": {
-      "Pos": "(-4.541; 0.439; 0)"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
-      "Color": "g(245; 235; 220) x 0.6",
-      "Pos": "(-3.960; 0.911; 0.819)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
-      "Color": "g(245; 235; 220) x 0.6",
-      "Pos": "(-3.960; 0.911; -0.819)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
-      "Color": "g(220; 220; 255) x 0.05",
-      "Dir": "(-1; 0; 0)",
-      "Pos": "(-3.960; 0.911; 0.819)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
-      "Color": "g(220; 220; 255) x 0.05",
-      "Dir": "(-1; 0; 0)",
-      "Pos": "(-3.960; 0.911; -0.819)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Light": {
-      "Pos": "(-4.002; 0.892; 0)"
-    },
-    "Truck > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
-      "AspectRatio": "3",
-      "Color": "g(255; 0; 0) x 0.3",
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.960; 0.910; 0.990)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
-      "AspectRatio": "3",
-      "Color": "g(255; 0; 0) x 0.3",
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.960; 0.910; -0.990)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > StopSignals > Light": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-4.002; 0.892; 0)"
     },
     "Truck > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_actros_6x6"
@@ -26458,7 +33345,7 @@ export default {
       "ParentFrame": "BoneChassis_cdt"
     },
     "Truck > TruckData > Camera": {
-      "Center": "(-1.1; -0.25; 0)",
+      "Center": "(-2.3; -0.25; 0)",
       "ParentFrame": "BoneCabin_cdt",
       "RadiusMultiplier": "1.2"
     },
@@ -27816,6 +34703,15 @@ export default {
       "UnlockByExploration": "false",
       "UnlockByRank": "1"
     },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "Pos": "(-3.955; 1.121; 0)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "Pos": "(-4.042; 0.524; 1.054)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "Pos": "(-4.042; 0.524; -1.054)"
+    },
     "TruckAddon > GameData > InstallSocket": {
       "Type": "MercedesBenzActrosSubframeDefault"
     },
@@ -27824,6 +34720,71 @@ export default {
       "UiIcon30x30": "",
       "UiIcon40x40": "",
       "UiName": "UI_TUNING_FRAME_DEFAULT_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "Pos": "(-3.955; 1.121; 0)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "Pos": "(-4.042; 0.524; 1.054)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "Pos": "(-4.042; 0.524; -1.054)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-3.960; 0.910; 0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-3.960; 0.910; -0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.541; 0.439; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.960; 0.911; 0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.960; 0.911; -0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.960; 0.911; 0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.960; 0.911; -0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.002; 0.892; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-3.960; 0.910; 0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-3.960; 0.910; -0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.002; 0.892; 0)"
     },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_subframe_default"
@@ -27854,6 +34815,15 @@ export default {
       "UnlockByExploration": "false",
       "UnlockByRank": "1"
     },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "Pos": "(-4.46; 1.121; 0)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "Pos": "(-4.55; 0.524; 1.054)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "Pos": "(-4.55; 0.524; -1.054)"
+    },
     "TruckAddon > GameData > InstallSocket": {
       "Type": "MercedesBenzActrosSubframe"
     },
@@ -27862,6 +34832,71 @@ export default {
       "UiIcon30x30": "",
       "UiIcon40x40": "",
       "UiName": "UI_TUNING_FRAME_EXTENDED_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "Pos": "(-4.46; 1.121; 0)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "Pos": "(-4.55; 0.524; 1.054)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "Pos": "(-4.55; 0.524; -1.054)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.472; 0.910; 0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.472; 0.910; -0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.472; 0.439; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.472; 0.911; 0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.472; 0.911; -0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.472; 0.911; 0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.472; 0.911; -0.819)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.002; 0.892; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.472; 0.910; 0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.472; 0.910; -0.990)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneAddon_cdt",
+      "Pos": "(-4.472; 0.892; 0)"
     },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_actros_6x6_tuning/mercedes_benz_actros_6x6_subframe"
@@ -29051,7 +36086,7 @@ export default {
     },
     "Truck > GameData": {
       "Country": "US,NE,CAS,CE,WA",
-      "ExcludeAddons": "trailer_log_pole_zikz_612h",
+      "ExcludeAddons": "trailer_log_pole_zikz_612h, minicrane_us",
       "Price": "122000",
       "UnlockByExploration": "false",
       "UnlockByRank": "1"
@@ -29097,22 +36132,10 @@ export default {
       "Offset": "(0; 0; 0.0)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1)": {
-      "Names": "FrameAddonMercedesZetros",
+      "Names": "FrameAddonMercedesZetrosKung",
       "NamesBlock": "",
-      "Offset": "(-2.1; 1.445; 0)",
+      "Offset": "(-4.48; 1.86; 0)",
       "ParentFrame": "BoneChassis_cdt"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift": {
-      "Offset": "(-0.35; 0.0; 0)",
-      "Types": "CraneAvenhornA15"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(1)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.05; 0; 0.15)"
-    },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(2)": {
-      "Frame": "BoneChassis_cdt",
-      "Offset": "(-0.05; 0; -0.15)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
       "Names": "FrameAddonTankMercedesZetros",
@@ -29143,56 +36166,74 @@ export default {
       "Offset": "(0; 0; 0.1)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4)": {
+      "Names": "FrameAddonMercedesZetros",
+      "NamesBlock": "",
+      "Offset": "(-2.1; 1.41; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > AddonsShift": {
+      "Offset": "(-0.35; 0.0; 0)",
+      "Types": "CraneAvenhornA15"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.05; 0; 0.15)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(-0.05; 0; -0.15)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5)": {
       "Names": "FrameAddonSeismicVibratorMercedesZetros",
       "NamesBlock": "",
       "Offset": "(0.35; 1.44; 0.0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(5)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(6)": {
       "Names": "FrameAddonLogShortMercedesZetros",
       "NamesBlock": "",
       "Offset": "(-1.75; 1.44; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(6)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7)": {
       "Names": "BunkLogMercedesZetros",
       "NamesBlock": "",
       "Offset": "(-6.0; 1.44; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(6) > AddonsShift": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7) > AddonsShift": {
       "Offset": "(-0.4; 0.0; 0)",
       "Types": "LogLiftMercedesZetros"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8)": {
       "Names": "SaddleLow",
       "NamesBlock": "",
       "Offset": "(-2.465; 1.335; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7) > ExtraParent:nth-of-type(1)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; 0.045)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(7) > ExtraParent:nth-of-type(2)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; -0.045)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9)": {
       "Names": "SaddleHighMercedesZetros",
       "NamesBlock": "",
       "Offset": "(0; 0; 0)",
       "ParentFrame": "BoneChassis_cdt"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(1)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(1)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; 0.0)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(2)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(2)": {
       "Frame": "BoneChassis_cdt",
       "Offset": "(0; 0; 0.0)"
     },
-    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(3)": {
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(3)": {
       "Frame": "BoneCabinTwist_cdt",
       "Offset": "(0; 0; 0.0)"
     },
@@ -29214,7 +36255,7 @@ export default {
     },
     "Truck > GameData > AddonSockets:nth-of-type(15) > Socket:nth-of-type(1)": {
       "Names": "LogLiftMercedesZetros",
-      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros",
+      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros, FrameAddonMercedesZetrosKung",
       "Offset": "(-1.3; -0.065; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
@@ -29224,7 +36265,7 @@ export default {
     },
     "Truck > GameData > AddonSockets:nth-of-type(15) > Socket:nth-of-type(2)": {
       "Names": "MinicraneUS",
-      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros",
+      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros, FrameAddonMercedesZetrosKung",
       "Offset": "(-0.05; 1.295; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
@@ -29242,7 +36283,7 @@ export default {
     },
     "Truck > GameData > AddonSockets:nth-of-type(15) > Socket:nth-of-type(3)": {
       "Names": "CraneAvenhornA15",
-      "NamesBlock": "FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros",
+      "NamesBlock": "FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros, FrameAddonMercedesZetrosKung",
       "Offset": "(-0.05; -0.26; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
     },
@@ -29260,7 +36301,7 @@ export default {
     },
     "Truck > GameData > AddonSockets:nth-of-type(15) > Socket:nth-of-type(4)": {
       "Names": "BigCraneUsMercedesZetros",
-      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros, BunkLogMercedesZetros, SaddleHighMercedesZetros",
+      "NamesBlock": "FrameAddonMercedesZetros, FrameAddonTankMercedesZetros, FrameAddonKung, FrameAddonSeismicVibratorMercedesZetros, FrameAddonLogShortMercedesZetros, SaddleMotorizedMercedesZetros, BunkLogMercedesZetros, SaddleHighMercedesZetros, FrameAddonMercedesZetrosKung",
       "Offset": "(-2.6; 1.445; 0)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(15) > Socket:nth-of-type(4) > ExtraParent:nth-of-type(1)": {
@@ -29645,102 +36686,46 @@ export default {
       "MinScale": "1.8"
     },
     "Truck > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.986; 0.961; 0.850)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.986; 0.961; -0.850)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
       "ParentFrame": "BoneCabin_cdt",
       "Pos": "(4.126; 1.416; 1.047)",
       "Size": "0.45"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
       "ParentFrame": "BoneCabin_cdt",
       "Pos": "(4.126; 1.416; -1.047)",
       "Size": "0.45"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
       "Dir": "(0; 0; 1)",
       "ParentFrame": "BoneCabinTwist_cdt",
       "Pos": "(3.764; 1.397; 1.256)",
       "Size": "0.15"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
       "Dir": "(0; 0; -1)",
       "ParentFrame": "BoneCabinTwist_cdt",
       "Pos": "(3.764; 1.397; -1.256)",
       "Size": "0.15"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
       "Dir": "(0; 0; 1)",
       "ParentFrame": "BoneCabinTwist_cdt",
       "Pos": "(1.617; 1.004; 1.205)",
       "Size": "0.15"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(8)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
       "AspectRatio": "0.5",
       "Dir": "(0; 0; 1)",
       "ParentFrame": "BoneCabinTwist_cdt",
       "Pos": "(-0.998; 1.068; 1.218)",
       "Size": "0.25"
     },
-    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(9)": {
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(7)": {
       "AspectRatio": "0.5",
       "Dir": "(0; 0; -1)",
       "ParentFrame": "BoneCabinTwist_cdt",
       "Pos": "(-0.998; 1.068; -1.218)",
       "Size": "0.25"
-    },
-    "Truck > ModelAttachments > Ignition > Light": {
-      "Pos": "(-4.047; 0.790; 0)"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
-      "Color": "g(245; 235; 220) x 0.6",
-      "Pos": "(-3.986; 0.931; 1.040)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
-      "Color": "g(245; 235; 220) x 0.6",
-      "Pos": "(-3.986; 0.931; -1.040)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
-      "Color": "g(220; 220; 255) x 0.05",
-      "Dir": "(-1; 0; 0)",
-      "Pos": "(-3.986; 0.931; 1.040)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
-      "Color": "g(220; 220; 255) x 0.05",
-      "Dir": "(-1; 0; 0)",
-      "Pos": "(-3.986; 0.931; -1.040)",
-      "Size": "0.4"
-    },
-    "Truck > ModelAttachments > ReverseSignals > Light": {
-      "Pos": "(-4.331; 0.439; 0)"
-    },
-    "Truck > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
-      "AspectRatio": "3",
-      "Color": "g(255; 0; 0) x 0.3",
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.986; 0.961; 0.850)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
-      "AspectRatio": "3",
-      "Color": "g(255; 0; 0) x 0.3",
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-3.986; 0.961; -0.850)",
-      "Size": "0.3"
-    },
-    "Truck > ModelAttachments > StopSignals > Light": {
-      "ParentFrame": "BoneChassis_cdt",
-      "Pos": "(-4.331; 0.439; 0)"
     },
     "Truck > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_zetros_6x6"
@@ -30971,6 +37956,62 @@ export default {
       "FixedToTruck": "true",
       "Pos": "(-3.955; 1.121; 0)"
     },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.047; 0.790; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.986; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.986; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.986; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.986; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.331; 0.439; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.331; 0.439; 0)"
+    },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_subframe_default"
     },
@@ -31016,6 +38057,62 @@ export default {
     "TruckAddon > GameData > WinchSocket": {
       "FixedToTruck": "true",
       "Pos": "(-4.944; 1.000; 0.000)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.934; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.934; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.934; 0.790; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.934; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-4.934; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.934; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-4.934; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.331; 0.439; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.934; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.934; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.934; 0.439; 0)"
     },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_subframe"
@@ -31078,6 +38175,2240 @@ export default {
     },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/mercedes_benz_zetros_6x6_tuning/mercedes_benz_zetros_6x6_visor_2"
+    }
+  },
+  "mercedes_mamute_1519_bumper_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.179; 1.452; 0.379)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.179; 1.452; -0.379)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.181; 1.371; 0)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_TOWLOOPS_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_TOWLOOPS_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.179; 1.452; 0.379)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.181; 1.371; 0)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.945; 1.377; 0.000)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(4.031; 2.029; -0.259)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(4.031; 2.029; 0.259)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(4.031; 2.029; -0.259)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(4.031; 2.029; 0.259)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(4.031; 2.029; -0.259)",
+      "Size": ".2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(4.031; 2.029; 0.259)",
+      "Size": ".2"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "60",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneLoopR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLoopL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.75",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_mamute_1519_bumper_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "1200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.275; 1.400; -0.431)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.275; 1.400; 0.431)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_HEAVYDUTY_PIPE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_HEAVYDUTY_PIPE_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.275; 1.400; -0.431)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.275; 1.400; 0.431)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.941; 1.395; -0.839)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.941; 1.395; 0.839)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.941; 1.395; -0.839)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(3.941; 1.395; 0.839)"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.941; 1.395; -0.839)",
+      "Size": ".2"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(3.941; 1.395; 0.839)",
+      "Size": ".2"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "50",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ModelFrame": "BoneHook_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "0.85",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_mamute_1519_bumper_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "bumper",
+      "Price": "800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.031; 1.306; -0.550)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.031; 1.306; 0.550)"
+    },
+    "TruckAddon > GameData > CraneSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.945; 1.377; 0.000)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Bumper"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_BUMPER_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_BUMPER_STOCK_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(1)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.031; 1.306; -0.550)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(2)": {
+      "FixedToTruck": "true",
+      "Pos": "(4.031; 1.306; 0.550)"
+    },
+    "TruckAddon > GameData > WinchSocket:nth-of-type(3)": {
+      "FixedToTruck": "true",
+      "Pos": "(3.945; 1.377; 0.000)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_bumper_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "28",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneLoopR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLoopL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier": {
+      "Multiplier": "1.0",
+      "Type": "Engine"
+    }
+  },
+  "mercedes_mamute_1519_diff_lock_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "default",
+      "Category": "diff_lock",
+      "Price": "0",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519DiffLock"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_UPGRADE_DIFF_LOCK_SWITCHABLE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_UPGRADE_DIFF_LOCK_SWITCHABLE_NAME"
+    },
+    "TruckAddon > TruckData": {
+      "DiffLockInstalled": "true"
+    }
+  },
+  "mercedes_mamute_1519_dlc_18_1": {
+    "Truck > AutomaticIK > IKBone": {
+      "ModelFrame": "BoneTieRodHinge",
+      "ParentFrame": "BoneTieRod_cdt"
+    },
+    "Truck > AutomaticIK > IKBone > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRackL",
+      "ModelFrame": "BoneTieRodPrsimatic"
+    },
+    "Truck > AutomaticIK > IKBone > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "Truck > AutomaticIK > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "Truck > ControlledConstraints > Constraint:nth-of-type(1)": {
+      "Id": "chassis_steer",
+      "IsLinkedSteering": "true",
+      "Name": "TieRod"
+    },
+    "Truck > ControlledConstraints > Constraint:nth-of-type(2)": {
+      "Id": "chassis_steer",
+      "IsLinkedSteering": "true",
+      "Name": "SteeringRod"
+    },
+    "Truck > GameData": {
+      "Country": "US,NE,CE,CA",
+      "ExcludeAddons": "frame_addon_sideboard_2, trailer_log_pole_zikz_612h, pacific_p16_trailer_log_pole",
+      "Price": "113300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(1)": {
+      "DefaultAddon": "mercedes_mamute_1519_exhaust_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(1) > Socket": {
+      "Names": "MercedesMamute1519Exhaust",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10)": {
+      "DefaultAddon": "mercedes_mamute_1519_frame_default",
+      "RequiredAddonIfNoConflicts": "mercedes_mamute_1519_frame_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(10) > Socket": {
+      "Names": "MercedesMamute1519FrameDefault",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1)": {
+      "Names": "FrameAddon",
+      "Offset": "(-1.3; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.65; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "MinicraneUSMercedesMamute"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(1) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.1)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10)": {
+      "Names": "BunkLog",
+      "Offset": "(-5.55; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.4; 0; 0)",
+      "Types": "LogLiftPaderaSTD4, MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.45; 0; 0)",
+      "Types": "LogLiftPaderaSTD4, MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MinicraneUSMercedesMamute, MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(10) > AddonsShift:nth-of-type(4)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MinicraneUSMercedesMamute, MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(11)": {
+      "Names": "FrameAddonLogShortMercedesMamute",
+      "NamesBlock": "MercedesMamute1519FrameDefault",
+      "Offset": "(0.827; 1.68; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2)": {
+      "Names": "MercedesMamute1519Sideboard",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(2) > AddonsShift": {
+      "Offset": "(-0.39; 0; 0)",
+      "Types": "MinicraneUSMercedesMamute"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(3)": {
+      "Names": "MercedesMamute1519Kung",
+      "Offset": "(0; 0; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4)": {
+      "Names": "FrameAddonTank",
+      "Offset": "(-1.9; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.6; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(4) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.65; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(5)": {
+      "Names": "FrameAddonMaintainer",
+      "NamesBlock": "MercedesMamute1519Sparewheel, MercedesMamute1519Sparewheel02",
+      "Offset": "(-1.65; 0.508; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6)": {
+      "Names": "FrameAddonTow",
+      "Offset": "(-2.02; 1.529; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.18; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(6) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.22; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(7)": {
+      "Names": "FrameAddonSeismicVibratorPaderaSTD4",
+      "Offset": "(0.82; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(7) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(7) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8)": {
+      "Names": "SaddleHigh",
+      "NamesBlock": "",
+      "Offset": "(-2; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > AddonsShift": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "LogLiftPaderaSTD4"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.012)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(8) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.012)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9)": {
+      "Names": "SaddleLow2",
+      "NamesBlock": "",
+      "Offset": "(-2.3; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9) > AddonsShift": {
+      "Offset": "(-0.2; 0; 0)",
+      "Types": "LogLiftPaderaSTD4"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; -0.03)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(11) > Socket:nth-of-type(9) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneChassis_cdt",
+      "Offset": "(0; 0; 0.03)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1)": {
+      "Names": "BigCraneUs",
+      "NamesBlock": "FrameAddon, MercedesMamute1519Sideboard, MercedesMamute1519Kung, FrameAddonTank, FrameAddonTow, FrameAddonMaintainer, BigCraneUs, FrameAddonSeismicVibratorPaderaSTD4, BunkLog, SaddleHigh, SaddleLow2, FrameAddonLogShortMercedesMamute, MercedesMamute1519Protection",
+      "Offset": "(-1.6; 1.539; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.6; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.6; 0; 0)",
+      "TrailerNamesBlock": "Trailer",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(2)": {
+      "Names": "MinicraneUSMercedesMamute",
+      "NamesBlock": "FrameAddonTank, FrameAddonTow, FrameAddonMaintainer, BigCraneUs, MercedesMamute1519Kung, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonLogShortMercedesMamute",
+      "Offset": "(0.8; 1.539; 0)",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.5; 0; 0)",
+      "TrailerNamesBlock": "FrameAddon, MercedesMamute1519Sideboard",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(2) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.65; 0; 0)",
+      "TrailerNamesBlock": "FrameAddon, MercedesMamute1519Sideboard",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3)": {
+      "Names": "LogLiftPaderaSTD4",
+      "NamesBlock": "FrameAddon, FrameAddonTank, FrameAddonTow, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonMaintainer, BigCraneUs, MercedesMamute1519Sideboard, MercedesMamute1519Kung, FrameAddonLogShortMercedesMamute",
+      "Offset": "(-0.6; 0.18; 0)",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.4; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.45; 0; 0)",
+      "Types": "MercedesMamute1519Sparewheel02"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(1)": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; 0; -0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(12) > Socket:nth-of-type(3) > ExtraParent:nth-of-type(2)": {
+      "Frame": "BoneCabinTwist_cdt",
+      "Offset": "(0; 0; 0.05)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1)": {
+      "Names": "Trailer",
+      "NamesBlock": "FrameAddonTow, FrameAddonSeismicVibratorPaderaSTD4, FrameAddonMaintainer",
+      "Offset": "(-4.131; 1.439; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(1)": {
+      "Offset": "(-0.44; -0.055; 0)",
+      "Types": "MercedesMamute1519Sideboard"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(2)": {
+      "Offset": "(-0.39; 0.0; 0)",
+      "Types": "MercedesMamute1519Sideboard, MinicraneUSMercedesMamute"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(1) > AddonsShift:nth-of-type(3)": {
+      "Offset": "(-0.85; 0; 0)",
+      "Types": "FrameAddonLogShortMercedesMamute"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
+      "Names": "Semitrailer, SemitrailerOiltank",
+      "Offset": "(-2.303; 1.78; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift": {
+      "Offset": "(-0.2; 0; 0)",
+      "Types": "LogLiftPaderaSTD4"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3)": {
+      "Names": "LargeSemitrailer, LargeSemitrailerOiltank",
+      "Offset": "(-2.003; 2.004; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(3) > AddonsShift": {
+      "Offset": "(-0.3; 0; 0)",
+      "Types": "LogLiftPaderaSTD4"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(14) > Socket": {
+      "InCockpit": "true",
+      "Names": "StuffAirfreshener",
+      "Offset": "(2.658; 3.19; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(15) > Socket": {
+      "InCockpit": "true",
+      "Names": "StuffHoodMercedesMamute1519",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(16) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_01",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(17) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_02",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(18) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_03",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(19) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_04",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2)": {
+      "DefaultAddon": "mercedes_mamute_1519_bumper_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket": {
+      "Names": "MercedesMamute1519Bumper",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(20) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_05",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(21) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x1_06",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(22) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x2_01",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(23) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_1x4_01",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(24) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_Glass_Top",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(25) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_Glass_Bottom",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(26) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_Door_L",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(27) > Socket": {
+      "InCockpit": "true",
+      "Names": "MercedesMamute1519Sticker_Door_R",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(3)": {
+      "DefaultAddon": "mercedes_mamute_1519_mudguard_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(3) > Socket": {
+      "Names": "MercedesMamute1519Mudguard",
+      "NamesBlock": "FrameAddonTank, FrameAddonMaintainer, BigCraneUs, MercedesMamute1519Sparewheel02, SaddleHigh, SaddleLow2",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(4)": {
+      "DefaultAddon": "mercedes_mamute_1519_sparewheel"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(4) > Socket:nth-of-type(1)": {
+      "Names": "MercedesMamute1519Sparewheel",
+      "NamesBlock": "",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(4) > Socket:nth-of-type(2)": {
+      "Names": "MercedesMamute1519Sparewheel02",
+      "NamesBlock": "",
+      "Offset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(5) > Socket": {
+      "Names": "MercedesMamute1519Visor",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(6) > Socket": {
+      "Names": "MercedesMamute1519Horn",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(7) > Socket": {
+      "Names": "MercedesMamute1519Snorkel",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(8) > Socket": {
+      "Names": "MercedesMamute1519Protection",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(9)": {
+      "DefaultAddon": "mercedes_mamute_1519_diff_lock_default"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(9) > Socket": {
+      "Names": "MercedesMamute1519DiffLock",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > GameData > CraneSocket:nth-of-type(1)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.69; 1.224; 1.055)"
+    },
+    "Truck > GameData > CraneSocket:nth-of-type(2)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.69; 1.224; -1.055)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(1)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.700; 1.4; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "default",
+      "Position": "(12.5; 1.6; -5.02)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(10)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.8; 3.1; 0.65)",
+      "Interior": "true",
+      "Name": "mirror_mount",
+      "Position": "(5.2; 2.9; -0.55)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(11)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.1; 1.7; 0.6)",
+      "Interior": "true",
+      "Name": "hood_figure",
+      "Position": "(8.8; 2.7; -0.7)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(12)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.8; 2.3; 1.25)",
+      "Interior": "true",
+      "Name": "sticker_1",
+      "Position": "(5.2; 2.9; -0.15)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(13)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.8; 3.1; 0.2)",
+      "Interior": "true",
+      "Name": "sticker_2",
+      "Position": "(5.2; 2.9; -0.55)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(14)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.5; 2.100; 0.2)",
+      "Interior": "true",
+      "Name": "door_l_sticker",
+      "Position": "(7.2; 2.5; -3.8)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(15)": {
+      "FOV": "32.0",
+      "InterestPosition": "(6.5; 2.100; 0)",
+      "Interior": "true",
+      "Name": "door_r_sticker",
+      "Position": "(6.9; 2.7; 3.8)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(16)": {
+      "FOV": "32.0",
+      "InterestPosition": "(3.6; 2.08; 0.6)",
+      "Interior": "true",
+      "Name": "glass_sticker",
+      "Position": "(9.5; 3.65; -1.55)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(2)": {
+      "FOV": "32.0",
+      "InterestPosition": "(6.5; 3; -0.5)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "roof",
+      "Position": "(11; 5.8; -2.8)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(3)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.997; 1.735; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "hoods_default",
+      "Position": "(13.213; 1.446; -3.663)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(4)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.887; 2; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "snorkel",
+      "Position": "(9.085; 3.446; 4.298)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(5)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.5; 0.5; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "wheels",
+      "Position": "(9.900; 1.3; -6.13)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(6)": {
+      "FOV": "32.0",
+      "InterestPosition": "(1.1; 1.8; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "addon_1",
+      "Position": "(-7.9; 4.9; 6.38)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(7)": {
+      "FOV": "32.0",
+      "InterestPosition": "(3.3; 1; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "0",
+      "Name": "exhaust",
+      "Position": "(6.3; 0.5; -3.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(8)": {
+      "FOV": "32.0",
+      "InterestPosition": "(4.6; 2.2; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "1.2",
+      "Name": "spare_wheel",
+      "Position": "(1.6; 3.2; -4.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(9)": {
+      "FOV": "32.0",
+      "InterestPosition": "(5.8; 2.8; 0.8)",
+      "Interior": "true",
+      "Name": "bubble_head",
+      "Position": "(5; 2.9; -0.6)"
+    },
+    "Truck > GameData > UiDesc": {
+      "UiDesc": "UI_VEHICLE_MERCEDES_MAMUTE_1519_DESC",
+      "UiIcon30x30": "heavyVehicleImg30",
+      "UiIcon328x458": "shopImgMercedesBenzMamute",
+      "UiIcon40x40": "heavyVehicleImg",
+      "UiIconLogo": "MercedesLogo80",
+      "UiName": "UI_VEHICLE_MERCEDES_MAMUTE_1519_NAME"
+    },
+    "Truck > GameData > WinchSocket:nth-of-type(1)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.69; 1.224; 1.055)"
+    },
+    "Truck > GameData > WinchSocket:nth-of-type(2)": {
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(1.69; 1.224; -1.055)"
+    },
+    "Truck > HeadLight": {
+      "Pos": "(3.69; 1.753; 0)"
+    },
+    "Truck > Landmark": {
+      "MaxScale": "2.2",
+      "Mesh": "landmarks/mercedes_mamute_1519_lmk",
+      "MinScale": "1.5"
+    },
+    "Truck > ModelAttachments > HeadLight > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; 0.76)",
+      "Size": "0.3"
+    },
+    "Truck > ModelAttachments > HeadLight > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; -0.76)",
+      "Size": "0.3"
+    },
+    "Truck > ModelAttachments > HeadLight > Flare:nth-of-type(3)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; 0.76)",
+      "Size": "0.15"
+    },
+    "Truck > ModelAttachments > HeadLight > Flare:nth-of-type(4)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; -0.76)",
+      "Size": "0.15"
+    },
+    "Truck > ModelAttachments > HeadLight > Model:nth-of-type(1)": {
+      "Org": "(3.69; 1.753; 0.76)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > ModelAttachments > HeadLight > Model:nth-of-type(2)": {
+      "Org": "(3.69; 1.753; -0.76)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; 0.76)",
+      "Size": "0.4"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.69; 1.753; -0.76)",
+      "Size": "0.4"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.393; 1.947; 1.04)",
+      "Size": "0.1"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(4)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.393; 1.947; -1.04)",
+      "Size": "0.1"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(5)": {
+      "Dir": "(0; 1; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.771; 1.962; 1.187)",
+      "Size": "0.2"
+    },
+    "Truck > ModelAttachments > Ignition > Flare:nth-of-type(6)": {
+      "Dir": "(0; 1; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.771; 1.962; -1.187)",
+      "Size": "0.2"
+    },
+    "Truck > ModelAttachments > Ignition > Light:nth-of-type(1)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.665; 1.753; 0.758)"
+    },
+    "Truck > ModelAttachments > Ignition > Light:nth-of-type(2)": {
+      "Color": "g(253; 220; 186) x 1",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(3.665; 1.753; -0.758)"
+    },
+    "Truck > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519"
+    },
+    "Truck > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "Default",
+      "ImpactType": "Truck",
+      "Mass": "2000",
+      "ModelFrame": "BoneChassis_cdt",
+      "NetSync": "pv"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "ImpactType": "Truck",
+      "Mass": "1360",
+      "ModelFrame": "BoneSwingAxle_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneSwingL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneSwingR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneCablesRearL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneCablesRearR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; -1; 0)",
+      "MaxLimit": "0.15",
+      "MinLimit": "-0.14",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Prismatic"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "40000",
+      "Spring": "820000",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "CenterOfMassOffset": "(0.35; 0; 0)",
+      "Collisions": "Default",
+      "ImpactType": "Truck",
+      "Mass": "2000",
+      "ModelFrame": "BoneCabinTwist_cdt",
+      "NetSync": "pv"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "Default",
+      "ImpactType": "Truck",
+      "Mass": "2900",
+      "ModelFrame": "BoneCabin_cdt",
+      "NetSync": "pv"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneWiperL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(10)": {
+      "ModelFrame": "BoneAntennaR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneKey1_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneKey2_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11) > Body > Constraint": {
+      "Cone": "17",
+      "PivotOffset": "(0; 0; 0)",
+      "PlaneAxisLocal": "(0; 0; 1)",
+      "PlaneMax": "30",
+      "PlaneMin": "-35",
+      "TwistAxisLocal": "(0; 1; 0)",
+      "TwistMax": "25",
+      "TwistMin": "-25",
+      "Type": "Ragdoll"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11) > Body > Constraint > AllMotor": {
+      "Damping": "0.1",
+      "Spring": "0.1",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11) > Constraint": {
+      "Cone": "30",
+      "PivotOffset": "(0; 0; 0)",
+      "PlaneAxisLocal": "(0; 0; 1)",
+      "PlaneMax": "20",
+      "PlaneMin": "-50",
+      "TwistAxisLocal": "(0; 1; 0)",
+      "TwistMax": "25",
+      "TwistMin": "-25",
+      "Type": "Ragdoll"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(11) > Constraint > AllMotor": {
+      "Damping": "0.1",
+      "Spring": "0.1",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(12)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "1.5",
+      "ModelFrame": "BoneCableCabin_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(12) > Constraint": {
+      "AxisLocal": "(0; -1; 0)",
+      "MaxLimit": "15",
+      "MinLimit": "-1.5",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(12) > Constraint > Motor": {
+      "Damping": "0.01",
+      "Spring": "0.35",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(13)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneSteeringRod_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(13) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "270",
+      "MinLimit": "-270",
+      "Name": "SteeringRod",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(13) > Constraint > Motor": {
+      "Force": "10",
+      "Tau": "0.99",
+      "Type": "Position"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneWiperR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneMirrorL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneMirrorR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(5)": {
+      "ModelFrame": "BoneSeatbeltL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(6)": {
+      "ModelFrame": "BoneSeatbeltR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(7)": {
+      "ModelFrame": "BoneCurtainL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(8)": {
+      "ModelFrame": "BoneCurtainR_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Body:nth-of-type(9)": {
+      "ModelFrame": "BoneAntennaL_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "0.02",
+      "MinLimit": "-0.05",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Prismatic"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "20000",
+      "Spring": "300000",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneTieRod_cdt"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)",
+      "MaxLimit": "30",
+      "MinLimit": "-30",
+      "Name": "TieRod",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body:nth-of-type(2) > Constraint > Motor": {
+      "Force": "100",
+      "Tau": "1",
+      "Type": "Position"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "5",
+      "MinLimit": "-5",
+      "PivotOffset": "(0; 0; 0)",
+      "Type": "Hinge"
+    },
+    "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "120000",
+      "Spring": "400000",
+      "Type": "Spring"
+    },
+    "Truck > PhysicsModel > NetSync": {
+      "Legacy": "false"
+    },
+    "Truck > TruckData": {
+      "BackSteerSpeed": "0.015",
+      "DiffLockType": "Switchable",
+      "EngineIconMesh": "env/engine_mercedes_mamute_1519",
+      "EngineIconScale": "1.0",
+      "EngineStartDelay": "0.8",
+      "ExhaustStartTime": "0.5",
+      "FuelCapacity": "260",
+      "Responsiveness": "0.07",
+      "SteerSpeed": "0.0235",
+      "TruckImage": "mercedesBenzMamutemchr",
+      "TruckType": "OFFROAD"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(1)": {
+      "Frame": "BoneAxle1"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(2)": {
+      "Frame": "BoneAxle2L",
+      "IsIndependent": "true"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(3)": {
+      "Frame": "BoneAxle3L",
+      "IsIndependent": "true"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(4)": {
+      "Frame": "BoneAxle2R",
+      "IsIndependent": "true"
+    },
+    "Truck > TruckData > Axles > Axle:nth-of-type(5)": {
+      "Frame": "BoneAxle3R",
+      "IsIndependent": "true"
+    },
+    "Truck > TruckData > Camera": {
+      "Center": "(-1.4; 0; 0)",
+      "ParentFrame": "BoneChassis_cdt"
+    },
+    "Truck > TruckData > Camera > Cockpit": {
+      "LimitsHor": "(-2.7; 1.5)",
+      "LimitsVer": "(-0.5; 0.5)",
+      "ViewDir": "(1; -0.05; 0)",
+      "ViewPos": "(2; 2.94; 0.534)",
+      "WindshieldDiffuseTexture": "trucks/mercedes_mamute_1519_curtain_glass__d_a.tga",
+      "WindshieldShadingTexture": "trucks/mercedes_mamute_1519_curtain_glass__sh_d.tga",
+      "ZoomViewPosOffset": "(0.4; 0; 0)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(1)": {
+      "ClipDir": "(-0.906; 0; -0.423)",
+      "ClipOffset": "0.15",
+      "FOVScale": "1.5",
+      "MeshFrame": "mirror_left",
+      "Pos": "(2.752; 2.794; 1.409)",
+      "ReflectionDir": "(-0.906; 0; -0.423)",
+      "Size": "(0.25; 0.4)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Mirror:nth-of-type(2)": {
+      "ClipDir": "(-0.875; 0; 0.643)",
+      "ClipOffset": "0.15",
+      "FOVScale": "1.5",
+      "MeshFrame": "mirror_right",
+      "Pos": "(2.534; 2.794; -1.203)",
+      "ReflectionDir": "(-0.875; 0; 0.643)",
+      "Size": "(0.25; 0.4)"
+    },
+    "Truck > TruckData > Camera > Cockpit > Rear": {
+      "HorTransitionEnd": "-2.7",
+      "HorTransitionStart": "-0.8",
+      "LimitsVer": "(-0.8; 0.2)",
+      "ViewDir": "(1; -0.05; -0.1)",
+      "ViewPosOffset": "(0.3; -0.1; 0.67)"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(1)": {
+      "Scale": "0.61",
+      "Type": "wheels_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(2)": {
+      "OffsetZ": "0.015",
+      "RearOffsetZ": "0.028",
+      "Scale": "0.61",
+      "Type": "wheels_heavy_single_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(3)": {
+      "OffsetZ": "0.085",
+      "Scale": "0.61",
+      "Type": "wheels_heavy_single2_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(4)": {
+      "OffsetZ": "0.085",
+      "Scale": "0.61",
+      "Type": "wheels_heavy_mudtires_single_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(5)": {
+      "OffsetZ": "0.075",
+      "Scale": "0.61",
+      "Type": "wheels_heavy_mudtires_single2_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > CompatibleWheels:nth-of-type(6)": {
+      "OffsetZ": "0.025",
+      "Scale": "0.61",
+      "Type": "wheels_heavy_offroad_single_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(1)": {
+      "Max": "(0.387; 1.477; 0.276)",
+      "Min": "(-0.114; 0.981; -0.276)",
+      "ParentFrame": "BoneCabinTwist_cdt",
+      "Type": "Gearbox"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(2)": {
+      "Max": "(2.356; 1.621; 0.457)",
+      "Min": "(1.619; 1.167; -0.457)",
+      "ParentFrame": "BoneCabinTwist_cdt",
+      "Type": "Gearbox"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(3)": {
+      "Max": "(3.583; 2.373; 0.779)",
+      "Min": "(2.356; 1.194; -0.779)",
+      "ParentFrame": "BoneCabinTwist_cdt",
+      "Type": "Engine"
+    },
+    "Truck > TruckData > Damage > DamageArea:nth-of-type(4)": {
+      "Max": "(0.917; 1.514; -0.497)",
+      "Min": "(-0.195; 1.038; -1.188)",
+      "ParentFrame": "BoneCabinTwist_cdt",
+      "Type": "FuelTank"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(1)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;110)",
+      "InputType": "speed",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_3",
+      "Org": "(2.679; 2.502; 0.762)",
+      "OutputAngles": "(-134; 109)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(2)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "fuel",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_1",
+      "Org": "(2.68; 2.501; 0.513)",
+      "OutputAngles": "(-140; -33)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(3)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "rpm",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_4",
+      "Org": "(2.682; 2.532; 0.614)",
+      "OutputAngles": "(-118; 122)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(4)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_1",
+      "Org": "(2.664; 2.457; 0.465)",
+      "OutputAngles": "(-125; -214)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(5)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_1",
+      "Org": "(2.68; 2.502; 0.418)",
+      "OutputAngles": "(145; 80)"
+    },
+    "Truck > TruckData > Dashboard > Gauge:nth-of-type(6)": {
+      "Damping": "0.9",
+      "Dir": "(-0.942; 0.336; 0)",
+      "InputRange": "(0;1)",
+      "InputType": "engineEnabled",
+      "Mesh": "trucks/arrows/mercedes_mamute_1519_arrow_2",
+      "Org": "(2.68; 2.502; 0.466)",
+      "OutputAngles": "(-130; 24)"
+    },
+    "Truck > TruckData > Driver": {
+      "AnimationSet": "HeavyTruck",
+      "LegsOffset": "(0; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.01; 2.27; 0.527)",
+      "SteeringWheelPos": "(2.43; 2.598; 0.529)"
+    },
+    "Truck > TruckData > EngineSocket": {
+      "Default": "engine_truck_mercedes_mamute_1519_0",
+      "Type": "e_truck_engine_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > FuelTank": {
+      "DamageCapacity": "125"
+    },
+    "Truck > TruckData > GearboxSocket": {
+      "Default": "g_mercedes_mamute_1519_default",
+      "Type": "gearboxes_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > Intake": {
+      "Dir": "(1; 0; 0)",
+      "Origin": "(3.775; 1.787; 0)",
+      "Size": "0.35"
+    },
+    "Truck > TruckData > LimitedFluid": {
+      "Center": "(0.361, 1.325, -0.843)",
+      "ParentFrame": "BoneCabinTwist_cdt",
+      "SizeX": "1.020",
+      "SizeY": "0.380",
+      "SizeZ": "0.600",
+      "Type": "Box"
+    },
+    "Truck > TruckData > OcclusionMap": {
+      "HalfSizeZ": "1.4",
+      "MaxX": "4.1",
+      "MinX": "-4.1"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(1)": {
+      "SocketPointA": "Shaft1a",
+      "SocketPointB": "Shaft1b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(2)": {
+      "SocketPointA": "Shaft2a",
+      "SocketPointB": "Shaft2b"
+    },
+    "Truck > TruckData > Shafts > Shaft:nth-of-type(3)": {
+      "SocketPointA": "Shaft3a",
+      "SocketPointB": "Shaft3b"
+    },
+    "Truck > TruckData > Shakers > Shaker": {
+      "Frame": "BoneGearstick",
+      "MaxAngle": "(1; 0; 1)",
+      "MaxFrequency": "0.35",
+      "MinAngle": "(-1; 0; -1)",
+      "ParentFrame": "BoneCabin_cdt"
+    },
+    "Truck > TruckData > Sounds": {
+      "DisableReversePitch": "false",
+      "MinDist": "12.0",
+      "Origin": "(2.6; 1.4; 0)"
+    },
+    "Truck > TruckData > Sounds > AbruptStop": {
+      "Sound": "trucks/common/truck_swing_big_rnd_set/truck_swing_big_rnd"
+    },
+    "Truck > TruckData > Sounds > BrakePull": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_brake_pull"
+    },
+    "Truck > TruckData > Sounds > BrakeRelease": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_brake_release"
+    },
+    "Truck > TruckData > Sounds > BrakesSqueal": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_brakes_squeal"
+    },
+    "Truck > TruckData > Sounds > ChassisStress": {
+      "Sound": "trucks/common/truck_stress_rnd_set/truck_stress_rnd"
+    },
+    "Truck > TruckData > Sounds > EngineAccel": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_acc"
+    },
+    "Truck > TruckData > Sounds > EngineHeavy": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_heavy"
+    },
+    "Truck > TruckData > Sounds > EngineHeavy_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_heavy_2d"
+    },
+    "Truck > TruckData > Sounds > EngineHigh": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_high"
+    },
+    "Truck > TruckData > Sounds > EngineHigh_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_high_2d"
+    },
+    "Truck > TruckData > Sounds > EngineIdle": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_idle"
+    },
+    "Truck > TruckData > Sounds > EngineIdle_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_idle_2d"
+    },
+    "Truck > TruckData > Sounds > EngineLow": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_low"
+    },
+    "Truck > TruckData > Sounds > EngineLow_2d": {
+      "IsSound2D": "true",
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_low_2d"
+    },
+    "Truck > TruckData > Sounds > EngineRev": {
+      "Sound": ""
+    },
+    "Truck > TruckData > Sounds > EngineStart": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_start"
+    },
+    "Truck > TruckData > Sounds > EngineStop": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_stop"
+    },
+    "Truck > TruckData > Sounds > Handbrake": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_handbrake_on"
+    },
+    "Truck > TruckData > Sounds > HandbrakeOff": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_handbrake_off"
+    },
+    "Truck > TruckData > Sounds > Honk": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_honk"
+    },
+    "Truck > TruckData > Sounds > Reverse": {
+      "Sound": "trucks/sleiter_st833_chimera/sleiter_st833_chimera_back_beeper"
+    },
+    "Truck > TruckData > Steam": {
+      "Origin": "(3.003; 1.902; 0)"
+    },
+    "Truck > TruckData > SteeringRack": {
+      "Frame": "BoneRack",
+      "FrameSteerLeft": "BoneRackL",
+      "FrameSteerRight": "BoneRackR",
+      "RackHalfSizeZ": "0.893"
+    },
+    "Truck > TruckData > SteeringWheel": {
+      "Frame": "BoneSteering"
+    },
+    "Truck > TruckData > SuspensionSocket": {
+      "Default": "mercedes_mamute_1519_suspension_default",
+      "MaxWheelRadiusWithoutSuspension": "1.5",
+      "Type": "s_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > Wheels": {
+      "DefaultRim": "rim_mercedes_mamute",
+      "DefaultTire": "tire_offroad_mercedes_mamute",
+      "DefaultWheelType": "wheels_mercedes_mamute_1519"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(1)": {
+      "Pos": "(2.748; 0.763; 1.092)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(2)": {
+      "Pos": "(2.748; 0.763; 1.092)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(3)": {
+      "Pos": "(-1.171; 0.679; 1.081)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(4)": {
+      "Pos": "(-2.881; 0.643; 1.081)"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(5)": {
+      "Pos": "(-1.171; 0.679; 1.081)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > Wheels > Wheel:nth-of-type(6)": {
+      "Pos": "(-2.881; 0.643; 1.081)",
+      "RightSide": "true"
+    },
+    "Truck > TruckData > WinchUpgradeSocket": {
+      "Default": "w_medium_trucks_default",
+      "IsUpgradable": "true",
+      "Type": "winches_medium_trucks"
+    }
+  },
+  "mercedes_mamute_1519_exhaust_1_dlc_18_1": {
+    "TruckAddon > Exhaust": {
+      "Dir": "(-0.881; -0.252; 0.401)",
+      "IsLight": "false",
+      "Origin": "(0.959; 1.118; 1.276)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust",
+      "Category": "exhaust",
+      "Price": "1000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Exhaust"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_SNUB_HEATSHIELD_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_SNUB_HEATSHIELD_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Shakers > Shaker": {
+      "Frame": "BoneExhaust",
+      "MaxAngle": "(2; 0.001; 2)",
+      "MaxFrequency": "3.9",
+      "MinAngle": "(0.3; 0.000; 0.3)",
+      "ParentFrame": "BoneRoot_cdt"
+    }
+  },
+  "mercedes_mamute_1519_exhaust_2_dlc_18_1": {
+    "TruckAddon > Exhaust:nth-of-type(1)": {
+      "Dir": "(-0.402; 0; 0.916)",
+      "IsLight": "false",
+      "Origin": "(0.883; 1.146; 1.075)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > Exhaust:nth-of-type(2)": {
+      "Dir": "(-0.402; 0; 0.916)",
+      "IsLight": "false",
+      "Origin": "(1.091; 1.146; 1.120)",
+      "Speed": "3.82"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust",
+      "Category": "exhaust",
+      "Price": "1300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Exhaust"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_SIDESPITTER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_SIDESPITTER_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Shakers > Shaker:nth-of-type(1)": {
+      "Frame": "BoneExhaust1",
+      "MaxAngle": "(2; 2; 2)",
+      "MaxFrequency": "0.1",
+      "MinAngle": "(0.7; 0.7; 0.7)",
+      "ParentFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > Shakers > Shaker:nth-of-type(2)": {
+      "Frame": "BoneExhaust2",
+      "MaxAngle": "(2; 2; 2)",
+      "MaxFrequency": "0.1",
+      "MinAngle": "(0.7; 0.7; 0.7)",
+      "ParentFrame": "BoneRoot_cdt"
+    }
+  },
+  "mercedes_mamute_1519_exhaust_default_dlc_18_1": {
+    "TruckAddon > Exhaust": {
+      "Dir": "(0.000; -0.772; 0.636)",
+      "Origin": "(0.183; 0.910; 0.444)",
+      "ParentFrame": "BoneExhaust",
+      "Speed": "2.0"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "exhaust",
+      "Category": "exhaust",
+      "Price": "800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Exhaust"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_EXHAUST_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_EXHAUST_DEFAULT_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_exhaust_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "None",
+      "Mass": "10",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData > Shakers > Shaker": {
+      "Frame": "BoneExhaust",
+      "MaxAngle": "(2; 0.001; 2)",
+      "MaxFrequency": "3.9",
+      "MinAngle": "(0.3; 0.000; 0.3)",
+      "ParentFrame": "BoneRoot_cdt"
+    }
+  },
+  "mercedes_mamute_1519_frame_default_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "Price": "3800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > CraneSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-4.131; 1.439; 0)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519FrameDefault"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_FRAME_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_FRAME_DEFAULT_NAME"
+    },
+    "TruckAddon > GameData > WinchSocket": {
+      "FixedToTruck": "true",
+      "Pos": "(-4.131; 1.439; 0)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_frame_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "20",
+      "ModelFrame": "BoneAddon_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "mercedes_mamute_1519_horn_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "hoods_default",
+      "Category": "miscellenious",
+      "Price": "300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Horn"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_HORNS_SINGLE_ONESIDE_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_HORNS_SINGLE_ONESIDE_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_horn_1"
+    }
+  },
+  "mercedes_mamute_1519_mudguard_default_dlc_18_1": {
+    "TruckAddon > FuelHide > Mesh:nth-of-type(1)": {
+      "Frame": "mudguard_rear_can_left",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(2)": {
+      "Frame": "mudguard_rear_can_right",
+      "HideThreshold": "0.5"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "fender_rear",
+      "Price": "400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Mudguard"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_REAR_FENDERS_STOCK_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_REAR_FENDERS_STOCK_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_mudguard_default"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "5",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body": {
+      "ImpactType": "Truck",
+      "Mass": "5",
+      "ModelFrame": "BoneCabinTwist_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "40"
+    }
+  },
+  "mercedes_mamute_1519_protection_1_dlc_18_1": {
+    "TruckAddon > FuelHide > Mesh": {
+      "Frame": "fuel",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "3800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Protection"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(1)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.778; 3.473; -0.604)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(2)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.778; 3.473; 0.002)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(1) > Model:nth-of-type(3)": {
+      "ColorMultAtDay": "0.3",
+      "Org": "(2.778; 3.473; 0.604)"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(1)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.778; 3.473; -0.604)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(2)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.778; 3.473; 0.002)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > HeadLight:nth-of-type(2) > Flare:nth-of-type(3)": {
+      "ColorMultAtDay": "1",
+      "Dir": "(1; 0; 0)",
+      "Pos": "(2.778; 3.473; 0.604)",
+      "Size": ".36"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(1)": {
+      "Color": "g(255; 111; 5) x 0.45",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(1.552; 3.613; 0.962)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(2)": {
+      "Color": "g(255; 111; 5) x 0.7",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(1.552; 3.613; 0.962)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Flare:nth-of-type(3)": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(1.552; 3.613; 0.962)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Light": {
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Pos": "(1.552; 3.613; 0.962)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(1) > Model": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "Dir": "(1; 0.222; 0.563)",
+      "Org": "(1.552; 3.613; 0.962)",
+      "ParentFrame": "BoneRotatorLeft",
+      "Reflections": "false",
+      "Scale": "(0.19; 0.19; 0.19)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(1)": {
+      "Color": "g(255; 111; 5) x 0.45",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(1.552; 3.613; -0.962)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(2)": {
+      "Color": "g(255; 111; 5) x 0.7",
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(1.552; 3.613; -0.962)",
+      "Size": "0.7"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Flare:nth-of-type(3)": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(1.552; 3.613; -0.962)",
+      "Size": "1"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Light": {
+      "Dir": "(-0.796; 0.222; 0.563)",
+      "ParentFrame": "BoneRotatorRight",
+      "Pos": "(1.552; 3.613; -0.962)"
+    },
+    "TruckAddon > ModelAttachments > Ignition:nth-of-type(2) > Model": {
+      "Color": "g(255; 111; 5) x 0.55",
+      "Dir": "(1; 0.222; 0.563)",
+      "Org": "(1.552; 3.613; -0.962)",
+      "ParentFrame": "BoneRotatorRight",
+      "Reflections": "false",
+      "Scale": "(0.19; 0.19; 0.19)"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_protection_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "80",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "72",
+      "ModelFrame": "BoneFuel1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "LinearLimitsX": "(-0.02; 0.008)",
+      "LinearLimitsZ": "(-0.01; 0.01)",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Damping": "2000",
+      "Spring": "3500",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "50",
+      "ModelFrame": "BoneRepair_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "0.01",
+      "MinLimit": "-0.02",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint > Motor": {
+      "Damping": "2100",
+      "Spring": "3000",
+      "Type": "Spring"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > RepairsHide > Mesh": {
+      "Frame": "repair",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > Rotator:nth-of-type(1)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorLeft",
+      "RotationSpeed": "3.8"
+    },
+    "TruckAddon > Rotator:nth-of-type(2)": {
+      "EngineTorqueFactor": "0",
+      "Frame": "BoneRotatorRight",
+      "RotationSpeed": "3.8"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "80",
+      "RepairsCapacity": "150"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier:nth-of-type(1)": {
+      "Multiplier": "0.95",
+      "Type": "Engine"
+    },
+    "TruckAddon > TruckData > Damage > Multiplier:nth-of-type(2)": {
+      "Multiplier": "0.9",
+      "Type": "GearBox"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(1)": {
+      "Center": "(1.920; 3.675; -0.407)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(2)": {
+      "Center": "(1.887; 3.478; -0.332)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(3)": {
+      "Center": "(2.329; 3.421; -0.420)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(4)": {
+      "Center": "(2.355; 3.619; -0.413)",
+      "ParentFrame": "BoneFuel1_cdt",
+      "SizeX": "0.325",
+      "SizeY": "0.146",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    }
+  },
+  "mercedes_mamute_1519_snorkel_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "snorkel",
+      "Category": "snorkel",
+      "Price": "1200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Snorkel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SNORKEL_ROUNDCAP_SHORT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SNORKEL_ROUNDCAP_SHORT_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_snorkel_1"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "Default",
+      "Mass": "3",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Snorkel": {
+      "Origin": "(3.148; 2.510; -1.115)"
+    }
+  },
+  "mercedes_mamute_1519_snorkel_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "snorkel",
+      "Category": "snorkel",
+      "Price": "1700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Snorkel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SNORKEL_TALL_EXT_AIRFILTER_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SNORKEL_TALL_EXT_AIRFILTER_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_snorkel_2"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Collisions": "Default",
+      "Mass": "3",
+      "ModelFrame": "BoneCabin_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > Snorkel": {
+      "Origin": "(2.929; 2.879; -1.077)"
+    }
+  },
+  "mercedes_mamute_1519_spare_wheels_dlc_18_1": {
+    "TruckAddon > FuelHide > Mesh:nth-of-type(1)": {
+      "Frame": "fuel_1",
+      "HideThreshold": "0.25"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(2)": {
+      "Frame": "fuel_2",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(3)": {
+      "Frame": "fuel_3",
+      "HideThreshold": "0.75"
+    },
+    "TruckAddon > FuelHide > Mesh:nth-of-type(4)": {
+      "Frame": "fuel_4",
+      "HideThreshold": "0.5"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "spare_wheel",
+      "Category": "wheel_addon",
+      "Price": "3000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Sparewheel02"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SPARE_WHEELS_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SPARE_WHEELS_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_spare_wheels"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "20",
+      "ModelFrame": "BoneCabinTwist_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "ModelFrame": "BoneWheelL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneWheelR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneFuelRow1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "ModelFrame": "BoneFuelRow2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "FuelCapacity": "160",
+      "WheelRepairsCapacity": "4"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(1)": {
+      "Center": "(1.272; 3.279; -0.944)",
+      "ParentFrame": "BoneFuelRow2_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(2)": {
+      "Center": "(1.054; 3.279; -0.942)",
+      "ParentFrame": "BoneFuelRow1_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(3)": {
+      "Center": "(1.269; 3.279; -0.253)",
+      "ParentFrame": "BoneFuelRow2_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(4)": {
+      "Center": "(1.055; 3.279; -0.254)",
+      "ParentFrame": "BoneFuelRow1_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(5)": {
+      "Center": "(1.269; 3.279; 0.335)",
+      "ParentFrame": "BoneFuelRow2_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(6)": {
+      "Center": "(1.054; 3.279; 0.216)",
+      "ParentFrame": "BoneFuelRow1_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(7)": {
+      "Center": "(1.272; 3.279; 0.813)",
+      "ParentFrame": "BoneFuelRow2_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > TruckData > LimitedFluid:nth-of-type(8)": {
+      "Center": "(1.058; 3.279; 0.929)",
+      "ParentFrame": "BoneFuelRow1_cdt",
+      "SizeX": "0.146",
+      "SizeY": "0.325",
+      "SizeZ": "0.445",
+      "Type": "Box"
+    },
+    "TruckAddon > WheelRepairsHide > Mesh:nth-of-type(1)": {
+      "Frame": "spare_wheel_1",
+      "HideThreshold": "0.0"
+    },
+    "TruckAddon > WheelRepairsHide > Mesh:nth-of-type(2)": {
+      "Frame": "spare_wheel_2",
+      "HideThreshold": "0.5"
+    }
+  },
+  "mercedes_mamute_1519_sparewheel_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "spare_wheel",
+      "Category": "wheel_addon",
+      "Price": "1500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Sparewheel"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SPARE_WHEEL_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SPARE_WHEEL_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_sparewheel"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "90",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    },
+    "TruckAddon > TruckData": {
+      "WheelRepairsCapacity": "2"
+    },
+    "TruckAddon > WheelRepairsHide > Mesh": {
+      "Frame": "wheel",
+      "HideThreshold": "0.0"
+    }
+  },
+  "mercedes_mamute_1519_visor_1_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "fender_front",
+      "Price": "900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Visor"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_mamute_1519_protection_1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SUNVISOR_ANGLED_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SUNVISOR_ANGLED_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_visor_1"
+    }
+  },
+  "mercedes_mamute_1519_visor_2_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "roof",
+      "Category": "fender_front",
+      "Price": "1100",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "MercedesMamute1519Visor"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_mamute_1519_protection_1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_TUNING_SUNVISOR_NAVISTAR_DARKSLANT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_TUNING_SUNVISOR_NAVISTAR_DARKSLANT_NAME"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.939; 3.304; -0.551)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.939; 3.304; 0)",
+      "Size": "0.25"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(3)": {
+      "Dir": "(1; 0; 0)",
+      "ParentFrame": "BoneCabin_cdt",
+      "Pos": "(2.939; 3.304; 0.551)",
+      "Size": "0.25"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/mercedes_mamute_1519_tuning/mercedes_mamute_1519_visor_2"
     }
   },
   "mercer_6x6r_230_bumper_1_dlc_18": {
@@ -33953,6 +43284,284 @@ export default {
       "TerminalFix": "true"
     }
   },
+  "minicrane_mercedes_3850_dlc_18_1": {
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneLegL",
+      "ParentFrame": "BoneLegL_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFootL_cdt",
+      "ModelFrame": "BoneFootL"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneLegR",
+      "ParentFrame": "BoneLegR_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFootR_cdt",
+      "ModelFrame": "BoneFootR"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArmHinge",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm4_cdt",
+      "ModelFrame": "BoneArmPrismatic"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BonePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BonePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": ".65",
+      "CoeffEndMovementSpeedOYWithLoad": ".5",
+      "CoeffEndMovementSpeedXZ": ".8",
+      "CoeffEndMovementSpeedXZWithLoad": ".6"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(1.25; 0; 0)",
+      "ModelFrames": "BoneRoot_cdt,BoneRotationBase_cdt,BoneArm1_cdt, BoneArm2_cdt, BoneArm3_cdt, BoneArm4_cdt"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "7600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArm4_cdt",
+      "Pos": "(3.123; 3.960; 0.000)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "CraneMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended, saddle_low_02_mercedes_3850, saddle_high_mercedes_3850"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_legs_move_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_legs_move_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_CRANE_SLEITER_MFK816_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_CRANE_SLEITER_MFK816_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks\\addons\\minicrane_mercedes_3850"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0; 0.0; 0)",
+      "Mass": "980",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "700",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "350",
+      "ModelFrame": "BoneArm3_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "250",
+      "ModelFrame": "BoneArm4_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "100000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "100000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "100000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(0; 0; -1)",
+      "MaxLimit": "0",
+      "MinLimit": "-70",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "410000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "830000",
+      "Tau": "0.6",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLegL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneFootL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneLegR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneFootR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLegL_cdt,BoneLegR_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": "-0.96",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "2.2",
+      "TerminalFix": "true"
+    }
+  },
   "minicrane_mercedes_actros_6x6_dlc_17_5": {
     "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
       "ModelFrame": "BoneLegL",
@@ -34051,7 +43660,7 @@ export default {
       "Type": "CraneMercedesActros"
     },
     "TruckAddon > GameData > RequiredAddon": {
-      "Types": "mercedes_benz_actros_6x6_subframe, saddle_high_mercedes_actros_6x6"
+      "Types": "mercedes_benz_actros_6x6_subframe, saddle_high_mercedes_actros_6x6, alt_saddle_low_mercedes_actros_6x6"
     },
     "TruckAddon > GameData > SoundIKLoop": {
       "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_loop",
@@ -34157,6 +43766,281 @@ export default {
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
       "Force": "100000",
       "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(0; 0; -1)",
+      "MaxLimit": "0",
+      "MinLimit": "-70",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "410000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "830000",
+      "Tau": "0.6",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLegL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneFootL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneLegR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneFootR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLegL_cdt,BoneLegR_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": "-0.96",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "2.2",
+      "TerminalFix": "true"
+    }
+  },
+  "minicrane_pacific_p12_dlc_16_5": {
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneLegL",
+      "ParentFrame": "BoneLegL_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFootL_cdt",
+      "ModelFrame": "BoneFootL"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneLegR",
+      "ParentFrame": "BoneLegR_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneFootR_cdt",
+      "ModelFrame": "BoneFootR"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArmHinge",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm4_cdt",
+      "ModelFrame": "BoneArmPrismatic"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BonePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BonePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": ".65",
+      "CoeffEndMovementSpeedOYWithLoad": ".5",
+      "CoeffEndMovementSpeedXZ": ".8",
+      "CoeffEndMovementSpeedXZWithLoad": ".6"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(1.25; 0; 0)",
+      "ModelFrames": "BoneRoot_cdt,BoneRotationBase_cdt,BoneArm1_cdt, BoneArm2_cdt, BoneArm3_cdt, BoneArm4_cdt"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "7600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArm4_cdt",
+      "Pos": "(3.123; 3.960; 0.000)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "CranePacificP12"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_move_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_legs_move_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "trucks/krs_58_bandit/krs_58_bandit_crane_legs_move_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_CRANE_SLEITER_MFK816_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_CRANE_SLEITER_MFK816_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks\\addons\\minicrane_pacific_p12"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "CenterOfMassOffset": "(0; 0.0; 0)",
+      "Mass": "980",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "700",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "350",
+      "ModelFrame": "BoneArm3_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(-0.5; 0; 0)",
+      "Collisions": "All",
+      "Mass": "250",
+      "ModelFrame": "BoneArm4_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "150000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "150000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "2.412",
+      "MinLimit": "0",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "150000",
+      "Tau": "0.9",
       "Type": "Position"
     },
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
@@ -35324,6 +45208,1161 @@ export default {
     "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(3) > Constraint": {
       "Name": "Anchor",
       "Position": "0.8",
+      "TerminalFix": "true"
+    }
+  },
+  "minicrane_us_mercedes_3850_dlc_18_1": {
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(1; -0.32; 0)",
+      "FirstPersonPos": "(0.75; 3.76; 0.8)",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneRotationBaseHingeBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BoneRotationBaseHinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneRotationBasePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRotationBaseHinge",
+      "ModelFrame": "BoneRotationBasePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArm1HingeBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm2_cdt",
+      "ModelFrame": "BoneArm1Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneArm1PistonBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1Hinge",
+      "ModelFrame": "BoneArm1Piston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneRightAnchorExtHinge",
+      "ParentFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRightAnchor_cdt",
+      "ModelFrame": "BoneRightAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneLeftAnchorExtHinge",
+      "ParentFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneLeftAnchor_cdt",
+      "ModelFrame": "BoneLeftAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": "1.0",
+      "CoeffEndMovementSpeedOYWithLoad": "0.5",
+      "CoeffEndMovementSpeedXZ": "1.0",
+      "CoeffEndMovementSpeedXZWithLoad": "0.5"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(-0.1; 0; 0)",
+      "ModelFrames": "BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt,BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(1)": {
+      "Name": "Arm1",
+      "SpeedMult": "1.0",
+      "Value": "80"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(2)": {
+      "Name": "Arm2",
+      "SpeedMult": "1.0",
+      "StartDelay": ".43",
+      "Value": "125"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArmExtEnd_cdt",
+      "Pos": "(-0.335; 1.969; -0.983)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "MinicraneUSMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddon": {
+      "Types": "mercedes_3850_frame_extended"
+    },
+    "TruckAddon > GameData > SoundClose": {
+      "Name": "addons/minicrane_us/minicrane_us_close",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStart": {
+      "Name": "addons/minicrane_us/minicrane_us_open_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/common/crane_powergroups_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "addons/common/crane_powergroups_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/common/crane_powergroups_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_MINICRANE_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_MINICRANE_1_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/minicrane_us_mercedes_3850"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "900"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Mass": "600",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArmExt1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExt2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": "0.8",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "157",
+      "MinLimit": "0",
+      "Name": "Arm2",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "Arm1",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "80000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLeftAnchorExt_cdt,BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": ".74",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "0.9",
+      "TerminalFix": "true"
+    }
+  },
+  "minicrane_us_mercedes_inverted_dlc_17_5": {
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(1; -0.32; 0)",
+      "FirstPersonPos": "(0.75; 3.76; 0.8)",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneRotationBaseHingeBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BoneRotationBaseHinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneRotationBasePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRotationBaseHinge",
+      "ModelFrame": "BoneRotationBasePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArm1HingeBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm2_cdt",
+      "ModelFrame": "BoneArm1Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneArm1PistonBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1Hinge",
+      "ModelFrame": "BoneArm1Piston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneRightAnchorExtHinge",
+      "ParentFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRightAnchor_cdt",
+      "ModelFrame": "BoneRightAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneLeftAnchorExtHinge",
+      "ParentFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneLeftAnchor_cdt",
+      "ModelFrame": "BoneLeftAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": "1.0",
+      "CoeffEndMovementSpeedOYWithLoad": "0.5",
+      "CoeffEndMovementSpeedXZ": "1.0",
+      "CoeffEndMovementSpeedXZWithLoad": "0.5"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(0.1; 0; 0)",
+      "ModelFrames": "BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt,BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(1)": {
+      "Name": "Arm1",
+      "SpeedMult": "1.0",
+      "Value": "80"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(2)": {
+      "Name": "Arm2",
+      "SpeedMult": "1.0",
+      "StartDelay": ".43",
+      "Value": "125"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArmExtEnd_cdt",
+      "Pos": "(-0.335; 1.969; -0.983)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "MinicraneUSInverted"
+    },
+    "TruckAddon > GameData > SoundClose": {
+      "Name": "addons/minicrane_us/minicrane_us_close",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStart": {
+      "Name": "addons/minicrane_us/minicrane_us_open_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/common/crane_powergroups_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "addons/common/crane_powergroups_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/common/crane_powergroups_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_MINICRANE_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_MINICRANE_1_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/minicrane_us_mercedes_inverted"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "900"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Mass": "600",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArmExt1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExt2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": "0.8",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "157",
+      "MinLimit": "0",
+      "Name": "Arm2",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "Arm1",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "80000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLeftAnchorExt_cdt,BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": ".64",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "1.1",
+      "TerminalFix": "true"
+    }
+  },
+  "minicrane_us_mercedes_mamute_dlc_18_1": {
+    "TruckAddon > AddonCamera": {
+      "FirstPersonDir": "(1; -0.32; 0)",
+      "FirstPersonPos": "(0.75; 3.76; 0.8)",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1)": {
+      "ModelFrame": "BoneRotationBaseHingeBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm1_cdt",
+      "ModelFrame": "BoneRotationBaseHinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(1) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2)": {
+      "ModelFrame": "BoneRotationBasePistonBase",
+      "ParentFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRotationBaseHinge",
+      "ModelFrame": "BoneRotationBasePiston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(2) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3)": {
+      "ModelFrame": "BoneArm1HingeBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone": {
+      "AttachOffset": "(0.242; 0; 0)",
+      "AttachToFrame": "BoneArm2_cdt",
+      "ModelFrame": "BoneArm1Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(3) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4)": {
+      "ModelFrame": "BoneArm1PistonBase",
+      "ParentFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneArm1Hinge",
+      "ModelFrame": "BoneArm1Piston"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKBone > IKJoint": {
+      "AxisLocal": "(1; 0; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(4) > IKJoint": {
+      "AxisLocal": "(0; 0; 1)",
+      "Type": "Hinge"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5)": {
+      "ModelFrame": "BoneRightAnchorExtHinge",
+      "ParentFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneRightAnchor_cdt",
+      "ModelFrame": "BoneRightAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(5) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6)": {
+      "ModelFrame": "BoneLeftAnchorExtHinge",
+      "ParentFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone": {
+      "AttachOffset": "(0; 0; 0)",
+      "AttachToFrame": "BoneLeftAnchor_cdt",
+      "ModelFrame": "BoneLeftAnchorSlider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKBone > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Slider"
+    },
+    "TruckAddon > AutomaticIK > IKBone:nth-of-type(6) > IKJoint": {
+      "AxisLocal": "(0; 1; 0)",
+      "Type": "Hinge2"
+    },
+    "TruckAddon > ControlledIK": {
+      "CoeffEndMovementSpeedOY": "1.0",
+      "CoeffEndMovementSpeedOYWithLoad": "0.5",
+      "CoeffEndMovementSpeedXZ": "1.0",
+      "CoeffEndMovementSpeedXZWithLoad": "0.5"
+    },
+    "TruckAddon > ControlledIK > Chain": {
+      "EndOffset": "(0.1; 0; 0)",
+      "ModelFrames": "BoneCrane_cdt,BoneRotationBase_cdt,BoneArm1_cdt,BoneArm2_cdt,BoneArmExt1_cdt,BoneArmExt2_cdt,BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(1)": {
+      "Name": "Arm1",
+      "SpeedMult": "1.0",
+      "Value": "80"
+    },
+    "TruckAddon > ControlledIK > Chain > ConstraintStartPosition:nth-of-type(2)": {
+      "Name": "Arm2",
+      "SpeedMult": "1.0",
+      "StartDelay": ".43",
+      "Value": "125"
+    },
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > AddonType": {
+      "Name": "Crane"
+    },
+    "TruckAddon > GameData > CraneSourceSocket": {
+      "ParentFrame": "BoneArmExtEnd_cdt",
+      "Pos": "(0.335; 1.969; 0.983)"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Offset": "(0; 0; 0)",
+      "Type": "MinicraneUSMercedesMamute"
+    },
+    "TruckAddon > GameData > SoundClose": {
+      "Name": "addons/minicrane_us/minicrane_us_close",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStart": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundIKStop": {
+      "Name": "addons/minicrane_us/minicrane_us_turn_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenLoop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStart": {
+      "Name": "addons/minicrane_us/minicrane_us_open_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundOpenStop": {
+      "Name": "addons/minicrane_us/minicrane_us_open_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupLoop": {
+      "Name": "addons/common/crane_powergroups_loop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStart": {
+      "Name": "addons/common/crane_powergroups_start",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > SoundPoweredGroupStop": {
+      "Name": "addons/common/crane_powergroups_stop",
+      "Range": "20",
+      "Volume": "1"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_MINICRANE_1_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_MINICRANE_1_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/minicrane_us_mercedes_mamute"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "900"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Mass": "600",
+      "ModelFrame": "BoneRotationBase_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "550",
+      "ModelFrame": "BoneArm1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "550",
+      "ModelFrame": "BoneArm2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "400",
+      "ModelFrame": "BoneArmExt1_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExt2_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body": {
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Collisions": "All",
+      "Mass": "300",
+      "ModelFrame": "BoneArmExtEnd_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": "0.8",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "1.812",
+      "MinLimit": "0",
+      "Name": "ArmExt",
+      "Type": "Prismatic"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Body > Constraint > Motor": {
+      "Force": "60000",
+      "Tau": ".9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "157",
+      "MinLimit": "0",
+      "Name": "Arm2",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.9",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint": {
+      "AxisLocal": "(1; 0; 0)",
+      "MaxLimit": "130",
+      "MinLimit": "0",
+      "Name": "Arm1",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Body > Constraint > Motor": {
+      "Force": "400000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "AxisLocal": "(0; 1; 0)",
+      "MaxLimit": "350",
+      "MinLimit": "-350",
+      "Name": "Crane",
+      "Type": "Hinge"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint > Motor": {
+      "Force": "80000",
+      "Tau": "0.5",
+      "Type": "Position"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "ModelFrame": "BoneLeftAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Body": {
+      "ModelFrame": "BoneLeftAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "AxisLocal": "(0; 0; 1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "ModelFrame": "BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Body": {
+      "ModelFrame": "BoneRightAnchor_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "AxisLocal": "(0; 0; -1)"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(4) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(5) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > NetSync": {
+      "Legacy": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain": {
+      "Name": "Anchors",
+      "ParentBodies": "BoneLeftAnchorExt_cdt,BoneRightAnchorExt_cdt"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_position"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(1) > Constraint": {
+      "InitialFix": "true",
+      "Name": "AnchorExt",
+      "Position": ".74",
+      "TerminalFix": "true"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2)": {
+      "FoldingDelay": "0.2",
+      "Id": "anchors_push",
+      "UnfoldingDelay": "0.2"
+    },
+    "TruckAddon > PoweredConstraints > Chain > Group:nth-of-type(2) > Constraint": {
+      "InitialFix": "true",
+      "Name": "Anchor",
+      "Position": "0.9",
       "TerminalFix": "true"
     }
   },
@@ -36634,6 +47673,10 @@ export default {
       "Names": "PaderaSTD4SpareWheels",
       "Offset": "(0.04; 0.14; 0)",
       "ParentFrame": "BoneCabinTwist_cdt"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(2) > Socket:nth-of-type(4) > AddonsShift": {
+      "Offset": "(0.0; -0.15; 0)",
+      "Types": "SaddleLow"
     },
     "Truck > GameData > AddonSockets:nth-of-type(20) > Socket": {
       "Names": "PaderaSTD4Sticker_Door_R",
@@ -42825,6 +53868,78 @@ export default {
       "WheelType": "rear"
     }
   },
+  "s_mercedes_3850_dlc_18_1": {
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(1)": {
+      "BrokenWheelDamageMultiplier": "2",
+      "CriticalDamageThreshold": "0.7",
+      "DamageCapacity": "240",
+      "Name": "mercedes_3850_suspension_default"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(1) > GameData": {
+      "Price": "4300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_SUSPENSION_DEFAULT_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_SUSPENSION_DEFAULT_NAME"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(1) > Suspension:nth-of-type(1)": {
+      "BrokenSuspensionMax": "0.012",
+      "Damping": ".88",
+      "Height": "0.1",
+      "Strength": "0.1",
+      "SuspensionMax": "0.012",
+      "SuspensionMin": "-0.22",
+      "WheelType": "front"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(1) > Suspension:nth-of-type(2)": {
+      "BrokenSuspensionMax": "0.0",
+      "Damping": ".24",
+      "Height": "0.05",
+      "Strength": "0.068",
+      "SuspensionMax": "0.0",
+      "SuspensionMin": "-0.2",
+      "WheelType": "rear"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(2)": {
+      "BrokenWheelDamageMultiplier": "2",
+      "CriticalDamageThreshold": "0.7",
+      "DamageCapacity": "240",
+      "Name": "mercedes_3850_suspension_high"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(2) > GameData": {
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_SUSPENSION_HIGH_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_SUSPENSION_HIGH_NAME"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(2) > Suspension:nth-of-type(1)": {
+      "BrokenSuspensionMax": "0.025",
+      "Damping": ".95",
+      "Height": "0.195",
+      "Strength": "0.12",
+      "SuspensionMax": "0.025",
+      "SuspensionMin": "-0.28",
+      "WheelType": "front"
+    },
+    "SuspensionSetVariants > SuspensionSet:nth-of-type(2) > Suspension:nth-of-type(2)": {
+      "BrokenSuspensionMax": "0.02",
+      "Damping": ".35",
+      "Height": "0.155",
+      "Strength": "0.08",
+      "SuspensionMax": "0.02",
+      "SuspensionMin": "-0.32",
+      "WheelType": "rear"
+    }
+  },
   "s_mercedes_benz_actros_6x6_dlc_17_5": {
     "SuspensionSetVariants > SuspensionSet:nth-of-type(1)": {
       "BrokenWheelDamageMultiplier": "2",
@@ -43038,6 +54153,43 @@ export default {
       "Strength": "0.05",
       "SuspensionMax": "0.15",
       "SuspensionMin": "-0.3",
+      "WheelType": "rear"
+    }
+  },
+  "s_mercedes_mamute_1519_dlc_18_1": {
+    "SuspensionSetVariants > SuspensionSet": {
+      "BrokenWheelDamageMultiplier": "0.75",
+      "CriticalDamageThreshold": "0.35",
+      "DamageCapacity": "270",
+      "Name": "mercedes_mamute_1519_suspension_default"
+    },
+    "SuspensionSetVariants > SuspensionSet > GameData": {
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "SuspensionSetVariants > SuspensionSet > GameData > UiDesc": {
+      "UiDesc": "UI_SUSPENSION_BOOMERANG_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_SUSPENSION_BOOMERANG_NAME"
+    },
+    "SuspensionSetVariants > SuspensionSet > Suspension:nth-of-type(1)": {
+      "BrokenSuspensionMax": "0.04",
+      "Damping": "0.62",
+      "Height": "0.085",
+      "Strength": "0.07",
+      "SuspensionMax": "0.04",
+      "SuspensionMin": "-0.22",
+      "WheelType": "front"
+    },
+    "SuspensionSetVariants > SuspensionSet > Suspension:nth-of-type(2)": {
+      "BrokenSuspensionMax": "0.00",
+      "Damping": "0.55",
+      "Height": "0.0",
+      "Strength": "0.0",
+      "SuspensionMax": "0.0",
+      "SuspensionMin": "0.0",
       "WheelType": "rear"
     }
   },
@@ -43293,6 +54445,68 @@ export default {
       "WheelType": "rear"
     }
   },
+  "s_saddle_low_mercedes_actros_6x6_dlc_17_5": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "0",
+      "SaddleType": "low",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "SaddleLowMercedesActros"
+    },
+    "TruckAddon > GameData > RequiredAddonType": {
+      "Type": "SaddleLow",
+      "TypeUiName": "UI_REQUIRED_ADDON_TYPE_SADDLE_LOW"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_SADDLE_LOW_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_SADDLE_LOW_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/s_saddle_low_mercedes_actros_6x6"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "ImpactType": "Truck",
+      "Mass": "200",
+      "ModelFrame": "BoneRoot_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneExplicit_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "ExplicitParentFrame": "2",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "s_sleiter_st833_chimera_dlc_16": {
     "SuspensionSetVariants > SuspensionSet": {
       "BrokenWheelDamageMultiplier": "2",
@@ -43520,6 +54734,65 @@ export default {
       "Type": "Rigid"
     }
   },
+  "saddle_high_mercedes_3850_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "CameraPreset": "addon_1",
+      "Category": "frame_addons",
+      "IsCustomizable": "true",
+      "Price": "0",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "SaddleHighMercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddonType": {
+      "Type": "SaddleHigh",
+      "TypeUiName": "UI_REQUIRED_ADDON_TYPE_SADDLE_HIGH"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_SADDLE_HIGH_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_SADDLE_HIGH_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/saddle_high_mercedes_3850"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "80"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "Collisions": "Default",
+      "Mass": "20",
+      "ModelFrame": "BoneExplicit_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "ExplicitParentFrame": "2",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
   "saddle_high_mercedes_actros_6x6_dlc_17_5": {
     "TruckAddon > GameData": {
       "CameraPreset": "addon_1",
@@ -43593,6 +54866,62 @@ export default {
       "FixedToTruck": "true",
       "Pos": "(-3.955; 1.121; 0)"
     },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(1)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Flare:nth-of-type(2)": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > Ignition > Light": {
+      "Pos": "(-4.047; 0.790; 0)"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(1)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.986; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(2)": {
+      "Color": "g(245; 235; 220) x 0.6",
+      "Pos": "(-3.986; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(3)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.986; 0.931; 1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Flare:nth-of-type(4)": {
+      "Color": "g(220; 220; 255) x 0.05",
+      "Dir": "(-1; 0; 0)",
+      "Pos": "(-3.986; 0.931; -1.040)",
+      "Size": "0.4"
+    },
+    "TruckAddon > ModelAttachments > ReverseSignals > Light": {
+      "Pos": "(-4.331; 0.439; 0)"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(1)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; 0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Flare:nth-of-type(2)": {
+      "AspectRatio": "3",
+      "Color": "g(255; 0; 0) x 0.3",
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-3.986; 0.961; -0.850)",
+      "Size": "0.3"
+    },
+    "TruckAddon > ModelAttachments > StopSignals > Light": {
+      "ParentFrame": "BoneChassis_cdt",
+      "Pos": "(-4.331; 0.439; 0)"
+    },
     "TruckAddon > PhysicsModel": {
       "Mesh": "trucks/addons/saddle_high_mercedes_zetros_6x6"
     },
@@ -43622,6 +54951,109 @@ export default {
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
       "Collisions": "None",
       "Mass": "5",
+      "ModelFrame": "BoneExplicit_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
+      "ExplicitParentFrame": "2",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "saddle_low_02_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "Price": "0",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "SaddleLow2"
+    },
+    "TruckAddon > GameData > RequiredAddonType": {
+      "Type": "SaddleLow",
+      "TypeUiName": "UI_REQUIRED_ADDON_TYPE_SADDLE_LOW"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_SADDLE_LOW_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_SADDLE_LOW_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/saddle_low_02"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "40"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Constraint": {
+      "Type": "Rigid"
+    }
+  },
+  "saddle_low_02_mercedes_3850_dlc_18_1": {
+    "TruckAddon > GameData": {
+      "Price": "0",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckAddon > GameData > InstallSocket": {
+      "Type": "SaddleLow2Mercedes3850"
+    },
+    "TruckAddon > GameData > RequiredAddonType": {
+      "Type": "SaddleLow",
+      "TypeUiName": "UI_REQUIRED_ADDON_TYPE_SADDLE_LOW"
+    },
+    "TruckAddon > GameData > UiDesc": {
+      "UiDesc": "UI_ADDON_SADDLE_LOW_DESC",
+      "UiIcon30x30": "",
+      "UiIcon40x40": "",
+      "UiName": "UI_ADDON_SADDLE_LOW_NAME"
+    },
+    "TruckAddon > PhysicsModel": {
+      "Mesh": "trucks/addons/saddle_low_02_mercedes_3850"
+    },
+    "TruckAddon > PhysicsModel > Body": {
+      "Mass": "80"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountR_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(1) > Constraint": {
+      "ExplicitParentFrame": "0",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2)": {
+      "Collisions": "None",
+      "Mass": "5",
+      "ModelFrame": "BoneMountL_cdt"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(2) > Constraint": {
+      "ExplicitParentFrame": "1",
+      "Type": "Fixed"
+    },
+    "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3)": {
+      "Collisions": "Default",
+      "Mass": "20",
       "ModelFrame": "BoneExplicit_cdt"
     },
     "TruckAddon > PhysicsModel > Body > Body:nth-of-type(3) > Constraint": {
@@ -45129,7 +56561,7 @@ export default {
       "Quantity": "3"
     },
     "Truck > GameData > CraneSocket:nth-of-type(1)": {
-      "ParentFrame": "BoneRampStop_cdt",
+      "ParentFrame": "BoneCargo1_cdt",
       "Pos": "(-11.152; -0.987; 0.720)"
     },
     "Truck > GameData > CraneSocket:nth-of-type(10)": {
@@ -45145,7 +56577,7 @@ export default {
       "Pos": "(-5.486; -0.456; -1.295)"
     },
     "Truck > GameData > CraneSocket:nth-of-type(2)": {
-      "ParentFrame": "BoneRampStop_cdt",
+      "ParentFrame": "BoneCargo1_cdt",
       "Pos": "(-11.152; -0.987; -0.720)"
     },
     "Truck > GameData > CraneSocket:nth-of-type(3)": {
@@ -45203,7 +56635,7 @@ export default {
       "UiName": "UI_SEMITRAILER_GOOSENECK_4_NAME"
     },
     "Truck > GameData > WinchSocket:nth-of-type(1)": {
-      "ParentFrame": "BoneRampStop_cdt",
+      "ParentFrame": "BoneCargo1_cdt",
       "Pos": "(-11.152; -0.987; 0.720)"
     },
     "Truck > GameData > WinchSocket:nth-of-type(10)": {
@@ -45219,7 +56651,7 @@ export default {
       "Pos": "(-5.486; -0.733; -1.478)"
     },
     "Truck > GameData > WinchSocket:nth-of-type(2)": {
-      "ParentFrame": "BoneRampStop_cdt",
+      "ParentFrame": "BoneCargo1_cdt",
       "Pos": "(-11.152; -0.987; -0.720)"
     },
     "Truck > GameData > WinchSocket:nth-of-type(3)": {
@@ -45467,8 +56899,8 @@ export default {
       "NoFoliageCollisions": "true"
     },
     "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body > Body:nth-of-type(1) > Body": {
-      "CenterOfMassOffset": "(0; -0.3; 0)",
-      "Mass": "5",
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "40",
       "ModelFrame": "BoneFootL_cdt",
       "NoFoliageCollisions": "true"
     },
@@ -45501,8 +56933,8 @@ export default {
       "NoFoliageCollisions": "true"
     },
     "Truck > PhysicsModel > Body > Body:nth-of-type(2) > Body > Body:nth-of-type(2) > Body": {
-      "CenterOfMassOffset": "(0; -0.3; 0)",
-      "Mass": "5",
+      "CenterOfMassOffset": "(0; 0; 0)",
+      "Mass": "40",
       "ModelFrame": "BoneFootR_cdt",
       "NoFoliageCollisions": "true"
     },
@@ -49069,6 +60501,15 @@ export default {
     },
     "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(13)": {
       "FOV": "32.0",
+      "InterestPosition": "(3.4; 2.2; 0)",
+      "MaxXRotation": "360",
+      "MaxYRotation": "360",
+      "MaxZoom": "2",
+      "Name": "loglift_front",
+      "Position": "(-4.400; 4.0; 8.5)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(14)": {
+      "FOV": "32.0",
       "InterestPosition": "(0.6; 2; 0)",
       "MaxXRotation": "360",
       "MaxYRotation": "360",
@@ -49076,7 +60517,7 @@ export default {
       "Name": "addon_1",
       "Position": "(-8.400; 3.8; 8.5)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(14)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(15)": {
       "FOV": "32.0",
       "InterestPosition": "(4; 2.4; 0)",
       "MaxXRotation": "360",
@@ -49085,7 +60526,7 @@ export default {
       "Name": "addon_2",
       "Position": "(-2; 4.3; 6)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(15)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(16)": {
       "FOV": "32.0",
       "InterestPosition": "(4.5; 2; 0)",
       "MaxXRotation": "360",
@@ -49094,7 +60535,7 @@ export default {
       "Name": "addon_3",
       "Position": "(0; 5.1; -5.5)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(16)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(17)": {
       "FOV": "32.0",
       "InterestPosition": "(2; 1.675; 0)",
       "MaxXRotation": "360",
@@ -49103,26 +60544,19 @@ export default {
       "Name": "spare_wheel",
       "Position": "(-6; 3.5; 7.5)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(17)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(18)": {
       "FOV": "32.0",
       "InterestPosition": "(7.4; 1.95; 1.9)",
       "Interior": "true",
       "Name": "bubble_head",
       "Position": "(6.07; 3.27; -0.9)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(18)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(19)": {
       "FOV": "32.0",
       "InterestPosition": "(4.200; 2.2; 1.050)",
       "Interior": "true",
       "Name": "hood_figure",
       "Position": "(8.900; 3.2; -0.95)"
-    },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(19)": {
-      "FOV": "32.0",
-      "InterestPosition": "(7.5; 3.7; 1.5)",
-      "Interior": "true",
-      "Name": "curtain",
-      "Position": "(5.8; 3.1; -1)"
     },
     "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(2)": {
       "FOV": "32.0",
@@ -49133,12 +60567,19 @@ export default {
     },
     "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(20)": {
       "FOV": "32.0",
+      "InterestPosition": "(7.5; 3.7; 1.5)",
+      "Interior": "true",
+      "Name": "curtain",
+      "Position": "(5.8; 3.1; -1)"
+    },
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(21)": {
+      "FOV": "32.0",
       "InterestPosition": "(7.8; 3.9; 1)",
       "Interior": "true",
       "Name": "mirror_mount",
       "Position": "(6.1; 3.1; -0.5)"
     },
-    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(21)": {
+    "Truck > GameData > CustomizationCameras > CameraPos:nth-of-type(22)": {
       "FOV": "32.0",
       "InterestPosition": "(6; 3; -1.3)",
       "Interior": "true",
@@ -56253,13 +67694,14 @@ export default {
       "Offset": "(0; 0; -0.02)"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2)": {
+      "Dir": "(0; 0; -1)",
       "Names": "LogLift",
-      "NamesBlock": "FrameAddonLogShort, FrameAddon, FrameAddonTow, FrameAddonTowPlatform, BigCrane, BigCraneUs, FrameAddonKungWS6900xd, FrameAddonKung, FrameAddonTank, FrameAddonLogMedium, FrameAddonMaintainer, FrameAddonSeismicVibrator, SaddleHigh, SaddleLow",
-      "Offset": "(1.8; 1.48; 0)",
+      "NamesBlock": "FrameAddon, FrameAddonTow, FrameAddonTowPlatform, BigCrane, BigCraneUs, FrameAddonKungWS6900xd, FrameAddonKung, FrameAddonTank, FrameAddonLogMedium, FrameAddonMaintainer, FrameAddonSeismicVibrator",
+      "Offset": "(0.3; 1.48; 0)",
       "ParentFrame": "BoneCabin_cdt"
     },
     "Truck > GameData > AddonSockets:nth-of-type(13) > Socket:nth-of-type(2) > AddonsShift": {
-      "Offset": "(-0.5; 0; 0)",
+      "Offset": "(-0.3; 0; 0)",
       "Types": "WesternStar6900XDSpareWheel"
     },
     "Truck > GameData > AddonSockets:nth-of-type(14) > Socket:nth-of-type(1)": {
@@ -56334,6 +67776,11 @@ export default {
       "Names": "FrameAddonLogShort",
       "NamesBlock": "MinicraneKenworthC500",
       "Offset": "(-2.25; 1.48; 0)"
+    },
+    "Truck > GameData > AddonSockets:nth-of-type(16) > Socket:nth-of-type(2) > AddonsShift": {
+      "Offset": "(-0.15; 0; 0)",
+      "TrailerNamesBlock": "",
+      "Types": "WesternStar6900XDSpareWheel, LogLift"
     },
     "Truck > GameData > AddonSockets:nth-of-type(16) > Socket:nth-of-type(3)": {
       "Names": "FrameAddonLogMedium",
@@ -61173,6 +72620,101 @@ export default {
       "SubstanceFriction": "1.4"
     }
   },
+  "wheels_heavy_allterrain_double_mercedes_3850_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Mass": "200",
+      "Radius": "1",
+      "Width": "0.62",
+      "WidthRear": "1.24"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_highway_double_10",
+      "Name": "JAT HD I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_highway_double_11",
+      "Name": "JAT HD II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_allterrain_double_10",
+      "Name": "JAT ATHD I"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "1.7",
+      "BodyFrictionAsphalt": "1.5",
+      "SubstanceFriction": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_allterrain_double_11",
+      "Name": "JAT ATHD II"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "1.5",
+      "BodyFrictionAsphalt": "1.7",
+      "SubstanceFriction": "1.1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_allterrain_double_12",
+      "Name": "JAT ATHD III"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_HEAVY_ALLTERRAIN_DOUBLE_12_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "1.5",
+      "BodyFrictionAsphalt": "1.4",
+      "SubstanceFriction": "1.4"
+    }
+  },
   "wheels_heavy_allterrain_double_mercedes_actros_dlc_17_5": {
     "TruckWheels": {
       "DamageCapacity": "50",
@@ -61459,6 +73001,174 @@ export default {
     }
   },
   "wheels_heavy_double1_avenhorn_a15_dlc_16_5": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Radius": "1",
+      "Width": "0.58",
+      "WidthRear": "1.132"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_1_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_2_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_3",
+      "Name": "rim_3"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_3_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_3_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_4",
+      "Name": "rim_4"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_4_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_4_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_5",
+      "Name": "rim_5"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_5_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_5_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_6",
+      "Name": "rim_6"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_6_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_6_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(7)": {
+      "Mesh": "wheels/rim_medium_highway_double_10",
+      "Name": "JAT HD I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(7) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(8)": {
+      "Mesh": "wheels/rim_medium_highway_double_11",
+      "Name": "JAT HD II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(8) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_medium_highway_double_1",
+      "Name": "highway_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "3600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "SubstanceFriction": "0.4"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_medium_highway_double_2",
+      "Name": "highway_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "4000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "1.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_medium_highway_double_3",
+      "Name": "highway_3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "4400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_MEDIUM_HIGHWAY_DOUBLE_3_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFrictionAsphalt": "3.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4)": {
+      "Mesh": "wheels/tire_medium_allterrain_double_1",
+      "Name": "allterrain_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData": {
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "9"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > WheelFriction": {
+      "BodyFrictionAsphalt": "1.9"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5)": {
+      "Mesh": "wheels/tire_medium_allterrain_double_2",
+      "Name": "allterrain_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5) > GameData": {
+      "Price": "5300",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "9"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5) > WheelFriction": {
+      "SubstanceFriction": "1.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6)": {
+      "Mesh": "wheels/tire_medium_allterrain_double_3",
+      "Name": "allterrain_3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6) > GameData": {
+      "Price": "5700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "9"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_MEDIUM_ALLTERRAIN_DOUBLE_3_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6) > WheelFriction": {
+      "BodyFriction": "1.7"
+    }
+  },
+  "wheels_heavy_double1_mercedes_3850_dlc_18_1": {
     "TruckWheels": {
       "DamageCapacity": "50",
       "Radius": "1",
@@ -62231,6 +73941,107 @@ export default {
       "UiName": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME"
     }
   },
+  "wheels_heavy_double2_mercedes_3850_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Radius": "1",
+      "Width": "0.52",
+      "WidthRear": "1.213"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_10",
+      "Name": "JAT OHD I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_11",
+      "Name": "JAT OHD II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_1",
+      "Name": "offroad_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "5900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "11"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "SubstanceFriction": "1.9"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_2",
+      "Name": "offroad_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "6200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "11"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "3.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_3",
+      "Name": "offroad_3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "6800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "11"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_3_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFrictionAsphalt": "1.0"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4)": {
+      "Mesh": "wheels/tire_heavy_chains_double_1",
+      "Name": "chains_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData": {
+      "Price": "6800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_CHAINS_DESC",
+      "UiName": "UI_TIRE_HEAVY_CHAINS_DOUBLE_1_NAME"
+    }
+  },
   "wheels_heavy_double2_mercedes_actros_dlc_17_5": {
     "TruckWheels": {
       "DamageCapacity": "50",
@@ -62535,6 +74346,133 @@ export default {
     }
   },
   "wheels_heavy_highway_double_avenhorn_a15_dlc_16_5": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Mass": "200",
+      "Radius": "1",
+      "Width": "0.45",
+      "WidthRear": "0.90"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_highway_double_10",
+      "Name": "JAT HD I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_highway_double_11",
+      "Name": "JAT HD II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_HIGHWAY_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_1_2",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_1_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_2_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_2_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_3_2",
+      "Name": "rim_3"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_3_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_3_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_4_2",
+      "Name": "rim_4"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_4_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_4_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(7)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_5_2",
+      "Name": "rim_5"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(7) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_5_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_5_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(8)": {
+      "Mesh": "wheels/rim_medium_highway_allterrain_double_6_2",
+      "Name": "rim_6"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(8) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_MEDIUM_DOUBLE_6_DESC",
+      "UiName": "UI_RIM_MEDIUM_DOUBLE_6_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_highway_double_10",
+      "Name": "JAT HHD I"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "3600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "1",
+      "BodyFrictionAsphalt": "3",
+      "SubstanceFriction": "0.4"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_highway_double_11",
+      "Name": "JAT HHD II"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "4000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "1.1",
+      "BodyFrictionAsphalt": "3",
+      "SubstanceFriction": "0.3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_highway_double_12",
+      "Name": "JAT HHD III"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "4400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_HIGHWAY_DESC",
+      "UiName": "UI_TIRE_HEAVY_HIGHWAY_DOUBLE_12_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "0.9",
+      "BodyFrictionAsphalt": "3.2",
+      "SubstanceFriction": "0.4"
+    }
+  },
+  "wheels_heavy_highway_double_mercedes_3850_dlc_18_1": {
     "TruckWheels": {
       "DamageCapacity": "50",
       "Mass": "200",
@@ -63103,6 +75041,100 @@ export default {
       "UiName": "UI_TIRE_MERCEDES_BENZ_ZETROS_NAME"
     }
   },
+  "wheels_heavy_mudtires_single2_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Mass": "200",
+      "Radius": "1",
+      "Width": "0.79"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_1_2",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_2_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_mudtires_12",
+      "Name": "JAT MHS IV"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_14_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_mudtires_13",
+      "Name": "JAT MHS V"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_15_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_mudtires_13",
+      "Name": "JAT MHS IV"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "5200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_13_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "1.8",
+      "BodyFrictionAsphalt": "0.4",
+      "SubstanceFriction": "2.6"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_mudtires_14",
+      "Name": "JAT MHS V"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "5600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_14_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "2.4",
+      "BodyFrictionAsphalt": "0.5",
+      "SubstanceFriction": "2.1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_mudtires_15",
+      "Name": "JAT MHS VI"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "5900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_15_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "1.8",
+      "BodyFrictionAsphalt": "0.6",
+      "SubstanceFriction": "2.5"
+    }
+  },
   "wheels_heavy_mudtires_single2_mercedes_zetros_dlc_17_5": {
     "TruckWheels": {
       "DamageCapacity": "50",
@@ -63289,6 +75321,108 @@ export default {
       "BodyFriction": "1.8",
       "BodyFrictionAsphalt": "0.6",
       "SubstanceFriction": "2.5"
+    }
+  },
+  "wheels_heavy_mudtires_single_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Mass": "200",
+      "Radius": "1",
+      "Width": "0.79"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_mudtires_10",
+      "Name": "JAT MHS I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_mudtires_11",
+      "Name": "JAT MHS II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_mudtires_12",
+      "Name": "JAT MHS III"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_12_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_1_3",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_2_3",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_mudtires_10",
+      "Name": "JAT MHS I"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "6200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_10_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "1.8",
+      "BodyFrictionAsphalt": "0.5",
+      "SubstanceFriction": "2.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_mudtires_11",
+      "Name": "JAT MHS II"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "6800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "2.3",
+      "BodyFrictionAsphalt": "0.6",
+      "SubstanceFriction": "2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_mudtires_12",
+      "Name": "JAT MHS III"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "7400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_12_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "1.9",
+      "BodyFrictionAsphalt": "0.6",
+      "SubstanceFriction": "2.4"
     }
   },
   "wheels_heavy_mudtires_single_mercedes_zetros_dlc_17_5": {
@@ -63527,6 +75661,101 @@ export default {
     }
   },
   "wheels_heavy_offroad_double_avenhorn_a15_dlc_16_5": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Mass": "200",
+      "Radius": "1",
+      "Width": "0.62",
+      "WidthRear": "1.24"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_10",
+      "Name": "JAT OHD I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_11",
+      "Name": "JAT OHD II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_offroad_double_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_10",
+      "Name": "JAT OHD I"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "5900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_10_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "3",
+      "BodyFrictionAsphalt": "1",
+      "SubstanceFriction": "1.7"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_11",
+      "Name": "JAT OHD II"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "6200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_11_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "3.1",
+      "BodyFrictionAsphalt": "0.8",
+      "SubstanceFriction": "1.6"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_offroad_double_12",
+      "Name": "JAT OHD III"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "6800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_12_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "3.2",
+      "BodyFrictionAsphalt": "0.6",
+      "SubstanceFriction": "1.6"
+    }
+  },
+  "wheels_heavy_offroad_double_mercedes_3850_dlc_18_1": {
     "TruckWheels": {
       "DamageCapacity": "50",
       "Mass": "200",
@@ -63906,6 +76135,83 @@ export default {
       "SubstanceFriction": "1.6"
     }
   },
+  "wheels_heavy_offroad_single_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Radius": "1",
+      "Width": "0.62"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_12",
+      "Name": "JAT OHS I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_12_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_13",
+      "Name": "JAT OHS II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_13_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_13",
+      "Name": "JAT OHS I"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_13_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "BodyFriction": "3",
+      "BodyFrictionAsphalt": "0.8",
+      "SubstanceFriction": "1.6"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_14",
+      "Name": "JAT OHS II"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "5900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_14_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "3.2",
+      "BodyFrictionAsphalt": "1",
+      "SubstanceFriction": "1.3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_15",
+      "Name": "JAT OHS III"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "6200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_15_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "BodyFriction": "3",
+      "BodyFrictionAsphalt": "0.9",
+      "SubstanceFriction": "1.7"
+    }
+  },
   "wheels_heavy_offroad_single_mercedes_zetros_dlc_17_5": {
     "TruckWheels": {
       "DamageCapacity": "50",
@@ -64093,6 +76399,85 @@ export default {
       "SubstanceFriction": "2.18"
     }
   },
+  "wheels_heavy_single2_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Radius": "1",
+      "Width": "0.84"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_mudtires_single_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_MUDTIRES_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_mudtires_single_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_MUDTIRES_SINGLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_mudtires_10_3",
+      "Name": "JAT MHS I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_mudtires_11_3",
+      "Name": "JAT MHS II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5)": {
+      "Mesh": "wheels/rim_heavy_mudtires_13_3",
+      "Name": "JAT MHS III"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_12_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_mudtires_single_1",
+      "Name": "mudtires_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "7400",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "13"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "SubstanceFriction": "2.4"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_mudtires_single_2",
+      "Name": "mudtires_3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "7700",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "13"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFriction": "2.4"
+    }
+  },
   "wheels_heavy_single2_mercedes_zetros_dlc_17_5": {
     "TruckWheels": {
       "DamageCapacity": "50",
@@ -64249,6 +76634,174 @@ export default {
     },
     "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
       "BodyFriction": "2.4"
+    }
+  },
+  "wheels_heavy_single_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "50",
+      "Radius": "1",
+      "Width": "0.65"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_1",
+      "Name": "rim_1"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2)": {
+      "Mesh": "wheels/rim_heavy_offroad_single_2",
+      "Name": "rim_2"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3)": {
+      "Mesh": "wheels/rim_heavy_mudtires_10_2",
+      "Name": "JAT MHS I"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_10_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4)": {
+      "Mesh": "wheels/rim_heavy_mudtires_11_2",
+      "Name": "JAT MHS II"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_11_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5)": {
+      "Mesh": "wheels/rim_heavy_mudtires_12_2",
+      "Name": "JAT MHS III"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_12_NAME"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6)": {
+      "Mesh": "wheels/rim_heavy_mudtires_13_2",
+      "Name": "JAT MHS IV"
+    },
+    "TruckWheels > TruckRims > TruckRim:nth-of-type(6) > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_JAT_DESC",
+      "UiName": "UI_RIM_HEAVY_MUDTIRES_SINGLE_13_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_1",
+      "Name": "allterrain_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData": {
+      "Price": "4900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_ALLTERRAIN_DESC",
+      "UiName": "UI_TIRE_HEAVY_ALLTERRAIN_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(1) > WheelFriction": {
+      "SubstanceFriction": "1.2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_2",
+      "Name": "offroad_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData": {
+      "Price": "5900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "11"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(2) > WheelFriction": {
+      "BodyFrictionAsphalt": "1.0"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_4",
+      "Name": "offroad_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData": {
+      "Price": "6200",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "11"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_SINGLE_4_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(3) > WheelFriction": {
+      "SubstanceFriction": "1.8"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4)": {
+      "Mesh": "wheels/tire_heavy_offroad_single_3",
+      "Name": "mudtires_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData": {
+      "Price": "7000",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "13"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(4) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5)": {
+      "Mesh": "wheels/tire_heavy_chains_single_1",
+      "Name": "chains_1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5) > GameData": {
+      "Price": "6800",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(5) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_CHAINS_DESC",
+      "UiName": "UI_TIRE_HEAVY_CHAINS_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6)": {
+      "Mesh": "wheels/tire_dlc8_offroad_single_1",
+      "Name": "mudtires_2"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6) > GameData": {
+      "Price": "8500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "15"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(6) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_1_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(7)": {
+      "Mesh": "wheels/tire_dlc8_offroad_single_2",
+      "Name": "mudtires_3"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(7) > GameData": {
+      "Price": "7900",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "14"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(7) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_2_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(8)": {
+      "Mesh": "wheels/tire_dlc8_offroad_single_3",
+      "Name": "mudtires_4"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(8) > GameData": {
+      "Price": "7500",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "14"
+    },
+    "TruckWheels > TruckTires > TruckTire:nth-of-type(8) > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_MUDTIRES_DESC",
+      "UiName": "UI_DLC_TIRE_HEAVY_MUDTIRES_SINGLE_3_NAME"
     }
   },
   "wheels_heavy_single_mercedes_zetros_dlc_17_5": {
@@ -64647,6 +77200,68 @@ export default {
     "TruckWheels > TruckTires > TruckTire > GameData > UiDesc": {
       "UiDesc": "UI_TIRE_OFFROAD_DESC",
       "UiName": "UI_TIRE_JANGSU_RX600_NAME"
+    }
+  },
+  "wheels_mercedes_3850_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "100",
+      "Radius": "1",
+      "Width": "0.672",
+      "WidthRear": "1.19"
+    },
+    "TruckWheels > TruckRims > TruckRim": {
+      "Mesh": "wheels/rim_mercedes_3850",
+      "Name": "rim_mercedes_3850"
+    },
+    "TruckWheels > TruckRims > TruckRim > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_DOUBLE_MERCEDES_3850_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire": {
+      "Mesh": "wheels/tire_mercedes_3850",
+      "Name": "tire_offroad_mercedes_3850"
+    },
+    "TruckWheels > TruckTires > TruckTire > GameData": {
+      "Price": "3600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_DOUBLE_MERCEDES_3850_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire > WheelFriction": {
+      "BodyFriction": "2.9",
+      "BodyFrictionAsphalt": "1.0",
+      "SubstanceFriction": "1.75"
+    }
+  },
+  "wheels_mercedes_mamute_1519_dlc_18_1": {
+    "TruckWheels": {
+      "DamageCapacity": "100",
+      "Radius": "1",
+      "Width": "0.672"
+    },
+    "TruckWheels > TruckRims > TruckRim": {
+      "Mesh": "wheels/rim_mercedes_mamute_1519",
+      "Name": "rim_mercedes_mamute"
+    },
+    "TruckWheels > TruckRims > TruckRim > GameData > UiDesc": {
+      "UiDesc": "UI_RIM_HEAVY_OFFROAD_SINGLE_1_DESC",
+      "UiName": "UI_RIM_HEAVY_OFFROAD_SINGLE_MERCEDES_MAMUTE_1519_NAME"
+    },
+    "TruckWheels > TruckTires > TruckTire": {
+      "Mesh": "wheels/tire_mercedes_mamute_1519",
+      "Name": "tire_offroad_mercedes_mamute"
+    },
+    "TruckWheels > TruckTires > TruckTire > GameData": {
+      "Price": "3600",
+      "UnlockByExploration": "false",
+      "UnlockByRank": "1"
+    },
+    "TruckWheels > TruckTires > TruckTire > GameData > UiDesc": {
+      "UiDesc": "UI_TIRE_OFFROAD_DESC",
+      "UiName": "UI_TIRE_HEAVY_OFFROAD_SINGLE_MERCEDES_MAMUTE_1519_NAME"
     }
   },
   "wheels_mercer_6x6r_230_dlc_18": {

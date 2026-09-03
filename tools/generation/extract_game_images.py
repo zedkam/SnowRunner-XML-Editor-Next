@@ -27,9 +27,13 @@ PCT_NAME = re.compile(r"trucks_img_lib_i([0-9a-f]+)\.pct$", re.IGNORECASE)
 # Season 18 block (i400+) uses direct page ids and must not be shifted.
 LEGACY_PAGE_LIMIT = 0x400
 LEGACY_PAGE_OFFSET = 3
-# The current game build exposes Mercer R230 as a class-only shop symbol; its
-# raster page is still present as a late-DLC texture.
-FALLBACK_TEXTURE_PAGES = {"shopImgMercerR230": 0x408}
+# The current game build exposes some late-DLC vehicles as class-only shop
+# symbols; their raster pages are still present as late-DLC textures.
+FALLBACK_TEXTURE_PAGES = {
+    # Verified by decoding the PCT pages from the current retail gfx.pak.
+    "shopImgMercedesBenz3850": 0x412,
+    "shopImgMercerR230": 0x408,
+}
 
 
 def load_gfx_module(pak: zipfile.ZipFile) -> bytes:
@@ -142,6 +146,19 @@ def main() -> None:
 
     target_report = args.report or args.links_manifest
     target_report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    # Keep the combined content manifest authoritative after image extraction.
+    # The XML generator runs before this script, so its embedded imageLinks
+    # would otherwise retain the pre-extraction missing status.
+    content_manifest = project_root / "docs" / "architecture" / "generated-content-manifest.json"
+    if content_manifest.exists():
+        content = json.loads(content_manifest.read_text(encoding="utf-8"))
+        content["imageLinks"] = report
+        content_manifest.write_text(
+            json.dumps(content, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
     print(json.dumps({
         "copied": sum(item["status"] == "copied" for item in report),
         "missing": sum(item["status"] == "missing" for item in report),

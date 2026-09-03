@@ -6,10 +6,10 @@
     "truckImage": "freightlinerFLD120mchr",
     "uiIcon": "shopImgFreightlineFLD120",
     "referencedPath": "ui/textures/shopImgFreightlineFLD120",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_if1.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_if7.pct",
     "copiedTo": "src/images/trucks/freightliner_fld120.png",
     "status": "copied",
-    "texturePage": "if1",
+    "texturePage": "if7",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -32,10 +32,10 @@
     "truckImage": "HibBillertmchr",
     "uiIcon": "shopImgHibBillert",
     "referencedPath": "ui/textures/shopImgHibBillert",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_id9.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_idf.pct",
     "copiedTo": "src/images/trucks/hib_billert_1980.png",
     "status": "copied",
-    "texturePage": "id9",
+    "texturePage": "idf",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -71,10 +71,10 @@
     "truckImage": "avenhorna15mchr",
     "uiIcon": "shopImgAvenhornA15",
     "referencedPath": "ui/textures/shopImgAvenhornA15",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i14e.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i154.pct",
     "copiedTo": "src/images/trucks/avenhorn_a15.png",
     "status": "copied",
-    "texturePage": "i14e",
+    "texturePage": "i154",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -97,10 +97,10 @@
     "truckImage": "jangsurx600mchr",
     "uiIcon": "shopImgJangsuRx600",
     "referencedPath": "ui/textures/shopImgJangsuRx600",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_ic7.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_ica.pct",
     "copiedTo": "src/images/trucks/jangsu_rx600.png",
     "status": "copied",
-    "texturePage": "ic7",
+    "texturePage": "ica",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -123,10 +123,10 @@
     "truckImage": "mercedesBenzActrosmchr",
     "uiIcon": "shopImgMercedesBenzActros",
     "referencedPath": "ui/textures/shopImgMercedesBenzActros",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i8b.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i8e.pct",
     "copiedTo": "src/images/trucks/mercedes_benz_actros_6x6.png",
     "status": "copied",
-    "texturePage": "i8b",
+    "texturePage": "i8e",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -136,10 +136,10 @@
     "truckImage": "mercedesBenzZetrosmchr",
     "uiIcon": "shopImgMercedesBenzZetros",
     "referencedPath": "ui/textures/shopImgMercedesBenzZetros",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i88.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i8b.pct",
     "copiedTo": "src/images/trucks/mercedes_benz_zetros_6x6.png",
     "status": "copied",
-    "texturePage": "i88",
+    "texturePage": "i8b",
     "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
@@ -149,11 +149,11 @@
     "truckImage": "hipBillertM816mchr",
     "uiIcon": "shopImgHipBillertM816",
     "referencedPath": "ui/textures/shopImgHipBillertM816",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i40b.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_idc.pct",
     "copiedTo": "src/images/trucks/hib_billert_m816.png",
     "status": "copied",
-    "texturePage": "i40b",
-    "mappingMethod": "gfx-symbol-direct"
+    "texturePage": "idc",
+    "mappingMethod": "gfx-symbol-legacy-minus-3"
   },
   {
     "source": "dlc_18",
@@ -162,10 +162,36 @@
     "truckImage": "mercerR230mchr",
     "uiIcon": "shopImgMercerR230",
     "referencedPath": "ui/textures/shopImgMercerR230",
-    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i408.pct",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i85.pct",
     "copiedTo": "src/images/trucks/mercer_6x6r_230.png",
     "status": "copied",
-    "texturePage": "i408",
+    "texturePage": "i85",
+    "mappingMethod": "gfx-symbol-legacy-minus-3"
+  },
+  {
+    "source": "dlc_18_1",
+    "file": "mercedes_3850",
+    "xml": "_dlc/dlc_18_1/classes/trucks/mercedes_3850.xml",
+    "truckImage": "mercedesBenz3850mchr",
+    "uiIcon": "shopImgMercedesBenz3850",
+    "referencedPath": "ui/textures/shopImgMercedesBenz3850",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i412.pct",
+    "copiedTo": "src/images/trucks/mercedes_3850.png",
+    "status": "copied",
+    "texturePage": "i412",
+    "mappingMethod": "fallback-late-dlc"
+  },
+  {
+    "source": "dlc_18_1",
+    "file": "mercedes_mamute_1519",
+    "xml": "_dlc/dlc_18_1/classes/trucks/mercedes_mamute_1519.xml",
+    "truckImage": "mercedesBenzMamutemchr",
+    "uiIcon": "shopImgMercedesBenzMamute",
+    "referencedPath": "ui/textures/shopImgMercedesBenzMamute",
+    "sourceFile": "[textures]/ui/flash_auto/trucks_img_lib_i415.pct",
+    "copiedTo": "src/images/trucks/mercedes_mamute_1519.png",
+    "status": "copied",
+    "texturePage": "i415",
     "mappingMethod": "gfx-symbol-direct"
   }
 ]

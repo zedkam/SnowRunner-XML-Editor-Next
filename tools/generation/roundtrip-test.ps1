@@ -1,8 +1,8 @@
 param(
   [Parameter(Mandatory = $true)]
   [string]$ArchivePath,
-  [string]$Source = 'dlc_18',
-  [string]$TruckFile = 'mercer_6x6r_230.xml'
+  [string]$Source = 'dlc_18_1',
+  [string]$TruckFile = 'mercedes_3850.xml'
 )
 
 $ErrorActionPreference = 'Stop'

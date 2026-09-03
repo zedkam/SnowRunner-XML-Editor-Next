@@ -1,7 +1,7 @@
 param(
   [Parameter(Mandatory = $true)]
   [string]$ArchivePath,
-  [string[]]$Sources = @('dlc_15_5', 'dlc_16', 'dlc_16_5', 'dlc_17', 'dlc_17_5', 'dlc_18')
+  [string[]]$Sources = @('dlc_15_5', 'dlc_16', 'dlc_16_5', 'dlc_17', 'dlc_17_5', 'dlc_18', 'dlc_18_1')
 )
 
 $ErrorActionPreference = 'Stop'

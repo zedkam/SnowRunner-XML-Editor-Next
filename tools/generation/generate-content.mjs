@@ -6,7 +6,7 @@ import * as cheerio from 'cheerio'
 const args = parseArgs(process.argv.slice(2))
 const inputRoot = path.resolve(args['input-root'])
 const projectRoot = path.resolve(args['project-root'])
-const sources = (args.sources ?? 'dlc_15_5,dlc_16,dlc_16_5,dlc_17,dlc_17_5,dlc_18')
+const sources = (args.sources ?? 'dlc_15_5,dlc_16,dlc_16_5,dlc_17,dlc_17_5,dlc_18,dlc_18_1')
   .split(',')
   .map(item => item.trim())
   .filter(Boolean)
