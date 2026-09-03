@@ -23,6 +23,23 @@
         <Text class="title">
           {{ title.first }}<span class="red">{{ title.second }}</span>{{ title.last }}
         </Text>
+        <div
+          v-if="vehicleDescription.RU || vehicleDescription.EN"
+          class="vehicle-description"
+        >
+          <p
+            v-if="vehicleDescription.RU"
+            :title="vehicleDescription.RU"
+          >
+            <span class="locale-label">RU:</span>{{ vehicleDescription.RU }}
+          </p>
+          <p
+            v-if="vehicleDescription.EN"
+            :title="vehicleDescription.EN"
+          >
+            <span class="locale-label">EN:</span>{{ vehicleDescription.EN }}
+          </p>
+        </div>
         <div class="indicators-tags">
           <Tag v-if="files[SourceType.main].includes(file)">
             {{ texts.mainSource }}
@@ -67,6 +84,23 @@
           {{ title.first }}<span class="red">{{ title.second }}</span>{{ title.last }}
         </template>
       </Card.Meta>
+      <div
+        v-if="vehicleDescription.RU || vehicleDescription.EN"
+        class="vehicle-description"
+      >
+        <p
+          v-if="vehicleDescription.RU"
+          :title="vehicleDescription.RU"
+        >
+          <span class="locale-label">RU:</span>{{ vehicleDescription.RU }}
+        </p>
+        <p
+          v-if="vehicleDescription.EN"
+          :title="vehicleDescription.EN"
+        >
+          <span class="locale-label">EN:</span>{{ vehicleDescription.EN }}
+        </p>
+      </div>
       <div class="indicators">
         <StarFilled
           v-if="isFavorite"
@@ -90,7 +124,7 @@ import { ListMode, SourceType, type Category } from '../../../enums'
 import { useEditorStore, useListStore, usePageStore } from '../../../store'
 import texts from '../../texts'
 import { EditorUtils } from '../../utils'
-import type { IFile, TruckType } from '/mods/renderer'
+import type { IFile, LocalizedGameText, TruckType } from '/mods/renderer'
 import { Edited, Favorites, GameTexts, Images, Messages, Mods, Page, TruckXML } from '/mods/renderer'
 import { ContextMenu } from '/rend/components'
 import { prettyString } from '/utils/renderer'
@@ -120,6 +154,7 @@ const xml = shallowRef<TruckXML | null>(null)
 const imgSRC = ref<string>(Images.getDefault(category.value))
 const name = ref<string>('')
 const type = ref<TruckType | undefined>()
+const vehicleDescription = ref<LocalizedGameText>({})
 
 function getName(file: IFile, xml: TruckXML): string {
   let name = prettyString(file.name)
@@ -137,6 +172,14 @@ function getName(file: IFile, xml: TruckXML): string {
 
 function getType(xml: TruckXML) {
   return xml.TruckData?.TruckType
+}
+
+function getDescription(file: IFile, xml: TruckXML): LocalizedGameText {
+  const key = xml.GameData?.UiDesc?.UiDesc
+
+  return key
+    ? GameTexts.getLocalized(key, Mods.getModID(file))
+    : {}
 }
 
 onMounted(() => {
@@ -160,6 +203,7 @@ watchEffect(async () => {
   if (!xmlRes) {
     console.error(`Error on loading xml file ${file.value.path}`)
     name.value = 'ERROR'
+    vehicleDescription.value = {}
 
     return
   }
@@ -167,6 +211,7 @@ watchEffect(async () => {
   xml.value = xmlRes
   name.value = getName(file.value, xmlRes)
   type.value = getType(xmlRes)
+  vehicleDescription.value = getDescription(file.value, xmlRes)
 })
 
 watchEffect(async () => {
@@ -281,7 +326,7 @@ function toggleFav() {
 .card {
   box-sizing: content-box;
   width: 250px;
-  height: 400px;
+  height: 500px;
   margin: auto;
 
   &-container {
@@ -322,6 +367,10 @@ function toggleFav() {
           margin-top: 10px;
         }
       }
+
+      .vehicle-description {
+        max-width: 700px;
+      }
     }
   }
 
@@ -329,6 +378,31 @@ function toggleFav() {
     position: absolute;
     top: 10px;
     left: 10px;
+  }
+
+  .vehicle-description {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 15px 8px;
+    color: #555;
+    font-size: 12px;
+    line-height: 1.3;
+    text-align: left;
+    overflow: hidden;
+
+    p {
+      display: -webkit-box;
+      margin: 5px 0 0;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+    }
+
+    .locale-label {
+      margin-right: 4px;
+      color: #888;
+      font-weight: bold;
+    }
   }
 
   .favorite-star {

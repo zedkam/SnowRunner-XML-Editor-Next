@@ -21,14 +21,18 @@ class GameTexts {
     [Lang.ch]: 'chinese_simplified'
   }
 
+  /** Наблюдатель текущего файла локализации. */
+  private stringsWatcher?: FSWatcher
+
   /** Тексты. */
   @publicField()
   private accessor object: IGameTexts = {
     mods: {},
-    main: {}
+    main: {},
+    locales: {}
   }
 
-  /** Обработать файл с переводом из `initial.pak` (текущий выбранный язык в программе). */
+  /** Обработать файлы локализации из `initial.pak`. */
   @publicMethod()
   async initFromInitial() {
     if (!await Dirs.strings.exists()) {
@@ -37,29 +41,40 @@ class GameTexts {
 
     const stringsFile = Dirs.strings.file(`strings_${this.locals[Config.lang]}.str`)
     const parse = async () => {
-        await Archive.isInitialUnpacking
-
-        if (await stringsFile.exists()) {
-          this.set({ main: this.parseFile(await stringsFile.read('utf16le')) })
-        }
+      await Archive.isInitialUnpacking
+      await this.loadInitialTranslations()
     }
-
-    if (!await stringsFile.exists()) {
-      return
-    }
-
-    let watcher: FSWatcher | undefined
 
     const watchAndParse = async () => {
       try {
         await Archive.isInitialUnpacking
-        watcher?.close()
-        watcher = stringsFile.watch(parse).on('error', watchAndParse)
+        this.stringsWatcher?.close()
+        this.stringsWatcher = await stringsFile.exists()
+          ? stringsFile.watch(parse).on('error', watchAndParse)
+          : undefined
         await parse()
       } catch {}
     }
 
     await watchAndParse()
+  }
+
+  /** Загрузить тексты игры для всех локалей, нужных карточкам техники. */
+  private async loadInitialTranslations() {
+    const locales: IGameTexts['locales'] = {}
+
+    for (const lang of Object.values(Lang)) {
+      const stringsFile = Dirs.strings.file(`strings_${this.locals[lang]}.str`)
+
+      if (await stringsFile.exists()) {
+        locales[lang] = this.parseFile(await stringsFile.read('utf16le'))
+      }
+    }
+
+    this.set({
+      main: locales[Config.lang] || {},
+      locales
+    })
   }
 
   /** Обработать файл с переводом из `.pak` файлов модов (текущий выбранный язык в программе). */
