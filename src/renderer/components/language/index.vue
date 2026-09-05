@@ -61,9 +61,16 @@ async function changeLang(newLang: Lang) {
  * @returns Опции `Select`.
  */
 function langToOptions(lang: typeof Lang): { label: string, value: string }[] {
-  return Object.entries(lang).map(([name, value]) => ({
-    label: name.toUpperCase(),
-    value: value
+  const labels: Record<Lang, string> = {
+    [Lang.ru]: 'Russian',
+    [Lang.en]: 'English',
+    [Lang.de]: 'German',
+    [Lang.ch]: 'Chinese'
+  }
+
+  return Object.values(lang).map(value => ({
+    label: labels[value as Lang] || value,
+    value
   }))
 }
 </script>

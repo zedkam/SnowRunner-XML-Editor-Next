@@ -1,127 +1,80 @@
 # SnowRunner XML Editor Next
 
-## Статус проекта
+## Description / Описание
 
-Этот репозиторий является самостоятельным продолжением проекта
-[VerZsuT/SnowRunner-XML-Editor-Desktop](https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop).
-Исходный проект автора больше не развивается, поэтому здесь продолжается его
-поддержка: добавляются новые DLC, исправляются ошибки, обновляются изображения и
-настраивается собственный канал релизов. Это не официальный репозиторий Saber
-Interactive или Focus Entertainment. Авторские права и исходная лицензия
-оригинального проекта сохраняются.
+### English
 
-Текущая ветка продолжения начинается с версии `2.0.0-beta.2`; текущая сборка
-описаний техники — `2.0.0-beta.3`.
+SnowRunner XML Editor Next is a desktop application for visually editing
+SnowRunner XML files. It is an independent continuation of
+[VerZsuT/SnowRunner-XML-Editor-Desktop](https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop),
+whose original development has been discontinued.
 
-В списке техники доступны описания на русском и английском языках. Тексты
-загружаются из локальных файлов игры `strings_russian.str` и
-`strings_english.str`, поэтому каталог автоматически использует актуальные
-описания вашей версии SnowRunner.
+The editor extracts the required files from `initial.pak`, lets you edit their
+parameters in tables, and writes validated changes back to the archive. It
+supports the latest game content available in the installed SnowRunner copy,
+including DLC vehicles and their images.
 
-Данная программа позволяет редактировать XML файлы игры SnowRunner с помощью редактирования визуальной таблицы
-параметров.  
-Редактор распаковывает нужные файлы из _initial.pak_ во временную папку, после чего идёт работает с ними. При сохранении изменения вносятся в архив.  
-Для работы с _initial.pak_ программа использует портативную версию _WinRar_ для 64х разрядных систем.  
-Всё работает с применением **Electron**, **Vite**, **Vue**, **Typescript**.
+Vehicle descriptions are available in both Russian and English. The texts are
+read from the local game files `strings_russian.str` and `strings_english.str`,
+so the application uses the descriptions shipped with your game version.
 
-Редактор имеет следующий функционал:
+Current release: [`v2.0.0-beta.4`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.4).
 
-- _обновление_
-- _сброс программы и параметров_
-- _импорт / экспорт настроек и параметров_
-- _редактирование XML_
+This is not an official Saber Interactive or Focus Entertainment project. The
+original project copyright and license are preserved.
 
-## Установка
+### Русский
 
-В релизах есть две версии:
+SnowRunner XML Editor Next — настольное приложение для визуального редактирования
+XML-файлов SnowRunner. Это самостоятельное продолжение проекта
+[VerZsuT/SnowRunner-XML-Editor-Desktop](https://github.com/VerZsuT/SnowRunner-XML-Editor-Desktop),
+разработка которого автором была прекращена.
 
-- _установщик_. Устанавливает программу в систему (.exe).
-- _портативная версия_. Запускаемый portable-пакет (.zip или .exe).
+Редактор извлекает необходимые файлы из `initial.pak`, позволяет изменять их
+параметры в таблицах и записывает проверенные изменения обратно в архив.
+Поддерживается актуальное содержимое установленной игры SnowRunner, включая
+машины DLC и их изображения.
 
-Различие между версиями только в способе установки.
+Описания техники доступны на русском и английском языках. Тексты читаются из
+локальных игровых файлов `strings_russian.str` и `strings_english.str`, поэтому
+используются описания именно вашей версии игры.
 
-## Как пользоваться
+Текущий релиз: [`v2.0.0-beta.4`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.4).
 
-О том как пользоваться программой можете почитать [в гайде по ссылке](https://snowrunner.mod.io/guides/snowrunner-xml-editor).
+Это не официальный проект Saber Interactive или Focus Entertainment. Авторские
+права и лицензия оригинального проекта сохраняются.
 
-## Для разработчиков
+## Features / Возможности
 
-Node.js нужен только для разработки и сборки проекта. Пользователям Node.js
-устанавливать не требуется: в релизе доступны готовые установщик и portable-версия.
+- XML parameter editing in a visual table / редактирование параметров XML в таблице;
+- DLC and vehicle image support / поддержка DLC и изображений машин;
+- Russian and English vehicle descriptions / русские и английские описания техники;
+- update, reset, import, and export tools / обновление, сброс, импорт и экспорт.
 
-Установите зависимости:
+## Installation / Установка
 
-```cmd
-npm i
-```
+Download the latest release:
 
-Для запуска dev сервера:
+- **Installer** — installs the application in Windows (`.exe`).
+- **Portable** — runs without installation (`.zip`).
 
-```cmd
-npm start
-```
+Node.js is not required for end users. It is needed only to develop or build
+the project.
 
-Для тестовой сборки проекта:
+Скачайте последний релиз:
 
-```cmd
-npm run package
-```
+- **Установщик** — устанавливает приложение в Windows (`.exe`).
+- **Portable** — запускается без установки (`.zip`).
 
-В папке _out_ появится собранная тестовая сборка под 64-битную Windows-систему.
-В данной сборке вам доступен сброс программы, обновление окна, инструменты разработчика (Ctrl+Shift+I), а также не сохраняется бэкап `initial.pak`.
+Пользователям Node.js не требуется: он нужен только для разработки и сборки.
 
-Значения каталогов проекта:
+## Usage / Использование
 
-```text
-/docs               страница GitHub Pages.
-/inno-setup         конфигурация InnoSetup.
-/src:               основные ресурсы программы.
-   /build-configs       конфигурации Vite и Electron Forge.
-   /images:             графические ресурсы.
-      /icons                прочие картинки.
-      /trailers             картинки прицепов.
-      /trucks               картинки авто.
-      favicon.ico           иконка программы.
-   /main:               main процесс.
-      index.ts              стартовый файл.
-      tsconfig.json         TS конфигурация для main процесса.
-   /modules:            разного рода модули.
-      /archive              работа с архиватором.
-      /backup               работа с бэкапом.
-      /checks               основные проверки.
-      /data                 сохраняемые данные.
-      /dialogs              системные диалоги.
-      /dlcs                 обработка игровых DLC.
-      /epf                  экспорт параметров.
-      /errors               выброс ошибок.
-      /files                работа с файловой системой.
-      /game-texts           обработка игровых текстов.
-      /helpers              утилиты.
-      /images               работа с картинками.
-      /messages             вывод сообщений в renderer процесс.
-      /paths                различные пути.
-      /quit-params          параметры закрытия программы.
-      /updates              обновление программы.
-      /xml                  работа с XML.
-   /renderer:           renderer процесс.
-      /components           общие компоненты.
-      /pages                окна программы.
-         /general               основное окно.
-            /editor                 страница редактора (таблицы).
-            /lists                  страница списков авто / прицепов.
-            /general                основная страница.
-      /utils                скрипты-помощники.
-      style.scss            глобальные стили.
-      preload.ts            preload скрипт.
-      template-script.ts    скрипт шаблона.
-      tsconfig.json         TS конфигурация для renderer процесса.
-      types.ts              общие типы для renderer процесса.
-   /utils               общие утилиты.
-   consts.ts            полезные флаги.
-   tsconfig.json        основная TS конфигурация.
-```
+Read the [SnowRunner XML Editor guide](https://snowrunner.mod.io/guides/snowrunner-xml-editor).
 
-## Картинки
+Инструкция по работе доступна в [гайде SnowRunner XML Editor](https://snowrunner.mod.io/guides/snowrunner-xml-editor).
 
-![список авто](https://thumb.modcdn.io/mods/71c4/3056663/thumb_1020x2000/screenshot2024-03-04131955.png)
-![таблица параметров](https://thumb.modcdn.io/mods/71c4/3056663/thumb_1020x2000/screenshot2024-03-04132039.png)
+## Screenshots / Скриншоты
+
+![Vehicle list](https://thumb.modcdn.io/mods/71c4/3056663/thumb_1020x2000/screenshot2024-03-04131955.png)
+![Parameter table](https://thumb.modcdn.io/mods/71c4/3056663/thumb_1020x2000/screenshot2024-03-04132039.png)

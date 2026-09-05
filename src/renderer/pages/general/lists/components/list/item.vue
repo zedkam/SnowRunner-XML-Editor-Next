@@ -31,13 +31,13 @@
             v-if="vehicleDescription.RU"
             :title="vehicleDescription.RU"
           >
-            <span class="locale-label">RU:</span>{{ vehicleDescription.RU }}
+            <span class="locale-label">Russian:</span>{{ vehicleDescription.RU }}
           </p>
           <p
             v-if="vehicleDescription.EN"
             :title="vehicleDescription.EN"
           >
-            <span class="locale-label">EN:</span>{{ vehicleDescription.EN }}
+            <span class="locale-label">English:</span>{{ vehicleDescription.EN }}
           </p>
         </div>
         <div class="indicators-tags">
@@ -92,13 +92,13 @@
           v-if="vehicleDescription.RU"
           :title="vehicleDescription.RU"
         >
-          <span class="locale-label">RU:</span>{{ vehicleDescription.RU }}
+          <span class="locale-label">Russian:</span>{{ vehicleDescription.RU }}
         </p>
         <p
           v-if="vehicleDescription.EN"
           :title="vehicleDescription.EN"
         >
-          <span class="locale-label">EN:</span>{{ vehicleDescription.EN }}
+          <span class="locale-label">English:</span>{{ vehicleDescription.EN }}
         </p>
       </div>
       <div class="indicators">
@@ -326,7 +326,7 @@ function toggleFav() {
 .card {
   box-sizing: content-box;
   width: 250px;
-  height: 500px;
+  height: 520px;
   margin: auto;
 
   &-container {
@@ -385,8 +385,8 @@ function toggleFav() {
     width: 100%;
     padding: 0 15px 8px;
     color: #555;
-    font-size: 12px;
-    line-height: 1.3;
+    font-size: 0.875rem;
+    line-height: 1.35;
     text-align: left;
     overflow: hidden;
 

@@ -1,6 +1,6 @@
 #define MyAppName "SnowRunnerXMLEditor"
 #define MyAppDisplayName "SnowRunner XML Editor Next"
-#define MyAppVersion "2.0.0-beta.3"
+#define MyAppVersion "2.0.0-beta.4"
 #define MyAppPublisher "zedkam"
 #define MyAppURL "https://github.com/zedkam/SnowRunner-XML-Editor-Next"
 #define MyAppExeName "SnowRunnerXMLEditor.exe"

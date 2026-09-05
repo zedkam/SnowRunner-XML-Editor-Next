@@ -5,6 +5,8 @@
         <Button
           class="header-button"
           shape="circle"
+          title="Show or hide filters"
+          aria-label="Show or hide filters"
           @click="toggleFiltersPanel"
         >
           <template #icon>
@@ -14,6 +16,8 @@
         <Button
           class="header-button"
           shape="circle"
+          :title="listMode === ListMode.cards ? 'Switch to list view' : 'Switch to card view'"
+          :aria-label="listMode === ListMode.cards ? 'Switch to list view' : 'Switch to card view'"
           @click="toggleListMode"
         >
           <template #icon>
