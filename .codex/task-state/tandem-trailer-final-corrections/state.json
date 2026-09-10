@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "intake",
-  "revision": 1,
+  "phase": "research",
+  "revision": 2,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-10T09:01:38Z",
+  "updated_at": "2026-09-10T09:16:29Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -20,7 +20,9 @@
       "Warn the user before controlling Blender, SnowRunner Editor, or game windows.",
       "Do not touch unrelated objects or publish/release before Editor and user game acceptance."
     ],
-    "open_questions": []
+    "open_questions": [
+      "Metadata-only state branch cannot yet reach origin: configured git@github.com remote reports Permission denied (publickey); local checkpoint retained."
+    ]
   },
   "accepted_work": {
     "summary": "Accepted baseline: Stage53 visual architecture; one W/S hitch-height command at SpeedMult 0.75; hinge layout with 0.70 m design range; 180 L fuel, 200 repair; current Stage63 plan records all open defects and final integrated-test order.",
@@ -29,16 +31,22 @@
     "git": null
   },
   "context": {
-    "current_summary": "Accepted baseline: Stage53 visual architecture; one W/S hitch-height command at SpeedMult 0.75; hinge layout with 0.70 m design range; 180 L fuel, 200 repair; current Stage63 plan records all open defects and final integrated-test order.",
+    "current_summary": "Orchestration started over accepted Stage63 plan. Full installed baseline and approved Stage53 hash captured before implementation; three read-only specialist diagnostics dispatched. State origin push is pending because the configured SSH remote rejected the current key.",
     "decisions": [],
     "completed": [
-      "Принято текущее состояние работы."
+      "Принято текущее состояние работы.",
+      "Captured 126 installed files without modifying the installed mod."
     ],
     "next_actions": [
-      "Inventory exact active assets, hashes, build scripts and donor references; then run parallel read-only diagnostics."
+      "Integrate analyst evidence, verify active generator gaps, and prepare a reproducible Stage64 implementation path."
     ],
-    "files": [],
-    "evidence": []
+    "files": [
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/scripts/stage64_checkpoint.ps1"
+    ],
+    "evidence": [
+      "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed."
+    ]
   },
   "model_routes": {
     "architecture": "gpt-6-astra",
