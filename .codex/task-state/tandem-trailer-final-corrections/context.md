@@ -1,0 +1,54 @@
+# Оркестрация: Tandem trailer final corrections
+
+- task-id: `tandem-trailer-final-corrections`
+- status: `active`
+- phase: `intake`
+- revision: `1`
+- branch: `codex/task-state/tandem-trailer-final-corrections`
+- updated: `2026-09-10T09:01:38Z`
+- models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
+
+## Цель
+
+Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.
+
+## Текущее состояние
+
+Accepted baseline: Stage53 visual architecture; one W/S hitch-height command at SpeedMult 0.75; hinge layout with 0.70 m design range; 180 L fuel, 200 repair; current Stage63 plan records all open defects and final integrated-test order.
+
+## Следующие действия
+
+- Inventory exact active assets, hashes, build scripts and donor references; then run parallel read-only diagnostics.
+
+## Область
+
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem
+
+## Ограничения
+
+- Preserve approved hitch architecture, W/S control and SpeedMult 0.75; do not invent replacement mechanisms or new game classes.
+- Fix the complete planned set before gameplay testing; do not use partial in-game trials as design exploration.
+- Landing legs have only instant attached/detached states and no manual menu controls.
+- Materials are revised only after structural elements are accepted; brake reservoirs must be aged black steel.
+- Warn the user before controlling Blender, SnowRunner Editor, or game windows.
+- Do not touch unrelated objects or publish/release before Editor and user game acceptance.
+
+## Принятые решения
+
+Нет.
+
+## Открытые вопросы
+
+Нет.
+
+## Выполнено
+
+- Принято текущее состояние работы.
+
+## Evidence
+
+Нет.
+
+## Затронутые файлы
+
+Нет.
