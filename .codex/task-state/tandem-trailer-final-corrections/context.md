@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `8`
+- revision: `9`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-10T18:40:18Z`
+- updated: `2026-09-10T19:41:14Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Full Stage69 unshown derivative contains 1059 exact parts (902 accepted original incl six evaluated curves plus 157 Stage68 suspension parts); accepted Stage67 live scene unchanged. Three scoped workers implement rig/export, materials and XML build. Installed mod unchanged. User supplied exact parking references scout_trailer_offroad_tent and semitrailer_flatbed_5; preserve instant-like-stock acceptance.
+Stage69 full1059 derivative: measured G-neck .24m->.12m applied preserving208 evaluated vertices/bevels and section thickness; four forward attachments translated-.12m. Measured16-bone rig bound, exact157 Stage68 weights plus four S40 flexible hose bindings. New maps baked and applied on159 suspension/air parts; accepted Stage67 sourceguard PASS and active Scene unchanged. Installed mod unchanged.
 
 ## Следующие действия
 
-- Finish measured rig and exact profile/G-neck local corrections; bake/apply unique new-part materials and reuse only world/topology-verified UV; create full candidate FBX/XML and native validation, then Editor and user game acceptance.
+- Finish frame profile and mapped-UV reuse with only new faces baked; repair QA pose restoration via matrix_basis then actual LBS/collision checks; produce repaired-root FBX/full candidate and native conversion; Editor then user game acceptance.
 
 ## Область
 
@@ -45,6 +45,7 @@ Full Stage69 unshown derivative contains 1059 exact parts (902 accepted original
 - Stage68 объединяется с полной производной Stage67; оригинал Stage67 сохраняется. Текстуры новых креплений обязательны до передачи к игре.
 - Stock legs references use _trailer_foot; eliminate self-added motor Tau .5/.4, use supported group Tau .04 and source-derived forces, no manual legs menu; actual game timing unconfirmed.
 - Approved G-neck height half means centerline step .24m to .12m, beam interface retained and section thickness preserved; resulting eye/socket moves down .12m relative trailer.
+- Front extension actual end faces are full rectangles170.11x295.266mm; naive rectangular extrusion would repeat rejected block appearance. Do not execute old local_fixes until true channel/profile continuation is implemented from source measurements.
 
 ## Открытые вопросы
 
@@ -59,6 +60,7 @@ Full Stage69 unshown derivative contains 1059 exact parts (902 accepted original
 - Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
+- Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
 
 ## Evidence
 
@@ -70,6 +72,8 @@ Full Stage69 unshown derivative contains 1059 exact parts (902 accepted original
 - Stage67 SHA256 7B0BE1721DA053E0E3FAC82AD232841E95CCE18E5F81F2C10E8E29210D050AC0; stage68/validation.json.
 - Independent Blender-Y cylinder endpoint projection: minimum axial mesh overlap 0.019336528m; do not extend approved cylinders.
 - Stage64 candidate s55_part_0837 active_render game_atlas displaced implicit source UV for s49_main_frame_local_web_bores; four original texture vectors were unlinked. Exact UV binding correction required; source67 unaffected.
+- WIP SHA256 da7616059f19b45118e634ec0b27326c19437176da9687b80488db05255b2b3d; owned rig pose reset to exact identity after QA restoration defect; saved identity error0.0, sourceguardPASS. WIP_NOT_FOR_GAME.
+- Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.
 
 ## Затронутые файлы
 
@@ -78,3 +82,4 @@ Full Stage69 unshown derivative contains 1059 exact parts (902 accepted original
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage63_restore_accepted_controls.md
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/object.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/scene/trailer_sideboard_tandem_stage53_olive_black_palette.blend
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/exports/stage69/stage69_wip_rig_material159.blend
