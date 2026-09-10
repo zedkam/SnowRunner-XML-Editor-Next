@@ -1,0 +1,6 @@
+{
+  "generated_from": "instructions/agent-skills",
+  "managed_skills": [
+    "orkestr"
+  ]
+}

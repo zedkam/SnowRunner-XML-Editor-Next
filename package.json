@@ -21,7 +21,13 @@
 		"diagnose": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/diagnostics/check-dlc-readiness.ps1",
 		"generate:content": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-content.ps1",
 		"generate:images": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-game-images.ps1",
-		"test:roundtrip": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/roundtrip-test.ps1"
+		"test:roundtrip": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/roundtrip-test.ps1",
+		"agent:sync": "python tools/orchestration/sync_skill.py",
+		"agent:sync:check": "python tools/orchestration/sync_skill.py --check",
+		"agent:check": "python tools/orchestration/validate_orchestration.py",
+		"agent:test-state": "python tools/orchestration/test_task_state.py",
+		"agent:install": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/orchestration/install-workspace-adapter.ps1 -Mode Install",
+		"agent:install:check": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/orchestration/install-workspace-adapter.ps1 -Mode Check"
 	},
 	"keywords": [],
 	"author": {

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "mode": "manual",
+  "name": "orkestr",
+  "activation": {
+    "explicit_skill": "$orkestr",
+    "semantic_explicit_intent": true,
+    "mention_is_activation": false,
+    "discussion_is_activation": false,
+    "example_is_activation": false,
+    "complexity_is_activation": false
+  },
+  "models": {
+    "architecture": {
+      "agent": "snowrunner_architect",
+      "model": "gpt-6-astra",
+      "reasoning_effort": "high"
+    },
+    "xml_and_scripts": {
+      "agent": "snowrunner_xml_worker",
+      "model": "gpt-5.6-terra",
+      "reasoning_effort": "high"
+    },
+    "analysis": {
+      "agent": "snowrunner_analyst",
+      "model": "gpt-5.6-sol",
+      "reasoning_effort": "high"
+    },
+    "summary": {
+      "agent": "snowrunner_summarizer",
+      "model": "gpt-5.6-luna",
+      "reasoning_effort": "low"
+    }
+  },
+  "context": {
+    "root_packet_max_chars": 12000,
+    "worker_packet_max_chars": 6000,
+    "event_tail_default": 20,
+    "max_parallel_workers": 3,
+    "prefer_fork_turns": "none"
+  },
+  "state": {
+    "branch_prefix": "codex/task-state/",
+    "branch_kind": "orphan-metadata-only",
+    "remote": "origin",
+    "tracked_directory": ".codex/task-state/<task-id>",
+    "cache_directory": ".codex/orchestration/cache/<task-id>",
+    "push_each_checkpoint": true,
+    "merge_into_product_branches": false,
+    "automatic_archive_event": false,
+    "automatic_delete_event": false
+  },
+  "workspace": {
+    "git_carrier": "SnowRunner-XML-Editor-Desktop-main",
+    "domain_router": "AGENTS.md",
+    "external_file_scope": "SnowRunner-Modding",
+    "external_binary_restore": "separate-storage-required"
+  },
+  "protected_paths": [
+    {
+      "path": "AGENTS.md",
+      "scope": "workspace-root",
+      "policy": "read-only"
+    },
+    {
+      "path": ".codex/blender-mcp",
+      "scope": "workspace-root",
+      "policy": "preserve-unmanaged"
+    },
+    {
+      "path": "main",
+      "scope": "git-branch",
+      "policy": "no-merge-no-switch"
+    }
+  ]
+}

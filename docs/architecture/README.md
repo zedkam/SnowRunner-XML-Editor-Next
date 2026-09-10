@@ -129,3 +129,9 @@ npm run generate:images -- -GameRoot 'D:\SteamLibrary\steamapps\common\SnowRunne
 перегенерирует изображения для DLC, перечисленных в этом манифесте. Перед
 релизом нужно визуально проверить новые карточки, особенно при изменении
 формата `gfxbundle.gfxbundle`.
+
+## Ручная агентная оркестрация
+
+Длительные задачи Codex могут использовать отдельный ручной режим `$orkestr`. Он не меняет content-driven архитектуру приложения и не дублирует маршрут XML/modding из корневого `AGENTS.md`. Режим хранит компактное состояние в отдельных metadata-only Git-ветках, изолирует контекст исполнителей и закрепляет Astra, Terra, Sol и Luna за соответствующими типами работы.
+
+Архитектура, ограничения и критерии проверки описаны в [`AGENT_ORCHESTRATION.md`](AGENT_ORCHESTRATION.md), эксплуатационные команды — в [`../developers/CODEX_ORCHESTRATION_ADMIN.md`](../developers/CODEX_ORCHESTRATION_ADMIN.md).

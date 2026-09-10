@@ -1,0 +1,6 @@
+interface:
+  display_name: "Оркестр SnowrunnerXML"
+  short_description: "Ручная оркестрация с устойчивым контекстом"
+  default_prompt: "Используй $orkestr, чтобы выполнить эту задачу SnowrunnerXML с сохраняемым состоянием и маршрутизацией моделей."
+policy:
+  allow_implicit_invocation: true
