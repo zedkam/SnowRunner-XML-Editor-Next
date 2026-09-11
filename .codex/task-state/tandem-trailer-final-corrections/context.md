@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `23`
+- revision: `24`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T15:14:45Z`
+- updated: `2026-09-11T17:37:02Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage70: пользователь разрешил исполнение плана с приоритетом очистки вида. В существующем Blender скрыты 71 служебный CDT и overlays; исправлена общая замена материалов 157 деталей подвески. На 14 исходных деталях восстановлены canonical текстуры; 143 новые детали и 3 передних слота используют точные принятые материалы Stage52b без изменения их графов или изображений. Просмотрены боковой и передний виды; отдельная Stage70 сохранена. Механика и мод не исправлялись этим проходом.
+Stage71: applied 2 full endplates, refitted 13 coupler hardware parts, restored 200 old rail faces and 256 spring side faces; current Blender unsaved, remaining rail finish seam and body corners.
 
 ## Следующие действия
 
-- Продолжить согласованный Stage70 в Blender: проверка привязок цилиндров реальным предпросмотром, лап, топлива и заглушек; замороженные геометрию подвески и высоту сцепки не менять. До обновления мода, Editor или игры показать исправленную сцену пользователю и получить приёмку.
+- Finish two-sided rail finish and body corner validation, save one Stage71 review without overwriting Stage67/70, continue approved Stage70; no mod or Editor update before Blender acceptance.
 
 ## Область
 
@@ -40,6 +40,7 @@ Stage70: пользователь разрешил исполнение план
 - Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.
 - АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.
 - Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.
+- Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.
 
 ## Принятые решения
 
@@ -61,6 +62,7 @@ Stage70: пользователь разрешил исполнение план
 - Финальная высота сцепного элемента Stage69 принята пользователем; проушину, положение сцепки, W/S скорость0.75 и принятую подвеску Stage67 больше не менять. Прежнее решение о правильности почти сплошного чёрного нового материала отменено пользовательской игровой проверкой.
 - Бывший cylinder PASS проверял заданные Blender matrices, а не реальный AutomaticIK. В XML стопы имеют Hinge +-12deg и Spring120/Damping35; это не жёсткие окончания. Факт успешной загрузки Editor не является приёмкой этих требований.
 - Неподходящая старая маска кромок отключена только на новых или перестроенных деталях. Новая палитра, изображения или shader graph не создавались; индивидуальное запекание кромок и игровые карты остаются позже после приёмки конструкции.
+- User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.
 
 ## Открытые вопросы
 
@@ -90,12 +92,5 @@ Stage70: пользователь разрешил исполнение план
 - Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.
 - Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены.
 - Stage70 план и реестр изображений записаны; объект и исторический handoff обновлены. JSON разобран, ссылки плана существуют, git diff --check без ошибок. Stage67 SHA256 не изменился.
+- Проверенный первый проход чистого Blender-вида; сохранён stage70_clean_review, а не принятая Stage67. Исходные UV, позиции, топология, веса и остальные material slots сохранены.
 - ... ещё 1; см. `state.json`.
-
-## Evidence
-
-- ... ещё 28; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 9; см. `state.json`.
