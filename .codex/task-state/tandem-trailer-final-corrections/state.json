@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "implementation",
-  "revision": 24,
+  "phase": "handoff",
+  "revision": 25,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-11T17:37:02Z",
+  "updated_at": "2026-09-11T18:46:38Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -27,7 +27,8 @@
       "Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.",
       "АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.",
       "Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.",
-      "Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes."
+      "Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.",
+      "Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake."
     ],
     "open_questions": [
       "Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.",
@@ -41,7 +42,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage71: applied 2 full endplates, refitted 13 coupler hardware parts, restored 200 old rail faces and 256 spring side faces; current Blender unsaved, remaining rail finish seam and body corners.",
+    "current_summary": "Stage71 six user screenshot defects implemented and independently checked in Blender. One review saved, 8 real viewport PNGs, Stage67 and Stage70 preserved; user acceptance and game validation still open.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -61,7 +62,8 @@
       "Финальная высота сцепного элемента Stage69 принята пользователем; проушину, положение сцепки, W/S скорость0.75 и принятую подвеску Stage67 больше не менять. Прежнее решение о правильности почти сплошного чёрного нового материала отменено пользовательской игровой проверкой.",
       "Бывший cylinder PASS проверял заданные Blender matrices, а не реальный AutomaticIK. В XML стопы имеют Hinge +-12deg и Spring120/Damping35; это не жёсткие окончания. Факт успешной загрузки Editor не является приёмкой этих требований.",
       "Неподходящая старая маска кромок отключена только на новых или перестроенных деталях. Новая палитра, изображения или shader graph не создавались; индивидуальное запекание кромок и игровые карты остаются позже после приёмки конструкции.",
-      "User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator."
+      "User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.",
+      "All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -86,10 +88,12 @@
       "Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены.",
       "Stage70 план и реестр изображений записаны; объект и исторический handoff обновлены. JSON разобран, ссылки плана существуют, git diff --check без ошибок. Stage67 SHA256 не изменился.",
       "Проверенный первый проход чистого Blender-вида; сохранён stage70_clean_review, а не принятая Stage67. Исходные UV, позиции, топология, веса и остальные material slots сохранены.",
-      "Stored and checksum-verified five original review photos locally; agents received actual images. Applied surfaces/helper and coupler transactions with unrelated-object guards."
+      "Stored and checksum-verified five original review photos locally; agents received actual images. Applied surfaces/helper and coupler transactions with unrelated-object guards.",
+      "Scene has 1138 objects: 21 reviewed old objects changed, 1110 old objects unchanged, 2 new endplates, 5 linked existing wheel preview objects. Object manifest now points to Stage71.",
+      "Native/FBX read-only cylinder audit independently reproduced ACTUAL_NATIVE_AXES_SWAPPED. Hinge local Y and Slider local Z are required for measured axes; installed XML unchanged. Stock zero AttachOffset encodes no full rest-anchor coordinate; nonzero semantics remain a runtime boundary."
     ],
     "next_actions": [
-      "Finish two-sided rail finish and body corner validation, save one Stage71 review without overwriting Stage67/70, continue approved Stage70; no mod or Editor update before Blender acceptance."
+      "Review current Stage71 Blender scene with user; continue remaining Stage70 cylinder axes/AttachOffset, instant parking legs with rigid feet, shaped sloshing fuel and export preparation. Do not install or launch Editor/game before Blender acceptance."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -101,7 +105,9 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage70_game_review_corrections_plan.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage70_scene_cleanup.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/scripts/stage70_restore_approved_suspension_finish.py",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_user_regressions.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_user_regressions.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71/final_validation.json",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_cylinder_attachment_audit.md"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
@@ -132,7 +138,8 @@
       "План SHA256 9160ed495bdfa03c340cdefe8dec14e599b929fc316967b24bee76cd62e5e523. Изображения01/02/03: d0354d9548b4df25049b68927be3d4576c5d3924bbbc10674f69b85246d5cc95;05e9c21dcbd86c20dd0c864cc9078e8163bf7dcf79ab9ac85e66a05822f714bd;edc40e552859d8881f5de7af9575d5475fe442169ed1ddd365b7343a9e83e5f0. Копии локальные, оригиналы сохранены.",
       "Штатная запись ANK MK38 прочитана из initial.pak в память без извлечения на диск: SHA256 2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c, два LimitedFluid Box. Произвольный контур и плеск нашего бака не объявлены доказанными.",
       "Stage70 clean_review blend: 57567925 bytes; SHA256 7a830c72b3a283ab18a64bf39075d976364ce9ca4b6aa5cf14f9ee1112cad1d6. Stage67 unchanged 7b0be1721da053e0e3fac82ad232841e95cce18e5f81f2c10e8e29210d050ac0. Final scene snapshot c9338215c868172885085bc5494fdbc506daa99b282fa4163052a4f8c9a55ae5. Existing material-image graph unchanged e25c467aa20cfbd5de4876843efc45de9c07447d32c2a251446c2ce7d5ae0849. object.json parsing, py_compile and tracked diff check PASS. No game or user acceptance claimed.",
-      "Surface after-scene SHA256 7cc8b9bafc9988563f92673002b5a7a1225df13390b5df15823f32f95188184a; material/image SHA256 aed19b19440f98abfdedaa4cbe7b078ec5a84a5b3b557f4bbbb0ce9b09536e03 unchanged."
+      "Surface after-scene SHA256 7cc8b9bafc9988563f92673002b5a7a1225df13390b5df15823f32f95188184a; material/image SHA256 aed19b19440f98abfdedaa4cbe7b078ec5a84a5b3b557f4bbbb0ce9b09536e03 unchanged.",
+      "Stage71 blend SHA256 9c49291a59a2ab20d8cba07059a7c44e5cf2de21b75e4e7e0937d3a56623dc71; scene fingerprint 3ab6e3349c6ea585eb60698d5cf0ac7c474fe4053845cac5bec729f62410fb5a. Protected Stage67 and Stage70 hashes unchanged."
     ]
   },
   "model_routes": {
