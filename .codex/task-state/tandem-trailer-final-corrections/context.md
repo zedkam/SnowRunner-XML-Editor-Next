@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `9`
+- revision: `10`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-10T19:41:14Z`
+- updated: `2026-09-11T04:30:06Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 full1059 derivative: measured G-neck .24m->.12m applied preserving208 evaluated vertices/bevels and section thickness; four forward attachments translated-.12m. Measured16-bone rig bound, exact157 Stage68 weights plus four S40 flexible hose bindings. New maps baked and applied on159 suspension/air parts; accepted Stage67 sourceguard PASS and active Scene unchanged. Installed mod unchanged.
+Stage69 source67 unchanged; full actual LBS test PASS and corrected body UV/maps applied using5955 exact FBX triangles. Full1059 rig/WIP +159 baked maps retained. Existing Blender responsive through approved loopback addon; MCP transport timedout. Reuse896 audited,7 applied and one interrupted flange being safely recovered; front I repair COW guard still blocks commit on split seam loops. Installed mod unchanged.
 
 ## Следующие действия
 
-- Finish frame profile and mapped-UV reuse with only new faces baked; repair QA pose restoration via matrix_basis then actual LBS/collision checks; produce repaired-root FBX/full candidate and native conversion; Editor then user game acceptance.
+- Complete exactreuse/plane-seam Icontinuation, newfrontmaps and visualQA; completeFBX/CDT/fullcandidate/nativeconverter/Editor; usergameacceptance only at end.
 
 ## Область
 
@@ -61,6 +61,7 @@ Stage69 full1059 derivative: measured G-neck .24m->.12m applied preserving208 ev
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
 - Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
+- Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
 
 ## Evidence
 
@@ -74,6 +75,7 @@ Stage69 full1059 derivative: measured G-neck .24m->.12m applied preserving208 ev
 - Stage64 candidate s55_part_0837 active_render game_atlas displaced implicit source UV for s49_main_frame_local_web_bores; four original texture vectors were unlinked. Exact UV binding correction required; source67 unaffected.
 - WIP SHA256 da7616059f19b45118e634ec0b27326c19437176da9687b80488db05255b2b3d; owned rig pose reset to exact identity after QA restoration defect; saved identity error0.0, sourceguardPASS. WIP_NOT_FOR_GAME.
 - Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.
+- full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry.
 
 ## Затронутые файлы
 

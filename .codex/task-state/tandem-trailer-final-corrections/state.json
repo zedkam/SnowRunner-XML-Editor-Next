@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 9,
+  "revision": 10,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-10T19:41:14Z",
+  "updated_at": "2026-09-11T04:30:06Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -33,7 +33,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage69 full1059 derivative: measured G-neck .24m->.12m applied preserving208 evaluated vertices/bevels and section thickness; four forward attachments translated-.12m. Measured16-bone rig bound, exact157 Stage68 weights plus four S40 flexible hose bindings. New maps baked and applied on159 suspension/air parts; accepted Stage67 sourceguard PASS and active Scene unchanged. Installed mod unchanged.",
+    "current_summary": "Stage69 source67 unchanged; full actual LBS test PASS and corrected body UV/maps applied using5955 exact FBX triangles. Full1059 rig/WIP +159 baked maps retained. Existing Blender responsive through approved loopback addon; MCP transport timedout. Reuse896 audited,7 applied and one interrupted flange being safely recovered; front I repair COW guard still blocks commit on split seam loops. Installed mod unchanged.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -51,10 +51,11 @@
       "Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.",
       "Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.",
       "Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.",
-      "Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently."
+      "Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.",
+      "Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake."
     ],
     "next_actions": [
-      "Finish frame profile and mapped-UV reuse with only new faces baked; repair QA pose restoration via matrix_basis then actual LBS/collision checks; produce repaired-root FBX/full candidate and native conversion; Editor then user game acceptance."
+      "Complete exactreuse/plane-seam Icontinuation, newfrontmaps and visualQA; completeFBX/CDT/fullcandidate/nativeconverter/Editor; usergameacceptance only at end."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -74,7 +75,8 @@
       "Independent Blender-Y cylinder endpoint projection: minimum axial mesh overlap 0.019336528m; do not extend approved cylinders.",
       "Stage64 candidate s55_part_0837 active_render game_atlas displaced implicit source UV for s49_main_frame_local_web_bores; four original texture vectors were unlinked. Exact UV binding correction required; source67 unaffected.",
       "WIP SHA256 da7616059f19b45118e634ec0b27326c19437176da9687b80488db05255b2b3d; owned rig pose reset to exact identity after QA restoration defect; saved identity error0.0, sourceguardPASS. WIP_NOT_FOR_GAME.",
-      "Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases."
+      "Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.",
+      "full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry."
     ]
   },
   "model_routes": {
