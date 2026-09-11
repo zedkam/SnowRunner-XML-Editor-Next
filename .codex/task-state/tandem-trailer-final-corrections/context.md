@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `validation`
-- revision: `21`
+- phase: `design`
+- revision: `22`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T10:29:10Z`
+- updated: `2026-09-11T13:37:47Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Исправленная сборка Stage69 установлена. Оба игровых класса успешно загружены в SnowRunner Editor после полного перезапуска. Ожидается пользовательская проверка в игре; управление экраном завершено.
+2026-09-11: пользователь отклонил игровой результат Stage69. Обновлён единый план Stage63 с подробным разделом Stage70, сохранены три оригинальных скриншота и переданы двум исполнителям как изображения. Подтверждены пружинные стопы и пробел прежней проверки цилиндров. Высота сцепного элемента окончательно принята. В открытом Blender выбрана существующая полная сцена без сохранения или правок; реализация сейчас не разрешена.
 
 ## Следующие действия
 
-- Пользователь выполняет Преобразовать для sxml_tandem_workshop в управлении модами, полностью перезапускает игру и создаёт новый SXML Tandem Workshop. Проверить сцепку/отцепку и мгновенные опоры, W/S0.75 и оба цилиндра, подвеску на препятствиях, форму и плеск топлива180л, материалы. До результатов не менять принятую конструкцию.
+- После указания пользователя начать исправления по Stage70: сначала независимая проверка привязок и понятный просмотр, затем цилиндры, две мгновенные позы лап с жёсткими окончаниями, заглушки, форма/плеск топлива и материалы. Обязательная остановка для приёмки полной сцены в Blender ДО мода/Editor/игры.
 
 ## Область
 
@@ -38,6 +38,7 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.
 - Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.
 - Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.
+- АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.
 
 ## Принятые решения
 
@@ -56,10 +57,13 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Fix only FBX collision Model names to cdt69001..071 and two axle-hull ownerships to actual main Body with world coordinates preserved. Do not change CombineXMesh Type, accepted visuals, UVs, materials or active Blender scene. Add semantic collision-ownership guard.
 - Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet.
 - Игровая приёмка выполняется пользователем. Мгновенность лап, работа цилиндров под нагрузкой, поперечное поведение колёс и плеск топлива пока не подтверждены игрой. Не объявлять выпуск или игровую готовность.
+- Финальная высота сцепного элемента Stage69 принята пользователем; проушину, положение сцепки, W/S скорость0.75 и принятую подвеску Stage67 больше не менять. Прежнее решение о правильности почти сплошного чёрного нового материала отменено пользовательской игровой проверкой.
+- Бывший cylinder PASS проверял заданные Blender matrices, а не реальный AutomaticIK. В XML стопы имеют Hinge +-12deg и Spring120/Damping35; это не жёсткие окончания. Факт успешной загрузки Editor не является приёмкой этих требований.
 
 ## Открытые вопросы
 
-Нет.
+- Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.
+- Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS.
 
 ## Выполнено
 
@@ -83,6 +87,7 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.
 - Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.
 - Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены.
+- Stage70 план и реестр изображений записаны; объект и исторический handoff обновлены. JSON разобран, ссылки плана существуют, git diff --check без ошибок. Stage67 SHA256 не изменился.
 
 ## Evidence
 
@@ -90,12 +95,4 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Пользователь отклонил рессорную переделку. Ноль совпадающих треугольников не подтверждает сохранность подвески. Точный просмотренный файл и среда проверки не указаны.
 - Отправка revision 3 commit c0b5b77bad93c94963c513b9214abac42ace966c в origin подтверждена менеджером состояния; устаревший вопрос о SSH-доступе закрыт. Документация прошла git diff --check, карточка объекта разбирается как JSON.
 - Последнее сообщение пользователя: на лонжеронах появились артефакты окраски кузова. Точный файл и первопричина пока не установлены.
-- Blender query after load: filepath=Stage53, scene=Scene, objects=2754, dirty=false. SHA256 Stage53=BBDC049F21F6EC4D67B19CB800D53063DD85C632F5632CBE5FC86F3EC77D2FB5. Stage64 сохранён в отдельных файлах и не был удалён.
-- Stage67 SHA256 7B0BE1721DA053E0E3FAC82AD232841E95CCE18E5F81F2C10E8E29210D050AC0; stage68/validation.json.
-- Independent Blender-Y cylinder endpoint projection: minimum axial mesh overlap 0.019336528m; do not extend approved cylinders.
-- Stage64 candidate s55_part_0837 active_render game_atlas displaced implicit source UV for s49_main_frame_local_web_bores; four original texture vectors were unlinked. Exact UV binding correction required; source67 unaffected.
-- WIP SHA256 da7616059f19b45118e634ec0b27326c19437176da9687b80488db05255b2b3d; owned rig pose reset to exact identity after QA restoration defect; saved identity error0.0, sourceguardPASS. WIP_NOT_FOR_GAME.
-- Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.
-- full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry.
-- front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution.
-- ... ещё 13; см. `state.json`.
+- ... ещё 23; см. `state.json`.
