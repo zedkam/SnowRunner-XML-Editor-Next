@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `20`
+- revision: `21`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T10:08:25Z`
+- updated: `2026-09-11T10:29:10Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-CDT naming/ownership correction created and both native outputs converted. No Editor success claimed; four-file backed-up repair awaits native geometry validation.
+Исправленная сборка Stage69 установлена. Оба игровых класса успешно загружены в SnowRunner Editor после полного перезапуска. Ожидается пользовательская проверка в игре; управление экраном завершено.
 
 ## Следующие действия
 
-- Accept current native visual validation, run separate four-file repair with immediate backup, warn before Editor UI, load both existing classes. Desktop is free during file work; no repeated permission needed.
+- Пользователь выполняет Преобразовать для sxml_tandem_workshop в управлении модами, полностью перезапускает игру и создаёт новый SXML Tandem Workshop. Проверить сцепку/отцепку и мгновенные опоры, W/S0.75 и оба цилиндра, подвеску на препятствиях, форму и плеск топлива180л, материалы. До результатов не менять принятую конструкцию.
 
 ## Область
 
@@ -37,6 +37,7 @@ CDT naming/ownership correction created and both native outputs converted. No Ed
 - Рабочая основа только Stage53. Не перерабатывать Stage64 и не продвигать его геометрию, карты или экспорт.
 - Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.
 - Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.
+- Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.
 
 ## Принятые решения
 
@@ -54,6 +55,7 @@ CDT naming/ownership correction created and both native outputs converted. No Ed
 - Replace ambiguous n-gon export only using measured Blender loop triangles; no redesign, new scene, desktop control, installed writes or invented native proof.
 - Fix only FBX collision Model names to cdt69001..071 and two axle-hull ownerships to actual main Body with world coordinates preserved. Do not change CombineXMesh Type, accepted visuals, UVs, materials or active Blender scene. Add semantic collision-ownership guard.
 - Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet.
+- Игровая приёмка выполняется пользователем. Мгновенность лап, работа цилиндров под нагрузкой, поперечное поведение колёс и плеск топлива пока не подтверждены игрой. Не объявлять выпуск или игровую готовность.
 
 ## Открытые вопросы
 
@@ -80,6 +82,7 @@ CDT naming/ownership correction created and both native outputs converted. No Ed
 - File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.
 - Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.
 - Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.
+- Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены.
 
 ## Evidence
 
@@ -95,8 +98,4 @@ CDT naming/ownership correction created and both native outputs converted. No Ed
 - Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.
 - full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry.
 - front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution.
-- measured_fuel_cylinder.json SHAa7aece474115ff13b1bd21566ea216d08ef32b0551ec2464528e634686acf141; fbx_visual_uv0_binary.json; darkqa_v1 fourrenders show blackair/central; sourcegraphmask defect diagnosed andnewmapsreplaced. Usergameunconfirmed.
-- stage69_integrated/stage69_validation.json status=file_contract_passed_not_game_ready. Native firstattempt failed trailing-dot path before meshload. Editor requires Explorer launch in BinEditor; direct launch badcwd caused missingresources, ownfailed process closed.
-- stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
-- stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
-- ... ещё 6; см. `state.json`.
+- ... ещё 13; см. `state.json`.

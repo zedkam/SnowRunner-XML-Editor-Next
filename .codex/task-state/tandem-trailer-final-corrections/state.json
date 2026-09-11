@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "validation",
-  "revision": 20,
+  "revision": 21,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-11T10:08:25Z",
+  "updated_at": "2026-09-11T10:29:10Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -23,7 +23,8 @@
       "Не удалять функциональные части подвески и не менять форму, длину и взаимное расположение рессор и тяг внутри модуля. Возможный продольный перенос рассматривать целым модулем, не изменяя колею.",
       "Рабочая основа только Stage53. Не перерабатывать Stage64 и не продвигать его геометрию, карты или экспорт.",
       "Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.",
-      "Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction."
+      "Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.",
+      "Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями."
     ],
     "open_questions": []
   },
@@ -34,7 +35,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "CDT naming/ownership correction created and both native outputs converted. No Editor success claimed; four-file backed-up repair awaits native geometry validation.",
+    "current_summary": "Исправленная сборка Stage69 установлена. Оба игровых класса успешно загружены в SnowRunner Editor после полного перезапуска. Ожидается пользовательская проверка в игре; управление экраном завершено.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -49,7 +50,8 @@
       "SUPERSEDES disposable Blender-mesh triangulation route: do NOT call unused export_triangulated_fbx helper (review caught weights/normal risks before any execution). Use stage69_patch_fbx_triangles.py on preserved oldFBX plus authoritative loop dump; write a separate new FBX. Modify only polygon/loop index references, per-polygon smoothing/material indices and derived Edges.",
       "Replace ambiguous n-gon export only using measured Blender loop triangles; no redesign, new scene, desktop control, installed writes or invented native proof.",
       "Fix only FBX collision Model names to cdt69001..071 and two axle-hull ownerships to actual main Body with world coordinates preserved. Do not change CombineXMesh Type, accepted visuals, UVs, materials or active Blender scene. Add semantic collision-ownership guard.",
-      "Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet."
+      "Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet.",
+      "Игровая приёмка выполняется пользователем. Мгновенность лап, работа цилиндров под нагрузкой, поперечное поведение колёс и плеск топлива пока не подтверждены игрой. Не объявлять выпуск или игровую готовность."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -70,10 +72,11 @@
       "stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.",
       "File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.",
       "Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.",
-      "Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged."
+      "Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.",
+      "Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены."
     ],
     "next_actions": [
-      "Accept current native visual validation, run separate four-file repair with immediate backup, warn before Editor UI, load both existing classes. Desktop is free during file work; no repeated permission needed."
+      "Пользователь выполняет Преобразовать для sxml_tandem_workshop в управлении модами, полностью перезапускает игру и создаёт новый SXML Tandem Workshop. Проверить сцепку/отцепку и мгновенные опоры, W/S0.75 и оба цилиндра, подвеску на препятствиях, форму и плеск топлива180л, материалы. До результатов не менять принятую конструкцию."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -105,7 +108,10 @@
       "All1059FBX geometries inventoried: one UVByPolygonVertexIndexToDirect; normals1038ByPolygonVertex and21ByVertice; material1058AllSame+1ByPolygon; noByEdge layers. Preserve all direct float arrays and non-geometry node signatures.",
       "triangular FBX SHA256 6253dabfea8c9f1fadf248b333814b61d5c4ef01fdfc0d13f20ddad20004579b; proof SHA256 1409958542951c5f35bb4c24e097306919478367423efdca567b42cb3fb33ba2.",
       "Install backup manifest SHA5154c0b065515597a8022fc4c71524527bd7090a3593201018c1a4510163805a. Editor error: Can't create body for frame bone_main_cdt: no cdt.",
-      "Both native outputs SHA256 048d65d725160bcef4c7f1b5b921457d9b151d3081cff5cec02a09cd2e7da2de, 51013993 bytes each; positive converter manifest. Original 46-file installation backup SHA5154c0b065515597a8022fc4c71524527bd7090a3593201018c1a4510163805a preserved."
+      "Both native outputs SHA256 048d65d725160bcef4c7f1b5b921457d9b151d3081cff5cec02a09cd2e7da2de, 51013993 bytes each; positive converter manifest. Original 46-file installation backup SHA5154c0b065515597a8022fc4c71524527bd7090a3593201018c1a4510163805a preserved.",
+      "Candidate14d3a8f3ebb253917330fe394a5b83c96a389a31802768458250824c996dbd9c; FBX3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10; native обоих048d65d725160bcef4c7f1b5b921457d9b151d3081cff5cec02a09cd2e7da2de; native report2c3674088f0431f2efdd513fbe2da2ea93e4ef36ad2cf66ae536ae06c8a31e91.",
+      "Editor: полный выход и запуск того же exe из BinEditor через Проводник, последовательное открытие main и legs62 из classes/trucks/trailers. Панель Truck, модель, колёса и материалы загружены; свежий список ошибок пуст. Reload Resources в старом процессе был недостаточен.",
+      "Новый резерв четырёх файлов34ce1c69b9f8c1fdb9abcd2b67f6f432c5ee432240bac0bae5f61f3868c86a04; исходный резерв46файлов5154c0b065515597a8022fc4c71524527bd7090a3593201018c1a4510163805a сохранён."
     ]
   },
   "model_routes": {
