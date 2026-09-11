@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "design",
-  "revision": 22,
+  "phase": "implementation",
+  "revision": 23,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-11T13:37:47Z",
+  "updated_at": "2026-09-11T15:14:45Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -25,7 +25,8 @@
       "Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.",
       "Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.",
       "Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.",
-      "АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру."
+      "АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.",
+      "Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу."
     ],
     "open_questions": [
       "Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.",
@@ -39,7 +40,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "2026-09-11: пользователь отклонил игровой результат Stage69. Обновлён единый план Stage63 с подробным разделом Stage70, сохранены три оригинальных скриншота и переданы двум исполнителям как изображения. Подтверждены пружинные стопы и пробел прежней проверки цилиндров. Высота сцепного элемента окончательно принята. В открытом Blender выбрана существующая полная сцена без сохранения или правок; реализация сейчас не разрешена.",
+    "current_summary": "Stage70: пользователь разрешил исполнение плана с приоритетом очистки вида. В существующем Blender скрыты 71 служебный CDT и overlays; исправлена общая замена материалов 157 деталей подвески. На 14 исходных деталях восстановлены canonical текстуры; 143 новые детали и 3 передних слота используют точные принятые материалы Stage52b без изменения их графов или изображений. Просмотрены боковой и передний виды; отдельная Stage70 сохранена. Механика и мод не исправлялись этим проходом.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -57,7 +58,8 @@
       "Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet.",
       "Игровая приёмка выполняется пользователем. Мгновенность лап, работа цилиндров под нагрузкой, поперечное поведение колёс и плеск топлива пока не подтверждены игрой. Не объявлять выпуск или игровую готовность.",
       "Финальная высота сцепного элемента Stage69 принята пользователем; проушину, положение сцепки, W/S скорость0.75 и принятую подвеску Stage67 больше не менять. Прежнее решение о правильности почти сплошного чёрного нового материала отменено пользовательской игровой проверкой.",
-      "Бывший cylinder PASS проверял заданные Blender matrices, а не реальный AutomaticIK. В XML стопы имеют Hinge +-12deg и Spring120/Damping35; это не жёсткие окончания. Факт успешной загрузки Editor не является приёмкой этих требований."
+      "Бывший cylinder PASS проверял заданные Blender matrices, а не реальный AutomaticIK. В XML стопы имеют Hinge +-12deg и Spring120/Damping35; это не жёсткие окончания. Факт успешной загрузки Editor не является приёмкой этих требований.",
+      "Неподходящая старая маска кромок отключена только на новых или перестроенных деталях. Новая палитра, изображения или shader graph не создавались; индивидуальное запекание кромок и игровые карты остаются позже после приёмки конструкции."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -80,10 +82,11 @@
       "Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.",
       "Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.",
       "Строгие XML и round-trip проверки, сохранность 1059 видимых сеток и 622253 треугольников подтверждены. Отдельное исправление четырёх файлов установлено с резервом; после Editor их хеши верны, остальные 42 файла установки не изменены.",
-      "Stage70 план и реестр изображений записаны; объект и исторический handoff обновлены. JSON разобран, ссылки плана существуют, git diff --check без ошибок. Stage67 SHA256 не изменился."
+      "Stage70 план и реестр изображений записаны; объект и исторический handoff обновлены. JSON разобран, ссылки плана существуют, git diff --check без ошибок. Stage67 SHA256 не изменился.",
+      "Проверенный первый проход чистого Blender-вида; сохранён stage70_clean_review, а не принятая Stage67. Исходные UV, позиции, топология, веса и остальные material slots сохранены."
     ],
     "next_actions": [
-      "После указания пользователя начать исправления по Stage70: сначала независимая проверка привязок и понятный просмотр, затем цилиндры, две мгновенные позы лап с жёсткими окончаниями, заглушки, форма/плеск топлива и материалы. Обязательная остановка для приёмки полной сцены в Blender ДО мода/Editor/игры."
+      "Продолжить согласованный Stage70 в Blender: проверка привязок цилиндров реальным предпросмотром, лап, топлива и заглушек; замороженные геометрию подвески и высоту сцепки не менять. До обновления мода, Editor или игры показать исправленную сцену пользователю и получить приёмку."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -92,7 +95,9 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/object.json",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/scene/trailer_sideboard_tandem_stage53_olive_black_palette.blend",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/exports/stage69/stage69_wip_rig_material159.blend",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage70_game_review_corrections_plan.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage70_game_review_corrections_plan.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage70_scene_cleanup.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/scripts/stage70_restore_approved_suspension_finish.py"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
@@ -121,7 +126,8 @@
       "Editor: полный выход и запуск того же exe из BinEditor через Проводник, последовательное открытие main и legs62 из classes/trucks/trailers. Панель Truck, модель, колёса и материалы загружены; свежий список ошибок пуст. Reload Resources в старом процессе был недостаточен.",
       "Новый резерв четырёх файлов34ce1c69b9f8c1fdb9abcd2b67f6f432c5ee432240bac0bae5f61f3868c86a04; исходный резерв46файлов5154c0b065515597a8022fc4c71524527bd7090a3593201018c1a4510163805a сохранён.",
       "План SHA256 9160ed495bdfa03c340cdefe8dec14e599b929fc316967b24bee76cd62e5e523. Изображения01/02/03: d0354d9548b4df25049b68927be3d4576c5d3924bbbc10674f69b85246d5cc95;05e9c21dcbd86c20dd0c864cc9078e8163bf7dcf79ab9ac85e66a05822f714bd;edc40e552859d8881f5de7af9575d5475fe442169ed1ddd365b7343a9e83e5f0. Копии локальные, оригиналы сохранены.",
-      "Штатная запись ANK MK38 прочитана из initial.pak в память без извлечения на диск: SHA256 2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c, два LimitedFluid Box. Произвольный контур и плеск нашего бака не объявлены доказанными."
+      "Штатная запись ANK MK38 прочитана из initial.pak в память без извлечения на диск: SHA256 2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c, два LimitedFluid Box. Произвольный контур и плеск нашего бака не объявлены доказанными.",
+      "Stage70 clean_review blend: 57567925 bytes; SHA256 7a830c72b3a283ab18a64bf39075d976364ce9ca4b6aa5cf14f9ee1112cad1d6. Stage67 unchanged 7b0be1721da053e0e3fac82ad232841e95cce18e5f81f2c10e8e29210d050ac0. Final scene snapshot c9338215c868172885085bc5494fdbc506daa99b282fa4163052a4f8c9a55ae5. Existing material-image graph unchanged e25c467aa20cfbd5de4876843efc45de9c07447d32c2a251446c2ce7d5ae0849. object.json parsing, py_compile and tracked diff check PASS. No game or user acceptance claimed."
     ]
   },
   "model_routes": {
