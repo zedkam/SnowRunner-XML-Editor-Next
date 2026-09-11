@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `13`
+- revision: `14`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T07:03:43Z`
+- updated: `2026-09-11T07:27:40Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 full derivative and 19 texture maps complete, offline visual review accepted; full candidate file validator PASS. Editor opened successfully from BinEditor via Explorer; no Stage69 installed yet. Native converter wrapper path defect under correction before actual import.
+Stage69 XML+roundtrip and actual two-class native conversion PASS; both mesh hashes d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e. DDS19 PASS (13 exactreuse,6 new). Install dryrun46actions126baselineunchanged PASS. Native geometry gate FAIL:55 streams contain fewer triangles than FBX polygonarity n-2; Sol resolving degenerate removal versus true surface loss before any install. Editor is open, no candidate loaded and installedmod unchanged.
 
 ## Следующие действия
 
-- Finish exact native conversion and resource validation, scopedbackupinstall, Editor class check; confirm PCT build path without game testing.
+- Resolve55triangle differences with exact geometry proof; then install only aftergatePASS, openbothclassesinEditor andhandoffuserfreshgameconversion/restart/spawn.
 
 ## Область
 
@@ -67,6 +67,7 @@ Stage69 full derivative and 19 texture maps complete, offline visual review acce
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
+- Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 
 ## Evidence
 
@@ -84,6 +85,7 @@ Stage69 full derivative and 19 texture maps complete, offline visual review acce
 - front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution.
 - measured_fuel_cylinder.json SHAa7aece474115ff13b1bd21566ea216d08ef32b0551ec2464528e634686acf141; fbx_visual_uv0_binary.json; darkqa_v1 fourrenders show blackair/central; sourcegraphmask defect diagnosed andnewmapsreplaced. Usergameunconfirmed.
 - stage69_integrated/stage69_validation.json status=file_contract_passed_not_game_ready. Native firstattempt failed trailing-dot path before meshload. Editor requires Explorer launch in BinEditor; direct launch badcwd caused missingresources, ownfailed process closed.
+- stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
 
 ## Затронутые файлы
 
