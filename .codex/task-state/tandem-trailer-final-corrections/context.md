@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `14`
+- revision: `15`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T07:27:40Z`
+- updated: `2026-09-11T07:45:31Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 XML+roundtrip and actual two-class native conversion PASS; both mesh hashes d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e. DDS19 PASS (13 exactreuse,6 new). Install dryrun46actions126baselineunchanged PASS. Native geometry gate FAIL:55 streams contain fewer triangles than FBX polygonarity n-2; Sol resolving degenerate removal versus true surface loss before any install. Editor is open, no candidate loaded and installedmod unchanged.
+Stage69 remains file-only: first native mesh difference is proven zero-area removal plus alternate quad triangulation, not surface loss; coverage of the other 54 streams is pending. Desktop control stopped and JS control session reset at user request. Installed mod unchanged.
 
 ## Следующие действия
 
-- Resolve55triangle differences with exact geometry proof; then install only aftergatePASS, openbothclassesinEditor andhandoffuserfreshgameconversion/restart/spawn.
+- Complete polygon-coverage proof and hash-pinned install guard without UI. Only then prepare test installation; Editor and user game acceptance remain pending.
 
 ## Область
 
@@ -36,6 +36,7 @@ Stage69 XML+roundtrip and actual two-class native conversion PASS; both mesh has
 - Не удалять функциональные части подвески и не менять форму, длину и взаимное расположение рессор и тяг внутри модуля. Возможный продольный перенос рассматривать целым модулем, не изменяя колею.
 - Рабочая основа только Stage53. Не перерабатывать Stage64 и не продвигать его геометрию, карты или экспорт.
 - Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.
+- Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.
 
 ## Принятые решения
 
@@ -68,6 +69,7 @@ Stage69 XML+roundtrip and actual two-class native conversion PASS; both mesh has
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
+- Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
 
 ## Evidence
 
@@ -86,6 +88,7 @@ Stage69 XML+roundtrip and actual two-class native conversion PASS; both mesh has
 - measured_fuel_cylinder.json SHAa7aece474115ff13b1bd21566ea216d08ef32b0551ec2464528e634686acf141; fbx_visual_uv0_binary.json; darkqa_v1 fourrenders show blackair/central; sourcegraphmask defect diagnosed andnewmapsreplaced. Usergameunconfirmed.
 - stage69_integrated/stage69_validation.json status=file_contract_passed_not_game_ready. Native firstattempt failed trailing-dot path before meshload. Editor requires Explorer launch in BinEditor; direct launch badcwd caused missingresources, ownfailed process closed.
 - stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
+- stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
 
 ## Затронутые файлы
 
