@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `18`
+- revision: `19`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T08:56:55Z`
+- updated: `2026-09-11T09:39:14Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Authoritative triangle FBX completed and independently hash-checked. Source67 and original FBX remain unchanged. Old candidate retained as stage69_integrated_ngon_archive; fresh candidate preparation/native conversion in progress. Desktop free; installed mod unchanged.
+Stage69 installed with verified 46-file backup; actual Editor class-load failed: bone_main_cdt has no cdt. Native shape proof was not a collision-recognition proof. Found collision Model prefix regression s69_cdt_* versus required cdt*. Accepted shape unchanged; file-only corrective patch in progress.
 
 ## Следующие действия
 
-- Complete preserving candidate rebuild and two native conversions; require exact triangle native validation and installer preflight before backed-up installation. Warn and establish availability before Editor.
+- Verify name/owner derivative; reconvert, install bounded correction with backup, then reload both Editor classes. User grants computer use without additional requests; warn before switching windows, no idle screen reservation.
 
 ## Область
 
@@ -52,6 +52,7 @@ Authoritative triangle FBX completed and independently hash-checked. Source67 an
 - Use explicit authoritative Blender loop triangles on disposable export UV copies only; preserve controlpoint positions, UV0, split normals, weights, material slots and1059names. Keep original n-gon FBX/candidate, do not rebuild accepted hardware or use builder --replace.
 - SUPERSEDES disposable Blender-mesh triangulation route: do NOT call unused export_triangulated_fbx helper (review caught weights/normal risks before any execution). Use stage69_patch_fbx_triangles.py on preserved oldFBX plus authoritative loop dump; write a separate new FBX. Modify only polygon/loop index references, per-polygon smoothing/material indices and derived Edges.
 - Replace ambiguous n-gon export only using measured Blender loop triangles; no redesign, new scene, desktop control, installed writes or invented native proof.
+- Fix only FBX collision Model names to cdt69001..071 and two axle-hull ownerships to actual main Body with world coordinates preserved. Do not change CombineXMesh Type, accepted visuals, UVs, materials or active Blender scene. Add semantic collision-ownership guard.
 
 ## Открытые вопросы
 
@@ -76,6 +77,7 @@ Authoritative triangle FBX completed and independently hash-checked. Source67 an
 - Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
 - stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
 - File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.
+- Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.
 
 ## Evidence
 
@@ -96,9 +98,7 @@ Authoritative triangle FBX completed and independently hash-checked. Source67 an
 - stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
 - stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
 - Main independently tested legal polygon checker on six positive/negative in-memory cases. Actual full checker reports 1494 unproven items; not accepted as loss or as a passing conversion.
-- Warned read-only Blender RPC: same existing Stage67 file and visible Scene, hidden derivative1059parts,622253actual loop_triangles,max44856triangleloops,no chunk necessary. No new Blender process, scene switch, selection or geometry edit.
-- All1059FBX geometries inventoried: one UVByPolygonVertexIndexToDirect; normals1038ByPolygonVertex and21ByVertice; material1058AllSame+1ByPolygon; noByEdge layers. Preserve all direct float arrays and non-geometry node signatures.
-- ... ещё 1; см. `state.json`.
+- ... ещё 4; см. `state.json`.
 
 ## Затронутые файлы
 
