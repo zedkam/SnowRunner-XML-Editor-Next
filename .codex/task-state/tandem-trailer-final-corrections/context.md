@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `16`
+- revision: `17`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T08:25:11Z`
+- updated: `2026-09-11T08:45:57Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Winch point corrected in both candidate XML to the accepted lowered eye, strict XML and two roundtrips PASS; original FBX/native/maps remain unchanged. Native polygon coverage is still unproven for 1494 items, zero foreign corners. Preparing an explicit source-loop-triangle export-only derivative to remove n-gon ambiguity, with source geometry/material/skin preservation guards. No installed writes or window control.
+Desktop remains free. Authoritative read-only Blender loop map captured:1059parts,622253triangles,source guard and selection unchanged. Replace ambiguous n-gon serialization by a file-only FBX patch using this map; accepted geometry, normals, UV direct arrays, skins, bones and71CDT remain raw-property identical. Triangular output and proof are pending; installed mod unchanged.
 
 ## Следующие действия
 
-- Review and run guarded export-only triangulated FBX in existing Blender without UI control; then refresh bounded file pins, native conversion and validator. Install remains blocked until actual PASS; Editor and user game acceptance still required.
+- Finish/review offline triangle patch and proof, adapt producer to the actual proof schema, then archive only the owned old candidate and build the new candidate without --replace. No install before fresh actual native PASS. No desktop control during these steps.
 
 ## Область
 
@@ -50,6 +50,7 @@ Winch point corrected in both candidate XML to the accepted lowered eye, strict 
 - New162 maps are owned unaccepted generated assets and may be versioned/rebaked for aged black. Preserve old896/body/tank/toolbox and accepted Stage67 geometry.
 - Currentnew162 blackbase is correct, minorproceduralage required for agreedstyle; onlyalbedo changes, acceptednormal/shading andold896body retained. Existing Stage67 remainsacceptedsource, no newgameclasses.
 - Use explicit authoritative Blender loop triangles on disposable export UV copies only; preserve controlpoint positions, UV0, split normals, weights, material slots and1059names. Keep original n-gon FBX/candidate, do not rebuild accepted hardware or use builder --replace.
+- SUPERSEDES disposable Blender-mesh triangulation route: do NOT call unused export_triangulated_fbx helper (review caught weights/normal risks before any execution). Use stage69_patch_fbx_triangles.py on preserved oldFBX plus authoritative loop dump; write a separate new FBX. Modify only polygon/loop index references, per-polygon smoothing/material indices and derived Edges.
 
 ## Открытые вопросы
 
@@ -72,6 +73,7 @@ Winch point corrected in both candidate XML to the accepted lowered eye, strict 
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
 - Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
+- stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
 
 ## Evidence
 
@@ -93,12 +95,9 @@ Winch point corrected in both candidate XML to the accepted lowered eye, strict 
 - stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
 - Main independently tested legal polygon checker on six positive/negative in-memory cases. Actual full checker reports 1494 unproven items; not accepted as loss or as a passing conversion.
 - Warned read-only Blender RPC: same existing Stage67 file and visible Scene, hidden derivative1059parts,622253actual loop_triangles,max44856triangleloops,no chunk necessary. No new Blender process, scene switch, selection or geometry edit.
+- All1059FBX geometries inventoried: one UVByPolygonVertexIndexToDirect; normals1038ByPolygonVertex and21ByVertice; material1058AllSame+1ByPolygon; noByEdge layers. Preserve all direct float arrays and non-geometry node signatures.
 
 ## Затронутые файлы
 
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/scripts/stage64_checkpoint.ps1
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage63_restore_accepted_controls.md
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/object.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/scene/trailer_sideboard_tandem_stage53_olive_black_palette.blend
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/10_blender/exports/stage69/stage69_wip_rig_material159.blend
+- ... ещё 5; см. `state.json`.
