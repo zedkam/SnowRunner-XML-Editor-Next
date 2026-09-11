@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "implementation",
-  "revision": 11,
+  "phase": "validation",
+  "revision": 12,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-11T05:15:27Z",
+  "updated_at": "2026-09-11T05:56:58Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -33,7 +33,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage69 full1059 derivative: reuse896 complete exact, body5955tri exact, front Isection continuation committed, actual16bone LBS PASS, CDT71 PASS. New162 baked materials visually REJECTED as too light; dark material correction pending. Fuel cavity BVH edge miss under diagnosis; FBX export UV0 repair in progress. Installed mod unchanged. Historical Stage53/plan-only constraints superseded by approved Stage67 and current implement-through-game-acceptance request.",
+    "current_summary": "Stage69 actual final geometry exported and producer complete:1059visuals,71CDT,16bones,UV0 binary PASS, source67 preserved. FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df. New162 black material restage+bindings PASS; restrained age albedo pass running before final QA. Exactfuel1.14m cylinder from truecavity; functional180L unchanged. Installed mod unchanged; finalcandidate/converter/Editor still pending.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -42,7 +42,8 @@
       "Stock legs references use _trailer_foot; eliminate self-added motor Tau .5/.4, use supported group Tau .04 and source-derived forces, no manual legs menu; actual game timing unconfirmed.",
       "Approved G-neck height half means centerline step .24m to .12m, beam interface retained and section thickness preserved; resulting eye/socket moves down .12m relative trailer.",
       "Front extension actual end faces are full rectangles170.11x295.266mm; naive rectangular extrusion would repeat rejected block appearance. Do not execute old local_fixes until true channel/profile continuation is implemented from source measurements.",
-      "New162 maps are owned unaccepted generated assets and may be versioned/rebaked for aged black. Preserve old896/body/tank/toolbox and accepted Stage67 geometry."
+      "New162 maps are owned unaccepted generated assets and may be versioned/rebaked for aged black. Preserve old896/body/tank/toolbox and accepted Stage67 geometry.",
+      "Currentnew162 blackbase is correct, minorproceduralage required for agreedstyle; onlyalbedo changes, acceptednormal/shading andold896body retained. Existing Stage67 remainsacceptedsource, no newgameclasses."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -54,10 +55,11 @@
       "Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.",
       "Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.",
       "Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.",
-      "Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready."
+      "Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.",
+      "Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949."
     ],
     "next_actions": [
-      "Finish darknew162 and exactfuel; UV0/root-correct FBX/fullblend; producer+candidate+nativeconverter+Editor. Stop only for user game acceptance."
+      "Reviewfinalagedmaps, savefullblend/materialoutput, finalizer+candidate+strictXMLroundtrip+nativeconvert, then scopedinstall/Editor withwarning, handoffusergameacceptance."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -79,7 +81,8 @@
       "WIP SHA256 da7616059f19b45118e634ec0b27326c19437176da9687b80488db05255b2b3d; owned rig pose reset to exact identity after QA restoration defect; saved identity error0.0, sourceguardPASS. WIP_NOT_FOR_GAME.",
       "Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.",
       "full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry.",
-      "front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution."
+      "front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution.",
+      "measured_fuel_cylinder.json SHAa7aece474115ff13b1bd21566ea216d08ef32b0551ec2464528e634686acf141; fbx_visual_uv0_binary.json; darkqa_v1 fourrenders show blackair/central; sourcegraphmask defect diagnosed andnewmapsreplaced. Usergameunconfirmed."
     ]
   },
   "model_routes": {

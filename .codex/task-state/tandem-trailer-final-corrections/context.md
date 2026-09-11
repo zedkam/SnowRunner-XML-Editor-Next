@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `implementation`
-- revision: `11`
+- phase: `validation`
+- revision: `12`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T05:15:27Z`
+- updated: `2026-09-11T05:56:58Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 full1059 derivative: reuse896 complete exact, body5955tri exact, front Isection continuation committed, actual16bone LBS PASS, CDT71 PASS. New162 baked materials visually REJECTED as too light; dark material correction pending. Fuel cavity BVH edge miss under diagnosis; FBX export UV0 repair in progress. Installed mod unchanged. Historical Stage53/plan-only constraints superseded by approved Stage67 and current implement-through-game-acceptance request.
+Stage69 actual final geometry exported and producer complete:1059visuals,71CDT,16bones,UV0 binary PASS, source67 preserved. FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df. New162 black material restage+bindings PASS; restrained age albedo pass running before final QA. Exactfuel1.14m cylinder from truecavity; functional180L unchanged. Installed mod unchanged; finalcandidate/converter/Editor still pending.
 
 ## Следующие действия
 
-- Finish darknew162 and exactfuel; UV0/root-correct FBX/fullblend; producer+candidate+nativeconverter+Editor. Stop only for user game acceptance.
+- Reviewfinalagedmaps, savefullblend/materialoutput, finalizer+candidate+strictXMLroundtrip+nativeconvert, then scopedinstall/Editor withwarning, handoffusergameacceptance.
 
 ## Область
 
@@ -47,6 +47,7 @@ Stage69 full1059 derivative: reuse896 complete exact, body5955tri exact, front I
 - Approved G-neck height half means centerline step .24m to .12m, beam interface retained and section thickness preserved; resulting eye/socket moves down .12m relative trailer.
 - Front extension actual end faces are full rectangles170.11x295.266mm; naive rectangular extrusion would repeat rejected block appearance. Do not execute old local_fixes until true channel/profile continuation is implemented from source measurements.
 - New162 maps are owned unaccepted generated assets and may be versioned/rebaked for aged black. Preserve old896/body/tank/toolbox and accepted Stage67 geometry.
+- Currentnew162 blackbase is correct, minorproceduralage required for agreedstyle; onlyalbedo changes, acceptednormal/shading andold896body retained. Existing Stage67 remainsacceptedsource, no newgameclasses.
 
 ## Открытые вопросы
 
@@ -64,6 +65,7 @@ Stage69 full1059 derivative: reuse896 complete exact, body5955tri exact, front I
 - Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
 - Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
+- Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 
 ## Evidence
 
@@ -79,6 +81,7 @@ Stage69 full1059 derivative: reuse896 complete exact, body5955tri exact, front I
 - Build source self-tests passed two Stage68 classes and two user-selected stock references, negative duplicate-attribute/control-speed/trailer-type cases.
 - full_pose_verified.json; body_uv_verified.json; sourceguardPASS. front_i_cut_debug.json proves12 disconnected coincident outline segments perIsection ratherthan missinggeometry.
 - front_i_closure.json; full_pose_verified.json; front_materials_verified.json; qa/stage69_closeup_qa.json. Fuel cavity source/derivative equality0; diagnostic radial145 BVHmiss requires exact resolution.
+- measured_fuel_cylinder.json SHAa7aece474115ff13b1bd21566ea216d08ef32b0551ec2464528e634686acf141; fbx_visual_uv0_binary.json; darkqa_v1 fourrenders show blackair/central; sourcegraphmask defect diagnosed andnewmapsreplaced. Usergameunconfirmed.
 
 ## Затронутые файлы
 
