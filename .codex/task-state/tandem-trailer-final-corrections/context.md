@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `19`
+- revision: `20`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T09:39:14Z`
+- updated: `2026-09-11T10:08:25Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 installed with verified 46-file backup; actual Editor class-load failed: bone_main_cdt has no cdt. Native shape proof was not a collision-recognition proof. Found collision Model prefix regression s69_cdt_* versus required cdt*. Accepted shape unchanged; file-only corrective patch in progress.
+CDT naming/ownership correction created and both native outputs converted. No Editor success claimed; four-file backed-up repair awaits native geometry validation.
 
 ## Следующие действия
 
-- Verify name/owner derivative; reconvert, install bounded correction with backup, then reload both Editor classes. User grants computer use without additional requests; warn before switching windows, no idle screen reservation.
+- Accept current native visual validation, run separate four-file repair with immediate backup, warn before Editor UI, load both existing classes. Desktop is free during file work; no repeated permission needed.
 
 ## Область
 
@@ -53,6 +53,7 @@ Stage69 installed with verified 46-file backup; actual Editor class-load failed:
 - SUPERSEDES disposable Blender-mesh triangulation route: do NOT call unused export_triangulated_fbx helper (review caught weights/normal risks before any execution). Use stage69_patch_fbx_triangles.py on preserved oldFBX plus authoritative loop dump; write a separate new FBX. Modify only polygon/loop index references, per-polygon smoothing/material indices and derived Edges.
 - Replace ambiguous n-gon export only using measured Blender loop triangles; no redesign, new scene, desktop control, installed writes or invented native proof.
 - Fix only FBX collision Model names to cdt69001..071 and two axle-hull ownerships to actual main Body with world coordinates preserved. Do not change CombineXMesh Type, accepted visuals, UVs, materials or active Blender scene. Add semantic collision-ownership guard.
+- Do not treat old render-stream CDT geometry classification as engine physics recognition. Actual class loading in Editor is mandatory after bounded repair; no game acceptance yet.
 
 ## Открытые вопросы
 
@@ -78,6 +79,7 @@ Stage69 installed with verified 46-file backup; actual Editor class-load failed:
 - stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
 - File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.
 - Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.
+- Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.
 
 ## Evidence
 
@@ -97,9 +99,4 @@ Stage69 installed with verified 46-file backup; actual Editor class-load failed:
 - stage69_integrated/stage69_validation.json status=file_contract_passed_not_game_ready. Native firstattempt failed trailing-dot path before meshload. Editor requires Explorer launch in BinEditor; direct launch badcwd caused missingresources, ownfailed process closed.
 - stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
 - stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
-- Main independently tested legal polygon checker on six positive/negative in-memory cases. Actual full checker reports 1494 unproven items; not accepted as loss or as a passing conversion.
-- ... ещё 4; см. `state.json`.
-
-## Затронутые файлы
-
 - ... ещё 6; см. `state.json`.
