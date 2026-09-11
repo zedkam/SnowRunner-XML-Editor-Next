@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `15`
+- revision: `16`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T07:45:31Z`
+- updated: `2026-09-11T08:25:11Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage69 remains file-only: first native mesh difference is proven zero-area removal plus alternate quad triangulation, not surface loss; coverage of the other 54 streams is pending. Desktop control stopped and JS control session reset at user request. Installed mod unchanged.
+Winch point corrected in both candidate XML to the accepted lowered eye, strict XML and two roundtrips PASS; original FBX/native/maps remain unchanged. Native polygon coverage is still unproven for 1494 items, zero foreign corners. Preparing an explicit source-loop-triangle export-only derivative to remove n-gon ambiguity, with source geometry/material/skin preservation guards. No installed writes or window control.
 
 ## Следующие действия
 
-- Complete polygon-coverage proof and hash-pinned install guard without UI. Only then prepare test installation; Editor and user game acceptance remain pending.
+- Review and run guarded export-only triangulated FBX in existing Blender without UI control; then refresh bounded file pins, native conversion and validator. Install remains blocked until actual PASS; Editor and user game acceptance still required.
 
 ## Область
 
@@ -49,6 +49,7 @@ Stage69 remains file-only: first native mesh difference is proven zero-area remo
 - Front extension actual end faces are full rectangles170.11x295.266mm; naive rectangular extrusion would repeat rejected block appearance. Do not execute old local_fixes until true channel/profile continuation is implemented from source measurements.
 - New162 maps are owned unaccepted generated assets and may be versioned/rebaked for aged black. Preserve old896/body/tank/toolbox and accepted Stage67 geometry.
 - Currentnew162 blackbase is correct, minorproceduralage required for agreedstyle; onlyalbedo changes, acceptednormal/shading andold896body retained. Existing Stage67 remainsacceptedsource, no newgameclasses.
+- Use explicit authoritative Blender loop triangles on disposable export UV copies only; preserve controlpoint positions, UV0, split normals, weights, material slots and1059names. Keep original n-gon FBX/candidate, do not rebuild accepted hardware or use builder --replace.
 
 ## Открытые вопросы
 
@@ -70,6 +71,7 @@ Stage69 remains file-only: first native mesh difference is proven zero-area remo
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
+- Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
 
 ## Evidence
 
@@ -89,6 +91,8 @@ Stage69 remains file-only: first native mesh difference is proven zero-area remo
 - stage69_integrated/stage69_validation.json status=file_contract_passed_not_game_ready. Native firstattempt failed trailing-dot path before meshload. Editor requires Explorer launch in BinEditor; direct launch badcwd caused missingresources, ownfailed process closed.
 - stage69_native_validation.json actual55permesh topology differences,71CDT4390faces. Do not call fewertriangles a geometryfailure until exact surfaces/UV checked. Game PCT convert proven only through game ModManager; Editor uses verifiedDDS.
 - stage69_validate_native.py is being corrected to verify source polygon coverage rather than arbitrary fan triangle equality; native outputs SHA d81b6efda507a93f54c2ad9745fcb67b4459eaa740dbddeae83d4704da66593e unchanged.
+- Main independently tested legal polygon checker on six positive/negative in-memory cases. Actual full checker reports 1494 unproven items; not accepted as loss or as a passing conversion.
+- Warned read-only Blender RPC: same existing Stage67 file and visible Scene, hidden derivative1059parts,622253actual loop_triangles,max44856triangleloops,no chunk necessary. No new Blender process, scene switch, selection or geometry edit.
 
 ## Затронутые файлы
 
