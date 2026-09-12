@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 31,
+  "revision": 32,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T09:37:56Z",
+  "updated_at": "2026-09-12T09:57:41Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -38,7 +38,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage74: пользователь утвердил Box как у ANK, 180L; без игры. Два Astra/max исполнителя делают XML и фактический binding audit, главный точный export. Stage72 вид сохранён.",
+    "current_summary": "Stage74 Box XML принят main:119+66negative и editor roundtrip PASS. Fresh actual capture1132meshes и pre-material FBX получены; Stage72 unchanged. Три Astra/max: binding audit, footer writer, faithful material transfer.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -100,10 +100,11 @@
       "Main final guard после всех previews:1138objects,2scoped changes,1136unchanged; originalmaterialgraphs/rest/pose protected; temporary fuelhandler absent. Stage72 save a7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b.",
       "K2 candidate actualfile SHA487a67aaea8741dfab42e20c2d56106b567ef0a9d9b4f0bba5673f9cda6b65e0:4axes+2offset only;20negative tests+6roundtrip pass; installed353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 unchanged.",
       "Actual screenshots08/09/10, cylinder04/05/06, legs11/12 and fuel17/21/22/23 inspected. Fuel13-16 omit contours;18-20are1x1 failedcaptures retained/excluded. K5/K4 runtime remain open.",
-      "Stage73 Fixed candidate66negative+6real parser roundtrip, material plan21negative+9positive,4native shader pilot PNG and zero outside-patch delta verified by main."
+      "Stage73 Fixed candidate66negative+6real parser roundtrip, material plan21negative+9positive,4native shader pilot PNG and zero outside-patch delta verified by main.",
+      "Stage74 один measured Box принят main;180L/200repair/2Fixedfoot/6IK/W/S preserved, inverse byteproof;119+66negative/realroundtrip repeated."
     ],
     "next_actions": [
-      "Перечитать Stage74 checkpoint/Stage70/object/context после сжатия. Интегрировать измеренный Box и проверенные привязки, перенести принятые материалы в новый экспорт. Не запускать игру."
+      "Продолжить binding/material/native export по Stage74 checkpoint. Box готов, принятый вид не менять. Без игры."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -162,7 +163,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72/final_validation.json",
       "OpenBlender5.2.0LTS Stage72SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b,1138objects16bonesoverlaysfalse confirmedreadonly.",
       "XML1adf7d20347e9d7659fa22ac9852cf12675c7ee2f9ef4f1f33f182f73b4b65ba. Installed unchanged353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173. Blend unchangeda7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b.",
-      "Main directread stock scout2commands for4chains; flatbed1slider Tau.04; ours6drivers Tau.04. NativeANK2Box XMLSHA2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c. No game launch."
+      "Main directread stock scout2commands for4chains; flatbed1slider Tau.04; ours6drivers Tau.04. NativeANK2Box XMLSHA2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c. No game launch.",
+      "Stage74 XML SHA1e6dee97600cc5fba854750f75837e8303519d0c22009de40204b0c5bbe264ea; actual domains SHA7017a7f3e8cb25dd1101f0f9a9f70b5af976b7100b431de1432c2ddae296112e; accepted scene guard unchanged."
     ]
   },
   "model_routes": {
