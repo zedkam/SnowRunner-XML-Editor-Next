@@ -1,11 +1,11 @@
 # Оркестрация: Tandem trailer final corrections
 
 - task-id: `tandem-trailer-final-corrections`
-- status: `active`
+- status: `blocked`
 - phase: `implementation`
-- revision: `33`
+- revision: `34`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T10:31:12Z`
+- updated: `2026-09-12T11:39:43Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage74: Box XML проверен. Fresh binding audit42negativePASS; main применил16bone root +71CDT names и2axle-owner compensation, world/geometry/skin preserved. Faithful material helper проходит actual UV correction до native bake; игра и installed не тронуты.
+Box XML и pre-material root/CDT готовы, main119+66 XML и62bindingnegativePASS. Caps03 native pilot отклонен по нормалям:53856/59640 почти нулевые. Кандидат fix+22filetests готов, native не повторён. При контрольном render Blender закрылся; Stage72 SHA цел, игра/installed не изменены.
 
 ## Следующие действия
 
-- По Stage74 checkpoint завершить material pilot/full153 transfer, final FBX triangle/native preparation и независимые проверки. Принятый Stage72 вид не менять; без игры.
+- Открыть принятую Stage72 в той же Blender5.2 с MCP, без новой версии; перечитать Stage74 checkpoint. Новый caps04 pilot с исправленным target render UV и normal gate, без повторного полного render до выяснения закрытия. Только после PASS full153/material/finalFBX/native; без игры.
 
 ## Область
 
@@ -93,12 +93,11 @@ Stage74: Box XML проверен. Fresh binding audit42negativePASS; main пр�
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- ... ещё 19; см. `state.json`.
+- ... ещё 20; см. `state.json`.
 
 ## Evidence
 
-- stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.
-- ... ещё 37; см. `state.json`.
+- ... ещё 39; см. `state.json`.
 
 ## Затронутые файлы
 
