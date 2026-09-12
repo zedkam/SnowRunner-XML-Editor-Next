@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `validation`
-- revision: `28`
+- phase: `implementation`
+- revision: `29`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T06:36:18Z`
+- updated: `2026-09-12T07:32:29Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage72 сохранена: правый наружный стык и след прежнего отражателя исправлены. К2: один локальный XML-кандидат и реальные кинематические проверки; К5: две конечные позы и неприменённый physical-merge manifest; К4: реальные контуры, точная runtime-форма и плеск не подтверждены. Полный план не завершён, мод не обновлялся.
+Пользователь принял Stage72. Внешний вид заморожен; продолжение Stage73 механики с тремя Astra/max. Готовится минимальный Fixed-кандидат окончаний без сменыMassCDT, проверяются оставшиеся семантики мгновенного перехода и формы топлива.
 
 ## Следующие действия
 
-- Показать текущие две правки. При продолжении сначала перечитать stage72_current_checkpoint.md, Stage70, object.json и этот context. Не повторять apply. Довести физическую жёсткость окончаний и мгновенный переход; по топливу нужен подтверждённый способ либо отдельное согласование приближения. Общая Blender-приёмка до игрового bake/экспорта и Editor.
+- Read stage73_current_checkpoint,Stage70,object andcontext after everycompaction. Review exacttwoFixedXML+K2candidate, independentchecks, currentexportcontract; do notinstallpartialmod orinventinstant/fluidfeatures.
 
 ## Область
 
@@ -70,6 +70,8 @@ Stage72 сохранена: правый наружный стык и след �
 - Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.
 - Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged.
 - Последнее прямое указание пользователя Astra/max применено ко всем трём исполнителям вместо профилей ролей; ограниченные подзадачи завершены, исполнители закрыты.
+- Stage72 visual corrections accepted by user; do not ask reacceptance or reapply. Generic continue does not approve approximate fuel.
+- Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.
 
 ## Открытые вопросы
 
@@ -91,5 +93,8 @@ Stage72 сохранена: правый наружный стык и след �
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
-- Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
-- ... ещё 17; см. `state.json`.
+- ... ещё 18; см. `state.json`.
+
+## Evidence
+
+- ... ещё 34; см. `state.json`.
