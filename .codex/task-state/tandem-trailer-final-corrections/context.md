@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `handoff`
-- revision: `25`
+- phase: `implementation`
+- revision: `26`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-11T18:46:38Z`
+- updated: `2026-09-12T04:33:53Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage71 six user screenshot defects implemented and independently checked in Blender. One review saved, 8 real viewport PNGs, Stage67 and Stage70 preserved; user acceptance and game validation still open.
+Stage71 partially accepted by user: left seam, new reflectors and other local fixes accepted; right seam and former-reflector texture scars reopened. Stage72 targeted corrections in progress, same Astra/max agents.
 
 ## Следующие действия
 
-- Review current Stage71 Blender scene with user; continue remaining Stage70 cylinder axes/AttachOffset, instant parking legs with rigid feet, shaped sloshing fuel and export preparation. Do not install or launch Editor/game before Blender acceptance.
+- Capture live Stage71 baseline, apply only evidence-backed right seam and former-reflector surface corrections, verify both sides; then continue Stage70 actual cylinder attachment preview, legs and fuel before Blender acceptance.
 
 ## Область
 
@@ -42,6 +42,7 @@ Stage71 six user screenshot defects implemented and independently checked in Ble
 - Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.
 - Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.
 - Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.
+- After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
 
 ## Принятые решения
 
@@ -65,6 +66,7 @@ Stage71 six user screenshot defects implemented and independently checked in Ble
 - Неподходящая старая маска кромок отключена только на новых или перестроенных деталях. Новая палитра, изображения или shader graph не создавались; индивидуальное запекание кромок и игровые карты остаются позже после приёмки конструкции.
 - User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.
 - All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed.
+- Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.
 
 ## Открытые вопросы
 
@@ -90,10 +92,12 @@ Stage71 six user screenshot defects implemented and independently checked in Ble
 - Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
 - stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
 - File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.
-- Fresh native triangle comparison and immutable 71 collision geometry buffers passed. Actual main Editor load failure captured, no game run.
-- Actual corrected FBX SHA256 3b7c4c4cde3bfb198f87be5c06ed9dc02bfc7c70793c7f1958c6c2cd4bc39f10: 71 cdt-prefixed Models, declared Body ownership, identical world hull hashes. Only two pinned FBX inputs changed; XML and 19 TGA unchanged.
-- ... ещё 6; см. `state.json`.
+- ... ещё 8; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 30; см. `state.json`.
+- ... ещё 31; см. `state.json`.
+
+## Затронутые файлы
+
+- ... ещё 13; см. `state.json`.
