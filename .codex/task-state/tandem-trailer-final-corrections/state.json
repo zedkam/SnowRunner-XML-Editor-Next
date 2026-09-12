@@ -3,11 +3,11 @@
   "task_id": "tandem-trailer-final-corrections",
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
-  "status": "blocked",
+  "status": "active",
   "phase": "implementation",
-  "revision": 34,
+  "revision": 35,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T11:39:43Z",
+  "updated_at": "2026-09-12T13:39:58Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],

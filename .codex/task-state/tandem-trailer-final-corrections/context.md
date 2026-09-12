@@ -1,11 +1,11 @@
 # Оркестрация: Tandem trailer final corrections
 
 - task-id: `tandem-trailer-final-corrections`
-- status: `blocked`
+- status: `active`
 - phase: `implementation`
-- revision: `34`
+- revision: `35`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T11:39:43Z`
+- updated: `2026-09-12T13:39:58Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
