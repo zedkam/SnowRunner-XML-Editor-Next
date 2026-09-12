@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `30`
+- revision: `31`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T08:59:19Z`
+- updated: `2026-09-12T09:37:56Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage73: Stage72 вид принят и сохранён. Main проверил2Fixed foot + сохранённые6IKправок:66negative/6roundtrip PASS. Экспортный план1061visuals/71CDT:21negative/9positive;153детали ещё требуют faithful bake. Native shader-pilot ROI:delta0 внеpatch, отражатели сохранены. Последнее указание отменило игру; main лично сверил stock scout/flatbed/ANK XML. SnowRunner не запущен, мод не установлен. Все4Astra/max исполнителя завершены.
+Stage74: пользователь утвердил Box как у ANK, 180L; без игры. Два Astra/max исполнителя делают XML и фактический binding audit, главный точный export. Stage72 вид сохранён.
 
 ## Следующие действия
 
-- Перечитать Stage73 checkpoint/Stage70/object/context после каждого сжатия. Продолжить только файловую сверку исходных поз и физических связей лап по штатным XML, не добавлять анимацию. К4 контур/плеск180L открыт. Подготовить faithful export153деталей с actual slots/face domains и2заглушками. Сейчас не запускать игру и не менять принятую Stage72.
+- Перечитать Stage74 checkpoint/Stage70/object/context после сжатия. Интегрировать измеренный Box и проверенные привязки, перенести принятые материалы в новый экспорт. Не запускать игру.
 
 ## Область
 
@@ -40,6 +40,7 @@ Stage73: Stage72 вид принят и сохранён. Main проверил2
 - Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.
 - After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
 - После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.
+- Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders.
 
 ## Принятые решения
 
@@ -70,12 +71,11 @@ Stage73: Stage72 вид принят и сохранён. Main проверил2
 - Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.
 - Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.
 - Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.
+- НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять.
 
 ## Открытые вопросы
 
-- K5 instant switch/rest binding remains unproven; use exact source XML/geometry, no invented parameters.
-- K4 exact rounded fluid/slosh180L unresolved; Box approximation not approved.
-- 153visuals require faithful bake/actual slots/UV/FBX; no partial installation.
+Нет.
 
 ## Выполнено
 
@@ -94,3 +94,12 @@ Stage73: Stage72 вид принят и сохранён. Main проверил2
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
 - ... ещё 17; см. `state.json`.
+
+## Evidence
+
+- stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.
+- ... ещё 35; см. `state.json`.
+
+## Затронутые файлы
+
+- ... ещё 19; см. `state.json`.

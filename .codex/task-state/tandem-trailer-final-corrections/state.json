@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 30,
+  "revision": 31,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T08:59:19Z",
+  "updated_at": "2026-09-12T09:37:56Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -26,13 +26,10 @@
       "Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.",
       "Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.",
       "After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.",
-      "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false."
+      "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.",
+      "Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders."
     ],
-    "open_questions": [
-      "K5 instant switch/rest binding remains unproven; use exact source XML/geometry, no invented parameters.",
-      "K4 exact rounded fluid/slosh180L unresolved; Box approximation not approved.",
-      "153visuals require faithful bake/actual slots/UV/FBX; no partial installation."
-    ]
+    "open_questions": []
   },
   "accepted_work": {
     "summary": "Accepted baseline: Stage53 visual architecture; one W/S hitch-height command at SpeedMult 0.75; hinge layout with 0.70 m design range; 180 L fuel, 200 repair; current Stage63 plan records all open defects and final integrated-test order.",
@@ -41,7 +38,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage73: Stage72 вид принят и сохранён. Main проверил2Fixed foot + сохранённые6IKправок:66negative/6roundtrip PASS. Экспортный план1061visuals/71CDT:21negative/9positive;153детали ещё требуют faithful bake. Native shader-pilot ROI:delta0 внеpatch, отражатели сохранены. Последнее указание отменило игру; main лично сверил stock scout/flatbed/ANK XML. SnowRunner не запущен, мод не установлен. Все4Astra/max исполнителя завершены.",
+    "current_summary": "Stage74: пользователь утвердил Box как у ANK, 180L; без игры. Два Astra/max исполнителя делают XML и фактический binding audit, главный точный export. Stage72 вид сохранён.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -69,7 +66,8 @@
       "Stage72 visual corrections accepted by user; do not ask reacceptance or reapply. Generic continue does not approve approximate fuel.",
       "Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.",
       "Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.",
-      "Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders."
+      "Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.",
+      "НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -105,7 +103,7 @@
       "Stage73 Fixed candidate66negative+6real parser roundtrip, material plan21negative+9positive,4native shader pilot PNG and zero outside-patch delta verified by main."
     ],
     "next_actions": [
-      "Перечитать Stage73 checkpoint/Stage70/object/context после каждого сжатия. Продолжить только файловую сверку исходных поз и физических связей лап по штатным XML, не добавлять анимацию. К4 контур/плеск180L открыт. Подготовить faithful export153деталей с actual slots/face domains и2заглушками. Сейчас не запускать игру и не менять принятую Stage72."
+      "Перечитать Stage74 checkpoint/Stage70/object/context после сжатия. Интегрировать измеренный Box и проверенные привязки, перенести принятые материалы в новый экспорт. Не запускать игру."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -125,7 +123,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md",
       "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md",
       "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/main_checks.json",
-      "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/export_material_plan.json"
+      "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/export_material_plan.json",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_current_checkpoint.md"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
