@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `32`
+- revision: `33`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T09:57:41Z`
+- updated: `2026-09-12T10:31:12Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage74 Box XML принят main:119+66negative и editor roundtrip PASS. Fresh actual capture1132meshes и pre-material FBX получены; Stage72 unchanged. Три Astra/max: binding audit, footer writer, faithful material transfer.
+Stage74: Box XML проверен. Fresh binding audit42negativePASS; main применил16bone root +71CDT names и2axle-owner compensation, world/geometry/skin preserved. Faithful material helper проходит actual UV correction до native bake; игра и installed не тронуты.
 
 ## Следующие действия
 
-- Продолжить binding/material/native export по Stage74 checkpoint. Box готов, принятый вид не менять. Без игры.
+- По Stage74 checkpoint завершить material pilot/full153 transfer, final FBX triangle/native preparation и независимые проверки. Принятый Stage72 вид не менять; без игры.
 
 ## Область
 
@@ -93,5 +93,13 @@ Stage74 Box XML принят main:119+66negative и editor roundtrip PASS. Fresh
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
-- ... ещё 17; см. `state.json`.
+- ... ещё 19; см. `state.json`.
+
+## Evidence
+
+- stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.
+- ... ещё 37; см. `state.json`.
+
+## Затронутые файлы
+
+- ... ещё 19; см. `state.json`.
