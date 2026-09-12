@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `29`
+- revision: `30`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T07:32:29Z`
+- updated: `2026-09-12T08:59:19Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Пользователь принял Stage72. Внешний вид заморожен; продолжение Stage73 механики с тремя Astra/max. Готовится минимальный Fixed-кандидат окончаний без сменыMassCDT, проверяются оставшиеся семантики мгновенного перехода и формы топлива.
+Stage73: Stage72 вид принят и сохранён. Main проверил2Fixed foot + сохранённые6IKправок:66negative/6roundtrip PASS. Экспортный план1061visuals/71CDT:21negative/9positive;153детали ещё требуют faithful bake. Native shader-pilot ROI:delta0 внеpatch, отражатели сохранены. Последнее указание отменило игру; main лично сверил stock scout/flatbed/ANK XML. SnowRunner не запущен, мод не установлен. Все4Astra/max исполнителя завершены.
 
 ## Следующие действия
 
-- Read stage73_current_checkpoint,Stage70,object andcontext after everycompaction. Review exacttwoFixedXML+K2candidate, independentchecks, currentexportcontract; do notinstallpartialmod orinventinstant/fluidfeatures.
+- Перечитать Stage73 checkpoint/Stage70/object/context после каждого сжатия. Продолжить только файловую сверку исходных поз и физических связей лап по штатным XML, не добавлять анимацию. К4 контур/плеск180L открыт. Подготовить faithful export153деталей с actual slots/face domains и2заглушками. Сейчас не запускать игру и не менять принятую Stage72.
 
 ## Область
 
@@ -27,22 +27,18 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 ## Ограничения
 
 - Preserve approved hitch architecture, W/S control and SpeedMult 0.75; do not invent replacement mechanisms or new game classes.
-- Fix the complete planned set before gameplay testing; do not use partial in-game trials as design exploration.
+- Fix the complete planned set before user gameplay acceptance. Latest instruction cancels the brief reference-game diagnostic permission: compare stock settings in XML only, do not launch or control SnowRunner now.
 - Landing legs have only instant attached/detached states and no manual menu controls.
 - Materials are revised only after structural elements are accepted; brake reservoirs must be aged black steel.
 - Warn the user before controlling Blender, SnowRunner Editor, or game windows.
 - Do not touch unrelated objects or publish/release before Editor and user game acceptance.
-- Последняя коррекция пользователя: этот ход только повторение задачи и обновление документации; не продолжать моделирование, запекание или сборку.
-- Не удалять функциональные части подвески и не менять форму, длину и взаимное расположение рессор и тяг внутри модуля. Возможный продольный перенос рассматривать целым модулем, не изменяя колею.
-- Рабочая основа только Stage53. Не перерабатывать Stage64 и не продвигать его геометрию, карты или экспорт.
-- Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.
-- Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.
-- Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.
-- АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.
-- Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.
+- Принятая рабочая сцена Stage72; исходная симметричная подвеска Stage67, 80мм общего раздвижения осей и все принятые элементы защищены. Старые Stage53-only, plan-only и запреты прежних исторических этапов заменены последующими утверждениями пользователя.
+- Компьютер разрешён для необходимых действий без повторных общих запросов; предупреждать перед UI. При файловой работе не занимать экран. Не открывать другой Blender/версию и не перезаписывать принятую сцену.
+- Согласованные файловые и Blender-работы разрешены, Stage72 внешняя приёмка получена. Не требовать её повторно. Выход за план, новая палитра/износ, изменение принятой геометрии и приближение формы топлива требуют отдельного согласия.
+- Все исполнители текущего прохода используют gpt-6-astra/max по прямому указанию пользователя, это приоритетнее модельных маршрутов навыка. Main единственный Blender/UI интегратор; исполнители только в раздельных файловых областях.
 - Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.
 - Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.
-- After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
+- After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
 - После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.
 
 ## Принятые решения
@@ -72,12 +68,14 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Последнее прямое указание пользователя Astra/max применено ко всем трём исполнителям вместо профилей ролей; ограниченные подзадачи завершены, исполнители закрыты.
 - Stage72 visual corrections accepted by user; do not ask reacceptance or reapply. Generic continue does not approve approximate fuel.
 - Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.
+- Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.
+- Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.
 
 ## Открытые вопросы
 
-- Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.
-- Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS.
-- K4 exact rounded runtime fluid unsupported by inspected documented Box/Cylinder; user has not approved Box approximation. Keep exterior180L and slosh requirement, do not fabricate substitute.
+- K5 instant switch/rest binding remains unproven; use exact source XML/geometry, no invented parameters.
+- K4 exact rounded fluid/slosh180L unresolved; Box approximation not approved.
+- 153visuals require faithful bake/actual slots/UV/FBX; no partial installation.
 
 ## Выполнено
 
@@ -93,8 +91,6 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
-- ... ещё 18; см. `state.json`.
-
-## Evidence
-
-- ... ещё 34; см. `state.json`.
+- Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
+- Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
+- ... ещё 17; см. `state.json`.

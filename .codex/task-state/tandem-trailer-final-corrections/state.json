@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 29,
+  "revision": 30,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T07:32:29Z",
+  "updated_at": "2026-09-12T08:59:19Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -29,9 +29,9 @@
       "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false."
     ],
     "open_questions": [
-      "Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.",
-      "Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS.",
-      "K4 exact rounded runtime fluid unsupported by inspected documented Box/Cylinder; user has not approved Box approximation. Keep exterior180L and slosh requirement, do not fabricate substitute."
+      "K5 instant switch/rest binding remains unproven; use exact source XML/geometry, no invented parameters.",
+      "K4 exact rounded fluid/slosh180L unresolved; Box approximation not approved.",
+      "153visuals require faithful bake/actual slots/UV/FBX; no partial installation."
     ]
   },
   "accepted_work": {
@@ -41,7 +41,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Пользователь принял Stage72. Внешний вид заморожен; продолжение Stage73 механики с тремя Astra/max. Готовится минимальный Fixed-кандидат окончаний без сменыMassCDT, проверяются оставшиеся семантики мгновенного перехода и формы топлива.",
+    "current_summary": "Stage73: Stage72 вид принят и сохранён. Main проверил2Fixed foot + сохранённые6IKправок:66negative/6roundtrip PASS. Экспортный план1061visuals/71CDT:21negative/9positive;153детали ещё требуют faithful bake. Native shader-pilot ROI:delta0 внеpatch, отражатели сохранены. Последнее указание отменило игру; main лично сверил stock scout/flatbed/ANK XML. SnowRunner не запущен, мод не установлен. Все4Astra/max исполнителя завершены.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -67,7 +67,9 @@
       "Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged.",
       "Последнее прямое указание пользователя Astra/max применено ко всем трём исполнителям вместо профилей ролей; ограниченные подзадачи завершены, исполнители закрыты.",
       "Stage72 visual corrections accepted by user; do not ask reacceptance or reapply. Generic continue does not approve approximate fuel.",
-      "Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership."
+      "Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.",
+      "Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.",
+      "Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -99,10 +101,11 @@
       "K2 actualBlender min/max 87evaluated meshes,18negativecases,exactpose restore; nativeExecution/Havok still false.",
       "Main final guard после всех previews:1138objects,2scoped changes,1136unchanged; originalmaterialgraphs/rest/pose protected; temporary fuelhandler absent. Stage72 save a7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b.",
       "K2 candidate actualfile SHA487a67aaea8741dfab42e20c2d56106b567ef0a9d9b4f0bba5673f9cda6b65e0:4axes+2offset only;20negative tests+6roundtrip pass; installed353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 unchanged.",
-      "Actual screenshots08/09/10, cylinder04/05/06, legs11/12 and fuel17/21/22/23 inspected. Fuel13-16 omit contours;18-20are1x1 failedcaptures retained/excluded. K5/K4 runtime remain open."
+      "Actual screenshots08/09/10, cylinder04/05/06, legs11/12 and fuel17/21/22/23 inspected. Fuel13-16 omit contours;18-20are1x1 failedcaptures retained/excluded. K5/K4 runtime remain open.",
+      "Stage73 Fixed candidate66negative+6real parser roundtrip, material plan21negative+9positive,4native shader pilot PNG and zero outside-patch delta verified by main."
     ],
     "next_actions": [
-      "Read stage73_current_checkpoint,Stage70,object andcontext after everycompaction. Review exacttwoFixedXML+K2candidate, independentchecks, currentexportcontract; do notinstallpartialmod orinventinstant/fluidfeatures."
+      "Перечитать Stage73 checkpoint/Stage70/object/context после каждого сжатия. Продолжить только файловую сверку исходных поз и физических связей лап по штатным XML, не добавлять анимацию. К4 контур/плеск180L открыт. Подготовить faithful export153деталей с actual slots/face domains и2заглушками. Сейчас не запускать игру и не менять принятую Stage72."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -119,7 +122,10 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_cylinder_attachment_audit.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72_current_checkpoint.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72_progress_review.md",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md",
+      "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md",
+      "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/main_checks.json",
+      "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/export_material_plan.json"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
@@ -155,7 +161,9 @@
       "User screenshot SHA256 3e523b55ea935a1d7a7907342be31225f689a50887784d89e7b0b70b5d49c470; original preserved locally, no image pushed.",
       "stage72/visual_full_scene_guard.json sceneSHA b8266bfe703f8e1136151fa5f7ab0a54b729ac3796159c4c02d822aaf823835d",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72/final_validation.json",
-      "OpenBlender5.2.0LTS Stage72SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b,1138objects16bonesoverlaysfalse confirmedreadonly."
+      "OpenBlender5.2.0LTS Stage72SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b,1138objects16bonesoverlaysfalse confirmedreadonly.",
+      "XML1adf7d20347e9d7659fa22ac9852cf12675c7ee2f9ef4f1f33f182f73b4b65ba. Installed unchanged353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173. Blend unchangeda7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b.",
+      "Main directread stock scout2commands for4chains; flatbed1slider Tau.04; ours6drivers Tau.04. NativeANK2Box XMLSHA2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c. No game launch."
     ]
   },
   "model_routes": {
