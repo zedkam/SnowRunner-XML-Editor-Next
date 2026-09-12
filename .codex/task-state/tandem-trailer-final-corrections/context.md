@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `35`
+- revision: `36`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T13:39:58Z`
+- updated: `2026-09-12T14:59:37Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Box XML и pre-material root/CDT готовы, main119+66 XML и62bindingnegativePASS. Caps03 native pilot отклонен по нормалям:53856/59640 почти нулевые. Кандидат fix+22filetests готов, native не повторён. При контрольном render Blender закрылся; Stage72 SHA цел, игра/installed не изменены.
+Accepted Stage72 restored. Single-scene working.blend saved and reopened with identical geometry, bones, materials and images. Caps04 rejected; native tangent UV cause identified. No game or installed mod changes.
 
 ## Следующие действия
 
-- Открыть принятую Stage72 в той же Blender5.2 с MCP, без новой версии; перечитать Stage74 checkpoint. Новый caps04 pilot с исправленным target render UV и normal gate, без повторного полного render до выяснения закрытия. Только после PASS full153/material/finalFBX/native; без игры.
+- Verify active UV fix on copied caps, then continue materials and final export from verified working profile.
 
 ## Область
 
@@ -93,12 +93,5 @@ Box XML и pre-material root/CDT готовы, main119+66 XML и62bindingnegativ
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
+- Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
 - ... ещё 20; см. `state.json`.
-
-## Evidence
-
-- ... ещё 39; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 19; см. `state.json`.

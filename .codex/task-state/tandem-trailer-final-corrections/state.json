@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 35,
+  "revision": 36,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T13:39:58Z",
+  "updated_at": "2026-09-12T14:59:37Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -38,7 +38,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Box XML и pre-material root/CDT готовы, main119+66 XML и62bindingnegativePASS. Caps03 native pilot отклонен по нормалям:53856/59640 почти нулевые. Кандидат fix+22filetests готов, native не повторён. При контрольном render Blender закрылся; Stage72 SHA цел, игра/installed не изменены.",
+    "current_summary": "Accepted Stage72 restored. Single-scene working.blend saved and reopened with identical geometry, bones, materials and images. Caps04 rejected; native tangent UV cause identified. No game or installed mod changes.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -103,10 +103,11 @@
       "Stage73 Fixed candidate66negative+6real parser roundtrip, material plan21negative+9positive,4native shader pilot PNG and zero outside-patch delta verified by main.",
       "Stage74 один measured Box принят main;180L/200repair/2Fixedfoot/6IK/W/S preserved, inverse byteproof;119+66negative/realroundtrip repeated.",
       "Main повторил свежий binding audit42negative; root writer17footer+7repairnegative; восстановил known71CDTnames/2owners без worldshape изменений.",
-      "Main проверил свежие1132mesh/16bone/71CDT и62negative; triangle8positive31negative, final-helper13negative+CDTbyteexact; настоящие4bake caps03 не приняты из-за normal gate."
+      "Main проверил свежие1132mesh/16bone/71CDT и62negative; triangle8positive31negative, final-helper13negative+CDTbyteexact; настоящие4bake caps03 не приняты из-за normal gate.",
+      "Single-scene working file restored and independently verified"
     ],
     "next_actions": [
-      "Открыть принятую Stage72 в той же Blender5.2 с MCP, без новой версии; перечитать Stage74 checkpoint. Новый caps04 pilot с исправленным target render UV и normal gate, без повторного полного render до выяснения закрытия. Только после PASS full153/material/finalFBX/native; без игры."
+      "Verify active UV fix on copied caps, then continue materials and final export from verified working profile."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -168,7 +169,8 @@
       "Main directread stock scout2commands for4chains; flatbed1slider Tau.04; ours6drivers Tau.04. NativeANK2Box XMLSHA2a722cf33870bdc276bb78b681d5a8060dc590292dcee23d1e97ed675bdd495c. No game launch.",
       "Stage74 XML SHA1e6dee97600cc5fba854750f75837e8303519d0c22009de40204b0c5bbe264ea; actual domains SHA7017a7f3e8cb25dd1101f0f9a9f70b5af976b7100b431de1432c2ddae296112e; accepted scene guard unchanged.",
       "Prepared pre-material FBX SHA5ee4a461068f48543600f07b0d59a3f9c68c0bffacca8e7a717f8c09eb05e318. Native/game PASS отсутствует; material helper ещё не запускался в Blender.",
-      "Stage72 SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b неизменен; installedXML353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 неизменен. Connectionlost10054/noBlenderprocess, причина не доказана. Полного export/native/gamePASS нет."
+      "Stage72 SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b неизменен; installedXML353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 неизменен. Connectionlost10054/noBlenderprocess, причина не доказана. Полного export/native/gamePASS нет.",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74/working_reopened_proof.json"
     ]
   },
   "model_routes": {
