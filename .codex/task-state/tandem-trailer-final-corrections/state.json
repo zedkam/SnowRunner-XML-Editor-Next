@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "implementation",
-  "revision": 27,
+  "phase": "validation",
+  "revision": 28,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T05:37:44Z",
+  "updated_at": "2026-09-12T06:36:18Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -29,11 +29,13 @@
       "Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.",
       "Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.",
       "Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.",
-      "After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work."
+      "After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.",
+      "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false."
     ],
     "open_questions": [
       "Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.",
-      "Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS."
+      "Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS.",
+      "K4 exact rounded runtime fluid unsupported by inspected documented Box/Cylinder; user has not approved Box approximation. Keep exterior180L and slosh requirement, do not fabricate substitute."
     ]
   },
   "accepted_work": {
@@ -43,7 +45,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage72 visual corrections saved: right outer weld and former-reflector surface fixed; both sides and whole trailer inspected. Continuing K2/K5/K4 with same Astra/max agents; no game installation.",
+    "current_summary": "Stage72 сохранена: правый наружный стык и след прежнего отражателя исправлены. К2: один локальный XML-кандидат и реальные кинематические проверки; К5: две конечные позы и неприменённый physical-merge manifest; К4: реальные контуры, точная runtime-форма и плеск не подтверждены. Полный план не завершён, мод не обновлялся.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -66,7 +68,8 @@
       "User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.",
       "All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed.",
       "Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.",
-      "Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged."
+      "Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged.",
+      "Последнее прямое указание пользователя Astra/max применено ко всем трём исполнителям вместо профилей ролей; ограниченные подзадачи завершены, исполнители закрыты."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -95,10 +98,13 @@
       "Scene has 1138 objects: 21 reviewed old objects changed, 1110 old objects unchanged, 2 new endplates, 5 linked existing wheel preview objects. Object manifest now points to Stage71.",
       "Native/FBX read-only cylinder audit independently reproduced ACTUAL_NATIVE_AXES_SWAPPED. Hinge local Y and Slider local Z are required for measured axes; installed XML unchanged. Stock zero AttachOffset encodes no full rest-anchor coordinate; nonzero semantics remain a runtime boundary.",
       "Stage72 review saved A7549EC10817F9A7407BFE343164838CABCD9918071CA3C0A4BDEB3D35E1025B,57409248bytes. Guard exactly2changed1136unchanged; original materials/rig/rest/Stage67/70/71 intact. Main inspected actual08/09/10.",
-      "K2 actualBlender min/max 87evaluated meshes,18negativecases,exactpose restore; nativeExecution/Havok still false."
+      "K2 actualBlender min/max 87evaluated meshes,18negativecases,exactpose restore; nativeExecution/Havok still false.",
+      "Main final guard после всех previews:1138objects,2scoped changes,1136unchanged; originalmaterialgraphs/rest/pose protected; temporary fuelhandler absent. Stage72 save a7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b.",
+      "K2 candidate actualfile SHA487a67aaea8741dfab42e20c2d56106b567ef0a9d9b4f0bba5673f9cda6b65e0:4axes+2offset only;20negative tests+6roundtrip pass; installed353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 unchanged.",
+      "Actual screenshots08/09/10, cylinder04/05/06, legs11/12 and fuel17/21/22/23 inspected. Fuel13-16 omit contours;18-20are1x1 failedcaptures retained/excluded. K5/K4 runtime remain open."
     ],
     "next_actions": [
-      "Resolve K2 AttachOffset from native/reference evidence; prepare exact rigid-leg endpoints and fuel contour preview. Preserve Stage72 visual review, do not reapply patches. Reread stop/plan/object/context after each compaction."
+      "Показать текущие две правки. При продолжении сначала перечитать stage72_current_checkpoint.md, Stage70, object.json и этот context. Не повторять apply. Довести физическую жёсткость окончаний и мгновенный переход; по топливу нужен подтверждённый способ либо отдельное согласование приближения. Общая Blender-приёмка до игрового bake/экспорта и Editor."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -113,7 +119,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_user_regressions.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71/final_validation.json",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage71_cylinder_attachment_audit.md",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72_current_checkpoint.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72_current_checkpoint.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72_progress_review.md"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
@@ -147,7 +154,8 @@
       "Surface after-scene SHA256 7cc8b9bafc9988563f92673002b5a7a1225df13390b5df15823f32f95188184a; material/image SHA256 aed19b19440f98abfdedaa4cbe7b078ec5a84a5b3b557f4bbbb0ce9b09536e03 unchanged.",
       "Stage71 blend SHA256 9c49291a59a2ab20d8cba07059a7c44e5cf2de21b75e4e7e0937d3a56623dc71; scene fingerprint 3ab6e3349c6ea585eb60698d5cf0ac7c474fe4053845cac5bec729f62410fb5a. Protected Stage67 and Stage70 hashes unchanged.",
       "User screenshot SHA256 3e523b55ea935a1d7a7907342be31225f689a50887784d89e7b0b70b5d49c470; original preserved locally, no image pushed.",
-      "stage72/visual_full_scene_guard.json sceneSHA b8266bfe703f8e1136151fa5f7ab0a54b729ac3796159c4c02d822aaf823835d"
+      "stage72/visual_full_scene_guard.json sceneSHA b8266bfe703f8e1136151fa5f7ab0a54b729ac3796159c4c02d822aaf823835d",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage72/final_validation.json"
     ]
   },
   "model_routes": {

@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `implementation`
-- revision: `27`
+- phase: `validation`
+- revision: `28`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T05:37:44Z`
+- updated: `2026-09-12T06:36:18Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage72 visual corrections saved: right outer weld and former-reflector surface fixed; both sides and whole trailer inspected. Continuing K2/K5/K4 with same Astra/max agents; no game installation.
+Stage72 сохранена: правый наружный стык и след прежнего отражателя исправлены. К2: один локальный XML-кандидат и реальные кинематические проверки; К5: две конечные позы и неприменённый physical-merge manifest; К4: реальные контуры, точная runtime-форма и плеск не подтверждены. Полный план не завершён, мод не обновлялся.
 
 ## Следующие действия
 
-- Resolve K2 AttachOffset from native/reference evidence; prepare exact rigid-leg endpoints and fuel contour preview. Preserve Stage72 visual review, do not reapply patches. Reread stop/plan/object/context after each compaction.
+- Показать текущие две правки. При продолжении сначала перечитать stage72_current_checkpoint.md, Stage70, object.json и этот context. Не повторять apply. Довести физическую жёсткость окончаний и мгновенный переход; по топливу нужен подтверждённый способ либо отдельное согласование приближения. Общая Blender-приёмка до игрового bake/экспорта и Editor.
 
 ## Область
 
@@ -43,6 +43,7 @@ Stage72 visual corrections saved: right outer weld and former-reflector surface 
 - Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.
 - Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.
 - After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
+- После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.
 
 ## Принятые решения
 
@@ -68,11 +69,13 @@ Stage72 visual corrections saved: right outer weld and former-reflector surface 
 - All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed.
 - Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.
 - Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged.
+- Последнее прямое указание пользователя Astra/max применено ко всем трём исполнителям вместо профилей ролей; ограниченные подзадачи завершены, исполнители закрыты.
 
 ## Открытые вопросы
 
 - Подтвердить буквальное мгновенное переключение вида и столкновений лап; не подменять ускоренным физическим переходом.
 - Установить реальное соответствие FBX/native/XML привязок цилиндров, конкретного торца на скриншоте2 и способ формы топлива по оболочке бака. Эти неизвестные не закрывать формальными PASS.
+- K4 exact rounded runtime fluid unsupported by inspected documented Box/Cylinder; user has not approved Box approximation. Keep exterior180L and slosh requirement, do not fabricate substitute.
 
 ## Выполнено
 
@@ -89,7 +92,4 @@ Stage72 visual corrections saved: right outer weld and former-reflector surface 
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
-- Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
-- stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
-- ... ещё 11; см. `state.json`.
+- ... ещё 17; см. `state.json`.
