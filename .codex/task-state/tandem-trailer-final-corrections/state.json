@@ -14,22 +14,18 @@
   "authority": {
     "constraints": [
       "Preserve approved hitch architecture, W/S control and SpeedMult 0.75; do not invent replacement mechanisms or new game classes.",
-      "Fix the complete planned set before gameplay testing; do not use partial in-game trials as design exploration.",
+      "Fix the complete planned set before user gameplay acceptance. Latest instruction cancels the brief reference-game diagnostic permission: compare stock settings in XML only, do not launch or control SnowRunner now.",
       "Landing legs have only instant attached/detached states and no manual menu controls.",
       "Materials are revised only after structural elements are accepted; brake reservoirs must be aged black steel.",
       "Warn the user before controlling Blender, SnowRunner Editor, or game windows.",
       "Do not touch unrelated objects or publish/release before Editor and user game acceptance.",
-      "Последняя коррекция пользователя: этот ход только повторение задачи и обновление документации; не продолжать моделирование, запекание или сборку.",
-      "Не удалять функциональные части подвески и не менять форму, длину и взаимное расположение рессор и тяг внутри модуля. Возможный продольный перенос рассматривать целым модулем, не изменяя колею.",
-      "Рабочая основа только Stage53. Не перерабатывать Stage64 и не продвигать его геометрию, карты или экспорт.",
-      "Актуальная база Stage67; предыдущие записи о запрете менять рессоры и ожидании нового согласования исторические. Принятый подъём/W-S/скорость0.75 и остальные конструкции не перепроектировать.",
-      "Do not reserve or control the desktop during file checks. UI session reset after user complaint; warn and establish availability before any next Editor interaction.",
-      "Актуальные полномочия: компьютер разрешён пользователем для необходимых действий без повторных запросов; предупреждать перед UI, освобождать экран при файловой работе. Приёмка в игре остаётся пользовательской. Актуальная база Stage67; старые Stage53-only и plan-only ограничения являются историческими и заменены последующими утверждениями.",
-      "АКТУАЛЬНОЕ УКАЗАНИЕ 2026-09-11 заменяет прежнее продолжение до игры: текущий ход только анализ, план и выбор существующей сцены. Разрешение пользоваться компьютером не разрешает реализацию. Следующая приёмка сначала в Blender, до переноса исправлений в мод, Editor или игру.",
-      "Последнее разрешение заменяет plan-only ограничение: согласованные Blender-работы разрешены. Запрещены выход за утверждённый план и изменение материалов по собственному предпочтению; новые решения вне согласованного объёма требуют явного согласия. Не требовать повторное разрешение на уже согласованную работу.",
+      "Принятая рабочая сцена Stage72; исходная симметричная подвеска Stage67, 80мм общего раздвижения осей и все принятые элементы защищены. Старые Stage53-only, plan-only и запреты прежних исторических этапов заменены последующими утверждениями пользователя.",
+      "Компьютер разрешён для необходимых действий без повторных общих запросов; предупреждать перед UI. При файловой работе не занимать экран. Не открывать другой Blender/версию и не перезаписывать принятую сцену.",
+      "Согласованные файловые и Blender-работы разрешены, Stage72 внешняя приёмка получена. Не требовать её повторно. Выход за план, новая палитра/износ, изменение принятой геометрии и приближение формы топлива требуют отдельного согласия.",
+      "Все исполнители текущего прохода используют gpt-6-astra/max по прямому указанию пользователя, это приоритетнее модельных маршрутов навыка. Main единственный Blender/UI интегратор; исполнители только в раздельных файловых областях.",
       "Final eye height and position, Stage67 suspension geometry, wheel positions and W/S SpeedMult .75 protected. No arbitrary recoloring or source image changes.",
       "Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.",
-      "After EVERY context compaction reread stage72_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.",
+      "After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.",
       "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false."
     ],
     "open_questions": [
