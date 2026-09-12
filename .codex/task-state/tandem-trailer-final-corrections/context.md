@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `26`
+- revision: `27`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-12T04:33:53Z`
+- updated: `2026-09-12T05:37:44Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage71 partially accepted by user: left seam, new reflectors and other local fixes accepted; right seam and former-reflector texture scars reopened. Stage72 targeted corrections in progress, same Astra/max agents.
+Stage72 visual corrections saved: right outer weld and former-reflector surface fixed; both sides and whole trailer inspected. Continuing K2/K5/K4 with same Astra/max agents; no game installation.
 
 ## Следующие действия
 
-- Capture live Stage71 baseline, apply only evidence-backed right seam and former-reflector surface corrections, verify both sides; then continue Stage70 actual cylinder attachment preview, legs and fuel before Blender acceptance.
+- Resolve K2 AttachOffset from native/reference evidence; prepare exact rigid-leg endpoints and fuel contour preview. Preserve Stage72 visual review, do not reapply patches. Reread stop/plan/object/context after each compaction.
 
 ## Область
 
@@ -67,6 +67,7 @@ Stage71 partially accepted by user: left seam, new reflectors and other local fi
 - User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.
 - All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed.
 - Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.
+- Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged.
 
 ## Открытые вопросы
 
@@ -91,13 +92,4 @@ Stage71 partially accepted by user: left seam, new reflectors and other local fi
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
 - Two drawbar WinchSocket positions now equal InstallSocket (6.066999912;1.039999967;0); negative old-position and duplicate-socket tests pass. Candidate dfbb78445757b640393b1f05dfe3ea408113bb2cb34202ec6dd445b224a2be9f, texture manifest64acf57aa06532000f70a1651518fff1a4803ef993fadcc9c92c9eded5fb0a50, validation3331c6548192bba0d38dac9c058eb2033d158b4a2c6f5bc7c971a397078815ca.
 - stage69_loop_triangles_source.json SHA4f7723a008cea97b7c412ea34cbc060295ed2c0a9c528a33fd7046d32de0c122 captured in8seconds from existing Stage67 session; no newMesh/window/selection/model changes.
-- File-only FBX patch passed raw-property preservation and fresh corner reparse:1059 parts,622253 triangles,16 bones,71 unchanged CDT.
-- ... ещё 8; см. `state.json`.
-
-## Evidence
-
-- ... ещё 31; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 13; см. `state.json`.
+- ... ещё 11; см. `state.json`.

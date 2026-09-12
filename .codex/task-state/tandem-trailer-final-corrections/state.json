@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 26,
+  "revision": 27,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T04:33:53Z",
+  "updated_at": "2026-09-12T05:37:44Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -43,7 +43,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage71 partially accepted by user: left seam, new reflectors and other local fixes accepted; right seam and former-reflector texture scars reopened. Stage72 targeted corrections in progress, same Astra/max agents.",
+    "current_summary": "Stage72 visual corrections saved: right outer weld and former-reflector surface fixed; both sides and whole trailer inspected. Continuing K2/K5/K4 with same Astra/max agents; no game installation.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -65,7 +65,8 @@
       "Неподходящая старая маска кромок отключена только на новых или перестроенных деталях. Новая палитра, изображения или shader graph не создавались; индивидуальное запекание кромок и игровые карты остаются позже после приёмки конструкции.",
       "User explicitly requested all three subagents gpt-6-astra reasoning_effort=max; main remains sole Blender MCP integrator.",
       "All three requested Astra/max agents finished; main applied all Blender writes and inspected each of 8 actual viewport images. Final eye position, suspension/rail/body geometry and weights preserved, no original objects removed.",
-      "Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes."
+      "Latest user photo overrides prior self-QA of right seam. Only right seam and former-reflector surface are open visual corrections; no redesign or unrelated material changes.",
+      "Right seam caused by isolated old outer weld: removed23faces28vertices only, four remaining weld components intact. Former-reflector repair limited to native material color/roughness ROI106x38; originalmaps/UV and current reflectors unchanged."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -92,10 +93,12 @@
       "Проверенный первый проход чистого Blender-вида; сохранён stage70_clean_review, а не принятая Stage67. Исходные UV, позиции, топология, веса и остальные material slots сохранены.",
       "Stored and checksum-verified five original review photos locally; agents received actual images. Applied surfaces/helper and coupler transactions with unrelated-object guards.",
       "Scene has 1138 objects: 21 reviewed old objects changed, 1110 old objects unchanged, 2 new endplates, 5 linked existing wheel preview objects. Object manifest now points to Stage71.",
-      "Native/FBX read-only cylinder audit independently reproduced ACTUAL_NATIVE_AXES_SWAPPED. Hinge local Y and Slider local Z are required for measured axes; installed XML unchanged. Stock zero AttachOffset encodes no full rest-anchor coordinate; nonzero semantics remain a runtime boundary."
+      "Native/FBX read-only cylinder audit independently reproduced ACTUAL_NATIVE_AXES_SWAPPED. Hinge local Y and Slider local Z are required for measured axes; installed XML unchanged. Stock zero AttachOffset encodes no full rest-anchor coordinate; nonzero semantics remain a runtime boundary.",
+      "Stage72 review saved A7549EC10817F9A7407BFE343164838CABCD9918071CA3C0A4BDEB3D35E1025B,57409248bytes. Guard exactly2changed1136unchanged; original materials/rig/rest/Stage67/70/71 intact. Main inspected actual08/09/10.",
+      "K2 actualBlender min/max 87evaluated meshes,18negativecases,exactpose restore; nativeExecution/Havok still false."
     ],
     "next_actions": [
-      "Capture live Stage71 baseline, apply only evidence-backed right seam and former-reflector surface corrections, verify both sides; then continue Stage70 actual cylinder attachment preview, legs and fuel before Blender acceptance."
+      "Resolve K2 AttachOffset from native/reference evidence; prepare exact rigid-leg endpoints and fuel contour preview. Preserve Stage72 visual review, do not reapply patches. Reread stop/plan/object/context after each compaction."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -143,7 +146,8 @@
       "Stage70 clean_review blend: 57567925 bytes; SHA256 7a830c72b3a283ab18a64bf39075d976364ce9ca4b6aa5cf14f9ee1112cad1d6. Stage67 unchanged 7b0be1721da053e0e3fac82ad232841e95cce18e5f81f2c10e8e29210d050ac0. Final scene snapshot c9338215c868172885085bc5494fdbc506daa99b282fa4163052a4f8c9a55ae5. Existing material-image graph unchanged e25c467aa20cfbd5de4876843efc45de9c07447d32c2a251446c2ce7d5ae0849. object.json parsing, py_compile and tracked diff check PASS. No game or user acceptance claimed.",
       "Surface after-scene SHA256 7cc8b9bafc9988563f92673002b5a7a1225df13390b5df15823f32f95188184a; material/image SHA256 aed19b19440f98abfdedaa4cbe7b078ec5a84a5b3b557f4bbbb0ce9b09536e03 unchanged.",
       "Stage71 blend SHA256 9c49291a59a2ab20d8cba07059a7c44e5cf2de21b75e4e7e0937d3a56623dc71; scene fingerprint 3ab6e3349c6ea585eb60698d5cf0ac7c474fe4053845cac5bec729f62410fb5a. Protected Stage67 and Stage70 hashes unchanged.",
-      "User screenshot SHA256 3e523b55ea935a1d7a7907342be31225f689a50887784d89e7b0b70b5d49c470; original preserved locally, no image pushed."
+      "User screenshot SHA256 3e523b55ea935a1d7a7907342be31225f689a50887784d89e7b0b70b5d49c470; original preserved locally, no image pushed.",
+      "stage72/visual_full_scene_guard.json sceneSHA b8266bfe703f8e1136151fa5f7ab0a54b729ac3796159c4c02d822aaf823835d"
     ]
   },
   "model_routes": {
