@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 40,
+  "revision": 41,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-13T07:58:16Z",
+  "updated_at": "2026-09-13T08:42:37Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -39,7 +39,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Full01 156of156 completed, actual final FBX a178dbb7 verified by independent binding audit. Native prepare stopped before staging: duplicate source material slots compacted by FBX exporter; two Astra/max reviewers checking exact face material mapping.",
+    "current_summary": "Accepted working scene restored. Full material transfer and final FBX complete. Native candidate prepared manifest55fc316a; texture conversion session47659 reached11of31 plus4 exact DDS reuse, then mesh/readback pending.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -109,10 +109,11 @@
       "Single-scene working saved and reopened; geometry/bones/used materials/images equal accepted72. Caps05 normal and viewport PASS. Main repeated native10negative and final-binding29negative checks.",
       "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects.",
       "Main46tests and real resume_prepare/copy/UV/resume_activate PASS; Sagan31negative and independent1061UV replay; Anscombe completed pages000-002pixelPASS.",
-      "Main completed all material bakes, assembly, binding, final export, triangle transfer and final binding audit failures0; source unchanged."
+      "Main completed all material bakes, assembly, binding, final export, triangle transfer and final binding audit failures0; source unchanged.",
+      "Main repeated 27 negative and all1061 face-material checks after inspector-only dedup repair; native prepare with real live guard succeeded. Current checkpoint consolidated, old detail retained in history."
     ],
     "next_actions": [
-      "Review narrow native inspector dedup correction, rerun file tests then native prepare with real live Blender guard. Never redo full bake/export. No UI or game."
+      "Read session47659 until textures complete; no parallel Blender RPC. Run one mesh conversion and stage74_verify_native_main with manifest55fc316a. Preserve finished temporary Blender data until native guards complete. No game/UI."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -180,7 +181,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_caps05_verified.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_resume_independent_review.md",
       "resume_manifest01 SHA cbd4c2c19781086386e12963f9e274f8abb05c686b0b67b7034a1ec7dc17e56d;helperd7db41; historical109postloss33 retained",
-      "final a178dbb7012e86b085e18e4f0b6d44397323ba0c702bab799ddba0b20703d2be; result a0f2b42844c7d888a25525caa935d2ba6e641ed9416ccbd16528dfc80143e44e"
+      "final a178dbb7012e86b085e18e4f0b6d44397323ba0c702bab799ddba0b20703d2be; result a0f2b42844c7d888a25525caa935d2ba6e641ed9416ccbd16528dfc80143e44e",
+      "native helper b1996a8c9aac2f7ea992711f67a60e58728da6af932a399ad75790468351ee69; candidate55fc316a1b9222beec5c850320ce7cf60b4457f875ebc190d054a21a5d07f278; source/finalFBX unchanged"
     ]
   },
   "model_routes": {

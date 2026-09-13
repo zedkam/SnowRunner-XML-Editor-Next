@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `40`
+- revision: `41`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T07:58:16Z`
+- updated: `2026-09-13T08:42:37Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Full01 156of156 completed, actual final FBX a178dbb7 verified by independent binding audit. Native prepare stopped before staging: duplicate source material slots compacted by FBX exporter; two Astra/max reviewers checking exact face material mapping.
+Accepted working scene restored. Full material transfer and final FBX complete. Native candidate prepared manifest55fc316a; texture conversion session47659 reached11of31 plus4 exact DDS reuse, then mesh/readback pending.
 
 ## Следующие действия
 
-- Review narrow native inspector dedup correction, rerun file tests then native prepare with real live Blender guard. Never redo full bake/export. No UI or game.
+- Read session47659 until textures complete; no parallel Blender RPC. Run one mesh conversion and stage74_verify_native_main with manifest55fc316a. Preserve finished temporary Blender data until native guards complete. No game/UI.
 
 ## Область
 
@@ -94,11 +94,11 @@ Full01 156of156 completed, actual final FBX a178dbb7 verified by independent bin
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- ... ещё 25; см. `state.json`.
+- ... ещё 26; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 45; см. `state.json`.
+- ... ещё 46; см. `state.json`.
 
 ## Затронутые файлы
 
