@@ -4,10 +4,10 @@
   "title": "Tandem trailer final corrections",
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
-  "phase": "implementation",
-  "revision": 41,
+  "phase": "validation",
+  "revision": 42,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-13T08:42:37Z",
+  "updated_at": "2026-09-13T10:11:30Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -39,7 +39,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Accepted working scene restored. Full material transfer and final FBX complete. Native candidate prepared manifest55fc316a; texture conversion session47659 reached11of31 plus4 exact DDS reuse, then mesh/readback pending.",
+    "current_summary": "Stage74 file preparation and main-only installation complete. One accepted working Blender scene remains; owned export copies cleaned with source guards. Native058746f3 and35PC-PCT verified. Main install109of109 exit0; independent249file and4backup SHA audit passed. Editor not reloaded, game/runtime untested. No active commands; screen control unused.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -68,7 +68,8 @@
       "Stage72 strict-merge manifest unimplemented and not user-selected; evaluate minimal Fixed feet preserving10bodies/massCOM/CDT before changing physical ownership.",
       "Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.",
       "Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.",
-      "НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять."
+      "НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять.",
+      "Completed converter/install sessions are closed. Only one accepted working scene exists; generated files retained, owned temporary Blender state removed. Installed Stage74 is not runtime acceptance. No repeated builders, new diagnostic classes, automatic Editor close or screen control."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -110,10 +111,11 @@
       "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects.",
       "Main46tests and real resume_prepare/copy/UV/resume_activate PASS; Sagan31negative and independent1061UV replay; Anscombe completed pages000-002pixelPASS.",
       "Main completed all material bakes, assembly, binding, final export, triangle transfer and final binding audit failures0; source unchanged.",
-      "Main repeated 27 negative and all1061 face-material checks after inspector-only dedup repair; native prepare with real live guard succeeded. Current checkpoint consolidated, old detail retained in history."
+      "Main repeated 27 negative and all1061 face-material checks after inspector-only dedup repair; native prepare with real live guard succeeded. Current checkpoint consolidated, old detail retained in history.",
+      "Stage74:31convertedDDS+4exactreuse; full35PCT every-mip payload byte-exact;1061native streams/622217triangles readback; scope-limited proofs accepted. Main12focused tests and read-only preflight then109file install with4old backups. Separate independent249files/4backups checks have zero failures."
     ],
     "next_actions": [
-      "Read session47659 until textures complete; no parallel Blender RPC. Run one mesh conversion and stage74_verify_native_main with manifest55fc316a. Preserve finished temporary Blender data until native guards complete. No game/UI."
+      "Read stage74_current_checkpoint.md and Stage70 plan first. Do not rerun completed bake/export/convert/install; old live material driver is invalid after cleanup. Next boundary is actual Editor reload/load and user game acceptance of main SXML Tandem Workshop only; current instruction is no UI/game. Preserve final hitch, Stage67 suspension and accepted Stage72 appearance."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -134,7 +136,8 @@
       "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73_current_checkpoint.md",
       "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/main_checks.json",
       "objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage73/export_material_plan.json",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_current_checkpoint.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_current_checkpoint.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_material_and_native_completion.md"
     ],
     "evidence": [
       "stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.",
@@ -182,7 +185,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_resume_independent_review.md",
       "resume_manifest01 SHA cbd4c2c19781086386e12963f9e274f8abb05c686b0b67b7034a1ec7dc17e56d;helperd7db41; historical109postloss33 retained",
       "final a178dbb7012e86b085e18e4f0b6d44397323ba0c702bab799ddba0b20703d2be; result a0f2b42844c7d888a25525caa935d2ba6e641ed9416ccbd16528dfc80143e44e",
-      "native helper b1996a8c9aac2f7ea992711f67a60e58728da6af932a399ad75790468351ee69; candidate55fc316a1b9222beec5c850320ce7cf60b4457f875ebc190d054a21a5d07f278; source/finalFBX unchanged"
+      "native helper b1996a8c9aac2f7ea992711f67a60e58728da6af932a399ad75790468351ee69; candidate55fc316a1b9222beec5c850320ce7cf60b4457f875ebc190d054a21a5d07f278; source/finalFBX unchanged",
+      "stage74 install ledger aeb17a8110c91279c6bad935c25d1859354ba68955ce4b61a2f6e05db790f887; native review ef7ad5c8461e5324d125817fb08b3de33e41e0056894a58b70f9b954661cbe8e; PCT review8bea02b952081cbdd49d86295f490a7cc5c35890a47afb95b3ecb920042ae8df; main independent249file4backup audit PASS. No runtime or release PASS."
     ]
   },
   "model_routes": {

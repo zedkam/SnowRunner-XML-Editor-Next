@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `implementation`
-- revision: `41`
+- phase: `validation`
+- revision: `42`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T08:42:37Z`
+- updated: `2026-09-13T10:11:30Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Accepted working scene restored. Full material transfer and final FBX complete. Native candidate prepared manifest55fc316a; texture conversion session47659 reached11of31 plus4 exact DDS reuse, then mesh/readback pending.
+Stage74 file preparation and main-only installation complete. One accepted working Blender scene remains; owned export copies cleaned with source guards. Native058746f3 and35PC-PCT verified. Main install109of109 exit0; independent249file and4backup SHA audit passed. Editor not reloaded, game/runtime untested. No active commands; screen control unused.
 
 ## Следующие действия
 
-- Read session47659 until textures complete; no parallel Blender RPC. Run one mesh conversion and stage74_verify_native_main with manifest55fc316a. Preserve finished temporary Blender data until native guards complete. No game/UI.
+- Read stage74_current_checkpoint.md and Stage70 plan first. Do not rerun completed bake/export/convert/install; old live material driver is invalid after cleanup. Next boundary is actual Editor reload/load and user game acceptance of main SXML Tandem Workshop only; current instruction is no UI/game. Preserve final hitch, Stage67 suspension and accepted Stage72 appearance.
 
 ## Область
 
@@ -73,6 +73,7 @@ Accepted working scene restored. Full material transfer and final FBX complete. 
 - Two Fixed foot constraints accepted only as statically tested candidate;10bodies/masses/COM/CDT preserved. This is not infinite Havok rigidity or instant switching PASS.
 - Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.
 - НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять.
+- Completed converter/install sessions are closed. Only one accepted working scene exists; generated files retained, owned temporary Blender state removed. Installed Stage74 is not runtime acceptance. No repeated builders, new diagnostic classes, automatic Editor close or screen control.
 
 ## Открытые вопросы
 
@@ -91,15 +92,12 @@ Accepted working scene restored. Full material transfer and final FBX complete. 
 - Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
 - Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
-- Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
-- Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
-- Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- ... ещё 26; см. `state.json`.
+- ... ещё 30; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 46; см. `state.json`.
+- ... ещё 47; см. `state.json`.
 
 ## Затронутые файлы
 
-- ... ещё 19; см. `state.json`.
+- ... ещё 20; см. `state.json`.
