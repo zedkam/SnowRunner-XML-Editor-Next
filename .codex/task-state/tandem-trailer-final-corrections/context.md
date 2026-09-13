@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `validation`
-- revision: `42`
+- phase: `design`
+- revision: `43`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T10:11:30Z`
+- updated: `2026-09-13T12:18:05Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage74 file preparation and main-only installation complete. One accepted working Blender scene remains; owned export copies cleaned with source guards. Native058746f3 and35PC-PCT verified. Main install109of109 exit0; independent249file and4backup SHA audit passed. Editor not reloaded, game/runtime untested. No active commands; screen control unused.
+Stage75 diagnostic accepted: installed Stage74 XML exactly equals its candidate; lift chain was removed from XML and the 16-bone native, while feet remain separate physical bodies despite Fixed.
 
 ## Следующие действия
 
-- Read stage74_current_checkpoint.md and Stage70 plan first. Do not rerun completed bake/export/convert/install; old live material driver is invalid after cleanup. Next boundary is actual Editor reload/load and user game acceptance of main SXML Tandem Workshop only; current instruction is no UI/game. Preserve final hitch, Stage67 suspension and accepted Stage72 appearance.
+- Build and validate only a separate astr_trailer_tandem_2 successor candidate: restore real suspension bones first, then merge physical foot ownership and test auto-leg trigger without touching installed mod.
 
 ## Область
 
@@ -42,6 +42,8 @@ Stage74 file preparation and main-only installation complete. One accepted worki
 - После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.
 - Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders.
 - Latest user: no screen control, mouse, keyboard or foregrounding. Only Blender MCP or existing loopback RPC and files.
+- Current installed sxml_tandem_workshop remains frozen while the user tests; no UI, reload, install, deletion, or overwrite.
+- Keep Stage72 visual baseline, final hitch/socket, Stage67 wheel geometry, and W/S 0.75.
 
 ## Принятые решения
 
@@ -74,6 +76,8 @@ Stage74 file preparation and main-only installation complete. One accepted worki
 - Latest user revoked reference-game diagnostics: XML only. One attempted game UI launch was denied; no bypass or permission change. Stage72 visual gate accepted; do not reapply old builders.
 - НОВОЕ решение Stage74 отменяет старый запрет Box: пользователь прямо утвердил LimitedFluid Box как у ANK MK38 для одного нашего бака, 180л, native slosh. Внешний бак не менять.
 - Completed converter/install sessions are closed. Only one accepted working scene exists; generated files retained, owned temporary Blender state removed. Installed Stage74 is not runtime acceptance. No repeated builders, new diagnostic classes, automatic Editor close or screen control.
+- Rigid feet means remove the two physical foot bodies and transfer their existing CDT ownership/mass to inner sections; retain the visual child without a physical degree of freedom.
+- Stock XML proves separate folding/unfolding speed fields exist; apply only after auto-trigger works, with deployment doubled and folding unchanged.
 
 ## Открытые вопросы
 
@@ -91,13 +95,12 @@ Stage74 file preparation and main-only installation complete. One accepted worki
 - Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
 - Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
 - Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
-- Geometryoutput752f29f5b2216d0b05a52cfc92122e80dd8fc0a680b0adf99ec2e7752dabd850 produced fromactualstate andtwoexistingclassFBX. Actualsource-derivedfuelCylinderLength1.139999986 RadiusY.206999873 RadiusZ.246999949.
-- ... ещё 30; см. `state.json`.
+- ... ещё 32; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 47; см. `state.json`.
+- ... ещё 48; см. `state.json`.
 
 ## Затронутые файлы
 
-- ... ещё 20; см. `state.json`.
+- ... ещё 21; см. `state.json`.
