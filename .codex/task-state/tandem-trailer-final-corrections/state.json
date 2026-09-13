@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 37,
+  "revision": 38,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-12T18:17:56Z",
+  "updated_at": "2026-09-13T06:36:58Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -38,7 +38,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Accepted construction is restored in one normal working.blend. Caps05 verified. Full CPU material transfer active: at least60/156 jobs,1138 copies,1061 UV objects; helper3fd9700a. No source or installed mod changes.",
+    "current_summary": "Correct accepted working.blend verified in existing Blender5.2 PID55796; MCP reconnected. Native material state absent,142of156 tiles preserved on disk. No source or installed mod changes.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -105,10 +105,11 @@
       "Main повторил свежий binding audit42negative; root writer17footer+7repairnegative; восстановил known71CDTnames/2owners без worldshape изменений.",
       "Main проверил свежие1132mesh/16bone/71CDT и62negative; triangle8positive31negative, final-helper13negative+CDTbyteexact; настоящие4bake caps03 не приняты из-за normal gate.",
       "Single-scene working file restored and independently verified",
-      "Single-scene working saved and reopened; geometry/bones/used materials/images equal accepted72. Caps05 normal and viewport PASS. Main repeated native10negative and final-binding29negative checks."
+      "Single-scene working saved and reopened; geometry/bones/used materials/images equal accepted72. Caps05 normal and viewport PASS. Main repeated native10negative and final-binding29negative checks.",
+      "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects."
     ],
     "next_actions": [
-      "Finish live full01 queue without cleanup or reopening, inspect full baked view, perform actual final export and independent final binding/native-file checks."
+      "Main review strict export-copy/UV recovery from full01 contract; reuse validated142 tiles, complete14; final export/native checks offline."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
