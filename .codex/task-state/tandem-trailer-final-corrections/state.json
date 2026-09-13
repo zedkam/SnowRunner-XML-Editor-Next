@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 39,
+  "revision": 40,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-13T07:17:45Z",
+  "updated_at": "2026-09-13T07:58:16Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -27,7 +27,8 @@
       "Never rerun the old Stage69 builder over Stage71. It lacks these edits and would reintroduce old IK axis constants. Include two new endplates explicitly in eventual export; keep existing preview wheels excluded; new web NormalMap basis needs scoped export bake.",
       "After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.",
       "После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.",
-      "Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders."
+      "Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders.",
+      "Latest user: no screen control, mouse, keyboard or foregrounding. Only Blender MCP or existing loopback RPC and files."
     ],
     "open_questions": []
   },
@@ -38,7 +39,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Full01 recovered in existing Blender:1138 copies1061 actualUV hashes verified,142 saved tiles reused; now146of156 native jobs. Accepted working090 geometryb826 dependency8fcd unchanged.",
+    "current_summary": "Full01 156of156 completed, actual final FBX a178dbb7 verified by independent binding audit. Native prepare stopped before staging: duplicate source material slots compacted by FBX exporter; two Astra/max reviewers checking exact face material mapping.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -107,10 +108,11 @@
       "Single-scene working file restored and independently verified",
       "Single-scene working saved and reopened; geometry/bones/used materials/images equal accepted72. Caps05 normal and viewport PASS. Main repeated native10negative and final-binding29negative checks.",
       "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects.",
-      "Main46tests and real resume_prepare/copy/UV/resume_activate PASS; Sagan31negative and independent1061UV replay; Anscombe completed pages000-002pixelPASS."
+      "Main46tests and real resume_prepare/copy/UV/resume_activate PASS; Sagan31negative and independent1061UV replay; Anscombe completed pages000-002pixelPASS.",
+      "Main completed all material bakes, assembly, binding, final export, triangle transfer and final binding audit failures0; source unchanged."
     ],
     "next_actions": [
-      "Finish live queue from latest state; pause/review slow or error. Then coverage/normal gates, assemble/finish, actual final export and independent native-file checks, no game."
+      "Review narrow native inspector dedup correction, rerun file tests then native prepare with real live Blender guard. Never redo full bake/export. No UI or game."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -177,7 +179,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_current_checkpoint.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_caps05_verified.md",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_resume_independent_review.md",
-      "resume_manifest01 SHA cbd4c2c19781086386e12963f9e274f8abb05c686b0b67b7034a1ec7dc17e56d;helperd7db41; historical109postloss33 retained"
+      "resume_manifest01 SHA cbd4c2c19781086386e12963f9e274f8abb05c686b0b67b7034a1ec7dc17e56d;helperd7db41; historical109postloss33 retained",
+      "final a178dbb7012e86b085e18e4f0b6d44397323ba0c702bab799ddba0b20703d2be; result a0f2b42844c7d888a25525caa935d2ba6e641ed9416ccbd16528dfc80143e44e"
     ]
   },
   "model_routes": {

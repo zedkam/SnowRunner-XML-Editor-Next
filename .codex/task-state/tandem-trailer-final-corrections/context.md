@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `39`
+- revision: `40`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T07:17:45Z`
+- updated: `2026-09-13T07:58:16Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Full01 recovered in existing Blender:1138 copies1061 actualUV hashes verified,142 saved tiles reused; now146of156 native jobs. Accepted working090 geometryb826 dependency8fcd unchanged.
+Full01 156of156 completed, actual final FBX a178dbb7 verified by independent binding audit. Native prepare stopped before staging: duplicate source material slots compacted by FBX exporter; two Astra/max reviewers checking exact face material mapping.
 
 ## Следующие действия
 
-- Finish live queue from latest state; pause/review slow or error. Then coverage/normal gates, assemble/finish, actual final export and independent native-file checks, no game.
+- Review narrow native inspector dedup correction, rerun file tests then native prepare with real live Blender guard. Never redo full bake/export. No UI or game.
 
 ## Область
 
@@ -41,6 +41,7 @@ Full01 recovered in existing Blender:1138 copies1061 actualUV hashes verified,14
 - After EVERY context compaction reread stage73_current_checkpoint.md, Stage70 plan, current object.json and task context before actions; preserve accepted work.
 - После каждого сжатия перечитать актуальные plan/checkpoint/object/context; старые завершённые builders не запускать. Текущая игровая готовность false.
 - Stage74: проверка без игры; внешний вид Stage72 принят и защищён. Исправлять реальные отклонения костей и элементов плана, не повторять старые builders.
+- Latest user: no screen control, mouse, keyboard or foregrounding. Only Blender MCP or existing loopback RPC and files.
 
 ## Принятые решения
 
@@ -93,12 +94,11 @@ Full01 recovered in existing Blender:1138 copies1061 actualUV hashes verified,14
 - Full blend saved b0a5234b6b7035138833e26215fcdfd2ac56ad0fb6b2f315cc14c395693d12db; source67 preserved. Full FBX2626f0474f22b70870758bd3fba32d62cb9022eff94160709914ad0dcc04e3df, 16bones71CDT1059visuals.
 - Texture native manifest aa81285e7bc6c96e558d80efb19d7f2c8b4cb0fac318a30ba1e632ac5a13f4c5; both mesh logs empty/noerrors; preparation remains non-runtime.
 - Read-only first-stream forensics: 0043 has 1112 nonzero triangles in both FBX and native, area delta 2.9e-16 m2, zero unmapped position/UV corners; 16 zero-area triangles removed.
-- ... ещё 24; см. `state.json`.
+- ... ещё 25; см. `state.json`.
 
 ## Evidence
 
-- stage64 checkpoint PASS; Stage53 SHA256 bbdc049f21f6ec4d67b19cb800d53063dd85c632f5632cbe5fc86f3ec77d2fb5; 126 installed files copied and rehashed.
-- ... ещё 43; см. `state.json`.
+- ... ещё 45; см. `state.json`.
 
 ## Затронутые файлы
 
