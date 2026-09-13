@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `design`
-- revision: `43`
+- phase: `implementation`
+- revision: `44`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T12:18:05Z`
+- updated: `2026-09-13T19:50:28Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 diagnostic accepted: installed Stage74 XML exactly equals its candidate; lift chain was removed from XML and the 16-bone native, while feet remain separate physical bodies despite Fixed.
+Stage75 native gate moved to a separate triangle-only candidate. Read-only Blender dump passed: accepted scene unchanged, 1061 visuals, 71 CDT and 622217 loop triangles. First file-only prepare correctly stopped before outputs because its UV preflight compared accepted donor Stage74 UV against raw Blender UV. Sol established this is expected in 152 streams; no FBX, native, installed mod, Editor or game change occurred.
 
 ## Следующие действия
 
-- Build and validate only a separate astr_trailer_tandem_2 successor candidate: restore real suspension bones first, then merge physical foot ownership and test auto-leg trigger without touching installed mod.
+- Apply and independently review the narrow Terra correction: use Blender only for topology/loop triples, validate derivative UV against the accepted Stage74 donor, then run a dry-run before any triangle FBX write.
 
 ## Область
 
@@ -78,6 +78,7 @@ Stage75 diagnostic accepted: installed Stage74 XML exactly equals its candidate;
 - Completed converter/install sessions are closed. Only one accepted working scene exists; generated files retained, owned temporary Blender state removed. Installed Stage74 is not runtime acceptance. No repeated builders, new diagnostic classes, automatic Editor close or screen control.
 - Rigid feet means remove the two physical foot bodies and transfer their existing CDT ownership/mass to inner sections; retain the visual child without a physical degree of freedom.
 - Stock XML proves separate folding/unfolding speed fields exist; apply only after auto-trigger works, with deployment doubled and folding unchanged.
+- Do not weaken validation or add a UV tolerance. Preserve Stage75 derivative UV/material carrier exactly; only the triangulation preflight contract changes.
 
 ## Открытые вопросы
 
@@ -93,14 +94,8 @@ Stage75 diagnostic accepted: installed Stage74 XML exactly equals its candidate;
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
 - Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
-- Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
-- Exactreuse896 finalized; true Iprofile front closure with482new/2252preserved faces; CDT71 and fullpose verified. Six offline QA images reviewed, new lightgray supports/air rejected, not game ready.
-- ... ещё 32; см. `state.json`.
+- ... ещё 35; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 48; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 21; см. `state.json`.
+- ... ещё 49; см. `state.json`.
