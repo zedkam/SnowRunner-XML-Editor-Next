@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 38,
+  "revision": 39,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-13T06:36:58Z",
+  "updated_at": "2026-09-13T07:17:45Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -38,7 +38,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Correct accepted working.blend verified in existing Blender5.2 PID55796; MCP reconnected. Native material state absent,142of156 tiles preserved on disk. No source or installed mod changes.",
+    "current_summary": "Full01 recovered in existing Blender:1138 copies1061 actualUV hashes verified,142 saved tiles reused; now146of156 native jobs. Accepted working090 geometryb826 dependency8fcd unchanged.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -106,10 +106,11 @@
       "Main проверил свежие1132mesh/16bone/71CDT и62negative; triangle8positive31negative, final-helper13negative+CDTbyteexact; настоящие4bake caps03 не приняты из-за normal gate.",
       "Single-scene working file restored and independently verified",
       "Single-scene working saved and reopened; geometry/bones/used materials/images equal accepted72. Caps05 normal and viewport PASS. Main repeated native10negative and final-binding29negative checks.",
-      "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects."
+      "Fresh live guard geometryb826 dependency8fcd working090 PASS; one acceptedScene1138objects.",
+      "Main46tests and real resume_prepare/copy/UV/resume_activate PASS; Sagan31negative and independent1061UV replay; Anscombe completed pages000-002pixelPASS."
     ],
     "next_actions": [
-      "Main review strict export-copy/UV recovery from full01 contract; reuse validated142 tiles, complete14; final export/native checks offline."
+      "Finish live queue from latest state; pause/review slow or error. Then coverage/normal gates, assemble/finish, actual final export and independent native-file checks, no game."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -174,7 +175,9 @@
       "Stage72 SHAa7549ec10817f9a7407bfe343164838cabcd9918071ca3c0a4bdeb3d35e1025b неизменен; installedXML353ce0eff4881475e8cbcc1e47c389dde4768b39267b57fab11630a5b378a173 неизменен. Connectionlost10054/noBlenderprocess, причина не доказана. Полного export/native/gamePASS нет.",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74/working_reopened_proof.json",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_current_checkpoint.md",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_caps05_verified.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_caps05_verified.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/reports/stage74_resume_independent_review.md",
+      "resume_manifest01 SHA cbd4c2c19781086386e12963f9e274f8abb05c686b0b67b7034a1ec7dc17e56d;helperd7db41; historical109postloss33 retained"
     ]
   },
   "model_routes": {
