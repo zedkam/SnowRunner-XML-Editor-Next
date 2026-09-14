@@ -2,10 +2,10 @@
 
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
-- phase: `implementation`
-- revision: `47`
+- phase: `validation`
+- revision: `48`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T04:32:41Z`
+- updated: `2026-09-14T05:03:21Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 file-only work complete: triangle-only native visual gate passed and independent audit recorded strict limitations. Object plan/workflow updated; no model, texture, XML geometry, installed mod, Editor, game, package, or release changes. Next required acceptance is Editor body load then game runtime.
+Stage75 isolated Editor source route astr_trailer_tandem_2 created from manifest 9b35b286: 77/77 hashes verified; current sxml test mod untouched. Documented Editor class load requires UI File View navigation. Native UI provider unavailable and no safe CLI open-class interface was evidenced, so Editor/game were not launched; historical level_ural write risk avoided.
 
 ## Следующие действия
 
-- Wait for authorized Editor/game acceptance; validate body/CDT load, then legs, lift suspension, cylinder attachments, fuel slosh, coupling, wheels and materials before any package decision.
+- When controlled Editor UI is available, open only Mods/astr_trailer_tandem_2/classes/trucks/trailers/astr_trailer_tandem_2.xml, record class-load outcome and prebuild delta, then proceed to runtime acceptance only if class load passes.
 
 ## Область
 
@@ -94,9 +94,12 @@ Stage75 file-only work complete: triangle-only native visual gate passed and ind
 - Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
-- Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
-- ... ещё 36; см. `state.json`.
+- ... ещё 37; см. `state.json`.
 
 ## Evidence
 
 - ... ещё 50; см. `state.json`.
+
+## Затронутые файлы
+
+- ... ещё 21; см. `state.json`.
