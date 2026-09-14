@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "validation",
-  "revision": 49,
+  "revision": 50,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-14T05:22:38Z",
+  "updated_at": "2026-09-14T05:32:44Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -41,7 +41,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Editor process is running, but after a CUA reset the native app inventory remains empty; no class was opened and no UI input occurred.",
+    "current_summary": "SnowRunnerEditor was restarted cleanly from Sources/BinEditor and is responding, but the CUA native-app inventory remains empty; no UI input or class load was performed.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -124,7 +124,7 @@
       "Created and independently re-verified astr_trailer_tandem_2_uv_material_triangulated.fbx plus proof after a full no-write dry-run."
     ],
     "next_actions": [
-      "When the native Editor window becomes targetable, open only astr_trailer_tandem_2.xml from Mods and record the class-load outcome before runtime testing."
+      "When Editor becomes targetable, open only astr_trailer_tandem_2.xml through Mods and record class-load outcome before runtime testing."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",

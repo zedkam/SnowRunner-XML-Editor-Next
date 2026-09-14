@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `49`
+- revision: `50`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T05:22:38Z`
+- updated: `2026-09-14T05:32:44Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Editor process is running, but after a CUA reset the native app inventory remains empty; no class was opened and no UI input occurred.
+SnowRunnerEditor was restarted cleanly from Sources/BinEditor and is responding, but the CUA native-app inventory remains empty; no UI input or class load was performed.
 
 ## Следующие действия
 
-- When the native Editor window becomes targetable, open only astr_trailer_tandem_2.xml from Mods and record the class-load outcome before runtime testing.
+- When Editor becomes targetable, open only astr_trailer_tandem_2.xml through Mods and record class-load outcome before runtime testing.
 
 ## Область
 
@@ -101,7 +101,3 @@ Editor process is running, but after a CUA reset the native app inventory remain
 ## Evidence
 
 - ... ещё 50; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 21; см. `state.json`.
