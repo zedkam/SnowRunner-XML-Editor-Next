@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `44`
+- revision: `45`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-13T19:50:28Z`
+- updated: `2026-09-14T04:00:20Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 native gate moved to a separate triangle-only candidate. Read-only Blender dump passed: accepted scene unchanged, 1061 visuals, 71 CDT and 622217 loop triangles. First file-only prepare correctly stopped before outputs because its UV preflight compared accepted donor Stage74 UV against raw Blender UV. Sol established this is expected in 152 streams; no FBX, native, installed mod, Editor or game change occurred.
+Stage75 triangle derivative now exists after independent no-write dry-run and two file-only passes. The output was built only from the accepted Stage75 UV/material derivative plus guarded Blender loop triples: 1061 visual streams, 622217 triangles, 18 bones and 71 CDT. Stage74 donor UV is matched by pinned object-to-Model map; no topology, UV values, materials, bones, CDT, installed mod, Editor or game were changed.
 
 ## Следующие действия
 
-- Apply and independently review the narrow Terra correction: use Blender only for topology/loop triples, validate derivative UV against the accepted Stage74 donor, then run a dry-run before any triangle FBX write.
+- Accept the narrow triangle-native staging builder schema correction, stage only the new triangle derivative, then run the converter only in the separate native_staging_triangles tree and validate it file-only.
 
 ## Область
 
@@ -79,6 +79,7 @@ Stage75 native gate moved to a separate triangle-only candidate. Read-only Blend
 - Rigid feet means remove the two physical foot bodies and transfer their existing CDT ownership/mass to inner sections; retain the visual child without a physical degree of freedom.
 - Stock XML proves separate folding/unfolding speed fields exist; apply only after auto-trigger works, with deployment doubled and folding unchanged.
 - Do not weaken validation or add a UV tolerance. Preserve Stage75 derivative UV/material carrier exactly; only the triangulation preflight contract changes.
+- Raw Blender is topology evidence only. Accepted Stage74 donor is UV/material evidence only. No name-prefix heuristic, tolerance or n-gon fallback is permitted.
 
 ## Открытые вопросы
 
@@ -93,9 +94,8 @@ Stage75 native gate moved to a separate triangle-only candidate. Read-only Blend
 - Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
-- Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
-- ... ещё 35; см. `state.json`.
+- ... ещё 37; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 49; см. `state.json`.
+- ... ещё 50; см. `state.json`.

@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 44,
+  "revision": 45,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-13T19:50:28Z",
+  "updated_at": "2026-09-14T04:00:20Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -41,7 +41,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage75 native gate moved to a separate triangle-only candidate. Read-only Blender dump passed: accepted scene unchanged, 1061 visuals, 71 CDT and 622217 loop triangles. First file-only prepare correctly stopped before outputs because its UV preflight compared accepted donor Stage74 UV against raw Blender UV. Sol established this is expected in 152 streams; no FBX, native, installed mod, Editor or game change occurred.",
+    "current_summary": "Stage75 triangle derivative now exists after independent no-write dry-run and two file-only passes. The output was built only from the accepted Stage75 UV/material derivative plus guarded Blender loop triples: 1061 visual streams, 622217 triangles, 18 bones and 71 CDT. Stage74 donor UV is matched by pinned object-to-Model map; no topology, UV values, materials, bones, CDT, installed mod, Editor or game were changed.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -74,7 +74,8 @@
       "Completed converter/install sessions are closed. Only one accepted working scene exists; generated files retained, owned temporary Blender state removed. Installed Stage74 is not runtime acceptance. No repeated builders, new diagnostic classes, automatic Editor close or screen control.",
       "Rigid feet means remove the two physical foot bodies and transfer their existing CDT ownership/mass to inner sections; retain the visual child without a physical degree of freedom.",
       "Stock XML proves separate folding/unfolding speed fields exist; apply only after auto-trigger works, with deployment doubled and folding unchanged.",
-      "Do not weaken validation or add a UV tolerance. Preserve Stage75 derivative UV/material carrier exactly; only the triangulation preflight contract changes."
+      "Do not weaken validation or add a UV tolerance. Preserve Stage75 derivative UV/material carrier exactly; only the triangulation preflight contract changes.",
+      "Raw Blender is topology evidence only. Accepted Stage74 donor is UV/material evidence only. No name-prefix heuristic, tolerance or n-gon fallback is permitted."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -119,10 +120,11 @@
       "Main repeated 27 negative and all1061 face-material checks after inspector-only dedup repair; native prepare with real live guard succeeded. Current checkpoint consolidated, old detail retained in history.",
       "Stage74:31convertedDDS+4exactreuse; full35PCT every-mip payload byte-exact;1061native streams/622217triangles readback; scope-limited proofs accepted. Main12focused tests and read-only preflight then109file install with4old backups. Separate independent249files/4backups checks have zero failures.",
       "Accepted Sol evidence after direct XML and Blender verification; updated stage75 plan and object metadata with physical foot fix.",
-      "Accepted four triangle-pipeline scripts after static checks; created exclusive read-only loop-triangle JSON."
+      "Accepted four triangle-pipeline scripts after static checks; created exclusive read-only loop-triangle JSON.",
+      "Created and independently re-verified astr_trailer_tandem_2_uv_material_triangulated.fbx plus proof after a full no-write dry-run."
     ],
     "next_actions": [
-      "Apply and independently review the narrow Terra correction: use Blender only for topology/loop triples, validate derivative UV against the accepted Stage74 donor, then run a dry-run before any triangle FBX write."
+      "Accept the narrow triangle-native staging builder schema correction, stage only the new triangle derivative, then run the converter only in the separate native_staging_triangles tree and validate it file-only."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",
@@ -196,7 +198,8 @@
       "native helper b1996a8c9aac2f7ea992711f67a60e58728da6af932a399ad75790468351ee69; candidate55fc316a1b9222beec5c850320ce7cf60b4457f875ebc190d054a21a5d07f278; source/finalFBX unchanged",
       "stage74 install ledger aeb17a8110c91279c6bad935c25d1859354ba68955ce4b61a2f6e05db790f887; native review ef7ad5c8461e5324d125817fb08b3de33e41e0056894a58b70f9b954661cbe8e; PCT review8bea02b952081cbdd49d86295f490a7cc5c35890a47afb95b3ecb920042ae8df; main independent249file4backup audit PASS. No runtime or release PASS.",
       "Stage74 fbx_root_checks.json: 16 bones and no bone_susp_01/02; Blender audit: each rocking shoe is 608/608 vertices on its foot bone; installed XML lacks Action12/prismatic suspension bodies.",
-      "10_blender/exports/stage75/astr_trailer_tandem_2_loop_triangles_source.json SHA256=61be92d4c28f4823debc543938d0a5bcf8aa9d6d580ce13b51c49969e7598a01; no triangulated FBX/proof/staging exists."
+      "10_blender/exports/stage75/astr_trailer_tandem_2_loop_triangles_source.json SHA256=61be92d4c28f4823debc543938d0a5bcf8aa9d6d580ce13b51c49969e7598a01; no triangulated FBX/proof/staging exists.",
+      "triangle FBX SHA256=b21481e2973410445ca078253b16d073fb4effb0a6d46163d5f7a386cec452f2; proof SHA256=25f188dabf07c2b2685bd3d147919d73980ea568a026c4244d18a0684a075bb4; source derivative remains 83ca959dd7c1fd6fce6c7958200464349bbe8b3961efc2874e99a5e806007af8."
     ]
   },
   "model_routes": {
