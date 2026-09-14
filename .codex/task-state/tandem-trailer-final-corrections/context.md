@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `46`
+- revision: `47`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T04:29:32Z`
+- updated: `2026-09-14T04:32:41Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 triangle-only native file gate passed: separate staging manifest 9b35b286, native 3d1723c0, visual 1061 streams/622217 triangles/UV evidence verified. Native CDT/Havok physics and runtime remain unproven; no installed, Editor, game, or package action.
+Stage75 file-only work complete: triangle-only native visual gate passed and independent audit recorded strict limitations. Object plan/workflow updated; no model, texture, XML geometry, installed mod, Editor, game, package, or release changes. Next required acceptance is Editor body load then game runtime.
 
 ## Следующие действия
 
-- Keep current installed mod frozen; before any Editor/game acceptance, validate body loading and runtime legs, lift suspension, cylinders, fuel slosh, then decide clean package.
+- Wait for authorized Editor/game acceptance; validate body/CDT load, then legs, lift suspension, cylinder attachments, fuel slosh, coupling, wheels and materials before any package decision.
 
 ## Область
 
@@ -100,7 +100,3 @@ Stage75 triangle-only native file gate passed: separate staging manifest 9b35b28
 ## Evidence
 
 - ... ещё 50; см. `state.json`.
-
-## Затронутые файлы
-
-- ... ещё 21; см. `state.json`.
