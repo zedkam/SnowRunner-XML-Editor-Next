@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `50`
+- revision: `51`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T05:32:44Z`
+- updated: `2026-09-14T05:47:27Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-SnowRunnerEditor was restarted cleanly from Sources/BinEditor and is responding, but the CUA native-app inventory remains empty; no UI input or class load was performed.
+A fresh Editor process in the active session remained headless with MainWindowHandle 0; it was closed. The remaining blocker is Codex native Computer Use availability, not the mod or class.
 
 ## Следующие действия
 
-- When Editor becomes targetable, open only astr_trailer_tandem_2.xml through Mods and record class-load outcome before runtime testing.
+- After Computer Use is enabled and can list native apps, open only astr_trailer_tandem_2.xml from Mods and record class-load outcome.
 
 ## Область
 
