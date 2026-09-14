@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "implementation",
-  "revision": 45,
+  "revision": 46,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-14T04:00:20Z",
+  "updated_at": "2026-09-14T04:29:32Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -41,7 +41,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage75 triangle derivative now exists after independent no-write dry-run and two file-only passes. The output was built only from the accepted Stage75 UV/material derivative plus guarded Blender loop triples: 1061 visual streams, 622217 triangles, 18 bones and 71 CDT. Stage74 donor UV is matched by pinned object-to-Model map; no topology, UV values, materials, bones, CDT, installed mod, Editor or game were changed.",
+    "current_summary": "Stage75 triangle-only native file gate passed: separate staging manifest 9b35b286, native 3d1723c0, visual 1061 streams/622217 triangles/UV evidence verified. Native CDT/Havok physics and runtime remain unproven; no installed, Editor, game, or package action.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -124,7 +124,7 @@
       "Created and independently re-verified astr_trailer_tandem_2_uv_material_triangulated.fbx plus proof after a full no-write dry-run."
     ],
     "next_actions": [
-      "Accept the narrow triangle-native staging builder schema correction, stage only the new triangle derivative, then run the converter only in the separate native_staging_triangles tree and validate it file-only."
+      "Keep current installed mod frozen; before any Editor/game acceptance, validate body loading and runtime legs, lift suspension, cylinders, fuel slosh, then decide clean package."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",

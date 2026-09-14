@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `implementation`
-- revision: `45`
+- revision: `46`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T04:00:20Z`
+- updated: `2026-09-14T04:29:32Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 triangle derivative now exists after independent no-write dry-run and two file-only passes. The output was built only from the accepted Stage75 UV/material derivative plus guarded Blender loop triples: 1061 visual streams, 622217 triangles, 18 bones and 71 CDT. Stage74 donor UV is matched by pinned object-to-Model map; no topology, UV values, materials, bones, CDT, installed mod, Editor or game were changed.
+Stage75 triangle-only native file gate passed: separate staging manifest 9b35b286, native 3d1723c0, visual 1061 streams/622217 triangles/UV evidence verified. Native CDT/Havok physics and runtime remain unproven; no installed, Editor, game, or package action.
 
 ## Следующие действия
 
-- Accept the narrow triangle-native staging builder schema correction, stage only the new triangle derivative, then run the converter only in the separate native_staging_triangles tree and validate it file-only.
+- Keep current installed mod frozen; before any Editor/game acceptance, validate body loading and runtime legs, lift suspension, cylinders, fuel slosh, then decide clean package.
 
 ## Область
 
@@ -94,8 +94,13 @@ Stage75 triangle derivative now exists after independent no-write dry-run and tw
 - Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
-- ... ещё 37; см. `state.json`.
+- Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
+- ... ещё 36; см. `state.json`.
 
 ## Evidence
 
 - ... ещё 50; см. `state.json`.
+
+## Затронутые файлы
+
+- ... ещё 21; см. `state.json`.
