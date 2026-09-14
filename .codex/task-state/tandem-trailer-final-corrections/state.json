@@ -5,9 +5,9 @@
   "objective": "Implement the approved Stage63 correction plan for trailer_sideboard_tandem, validate one integrated build, and stop only when it is ready for the user's in-game acceptance.",
   "status": "active",
   "phase": "validation",
-  "revision": 48,
+  "revision": 49,
   "created_at": "2026-09-10T09:01:38Z",
-  "updated_at": "2026-09-14T05:03:21Z",
+  "updated_at": "2026-09-14T05:22:38Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem"
   ],
@@ -41,7 +41,7 @@
     "git": null
   },
   "context": {
-    "current_summary": "Stage75 isolated Editor source route astr_trailer_tandem_2 created from manifest 9b35b286: 77/77 hashes verified; current sxml test mod untouched. Documented Editor class load requires UI File View navigation. Native UI provider unavailable and no safe CLI open-class interface was evidenced, so Editor/game were not launched; historical level_ural write risk avoided.",
+    "current_summary": "Editor process is running, but after a CUA reset the native app inventory remains empty; no class was opened and no UI input occurred.",
     "decisions": [
       "Рессорный узел Stage64 отклонён; его геометрию и зависимые карты не использовать как принятую основу экспорта. Файлы сохраняются для сравнения.",
       "Объединить неподвижное основание и сохранить опоры обеих подвесок. Отдельно устранить наложение рессор. Изменение межосевого расстояния и положения подъёмной рамы требует размерного обоснования.",
@@ -124,7 +124,7 @@
       "Created and independently re-verified astr_trailer_tandem_2_uv_material_triangulated.fbx plus proof after a full no-write dry-run."
     ],
     "next_actions": [
-      "When controlled Editor UI is available, open only Mods/astr_trailer_tandem_2/classes/trucks/trailers/astr_trailer_tandem_2.xml, record class-load outcome and prebuild delta, then proceed to runtime acceptance only if class load passes."
+      "When the native Editor window becomes targetable, open only astr_trailer_tandem_2.xml from Mods and record the class-load outcome before runtime testing."
     ],
     "files": [
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_tandem/30_validation/sandbox/stage64_integrated_corrections/baseline_manifest.json",

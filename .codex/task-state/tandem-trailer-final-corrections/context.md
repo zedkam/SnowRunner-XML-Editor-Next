@@ -3,9 +3,9 @@
 - task-id: `tandem-trailer-final-corrections`
 - status: `active`
 - phase: `validation`
-- revision: `48`
+- revision: `49`
 - branch: `codex/task-state/tandem-trailer-final-corrections`
-- updated: `2026-09-14T05:03:21Z`
+- updated: `2026-09-14T05:22:38Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Implement the approved Stage63 correction plan for trailer_sideboard_tandem, val
 
 ## Текущее состояние
 
-Stage75 isolated Editor source route astr_trailer_tandem_2 created from manifest 9b35b286: 77/77 hashes verified; current sxml test mod untouched. Documented Editor class load requires UI File View navigation. Native UI provider unavailable and no safe CLI open-class interface was evidenced, so Editor/game were not launched; historical level_ural write risk avoided.
+Editor process is running, but after a CUA reset the native app inventory remains empty; no class was opened and no UI input occurred.
 
 ## Следующие действия
 
-- When controlled Editor UI is available, open only Mods/astr_trailer_tandem_2/classes/trucks/trailers/astr_trailer_tandem_2.xml, record class-load outcome and prebuild delta, then proceed to runtime acceptance only if class load passes.
+- When the native Editor window becomes targetable, open only astr_trailer_tandem_2.xml from Mods and record the class-load outcome before runtime testing.
 
 ## Область
 
@@ -94,7 +94,9 @@ Stage75 isolated Editor source route astr_trailer_tandem_2 created from manifest
 - Рабочий Blender возвращён к Stage53; контрольная сумма файла подтверждена. План и object.json фиксируют возврат. JSON разбирается, git diff --check проходит.
 - Повторная проверка Stage68:157частей,49поз,18отрицательных XMLтестов,offline_pass=true,installable=false. Живой Blender:Stage67,Scene,3104объекта,dirty=false; новый процесс/переключение не выполнялись.
 - Geometry inventory1059 verified; recovery removed only one incomplete owned duplicate-weight clone; sourceguard PASS.
-- ... ещё 37; см. `state.json`.
+- Three 2048px material maps baked; all159 UV target rectangles nonblank; air reservoirs dark aged frame metal. WIP derivative saved independently.
+- Actual16bone standing/stowed and min/neutral/max cylinder LBS PASS; pose basis restored. Exactbody5955tri UV applied withfour accepted maps, no rebake.
+- ... ещё 35; см. `state.json`.
 
 ## Evidence
 
