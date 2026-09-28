@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-tridem-3`
 - status: `active`
 - phase: `implementation`
-- revision: `4`
+- revision: `5`
 - branch: `codex/task-state/astr-trailer-tridem-3`
-- updated: `2026-09-28T09:40:50Z`
+- updated: `2026-09-28T10:14:07Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a three-slot, three-axle pneumatic drawbar trailer from the accepted Tand
 
 ## Текущее состояние
 
-Пользователь одобрил предварительную компоновку трех осей; единственный Blender показывает и хранит обратимый layout reference, проектные документы и скрипты отправлены в ветку codex/tridem-3-design.
+Оси приняты как визуальная база; в одном Blender сохранена локальная сцена с шестью точными донорскими пневмобаллонами. Точный рациональный аудит доказал замкнутое 12-реберное сечение обеих сторон; сборщик лонжерона ещё проходит gates.
 
 ## Следующие действия
 
-- Завершить Astra-контракт рамы и пневмоподвески, затем Terra-реализацию точной геометрии и игровой прототип механизма.
+- Завершить строгий builder лонжерона и локальную проверку geometric candidate; затем собственный материал, трёхслотовый кузов, C10-подвеска, XML и Editor/game gates.
 
 ## Область
 
@@ -52,12 +52,15 @@ Create a three-slot, three-axle pneumatic drawbar trailer from the accepted Tand
 - Updated plan and checklist for centered axle group and MCP review scene.
 - Создана локальная tridem_axle_layout_reference.blend с шестью точными linked-mesh колесами и обратимо скрытыми старыми рессорами.
 - Read-only rail ledger доказал mapping 2730 и полное поперечное сечение обеих сторон при X=-2.345582; splice остается NO-GO до UV/normal и packet manifest.
+- Сцена tridem_bellows_layout_reference.blend: 1113 объектов, шесть сборок по 234 вершины/324 треугольника/972 UV loops, исходный FBX удалён после импорта.
+- Exact rail cut: 39-реберный закрытый граф на каждой стороне, все 12 contour edges покрыты точно, 0 unresolved и gaps; прежний microgap был ошибкой interval attribution.
 
 ## Evidence
 
 - rail_extension_candidate.blend SHA-256 ef909c4479797f8d03e6fb1dca3b6c82d6e4bd397a341698fc190da259ae0e13
 - MCP get_scene_info: 1101 objects; viewport screenshot visually shows full side view and orange rail extension; only one Blender process 45136.
 - Snowrunner-Mods branch codex/tridem-3-design commit e41302d pushed; local layout blend SHA256 A20789F09A8EF58C03DC9632845DBCB7280556BCD3FB4F801210176D62AC7D73.
+- Local bellows scene SHA256 C69880554046609A024BA979BD2503E10F076BE001F250E6E4E3CA68C9; Snowrunner-Mods design branch 7518a28 pushed.
 
 ## Затронутые файлы
 
