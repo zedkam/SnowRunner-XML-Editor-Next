@@ -5,9 +5,9 @@
   "objective": "Create a three-slot, three-axle pneumatic drawbar trailer from the accepted Tandem-2 for astr_trailers, with adjustable height and independent front axle lift.",
   "status": "active",
   "phase": "design",
-  "revision": 2,
+  "revision": 3,
   "created_at": "2026-09-28T08:39:28Z",
-  "updated_at": "2026-09-28T08:45:38Z",
+  "updated_at": "2026-09-28T08:57:55Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_tridem_3",
     "SnowRunner-Modding/docs/ASTR_TRAILER_TRIDEM_3_PLAN.md"
@@ -18,7 +18,8 @@
     ],
     "open_questions": [
       "User's intended placement/order of three axles and preferred form of third cargo slot.",
-      "Identify exact lift beam to match in material and color before texturing."
+      "Identify exact lift beam to match in material and color before texturing.",
+      "Identify the exact lift beam for final material and texture reference."
     ]
   },
   "accepted_work": {
@@ -28,26 +29,32 @@
     "git": null
   },
   "context": {
-    "current_summary": "User reviewed rail-only Blender preview and accepted exact rail extension as basis for upper longitudinal beam. Entire beam later gets a custom material/texture matching the identified lift beam. Blender GUI scene is open; 3 review renders saved. Three-slot bed, third axle and pneumatic suspension remain unmodeled.",
+    "current_summary": "User's single Blender 5.2 is connected through MCP. Exact 1101-object rail candidate has been appended into a separate GUI review scene, verified by viewport screenshot and saved with side view. User directs all three axles to be rebuilt as a centered group under the cargo platform. Rail geometry remains a non-exportable WIP.",
     "decisions": [
       "Use current exact rail extension as starting profile for upper longitudinal beam; repair interfaces, caps, topology and UV before integration.",
-      "Create own material and texture for full beam after visually identifying lift-beam reference."
+      "Create own material and texture for full beam after visually identifying lift-beam reference.",
+      "Rebuild all three axles as one group centered under the cargo platform; do not retain old Tandem axle coordinates."
     ],
     "completed": [
       "Принято текущее состояние работы.",
       "Opened rail_extension_candidate.blend in visible Blender 5.2 window; confirmed process 31232 has main window.",
       "Rendered verified side, top and three-quarter previews; source blend SHA-256 unchanged.",
-      "Updated tridem plan with user's new beam and material decision."
+      "Updated tridem plan with user's new beam and material decision.",
+      "Connected to the user's one Blender via MCP; validated scene contents and saved separate exact-geometry GUI review scene.",
+      "Updated plan and checklist for centered axle group and MCP review scene."
     ],
     "next_actions": [
-      "Discuss the user's Tridem geometry ideas using current Blender view; then finalize axle and bed layout before modeling."
+      "Audit and repair the exact rail interface/topology in a separate working copy; then extend bed and design the centered three-axle pneumatic group."
     ],
     "files": [
       "SnowRunner-Modding/docs/ASTR_TRAILER_TRIDEM_3_PLAN.md",
-      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tridem_3/30_validation/review/README.md"
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tridem_3/30_validation/review/README.md",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tridem_3/30_validation/review/rail_extension_candidate_gui_review.blend",
+      "SnowRunner-Modding/objects/trailers/trailer_sideboard_tridem_3/10_blender/scripts/build_rail_extension_gui_review.py"
     ],
     "evidence": [
-      "rail_extension_candidate.blend SHA-256 ef909c4479797f8d03e6fb1dca3b6c82d6e4bd397a341698fc190da259ae0e13"
+      "rail_extension_candidate.blend SHA-256 ef909c4479797f8d03e6fb1dca3b6c82d6e4bd397a341698fc190da259ae0e13",
+      "MCP get_scene_info: 1101 objects; viewport screenshot visually shows full side view and orange rail extension; only one Blender process 45136."
     ]
   },
   "model_routes": {
