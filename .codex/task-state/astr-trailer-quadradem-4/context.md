@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `implementation`
-- revision: `5`
+- revision: `6`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-05T17:48:19Z`
+- updated: `2026-10-05T18:06:01Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q01 source-bound XML, thirteen localized overlays, candidate and independent metadata audits committed locallyd30906e; LFS pointers passed. Working sources2482a2f preserved. Astra max assembling exactsourcegeometry in existing Blender; FBX/native/Editor/game not yet verified.
+Fouraxle model187557tri built and reviewed visually in singleBlender; sourceUV/material/skin,rootrig andlegpose checks passed. ModelFBX/pre-cookevidence preservedlocally9c5b653 beforelosslessstreamsplit. Officialconverter rejected83766 expandedvertices onone33890face stream, so Astra partitions streams<=20000faces; native andruntime pending.
 
 ## Следующие действия
 
-- Complete actual geometry/export, independent RootRig gate and hidden native cook; runtime classload/game still pending.
+- Verify losslesspartition/exportnewhash, refreshsame19filestage, recookofficialnative, thenactualnative/texturebudgets beforeEditor authorization.
 
 ## Область
 
@@ -44,6 +44,9 @@ Q01 source-bound XML, thirteen localized overlays, candidate and independent met
 - User authorizes automatic threefile metadata pushes to current task-state branch; preserve model resources in modrepo only.
 - Visual cap200000;10Body1200CDT40hulls16DDS limits. Fouraxles1450pitch and fourcargo2.559pitch;10.83822106m deck unchangedwidth/track.
 - Common fold/middle source-backed pairs plus independent feet; lift carriers1/4 independently inheritD63settings; fuel288 repairs325.
+- User automaticmetadata push authority persists; currentplusonerollback and historyGit only.
+- 200000visual cap with10Body1200CDT40hulls16DDS; deck10.83822106m,widthtrackunchanged,4axes1450pitch; firstandfourthliftsindependent.
+- Fix actualconverter65534vertexstream limit by losslessfacetpartition, preservingtotalgeometry/UV/normals/weights/materials; no simplification.
 
 ## Открытые вопросы
 
@@ -58,12 +61,17 @@ Q01 source-bound XML, thirteen localized overlays, candidate and independent met
 - User metadata branch and automatic push authority recorded and previous revision pushed.
 - Git before development2482a2f, editor tool e21c58a, Q01XMLmetadata d30906e; LFS pointers verified.
 - Independent currentclass/descriptor/sourcehash,10Body,8wheel,4axle4slot, actions1/2 and solehitch10,13locale and template roundtrip checks passed.
+- Working source2482a2f; editor e21c58a; Q01XML13localesd30906e; model/raw+normalizedFBX/sourceproof9c5b653, LFSverified.
+- Actual4axle4bayvisual reviewed; legkinematic residual0 atrest/half/full; independentFBX manifest andhistorical/injectedRootNodegatespassed foroldcabdb6f7.
 
 ## Evidence
 
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_scaffold_report.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_locale_semantic_audit.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_preexport_readiness.json
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_fbx_acceptance.json
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q01_side.png
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/sandbox/q01_native_cook/q01_native_converter.log
 
 ## Затронутые файлы
 
