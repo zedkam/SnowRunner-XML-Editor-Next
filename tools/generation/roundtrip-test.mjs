@@ -3,8 +3,9 @@ import process from 'node:process'
 import * as cheerio from 'cheerio'
 
 const input = process.argv[2]
+const trailer = process.argv.slice(3).includes('--trailer')
 if (!input) {
-  throw new Error('Usage: node roundtrip-test.mjs <xml-file>')
+  throw new Error('Usage: node roundtrip-test.mjs <xml-file> [--trailer]')
 }
 
 const originalText = await fs.readFile(input, 'utf8')
@@ -29,8 +30,16 @@ const checks = {
   changedAttribute: reloaded('TruckData').first().attr('FuelCapacity') === fuelAfter,
   templatesPreserved: reloaded('__sxmle_root > _templates').length === 1,
   truckPreserved: reloaded('__sxmle_root > Truck').length === 1,
-  truckImagePreserved: Boolean(reloaded('TruckData').first().attr('TruckImage')),
-  uiIconPreserved: reloaded('GameData > UiDesc').first().attr('UiIcon328x458') !== undefined
+  truckImagePreserved: trailer
+    ? reloaded('TruckData').first().attr('TruckImage') === truckData.attr('TruckImage')
+    : Boolean(reloaded('TruckData').first().attr('TruckImage')),
+  uiIconPreserved: trailer
+    ? ['UiIcon30x30', 'UiIcon40x40'].every(key =>
+      $('GameData > UiDesc').first().attr(key) !== undefined &&
+      reloaded('GameData > UiDesc').first().attr(key) === $('GameData > UiDesc').first().attr(key))
+    : reloaded('GameData > UiDesc').first().attr('UiIcon328x458') !== undefined,
+  ...(trailer ? { trailerTypePreserved: $('Truck').attr('Type') === 'Trailer' &&
+    reloaded('Truck').attr('Type') === 'Trailer' } : {})
 }
 
 const failed = Object.entries(checks).filter(([, passed]) => !passed)
@@ -38,4 +47,7 @@ if (failed.length) {
   throw new Error(`Round-trip failed: ${failed.map(([name]) => name).join(', ')}`)
 }
 
-console.log(JSON.stringify({ input, fuelBefore, fuelAfter, checks }, null, 2))
+if (await fs.readFile(input, 'utf8') !== originalText) {
+  throw new Error('Round-trip must not change its input file')
+}
+console.log(JSON.stringify({ input, mode: trailer ? 'trailer' : 'truck', fuelBefore, fuelAfter, checks }, null, 2))
