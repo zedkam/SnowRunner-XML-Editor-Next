@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `6`
+- phase: `validation`
+- revision: `7`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-05T18:06:01Z`
+- updated: `2026-10-05T18:40:24Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Fouraxle model187557tri built and reviewed visually in singleBlender; sourceUV/material/skin,rootrig andlegpose checks passed. ModelFBX/pre-cookevidence preservedlocally9c5b653 beforelosslessstreamsplit. Officialconverter rejected83766 expandedvertices onone33890face stream, so Astra partitions streams<=20000faces; native andruntime pending.
+Quadrademmodel/nativecompleteandindependentlySTATICPASS. Canonical66hardlinks bundlematerialized; localGitbb21e11preserves corrected16streamFBX/nativeplusdependencies. Actualnative255f90c5,187557tri16streams,36hulls1198CDT10Body78bones. Editor/gameUNRUN; nativeWindowsUIcontrol tool unavailable inthissession. Preparingtargetedliveaddition, selectedDDS-PCTrouteconfirmed withouttexturemutation.
 
 ## Следующие действия
 
-- Verify losslesspartition/exportnewhash, refreshsame19filestage, recookofficialnative, thenactualnative/texturebudgets beforeEditor authorization.
+- ApplyonlynewQuadrademassetsplus13fivekeylocalizationoverlaysunderprocessguard;preserveothers/texturebytes,commitreceipt. FreshEditorclass-loadthenhuman gametest remainrequired;noUIinputtakeover.
 
 ## Область
 
@@ -47,6 +47,10 @@ Fouraxle model187557tri built and reviewed visually in singleBlender; sourceUV/m
 - User automaticmetadata push authority persists; currentplusonerollback and historyGit only.
 - 200000visual cap with10Body1200CDT40hulls16DDS; deck10.83822106m,widthtrackunchanged,4axes1450pitch; firstandfourthliftsindependent.
 - Fix actualconverter65534vertexstream limit by losslessfacetpartition, preservingtotalgeometry/UV/normals/weights/materials; no simplification.
+- 200000visualmaxonly;10Body1200CDT40hulls16DDS. 10.83822106m deck,unchangedwidthtrack,4axles1450pitch,independentlifts1/4,sourceD63stiffness,288fuel325repair.
+- Currentplusonerollback, historyinGit; oldphysicalvariantsdeleteonlyafteruseracceptanceandreleaserecoverycheck.
+- Source-backedcommonfold/middlepairs+independentfeet; lossless16streamsplit fixesofficial65534expandedvertexlimit withidenticalgeometrynormalsUVskin.
+- ActualnativeDDSroutes selectdds_ PCTaliases; barePCThistoricalalternateunused. Sourcefullmipmapsreuse; no generatedbaseonlyDDSpackaging.
 
 ## Открытые вопросы
 
@@ -63,6 +67,8 @@ Fouraxle model187557tri built and reviewed visually in singleBlender; sourceUV/m
 - Independent currentclass/descriptor/sourcehash,10Body,8wheel,4axle4slot, actions1/2 and solehitch10,13locale and template roundtrip checks passed.
 - Working source2482a2f; editor e21c58a; Q01XML13localesd30906e; model/raw+normalizedFBX/sourceproof9c5b653, LFSverified.
 - Actual4axle4bayvisual reviewed; legkinematic residual0 atrest/half/full; independentFBX manifest andhistorical/injectedRootNodegatespassed foroldcabdb6f7.
+- LocalGitworkingbaseline2482a2f,XML/localesd30906e,modelbeforepartition9c5b653,correctednativebundlebb21e11;LFSpointerschecked.
+- Nativecookexit0;independentrigscaleXYZ/Cdtowners/skinUVnormalsquantizationandcountsPASS;16canonical/livetexturealiasesfullmips60817688bytesPASS.
 
 ## Evidence
 
@@ -72,6 +78,8 @@ Fouraxle model187557tri built and reviewed visually in singleBlender; sourceUV/m
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_fbx_acceptance.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q01_side.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/sandbox/q01_native_cook/q01_native_converter.log
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_actual_native_audit.json SHA25d22948a27c0930edbb47a9d52fe6d5f432afdc8f3fbe1131758857721d0f65
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
 
 ## Затронутые файлы
 
