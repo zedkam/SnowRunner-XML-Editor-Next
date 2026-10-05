@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `7`
+- revision: `8`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-05T18:40:24Z`
+- updated: `2026-10-05T18:53:14Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Quadrademmodel/nativecompleteandindependentlySTATICPASS. Canonical66hardlinks bundlematerialized; localGitbb21e11preserves corrected16streamFBX/nativeplusdependencies. Actualnative255f90c5,187557tri16streams,36hulls1198CDT10Body78bones. Editor/gameUNRUN; nativeWindowsUIcontrol tool unavailable inthissession. Preparingtargetedliveaddition, selectedDDS-PCTrouteconfirmed withouttexturemutation.
+Q01 installed in live astr_trailers: four new assets and five entries in each of thirteen locales. Independent installed integrity PASS; protected non-Quad classes, meshes and shared textures unchanged. Accepted native: 187557 visual triangles, 10 Body, 1198 CDT, 36 hulls, 16 streams, 5 materials, 78 bones. Local model and installation evidence committed as 9192e81d64aed8a8c0079b7233368035721a49ba; LFS pointers verified. Source D63 preserved. Editor class-load, independent first/fourth lift runtime and game test UNRUN; releaseReady=false. Native Windows UI automation is unavailable; a user choice for manual Editor check or connecting native control is pending.
 
 ## Следующие действия
 
-- ApplyonlynewQuadrademassetsplus13fivekeylocalizationoverlaysunderprocessguard;preserveothers/texturebytes,commitreceipt. FreshEditorclass-loadthenhuman gametest remainrequired;noUIinputtakeover.
+- Await user Editor method choice; perform fresh Editor class-load using connected native control or user-provided evidence, then user game test of suspension and independent lifts. Release and old-copy cleanup require acceptance, runtime PASS and verified Git recovery.
 
 ## Область
 
@@ -54,7 +54,7 @@ Quadrademmodel/nativecompleteandindependentlySTATICPASS. Canonical66hardlinks bu
 
 ## Открытые вопросы
 
-Нет.
+- Native Windows UI control is unavailable. User was asked to open astr_trailer_quadradem_4 in a fresh Editor manually or connect native UI control; awaiting reply.
 
 ## Выполнено
 
@@ -69,6 +69,7 @@ Quadrademmodel/nativecompleteandindependentlySTATICPASS. Canonical66hardlinks bu
 - Actual4axle4bayvisual reviewed; legkinematic residual0 atrest/half/full; independentFBX manifest andhistorical/injectedRootNodegatespassed foroldcabdb6f7.
 - LocalGitworkingbaseline2482a2f,XML/localesd30906e,modelbeforepartition9c5b653,correctednativebundlebb21e11;LFSpointerschecked.
 - Nativecookexit0;independentrigscaleXYZ/Cdtowners/skinUVnormalsquantizationandcountsPASS;16canonical/livetexturealiasesfullmips60817688bytesPASS.
+- Targeted live installation and independent integrity PASS saved in local Snowrunner-Mods branch codex/quadradem-4 commit 9192e81d64aed8a8c0079b7233368035721a49ba; no model content pushed remotely.
 
 ## Evidence
 
@@ -80,6 +81,8 @@ Quadrademmodel/nativecompleteandindependentlySTATICPASS. Canonical66hardlinks bu
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/sandbox/q01_native_cook/q01_native_converter.log
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_actual_native_audit.json SHA25d22948a27c0930edbb47a9d52fe6d5f432afdc8f3fbe1131758857721d0f65
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_installed_integrity.json SHA256 3eb25932531fc65ac033eccd53a3443657f0ee5e6843801b747bf8166413a1ae
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_live_install_receipt.json SHA256 ea1afd430d1f8ed9ca922a6de0f165e78f3c039dbce49c435c4a90864874b90c
 
 ## Затронутые файлы
 
