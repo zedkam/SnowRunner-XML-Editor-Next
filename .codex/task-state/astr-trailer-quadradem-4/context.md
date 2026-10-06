@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `15`
+- phase: `validation`
+- revision: `16`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T16:56:19Z`
+- updated: `2026-10-06T17:17:50Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q03 geometry repaired and independently exported PASS18/18; side diagonal gone. Second cause proved by isolated pinned-D62 albedo render: contaminated inner-web/bottom-flange UV prints stretched by extension. Pre-UV Q03 protected locally in Git6d95a5e; targeted same-atlas rail-only UV correction underway; Q02 remains live.
+Final Q03 rail geometry+UV correction visually accepted; independent FBX PASS21/21, preflightc760 bound. LocalGit9e5a7a9 and LFSPASS. Official hidden cook exit0 nativee8bd1654/18867079bytes; independent native audit pending, Q02 still installed. Editor/gameUNRUN.
 
 ## Следующие действия
 
-- Accept donor-backed final UVallowlist and revised Q03 FBX/previews; official native cook, independent native acceptance, exact protected FBX/native replacement, final Git/static metadata. Editor/game remain UNRUN.
+- Accept independent actual-native Q03 audit, install exact FBX/native with protected inventories, verify installed hashes, finalize object/PLAN and localGit. Fresh Editor/game remain pending.
 
 ## Область
 
@@ -81,6 +81,7 @@ Q03 geometry repaired and independently exported PASS18/18; side diagonal gone. 
 - Independent rail material/source-texel and geometric-overlap diagnosis corroborates Astra: exact atlas files and sourceUV coverage; white artifacts originate from malformed overlapping geometry.
 - Q03 candidate independent acceptance PASS12/12 SHA066273ad4831be72a9b23b9d659baa3d9f86a19d7deb49d063963f7018bdfc2f; 9180 rail triangles, all3253 original positions preserved, zero coplanar overlaps/inversions.
 - Source-only rail albedo emission reproduces residual prints with no neighboring geometry. Pre-UV scene/raw/FBX/evidence/previews preserved in localGit6d95a5e089b253b72a419f15054a4c75aa36ab01 without new model variants.
+- Q03 finalFBXb343d12c, explicitUV2708faces/8124loops; cleanweb/flange donor checks and outside-scope exactPASS. Nativecook exit0 e8bd1654bbdce094800586e42136b4f36069e363a71fb06cc7fe702d70bfc7eb.
 
 ## Evidence
 
@@ -100,6 +101,7 @@ Q03 geometry repaired and independently exported PASS18/18; side diagonal gone. 
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_installed_integrity.json SHA256 24a4810a118e6d7cbda05bccc2058374c3e589950c4632d61a18e2a733785716
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
 
 ## Затронутые файлы
 
