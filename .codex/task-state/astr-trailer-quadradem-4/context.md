@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `validation`
-- revision: `8`
+- phase: `implementation`
+- revision: `9`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-05T18:53:14Z`
+- updated: `2026-10-06T13:44:49Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q01 installed in live astr_trailers: four new assets and five entries in each of thirteen locales. Independent installed integrity PASS; protected non-Quad classes, meshes and shared textures unchanged. Accepted native: 187557 visual triangles, 10 Body, 1198 CDT, 36 hulls, 16 streams, 5 materials, 78 bones. Local model and installation evidence committed as 9192e81d64aed8a8c0079b7233368035721a49ba; LFS pointers verified. Source D63 preserved. Editor class-load, independent first/fourth lift runtime and game test UNRUN; releaseReady=false. Native Windows UI automation is unavailable; a user choice for manual Editor check or connecting native control is pending.
+User requested Q02 correction: remove the identified old lift visual block ahead of the front axle and rebuild Quadradem-4. Q01 is protected in local Git 9192e81. Astra gpt-6-astra max owns exact component identification, live single-Blender edit and export. Terra prepares bounded cook and two-binary replacement. Sol verifies surviving geometry, rig/CDT and installed asset invariance. No mouse or keyboard takeover; no Editor/game start. First and fourth carrier-only axle lifts and all existing XML settings must remain unchanged.
 
 ## Следующие действия
 
-- Await user Editor method choice; perform fresh Editor class-load using connected native control or user-provided evidence, then user game test of suspension and independent lifts. Release and old-copy cleanup require acceptance, runtime PASS and verified Git recovery.
+- Accept exact Astra component identification and Q02 export evidence; run official converter, independent native audit, replace only FBX/native with guarded exact-hash checks, save Git and push task metadata. Editor/game runtime remain separate pending gates.
 
 ## Область
 
@@ -51,6 +51,7 @@ Q01 installed in live astr_trailers: four new assets and five entries in each of
 - Currentplusonerollback, historyinGit; oldphysicalvariantsdeleteonlyafteruseracceptanceandreleaserecoverycheck.
 - Source-backedcommonfold/middlepairs+independentfeet; lossless16streamsplit fixesofficial65534expandedvertexlimit withidenticalgeometrynormalsUVskin.
 - ActualnativeDDSroutes selectdds_ PCTaliases; barePCThistoricalalternateunused. Sourcefullmipmapsreuse; no generatedbaseonlyDDSpackaging.
+- 2026-10-06 user authorizes removal of the pictured obsolete lift block ahead of the front axle; no other geometry, UV, colors, rig/CDT, physics, locales or shared texture changes.
 
 ## Открытые вопросы
 
