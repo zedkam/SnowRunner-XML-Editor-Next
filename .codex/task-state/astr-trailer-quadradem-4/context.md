@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `16`
+- revision: `17`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T17:17:50Z`
+- updated: `2026-10-06T17:35:52Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Final Q03 rail geometry+UV correction visually accepted; independent FBX PASS21/21, preflightc760 bound. LocalGit9e5a7a9 and LFSPASS. Official hidden cook exit0 nativee8bd1654/18867079bytes; independent native audit pending, Q02 still installed. Editor/gameUNRUN.
+Q03 rail artifacts corrected and installed: folded triangles fixed, contaminated inner-web/bottom UV remapped via explicit same-atlas donor allowlist. FBX21/native24/install14 checks PASS; protected79canonical/380live hashes exact. LocalGit781d9b45 LFSPASS; object clean. Editor/gameUNRUN, releaseReadyfalse.
 
 ## Следующие действия
 
-- Accept independent actual-native Q03 audit, install exact FBX/native with protected inventories, verify installed hashes, finalize object/PLAN and localGit. Fresh Editor/game remain pending.
+- Fresh Editor class-load and user game test of Quadradem Q03, including lifts1/4. Keep release and old-variant cleanup blocked until acceptance and release recovery proof.
 
 ## Область
 
@@ -82,6 +82,7 @@ Final Q03 rail geometry+UV correction visually accepted; independent FBX PASS21/
 - Q03 candidate independent acceptance PASS12/12 SHA066273ad4831be72a9b23b9d659baa3d9f86a19d7deb49d063963f7018bdfc2f; 9180 rail triangles, all3253 original positions preserved, zero coplanar overlaps/inversions.
 - Source-only rail albedo emission reproduces residual prints with no neighboring geometry. Pre-UV scene/raw/FBX/evidence/previews preserved in localGit6d95a5e089b253b72a419f15054a4c75aa36ab01 without new model variants.
 - Q03 finalFBXb343d12c, explicitUV2708faces/8124loops; cleanweb/flange donor checks and outside-scope exactPASS. Nativecook exit0 e8bd1654bbdce094800586e42136b4f36069e363a71fb06cc7fe702d70bfc7eb.
+- Q03 final localGit781d9b45a2fbdcbde9f4103837e1cdc8f13c1c8e; FBXb343d12c/nativee8bd1654; installedintegrity8ef41d75 PASS14. Only2targetfiles changed, physics/maps/13locales/othertrailers exact. Object/PLAN finalized; no cleanup or UI takeover.
 
 ## Evidence
 
@@ -102,6 +103,7 @@ Final Q03 rail geometry+UV correction visually accepted; independent FBX PASS21/
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json
 
 ## Затронутые файлы
 
