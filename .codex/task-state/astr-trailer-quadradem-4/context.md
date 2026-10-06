@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `validation`
-- revision: `11`
+- phase: `research`
+- revision: `12`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T14:15:55Z`
+- updated: `2026-10-06T16:13:42Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q02 complete targeted rebuild installed in canonical and live astr_trailers. Removed obsolete paired upper lift-bag bracket/caps/hardware: 60 disconnected pieces,5668 triangles; old bag was already absent. Surviving geometry/UV/normals/skin/materials, rig78,36 CDT hulls1198 triangles and all XML physics exact. Official converter exit0 with pinned SHA. Q02 finalFBX5ae7c433, native d9a302b4,181889visual/16streams/5materials/10Body. Independent FBX,native and installed-integrity PASS; exactly two geometry targets replaced,79 canonical and380 live non-target hashes unchanged,including13locales/full-mip texture routes and lifts1/4/.28875. Local content saved Git e4355d5 then e5a88b224780741305af134d89b9dd595141b4a4,LFS pointers PASS. One current scene and one rollback; Q01 retained in Git and existing two latest export sets. No game/Editor or mouse/keyboard action. Editor/game/runtime still UNRUN;releaseReady=false.
+User reports Q02 visual defects across longitudinal rail sides and underside, with screenshot codex-clipboard-8ad4f474. Q02 static/native/installation exactness does not establish correct source UV/PBR appearance. Astra max investigates actual live rail geometry, seams, overlaps, custom normals and UV against Tridem source; Sol independently verifies exported/native material and selected texture routes/atlas texels. Diagnosis is read-only until an exact cause and narrow repair are established. No XML/physics/body/suspension/shared-texture or GUI-input changes authorized by this diagnostic phase. Current Q02 FBX5ae7c433/native d9a302b4 protected in Git e5a88b2.
 
 ## Следующие действия
 
-- Fresh Editor class-load of exact installed Q02, then user game test of suspension and independent first/fourth lifts. Respect scoped screen-input authorization. No game launch,release or old-variant deletion before required runtime acceptance and Git recovery verification.
+- Accept concrete Astra and Sol rail-artifact diagnosis with face/UV/texel evidence, then determine narrowly scoped rail correction and verification. Keep source/other trailers and suspension mechanics intact.
 
 ## Область
 
@@ -53,6 +53,7 @@ Q02 complete targeted rebuild installed in canonical and live astr_trailers. Rem
 - ActualnativeDDSroutes selectdds_ PCTaliases; barePCThistoricalalternateunused. Sourcefullmipmapsreuse; no generatedbaseonlyDDSpackaging.
 - 2026-10-06 user authorizes removal of the pictured obsolete lift block ahead of the front axle; no other geometry, UV, colors, rig/CDT, physics, locales or shared texture changes.
 - Exact obsolete assembly allowlist: source416-461, caps484/519, hardware491-496/526-531. Preserve normal hanger168-227, plates408-415, pivot/bearings462-481/497-515 and all rig/CDT/physics.
+- 2026-10-06 rail appearance defect reported by user: investigate entire length, both side webs and underside; preserve approved muted red webs, dark flange faces and rust. No speculative global recoloring or model redesign.
 
 ## Открытые вопросы
 
