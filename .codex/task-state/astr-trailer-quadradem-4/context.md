@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `implementation`
-- revision: `14`
+- revision: `15`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T16:42:26Z`
+- updated: `2026-10-06T16:56:19Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q03 rail cause independently proven; source-plane-split candidate accepted (183585 visual, zero inversions/overlaps, original vertex placements and profile preserved). Astra saving/exporting rail-only repair; Q02 live baseline e5a88b2 protected.
+Q03 geometry repaired and independently exported PASS18/18; side diagonal gone. Second cause proved by isolated pinned-D62 albedo render: contaminated inner-web/bottom-flange UV prints stretched by extension. Pre-UV Q03 protected locally in Git6d95a5e; targeted same-atlas rail-only UV correction underway; Q02 remains live.
 
 ## Следующие действия
 
-- Finish Q03 rail-only scene/export, inspect side/underside previews, accept independent FBX, then official hidden native cook and exact two-file protected installation.
+- Accept donor-backed final UVallowlist and revised Q03 FBX/previews; official native cook, independent native acceptance, exact protected FBX/native replacement, final Git/static metadata. Editor/game remain UNRUN.
 
 ## Область
 
@@ -56,6 +56,7 @@ Q03 rail cause independently proven; source-plane-split candidate accepted (1835
 - 2026-10-06 rail appearance defect reported by user: investigate entire length, both side webs and underside; preserve approved muted red webs, dark flange faces and rust. No speculative global recoloring or model redesign.
 - Targeted Q03 rail repair: split pinned D62 source triangles at piecewise transitions1.45/1.51 and−3.20/−3.145 before inherited longitudinal deformation; prohibit global recoloring,texture regeneration,suspension/rig/CDT changes. Require≤200000visual and zero rail inversions/coplanar self-overlap.
 - Accept Q03 candidate only after independent source-triangle, barycentric UV/normal and mapped-position proof; final FBX/native/install proof still required.
+- Extend Q03 only with explicit defective sourcePiece13 UV allowlist: inner web from clean red/rust donor; affected bottom flange from clean dark/rust donor. Preserve positions/normals/weights/materials/maps/otherfaces/rig/CDT/XML. Historical pre-UV acceptance400289 is not final install gate.
 
 ## Открытые вопросы
 
@@ -79,6 +80,7 @@ Q03 rail cause independently proven; source-plane-split candidate accepted (1835
 - Q02 independent export/native/installation PASS; official cook and exact two-file update; all content locally committed e5a88b224780741305af134d89b9dd595141b4a4 and task metadata automatically pushed under user authorization.
 - Independent rail material/source-texel and geometric-overlap diagnosis corroborates Astra: exact atlas files and sourceUV coverage; white artifacts originate from malformed overlapping geometry.
 - Q03 candidate independent acceptance PASS12/12 SHA066273ad4831be72a9b23b9d659baa3d9f86a19d7deb49d063963f7018bdfc2f; 9180 rail triangles, all3253 original positions preserved, zero coplanar overlaps/inversions.
+- Source-only rail albedo emission reproduces residual prints with no neighboring geometry. Pre-UV scene/raw/FBX/evidence/previews preserved in localGit6d95a5e089b253b72a419f15054a4c75aa36ab01 without new model variants.
 
 ## Evidence
 
@@ -97,6 +99,7 @@ Q03 rail cause independently proven; source-plane-split candidate accepted (1835
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_actual_native_audit.json SHA256 7cf60d03197af9a5a0807e70092cd09a2dd27a5a81f8fae0de2b94c00e87cff9
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_installed_integrity.json SHA256 24a4810a118e6d7cbda05bccc2058374c3e589950c4632d61a18e2a733785716
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
 
 ## Затронутые файлы
 
