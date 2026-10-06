@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `research`
-- revision: `12`
+- phase: `implementation`
+- revision: `13`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T16:13:42Z`
+- updated: `2026-10-06T16:28:38Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-User reports Q02 visual defects across longitudinal rail sides and underside, with screenshot codex-clipboard-8ad4f474. Q02 static/native/installation exactness does not establish correct source UV/PBR appearance. Astra max investigates actual live rail geometry, seams, overlaps, custom normals and UV against Tridem source; Sol independently verifies exported/native material and selected texture routes/atlas texels. Diagnosis is read-only until an exact cause and narrow repair are established. No XML/physics/body/suspension/shared-texture or GUI-input changes authorized by this diagnostic phase. Current Q02 FBX5ae7c433/native d9a302b4 protected in Git e5a88b2.
+Rail defect cause established by independent evidence: Q01 piecewise longitudinal deformation applied to long existing triangles without transition-plane splits. Pinned D62 source has0 reversed faces/0 coplanar overlaps; Q02 has22 reversed custom-normal faces and1559 coplanar pairs,1524 on side webs. Rail color/normal/MR TGA,DDS and selectedPCT are exact pinned baseline; covered albedo has no screenshot-white streaks; UV texels remain source subsets. Astra reconstructs ONLY rail sourcePiece13 using exact source-plane splits before the SAME transform; preserve source profile,holes,oldvertex placements,UV interpolation,colors,rust and all nonrail geometry/rig/CDT/XML/functions. Quantitative candidate and underside visual proof required before accepting final model. Terra extends bounded cook/2binary replacement; Sol verifies source-contract repair and immutable complement. Q02 protected Git e5a88b2; no source/other trailer changes.
 
 ## Следующие действия
 
-- Accept concrete Astra and Sol rail-artifact diagnosis with face/UV/texel evidence, then determine narrowly scoped rail correction and verification. Keep source/other trailers and suspension mechanics intact.
+- Accept budgeted exact-source Q03 rail candidate and side/underside before-after visual. Then source-contract and nonrail-invariance export/root gates, official native cook, independent acceptance, exact two-file update, Git and metadata checkpoint. Runtime gates remain pending.
 
 ## Область
 
@@ -54,6 +54,7 @@ User reports Q02 visual defects across longitudinal rail sides and underside, wi
 - 2026-10-06 user authorizes removal of the pictured obsolete lift block ahead of the front axle; no other geometry, UV, colors, rig/CDT, physics, locales or shared texture changes.
 - Exact obsolete assembly allowlist: source416-461, caps484/519, hardware491-496/526-531. Preserve normal hanger168-227, plates408-415, pivot/bearings462-481/497-515 and all rig/CDT/physics.
 - 2026-10-06 rail appearance defect reported by user: investigate entire length, both side webs and underside; preserve approved muted red webs, dark flange faces and rust. No speculative global recoloring or model redesign.
+- Targeted Q03 rail repair: split pinned D62 source triangles at piecewise transitions1.45/1.51 and−3.20/−3.145 before inherited longitudinal deformation; prohibit global recoloring,texture regeneration,suspension/rig/CDT changes. Require≤200000visual and zero rail inversions/coplanar self-overlap.
 
 ## Открытые вопросы
 
@@ -75,6 +76,7 @@ User reports Q02 visual defects across longitudinal rail sides and underside, wi
 - Targeted live installation and independent integrity PASS saved in local Snowrunner-Mods branch codex/quadradem-4 commit 9192e81d64aed8a8c0079b7233368035721a49ba; no model content pushed remotely.
 - Astra Q02 targeted-only visual subtraction PASS and focused before/after previews reviewed by root.
 - Q02 independent export/native/installation PASS; official cook and exact two-file update; all content locally committed e5a88b224780741305af134d89b9dd595141b4a4 and task metadata automatically pushed under user authorization.
+- Independent rail material/source-texel and geometric-overlap diagnosis corroborates Astra: exact atlas files and sourceUV coverage; white artifacts originate from malformed overlapping geometry.
 
 ## Evidence
 
