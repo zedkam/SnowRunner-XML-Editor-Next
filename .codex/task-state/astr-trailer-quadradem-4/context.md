@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `9`
+- phase: `validation`
+- revision: `10`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T13:44:49Z`
+- updated: `2026-10-06T13:57:04Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-User requested Q02 correction: remove the identified old lift visual block ahead of the front axle and rebuild Quadradem-4. Q01 is protected in local Git 9192e81. Astra gpt-6-astra max owns exact component identification, live single-Blender edit and export. Terra prepares bounded cook and two-binary replacement. Sol verifies surviving geometry, rig/CDT and installed asset invariance. No mouse or keyboard takeover; no Editor/game start. First and fourth carrier-only axle lifts and all existing XML settings must remain unchanged.
+Q02 exact obsolete upper lift-bag bracket assembly removed from both sides in the single live Blender. Old bag was already absent; removed 60 disconnected pieces, 5668 visual triangles rigidly owned by bone_main_cdt. Surviving geometry, UV, normals, skin/materials, neighboring ordinary hanger and pivot hardware are exact; rig78 and CDT36/1198 unchanged. Canonical scene saved and Q02 FBX5ae7c433 exported: 181889 visual triangles,16 streams,5 materials. Sol independent final FBX/preflight pending, then official cook and root-only two-binary replacement. Live/canonical20_mod still Q01; physics/lifts1/4 XML unchanged. Editor/game UNRUN.
 
 ## Следующие действия
 
-- Accept exact Astra component identification and Q02 export evidence; run official converter, independent native audit, replace only FBX/native with guarded exact-hash checks, save Git and push task metadata. Editor/game runtime remain separate pending gates.
+- Accept Sol Q02 export/root/rig/CDT gate, freeze geometry in Git, official Q02 native cook, independent actual-native acceptance, exact two-file FBX/native canonical/live replacement and integrity verification. Then save Git and metadata; Editor/game separate pending gates.
 
 ## Область
 
@@ -52,6 +52,7 @@ User requested Q02 correction: remove the identified old lift visual block ahead
 - Source-backedcommonfold/middlepairs+independentfeet; lossless16streamsplit fixesofficial65534expandedvertexlimit withidenticalgeometrynormalsUVskin.
 - ActualnativeDDSroutes selectdds_ PCTaliases; barePCThistoricalalternateunused. Sourcefullmipmapsreuse; no generatedbaseonlyDDSpackaging.
 - 2026-10-06 user authorizes removal of the pictured obsolete lift block ahead of the front axle; no other geometry, UV, colors, rig/CDT, physics, locales or shared texture changes.
+- Exact obsolete assembly allowlist: source416-461, caps484/519, hardware491-496/526-531. Preserve normal hanger168-227, plates408-415, pivot/bearings462-481/497-515 and all rig/CDT/physics.
 
 ## Открытые вопросы
 
@@ -71,6 +72,7 @@ User requested Q02 correction: remove the identified old lift visual block ahead
 - LocalGitworkingbaseline2482a2f,XML/localesd30906e,modelbeforepartition9c5b653,correctednativebundlebb21e11;LFSpointerschecked.
 - Nativecookexit0;independentrigscaleXYZ/Cdtowners/skinUVnormalsquantizationandcountsPASS;16canonical/livetexturealiasesfullmips60817688bytesPASS.
 - Targeted live installation and independent integrity PASS saved in local Snowrunner-Mods branch codex/quadradem-4 commit 9192e81d64aed8a8c0079b7233368035721a49ba; no model content pushed remotely.
+- Astra Q02 targeted-only visual subtraction PASS and focused before/after previews reviewed by root.
 
 ## Evidence
 
@@ -84,6 +86,8 @@ User requested Q02 correction: remove the identified old lift visual block ahead
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_installed_integrity.json SHA256 3eb25932531fc65ac033eccd53a3443657f0ee5e6843801b747bf8166413a1ae
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_live_install_receipt.json SHA256 ea1afd430d1f8ed9ca922a6de0f165e78f3c039dbce49c435c4a90864874b90c
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_removal_geometry.json
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q02_front_block_after.png
 
 ## Затронутые файлы
 
