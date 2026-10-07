@@ -5,9 +5,9 @@
   "objective": "Create a four-slot four-axle trailer derived from exact Tridem D63 with first and fourth axle lifts and service capacity +25 percent",
   "status": "active",
   "phase": "validation",
-  "revision": 27,
+  "revision": 28,
   "created_at": "2026-10-05T17:07:09Z",
-  "updated_at": "2026-10-07T09:14:08Z",
+  "updated_at": "2026-10-07T09:41:02Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4"
   ],
@@ -22,7 +22,7 @@
   },
   "accepted_work": null,
   "context": {
-    "current_summary": "Q05 strict actualFBX19checks/preflight accepted; officialhiddennativecookexit0/nativebuilt. Rearreservoirrelocation remainsonlyvisualdelta120pieces/6952tri. Complete nativechecker materialization/execution now; protectedinstall follows nativePASS.",
+    "current_summary": "Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 mount pieces/6952tri moved to rear crossmember behind axle4. ActualFBX19/19, native24/24, installed18/18 PASS independently reviewed. Object/PLAN reconciled; local model Git182e38a5a563ee3510333be4d24a198dc4d80e42 and LFS pointers PASS. Editor/game remain UNRUN; release blocked.",
     "decisions": [
       "User allows200000 visual triangles; CDT1200 Body10 remain standard.",
       "Cargo pitch extension2.559m yields10.83822106m; width and track unchanged; lift axes1 and4 independently actions1 and2.",
@@ -80,10 +80,11 @@
       "Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.",
       "Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.",
       "Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.",
-      "Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138."
+      "Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.",
+      "Q05 official native cook, strict decoded native acceptance24/24, protected two-file canonical/live replacement, independently accepted installed integrity18/18, protected79canonical+380live files exact. FinalFBXf4c13ca4/nativef54954db; appearance, XML, lifts1/4,13locales and textures unchanged. Current plus Q04 rollback verified. Final local Git182e38a5a563ee3510333be4d24a198dc4d80e42 saved; no model remote publication or GUI takeover."
     ],
     "next_actions": [
-      "Acceptactualnative24checks with agreedconsumer, prepare/apply exact2file replacement, installedintegrity, object/PLAN+Git/LFS finalcheckpoint. Editor/gameUNRUN."
+      "User review of relocated reservoirs; fresh Editor class-load and independent lifts1/4 runtime check only with scoped input authorization, then user game test. Do not repeat model/cook/install/static gates. Release and historical-copy cleanup remain blocked pending acceptance and runtime proof."
     ],
     "files": [],
     "evidence": [
@@ -107,7 +108,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json",
       "q04_independent_fbx_acceptance.json SHA 1d742cb2ee545bd17c8d8741006c1d6c47c7ac61794dcd54488341d0d7c5a085; preflight ce4123c6224f5b28dca3d4855f25b985b382b638856a1204e950cd5b13abf234; FBX beaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11",
       "Native 0746ea6360658ae37048abfeb65000361469256ae96af5c54c786b6d987e70a8 bytes18403138; q04_independent_actual_native_audit.json SHA f234d8ef357e0ac5a019d32829006deaf283fcd6fcc8352122905f1295f11412; 21 checks true.",
-      "Installed integrity SHA04c5e1ae95143141fe2b178d3c428e73c66a0b07893be436ebe3a11cb2ff82d4; planSHA80ce80b4daa1f72a7b38d5ca465a40bd0694d59fb9c0d8e843386ff05f1c9a3b; FBXbeaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11; native0746ea6360658ae37048abfeb65000361469256ae96af5c54c786b6d987e70a8."
+      "Installed integrity SHA04c5e1ae95143141fe2b178d3c428e73c66a0b07893be436ebe3a11cb2ff82d4; planSHA80ce80b4daa1f72a7b38d5ca465a40bd0694d59fb9c0d8e843386ff05f1c9a3b; FBXbeaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11; native0746ea6360658ae37048abfeb65000361469256ae96af5c54c786b6d987e70a8.",
+      "Q05 installedreport SHA6bf797dd73e6253bb7ac1b2cb716de9125e35e10893956a545a9757516d87263; nativeaudit SHA8eadaa0dbaddc939b18f9f3b6b7976f6dc6a0368051a62f9572f804b41530fa1; FBXgate SHA89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190. Rearpreview30_validation/previews/q05_rear_detail_after.png. Recovery Q04 Git2279537f1812ed90bcc1bb6f06f7f656ed8c4a9f and soleblend1 exact."
     ]
   },
   "model_routes": {

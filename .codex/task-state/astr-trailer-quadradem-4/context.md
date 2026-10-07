@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `27`
+- revision: `28`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T09:14:08Z`
+- updated: `2026-10-07T09:41:02Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 strict actualFBX19checks/preflight accepted; officialhiddennativecookexit0/nativebuilt. Rearreservoirrelocation remainsonlyvisualdelta120pieces/6952tri. Complete nativechecker materialization/execution now; protectedinstall follows nativePASS.
+Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 mount pieces/6952tri moved to rear crossmember behind axle4. ActualFBX19/19, native24/24, installed18/18 PASS independently reviewed. Object/PLAN reconciled; local model Git182e38a5a563ee3510333be4d24a198dc4d80e42 and LFS pointers PASS. Editor/game remain UNRUN; release blocked.
 
 ## Следующие действия
 
-- Acceptactualnative24checks with agreedconsumer, prepare/apply exact2file replacement, installedintegrity, object/PLAN+Git/LFS finalcheckpoint. Editor/gameUNRUN.
+- User review of relocated reservoirs; fresh Editor class-load and independent lifts1/4 runtime check only with scoped input authorization, then user game test. Do not repeat model/cook/install/static gates. Release and historical-copy cleanup remain blocked pending acceptance and runtime proof.
 
 ## Область
 
@@ -95,6 +95,7 @@ Q05 strict actualFBX19checks/preflight accepted; officialhiddennativecookexit0/n
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
 - Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
 - Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
+- Q05 official native cook, strict decoded native acceptance24/24, protected two-file canonical/live replacement, independently accepted installed integrity18/18, protected79canonical+380live files exact. FinalFBXf4c13ca4/nativef54954db; appearance, XML, lifts1/4,13locales and textures unchanged. Current plus Q04 rollback verified. Final local Git182e38a5a563ee3510333be4d24a198dc4d80e42 saved; no model remote publication or GUI takeover.
 
 ## Evidence
 
@@ -102,12 +103,4 @@ Q05 strict actualFBX19checks/preflight accepted; officialhiddennativecookexit0/n
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_locale_semantic_audit.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_preexport_readiness.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_fbx_acceptance.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q01_side.png
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/sandbox/q01_native_cook/q01_native_converter.log
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_actual_native_audit.json SHA25d22948a27c0930edbb47a9d52fe6d5f432afdc8f3fbe1131758857721d0f65
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
-- ... ещё 13; см. `state.json`.
-
-## Затронутые файлы
-
-Нет.
+- ... ещё 18; см. `state.json`.
