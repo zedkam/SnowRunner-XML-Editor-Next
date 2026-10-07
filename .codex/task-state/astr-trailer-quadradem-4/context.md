@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `26`
+- revision: `27`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T08:53:20Z`
+- updated: `2026-10-07T09:14:08Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 geometry/visual completed and frozen, localGit3ff09b65a2b82f3bfe1a83c3e1b43ae236ec92e0. Exact existing reservoirs+mounts now rearcrossmember; candidate11checksPASS and independent finalFBX read-only parse exactQ04 outside6952movedfaces. Written FBXgate/preflight pending beforecook.
+Q05 strict actualFBX19checks/preflight accepted; officialhiddennativecookexit0/nativebuilt. Rearreservoirrelocation remainsonlyvisualdelta120pieces/6952tri. Complete nativechecker materialization/execution now; protectedinstall follows nativePASS.
 
 ## Следующие действия
 
-- Materialize and review complete actualFBXgate, finalizepreflight, officialQ05cook/nativegate, FBX/native-only install/integrity, metadata/Git. LiveinstalledremainsQ04 untilgatesPASS;runtimeUNRUN.
+- Acceptactualnative24checks with agreedconsumer, prepare/apply exact2file replacement, installedintegrity, object/PLAN+Git/LFS finalcheckpoint. Editor/gameUNRUN.
 
 ## Область
 
@@ -63,6 +63,7 @@ Q05 geometry/visual completed and frozen, localGit3ff09b65a2b82f3bfe1a83c3e1b43a
 - Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback.
 - Supersede DY0 candidate with final DY-.020m; existing mounts remain within rear crossmember/body envelope. No new geometry; keep all maps/UV/colors/rig/CDT/XML/physics exact outside reservoir transform.
 - Sol read-only audit cannot writefiles: Terra materializes computed audit scripts/reports under independent Solreview. Reject hardcodedPASS/counts and untypedUVrow skipping; actual52rows classify16visual+36CDT with complete separateproof.
+- FreshTerra quadradem_q05_gate_worker owns computedQ05audit script/report materialization; Sol independentlyreviewsreadonly; oldTerra retains existingproductionhelpers and finalmetadata. Stricttyped52rowgate resolvedpriorpartialdraft, no waivedchecks.
 
 ## Открытые вопросы
 
@@ -93,6 +94,7 @@ Q05 geometry/visual completed and frozen, localGit3ff09b65a2b82f3bfe1a83c3e1b43a
 - Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
 - Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
+- Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
 
 ## Evidence
 
@@ -104,9 +106,7 @@ Q05 geometry/visual completed and frozen, localGit3ff09b65a2b82f3bfe1a83c3e1b43a
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/sandbox/q01_native_cook/q01_native_converter.log
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_actual_native_audit.json SHA25d22948a27c0930edbb47a9d52fe6d5f432afdc8f3fbe1131758857721d0f65
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_installed_integrity.json SHA256 3eb25932531fc65ac033eccd53a3443657f0ee5e6843801b747bf8166413a1ae
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_live_install_receipt.json SHA256 ea1afd430d1f8ed9ca922a6de0f165e78f3c039dbce49c435c4a90864874b90c
-- ... ещё 11; см. `state.json`.
+- ... ещё 13; см. `state.json`.
 
 ## Затронутые файлы
 
