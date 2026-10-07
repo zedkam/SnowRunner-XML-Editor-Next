@@ -2,23 +2,23 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `29`
+- phase: `validation`
+- revision: `30`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T09:48:08Z`
+- updated: `2026-10-07T10:08:59Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
 
-Create a four-slot four-axle trailer derived from exact Tridem D63 with first and fourth axle lifts and service capacity +25 percent
+Create a four-slot four-axle trailer from Tridem D63, with only the front axle lift, ordinary rear suspension matching the two middle axles, and service capacity +25 percent.
 
 ## Текущее состояние
 
-Q06 user correction in progress: only axle1 remains liftable; rear axle4 must have normal suspension identical to axles2/3. XML-only changes and obsolete rear-lift command/locale removal; accepted Q05 geometry remains frozen. Terra implements, Astra checks architecture; root integrates without UI control.
+Q06 installed and independently accepted: only axle1 lift remains; axle4 matches normal suspension of2/3. XML and13locales updated; actual editor tool round-trip PASS.14live targets match,67canonical/368live protected hashes exact. Q05 geometry remains frozen. Historical q01..q05 class aliases restored and current classes detached; atomic canonical write helper fixed. Local Git07f81975d932de2b88fa5352a22b6e77b7c8f797 saved. Editor/game/runtime UNRUN, release blocked.
 
 ## Следующие действия
 
-- Accept focused Q06 canonical XML/13-locale changes and editor round-trip; inspect independent review, safely install only class XML and rear-key removal in live locales, update metadata and Git. Editor/game remain UNRUN; no screen input authorized.
+- Fresh Editor class-load and front axle lift plus normal rear suspension runtime checks only with scoped screen authorization; then user game test. Preserve Q05 geometry and Q06 XML, do not repeat accepted static gates. Release and old-copy cleanup remain blocked pending runtime proof and acceptance.
 
 ## Область
 
@@ -98,9 +98,4 @@ Q06 user correction in progress: only axle1 remains liftable; rear axle4 must ha
 - Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
 - Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
 - Q05 official native cook, strict decoded native acceptance24/24, protected two-file canonical/live replacement, independently accepted installed integrity18/18, protected79canonical+380live files exact. FinalFBXf4c13ca4/nativef54954db; appearance, XML, lifts1/4,13locales and textures unchanged. Current plus Q04 rollback verified. Final local Git182e38a5a563ee3510333be4d24a198dc4d80e42 saved; no model remote publication or GUI takeover.
-
-## Evidence
-
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_scaffold_report.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_locale_semantic_audit.json
-- ... ещё 20; см. `state.json`.
+- ... ещё 1; см. `state.json`.
