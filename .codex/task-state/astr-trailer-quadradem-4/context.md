@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `validation`
-- revision: `22`
+- phase: `implementation`
+- revision: `23`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T07:11:21Z`
+- updated: `2026-10-07T08:17:02Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q04 rail-hole correction completed and installed: 80 through-holes closed, clean matching UV; FBX18/native21/installed15 independent checks PASS. Local Git 2279537f1812ed90bcc1bb6f06f7f656ed8c4a9f, LFS pointer fsck PASS. Fresh Editor/game validation remains.
+Q05 user correction: air reservoirs overlap wheel in current Q04; relocate exact existing pair and its mounts aft of fourth axle near rear deck. Astra identifying precise source assembly and safe rear placement; Sol baseline/allowlist and Terra isolated staging active.
 
 ## Следующие действия
 
-- Fresh Editor class-load and game visual/lift1/lift4 tests after separately scoped screen permission. Editor/game UNRUN, releaseBLOCKED; no cleanup before acceptance/release/recovery proof.
+- Accept exact reservoir assembly allowlist/rear clearance placement, implement Q05 in current Blender, finalFBX/native gates, protected two-file install and Git. Editor/game remain UNRUN.
 
 ## Область
 
@@ -59,6 +59,7 @@ Q04 rail-hole correction completed and installed: 80 through-holes closed, clean
 - Extend Q03 only with explicit defective sourcePiece13 UV allowlist: inner web from clean red/rust donor; affected bottom flange from clean dark/rust donor. Preserve positions/normals/weights/materials/maps/otherfaces/rig/CDT/XML. Historical pre-UV acceptance400289 is not final install gate.
 - 2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.
 - Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging.
+- Only air reservoirs and their existing mounts may move; preserve fuel tank/repairbox/other geometry, Q04railholes/UV/colors/maps, rig/Body/XML/physics/lifts. One current Blender via MCP, no screen input; current+one rollback.
 
 ## Открытые вопросы
 
@@ -108,8 +109,7 @@ Q04 rail-hole correction completed and installed: 80 through-holes closed, clean
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json
-- ... ещё 3; см. `state.json`.
+- ... ещё 4; см. `state.json`.
 
 ## Затронутые файлы
 
