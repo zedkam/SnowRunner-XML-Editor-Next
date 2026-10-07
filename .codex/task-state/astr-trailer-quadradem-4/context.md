@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `implementation`
-- revision: `24`
+- revision: `25`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T08:27:27Z`
+- updated: `2026-10-07T08:32:07Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 precise placement accepted: complete existing air reservoir assembly sourcePieces1032-1151 aligns its mounts with existing rear crossmember752/754 by DX=-2.398869514m; Y/Z unchanged. Final spare-armature clearance pending before rigid move/export.
+Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for sourcePieces1032-1151/120parts/6952tri. Slight original Y position collided by .11mm with spare clamps;20mm outward on existing continuous rear crossmember resolves it. Astra applying/exporting.
 
 ## Следующие действия
 
-- Astra finish bound clearance and perform rigid relocation/export/preview; Sol FBX and native gates with exact nested audit.* consumer contract; officialcook/targetedinstall/Git then Editor/game.
+- Finalize frozen relocation evidence+actualFBX checks, officialQ05cook, independentnativegate, two-fileinstall/integrity, metadata/Git. RuntimeUNRUN.
 
 ## Область
 
@@ -61,6 +61,7 @@ Q05 precise placement accepted: complete existing air reservoir assembly sourceP
 - Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging.
 - Only air reservoirs and their existing mounts may move; preserve fuel tank/repairbox/other geometry, Q04railholes/UV/colors/maps, rig/Body/XML/physics/lifts. One current Blender via MCP, no screen input; current+one rollback.
 - Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback.
+- Supersede DY0 candidate with final DY-.020m; existing mounts remain within rear crossmember/body envelope. No new geometry; keep all maps/UV/colors/rig/CDT/XML/physics exact outside reservoir transform.
 
 ## Открытые вопросы
 
@@ -107,9 +108,4 @@ Q05 precise placement accepted: complete existing air reservoir assembly sourceP
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q02_front_block_after.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_actual_native_audit.json SHA256 7cf60d03197af9a5a0807e70092cd09a2dd27a5a81f8fae0de2b94c00e87cff9
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_installed_integrity.json SHA256 24a4810a118e6d7cbda05bccc2058374c3e589950c4632d61a18e2a733785716
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
-- ... ещё 6; см. `state.json`.
-
-## Затронутые файлы
-
-Нет.
+- ... ещё 7; см. `state.json`.

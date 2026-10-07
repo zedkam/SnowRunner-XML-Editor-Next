@@ -5,9 +5,9 @@
   "objective": "Create a four-slot four-axle trailer derived from exact Tridem D63 with first and fourth axle lifts and service capacity +25 percent",
   "status": "active",
   "phase": "implementation",
-  "revision": 24,
+  "revision": 25,
   "created_at": "2026-10-05T17:07:09Z",
-  "updated_at": "2026-10-07T08:27:27Z",
+  "updated_at": "2026-10-07T08:32:07Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4"
   ],
@@ -22,7 +22,7 @@
   },
   "accepted_work": null,
   "context": {
-    "current_summary": "Q05 precise placement accepted: complete existing air reservoir assembly sourcePieces1032-1151 aligns its mounts with existing rear crossmember752/754 by DX=-2.398869514m; Y/Z unchanged. Final spare-armature clearance pending before rigid move/export.",
+    "current_summary": "Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for sourcePieces1032-1151/120parts/6952tri. Slight original Y position collided by .11mm with spare clamps;20mm outward on existing continuous rear crossmember resolves it. Astra applying/exporting.",
     "decisions": [
       "User allows200000 visual triangles; CDT1200 Body10 remain standard.",
       "Cargo pitch extension2.559m yields10.83822106m; width and track unchanged; lift axes1 and4 independently actions1 and2.",
@@ -51,7 +51,8 @@
       "2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.",
       "Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging.",
       "Only air reservoirs and their existing mounts may move; preserve fuel tank/repairbox/other geometry, Q04railholes/UV/colors/maps, rig/Body/XML/physics/lifts. One current Blender via MCP, no screen input; current+one rollback.",
-      "Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback."
+      "Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback.",
+      "Supersede DY0 candidate with final DY-.020m; existing mounts remain within rear crossmember/body envelope. No new geometry; keep all maps/UV/colors/rig/CDT/XML/physics exact outside reservoir transform."
     ],
     "completed": [
       "Saved all working checkpoints and autosaves through Git LFS; fsck pointers passed for2482a2f.",
@@ -78,7 +79,7 @@
       "Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked."
     ],
     "next_actions": [
-      "Astra finish bound clearance and perform rigid relocation/export/preview; Sol FBX and native gates with exact nested audit.* consumer contract; officialcook/targetedinstall/Git then Editor/game."
+      "Finalize frozen relocation evidence+actualFBX checks, officialQ05cook, independentnativegate, two-fileinstall/integrity, metadata/Git. RuntimeUNRUN."
     ],
     "files": [],
     "evidence": [
