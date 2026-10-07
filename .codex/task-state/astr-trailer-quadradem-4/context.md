@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `21`
+- revision: `22`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T07:03:59Z`
+- updated: `2026-10-07T07:11:21Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q04 official native cook PASS and independent actual-native audit 21/21 PASS. Geometry correction is complete; exact audit.* consumer metric path alignment underway before two-file replacement.
+Q04 rail-hole correction completed and installed: 80 through-holes closed, clean matching UV; FBX18/native21/installed15 independent checks PASS. Local Git 2279537f1812ed90bcc1bb6f06f7f656ed8c4a9f, LFS pointer fsck PASS. Fresh Editor/game validation remains.
 
 ## Следующие действия
 
-- Validate exact audit.* metric accessor, protected FBX/native-only install, independent installed integrity, metadata/Git. Editor/game remain UNRUN.
+- Fresh Editor class-load and game visual/lift1/lift4 tests after separately scoped screen permission. Editor/game UNRUN, releaseBLOCKED; no cleanup before acceptance/release/recovery proof.
 
 ## Область
 
@@ -87,6 +87,7 @@ Q04 official native cook PASS and independent actual-native audit 21/21 PASS. Ge
 - Q03 final localGit781d9b45a2fbdcbde9f4103837e1cdc8f13c1c8e; FBXb343d12c/nativee8bd1654; installedintegrity8ef41d75 PASS14. Only2targetfiles changed, physics/maps/13locales/othertrailers exact. Object/PLAN finalized; no cleanup or UI takeover.
 - Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
 - Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
+- Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
 
 ## Evidence
 
@@ -108,8 +109,7 @@ Q04 official native cook PASS and independent actual-native audit 21/21 PASS. Ge
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json
-- q04_independent_fbx_acceptance.json SHA 1d742cb2ee545bd17c8d8741006c1d6c47c7ac61794dcd54488341d0d7c5a085; preflight ce4123c6224f5b28dca3d4855f25b985b382b638856a1204e950cd5b13abf234; FBX beaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11
-- Native 0746ea6360658ae37048abfeb65000361469256ae96af5c54c786b6d987e70a8 bytes18403138; q04_independent_actual_native_audit.json SHA f234d8ef357e0ac5a019d32829006deaf283fcd6fcc8352122905f1295f11412; 21 checks true.
+- ... ещё 3; см. `state.json`.
 
 ## Затронутые файлы
 
