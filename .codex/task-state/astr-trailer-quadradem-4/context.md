@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `implementation`
-- revision: `23`
+- revision: `24`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T08:17:02Z`
+- updated: `2026-10-07T08:27:27Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 user correction: air reservoirs overlap wheel in current Q04; relocate exact existing pair and its mounts aft of fourth axle near rear deck. Astra identifying precise source assembly and safe rear placement; Sol baseline/allowlist and Terra isolated staging active.
+Q05 precise placement accepted: complete existing air reservoir assembly sourcePieces1032-1151 aligns its mounts with existing rear crossmember752/754 by DX=-2.398869514m; Y/Z unchanged. Final spare-armature clearance pending before rigid move/export.
 
 ## Следующие действия
 
-- Accept exact reservoir assembly allowlist/rear clearance placement, implement Q05 in current Blender, finalFBX/native gates, protected two-file install and Git. Editor/game remain UNRUN.
+- Astra finish bound clearance and perform rigid relocation/export/preview; Sol FBX and native gates with exact nested audit.* consumer contract; officialcook/targetedinstall/Git then Editor/game.
 
 ## Область
 
@@ -60,6 +60,7 @@ Q05 user correction: air reservoirs overlap wheel in current Q04; relocate exact
 - 2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.
 - Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging.
 - Only air reservoirs and their existing mounts may move; preserve fuel tank/repairbox/other geometry, Q04railholes/UV/colors/maps, rig/Body/XML/physics/lifts. One current Blender via MCP, no screen input; current+one rollback.
+- Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback.
 
 ## Открытые вопросы
 
@@ -107,9 +108,7 @@ Q05 user correction: air reservoirs overlap wheel in current Q04; relocate exact
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_actual_native_audit.json SHA256 7cf60d03197af9a5a0807e70092cd09a2dd27a5a81f8fae0de2b94c00e87cff9
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_installed_integrity.json SHA256 24a4810a118e6d7cbda05bccc2058374c3e589950c4632d61a18e2a733785716
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_candidate_acceptance.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
-- ... ещё 4; см. `state.json`.
+- ... ещё 6; см. `state.json`.
 
 ## Затронутые файлы
 
