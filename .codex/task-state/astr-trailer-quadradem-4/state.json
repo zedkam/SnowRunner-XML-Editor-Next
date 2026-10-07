@@ -5,9 +5,9 @@
   "objective": "Create a four-slot four-axle trailer derived from exact Tridem D63 with first and fourth axle lifts and service capacity +25 percent",
   "status": "active",
   "phase": "implementation",
-  "revision": 18,
+  "revision": 19,
   "created_at": "2026-10-05T17:07:09Z",
-  "updated_at": "2026-10-07T06:35:49Z",
+  "updated_at": "2026-10-07T06:42:55Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4"
   ],
@@ -22,7 +22,7 @@
   },
   "accepted_work": null,
   "context": {
-    "current_summary": "User requests removal of leftover bolt holes and associated visual traces on Quadradem rails. Q03 baseline remains canonical/live; Astra MCP scene exact c0518107/FBXb343, no geometry changed yet. Q04 scoped hole boundary/UV analysis underway; root preserves Git781d9b45.",
+    "current_summary": "Q04 scoped plan accepted:80 rail through-holes (40/rail),3147 bore triangles,160 valid existing boundary rings. Close via ring vertices and adjacent red/rust web UV/normals; forecast183265visual (-320). Q03 live/Git781 protected; Astra candidate/apply underway, Sol independent proof pending.",
     "decisions": [
       "User allows200000 visual triangles; CDT1200 Body10 remain standard.",
       "Cargo pitch extension2.559m yields10.83822106m; width and track unchanged; lift axes1 and4 independently actions1 and2.",
@@ -48,7 +48,8 @@
       "Targeted Q03 rail repair: split pinned D62 source triangles at piecewise transitions1.45/1.51 and−3.20/−3.145 before inherited longitudinal deformation; prohibit global recoloring,texture regeneration,suspension/rig/CDT changes. Require≤200000visual and zero rail inversions/coplanar self-overlap.",
       "Accept Q03 candidate only after independent source-triangle, barycentric UV/normal and mapped-position proof; final FBX/native/install proof still required.",
       "Extend Q03 only with explicit defective sourcePiece13 UV allowlist: inner web from clean red/rust donor; affected bottom flange from clean dark/rust donor. Preserve positions/normals/weights/materials/maps/otherfaces/rig/CDT/XML. Historical pre-UV acceptance400289 is not final install gate.",
-      "2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers."
+      "2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.",
+      "Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging."
     ],
     "completed": [
       "Saved all working checkpoints and autosaves through Git LFS; fsck pointers passed for2482a2f.",
@@ -72,7 +73,7 @@
       "Q03 final localGit781d9b45a2fbdcbde9f4103837e1cdc8f13c1c8e; FBXb343d12c/nativee8bd1654; installedintegrity8ef41d75 PASS14. Only2targetfiles changed, physics/maps/13locales/othertrailers exact. Object/PLAN finalized; no cleanup or UI takeover."
     ],
     "next_actions": [
-      "Identify exact hole/rim allowlist, close rail openings from existing boundaries with correct donor UV, accept independent Q04 export, official cook and protected two-file install. No screen input; Editor/game remain unrun."
+      "Accept exact Q04 hole patch, final FBX/preflight and previews, preserve owned changes in localGit, cook and validate native, replace only Quadradem FBX/native. Editor/game remainUNRUN."
     ],
     "files": [],
     "evidence": [

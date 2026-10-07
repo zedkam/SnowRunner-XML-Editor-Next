@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `implementation`
-- revision: `18`
+- revision: `19`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T06:35:49Z`
+- updated: `2026-10-07T06:42:55Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-User requests removal of leftover bolt holes and associated visual traces on Quadradem rails. Q03 baseline remains canonical/live; Astra MCP scene exact c0518107/FBXb343, no geometry changed yet. Q04 scoped hole boundary/UV analysis underway; root preserves Git781d9b45.
+Q04 scoped plan accepted:80 rail through-holes (40/rail),3147 bore triangles,160 valid existing boundary rings. Close via ring vertices and adjacent red/rust web UV/normals; forecast183265visual (-320). Q03 live/Git781 protected; Astra candidate/apply underway, Sol independent proof pending.
 
 ## Следующие действия
 
-- Identify exact hole/rim allowlist, close rail openings from existing boundaries with correct donor UV, accept independent Q04 export, official cook and protected two-file install. No screen input; Editor/game remain unrun.
+- Accept exact Q04 hole patch, final FBX/preflight and previews, preserve owned changes in localGit, cook and validate native, replace only Quadradem FBX/native. Editor/game remainUNRUN.
 
 ## Область
 
@@ -58,6 +58,7 @@ User requests removal of leftover bolt holes and associated visual traces on Qua
 - Accept Q03 candidate only after independent source-triangle, barycentric UV/normal and mapped-position proof; final FBX/native/install proof still required.
 - Extend Q03 only with explicit defective sourcePiece13 UV allowlist: inner web from clean red/rust donor; affected bottom flange from clean dark/rust donor. Preserve positions/normals/weights/materials/maps/otherfaces/rig/CDT/XML. Historical pre-UV acceptance400289 is not final install gate.
 - 2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.
+- Accept only80 orphan sourcePiece13 cylindrical bore removals and160 exact boundary fills; audit underside. No arbitrary UV refinement. Foreign untracked q03_uv_refine_current_mcp.py is not ours: preserve and exclude it from Q04/Git staging.
 
 ## Открытые вопросы
 
