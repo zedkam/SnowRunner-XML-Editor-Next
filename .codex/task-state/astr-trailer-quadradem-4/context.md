@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `validation`
-- revision: `17`
+- phase: `implementation`
+- revision: `18`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-06T17:35:52Z`
+- updated: `2026-10-07T06:35:49Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q03 rail artifacts corrected and installed: folded triangles fixed, contaminated inner-web/bottom UV remapped via explicit same-atlas donor allowlist. FBX21/native24/install14 checks PASS; protected79canonical/380live hashes exact. LocalGit781d9b45 LFSPASS; object clean. Editor/gameUNRUN, releaseReadyfalse.
+User requests removal of leftover bolt holes and associated visual traces on Quadradem rails. Q03 baseline remains canonical/live; Astra MCP scene exact c0518107/FBXb343, no geometry changed yet. Q04 scoped hole boundary/UV analysis underway; root preserves Git781d9b45.
 
 ## Следующие действия
 
-- Fresh Editor class-load and user game test of Quadradem Q03, including lifts1/4. Keep release and old-variant cleanup blocked until acceptance and release recovery proof.
+- Identify exact hole/rim allowlist, close rail openings from existing boundaries with correct donor UV, accept independent Q04 export, official cook and protected two-file install. No screen input; Editor/game remain unrun.
 
 ## Область
 
@@ -57,6 +57,7 @@ Q03 rail artifacts corrected and installed: folded triangles fixed, contaminated
 - Targeted Q03 rail repair: split pinned D62 source triangles at piecewise transitions1.45/1.51 and−3.20/−3.145 before inherited longitudinal deformation; prohibit global recoloring,texture regeneration,suspension/rig/CDT changes. Require≤200000visual and zero rail inversions/coplanar self-overlap.
 - Accept Q03 candidate only after independent source-triangle, barycentric UV/normal and mapped-position proof; final FBX/native/install proof still required.
 - Extend Q03 only with explicit defective sourcePiece13 UV allowlist: inner web from clean red/rust donor; affected bottom flange from clean dark/rust donor. Preserve positions/normals/weights/materials/maps/otherfaces/rig/CDT/XML. Historical pre-UV acceptance400289 is not final install gate.
+- 2026-10-07 user authorizes targeted rail bolt-hole closure and removal of corresponding UV/normal traces. Limit to orphan sourcePiece13 rail holes; preserve functional fasteners elsewhere, rail profile/colors/rust, rig/CDT/physics/maps/othertrailers.
 
 ## Открытые вопросы
 
