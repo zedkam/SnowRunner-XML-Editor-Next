@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `20`
+- revision: `21`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T06:56:23Z`
+- updated: `2026-10-07T07:03:59Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q04 frozen: 80 rail bolt holes closed; clean matching red-rust UV on fills. FBX 18/18 independent PASS, local Git f1df7f4. Native cook and protected two-file install next.
+Q04 official native cook PASS and independent actual-native audit 21/21 PASS. Geometry correction is complete; exact audit.* consumer metric path alignment underway before two-file replacement.
 
 ## Следующие действия
 
-- Official hidden Q04 native cook, independent native gate, exact FBX/native replacement, installed integrity, metadata and Git. Editor/game pending, no screen input.
+- Validate exact audit.* metric accessor, protected FBX/native-only install, independent installed integrity, metadata/Git. Editor/game remain UNRUN.
 
 ## Область
 
@@ -86,6 +86,7 @@ Q04 frozen: 80 rail bolt holes closed; clean matching red-rust UV on fills. FBX 
 - Q03 finalFBXb343d12c, explicitUV2708faces/8124loops; cleanweb/flange donor checks and outside-scope exactPASS. Nativecook exit0 e8bd1654bbdce094800586e42136b4f36069e363a71fb06cc7fe702d70bfc7eb.
 - Q03 final localGit781d9b45a2fbdcbde9f4103837e1cdc8f13c1c8e; FBXb343d12c/nativee8bd1654; installedintegrity8ef41d75 PASS14. Only2targetfiles changed, physics/maps/13locales/othertrailers exact. Object/PLAN finalized; no cleanup or UI takeover.
 - Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
+- Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
 
 ## Evidence
 
@@ -108,6 +109,7 @@ Q04 frozen: 80 rail bolt holes closed; clean matching red-rust UV on fills. FBX 
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json
 - q04_independent_fbx_acceptance.json SHA 1d742cb2ee545bd17c8d8741006c1d6c47c7ac61794dcd54488341d0d7c5a085; preflight ce4123c6224f5b28dca3d4855f25b985b382b638856a1204e950cd5b13abf234; FBX beaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11
+- Native 0746ea6360658ae37048abfeb65000361469256ae96af5c54c786b6d987e70a8 bytes18403138; q04_independent_actual_native_audit.json SHA f234d8ef357e0ac5a019d32829006deaf283fcd6fcc8352122905f1295f11412; 21 checks true.
 
 ## Затронутые файлы
 
