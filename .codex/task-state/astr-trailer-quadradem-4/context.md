@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `validation`
-- revision: `28`
+- phase: `implementation`
+- revision: `29`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T09:41:02Z`
+- updated: `2026-10-07T09:48:08Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 mount pieces/6952tri moved to rear crossmember behind axle4. ActualFBX19/19, native24/24, installed18/18 PASS independently reviewed. Object/PLAN reconciled; local model Git182e38a5a563ee3510333be4d24a198dc4d80e42 and LFS pointers PASS. Editor/game remain UNRUN; release blocked.
+Q06 user correction in progress: only axle1 remains liftable; rear axle4 must have normal suspension identical to axles2/3. XML-only changes and obsolete rear-lift command/locale removal; accepted Q05 geometry remains frozen. Terra implements, Astra checks architecture; root integrates without UI control.
 
 ## Следующие действия
 
-- User review of relocated reservoirs; fresh Editor class-load and independent lifts1/4 runtime check only with scoped input authorization, then user game test. Do not repeat model/cook/install/static gates. Release and historical-copy cleanup remain blocked pending acceptance and runtime proof.
+- Accept focused Q06 canonical XML/13-locale changes and editor round-trip; inspect independent review, safely install only class XML and rear-key removal in live locales, update metadata and Git. Editor/game remain UNRUN; no screen input authorized.
 
 ## Область
 
@@ -30,6 +30,7 @@ Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 
 - One live Blender via MCP; no mouse or keyboard takeover without scoped authorization
 - Preserve D63 source; current plus one rollback only; prune older copies after acceptance and release with Git recovery verified
 - Human authorization2026-10-05: automatically push the three metadata files for this task to zedkam/SnowRunner-XML-Editor-Next branch codex/task-state/astr-trailer-quadradem-4 without repeated confirmation; this does not publish model resources there.
+- Current authoritative lift requirement is front axle1 only; historical first/fourth lift decisions are superseded.
 
 ## Принятые решения
 
@@ -64,6 +65,7 @@ Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 
 - Supersede DY0 candidate with final DY-.020m; existing mounts remain within rear crossmember/body envelope. No new geometry; keep all maps/UV/colors/rig/CDT/XML/physics exact outside reservoir transform.
 - Sol read-only audit cannot writefiles: Terra materializes computed audit scripts/reports under independent Solreview. Reject hardcodedPASS/counts and untypedUVrow skipping; actual52rows classify16visual+36CDT with complete separateproof.
 - FreshTerra quadradem_q05_gate_worker owns computedQ05audit script/report materialization; Sol independentlyreviewsreadonly; oldTerra retains existingproductionhelpers and finalmetadata. Stricttyped52rowgate resolvedpriorpartialdraft, no waivedchecks.
+- 2026-10-07 user supersedes original dual-lift requirement: liftedAxles=[1] only. Axle4 must use ordinary suspension of middle axles2/3, with no rear lift command. Preserve first lift, stiffness, rig/geometry and all other functions.
 
 ## Открытые вопросы
 
@@ -101,6 +103,4 @@ Q05 rear air reservoirs fully installed and accepted. Existing pair with all120 
 
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_scaffold_report.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_locale_semantic_audit.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_preexport_readiness.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_fbx_acceptance.json
-- ... ещё 18; см. `state.json`.
+- ... ещё 20; см. `state.json`.
