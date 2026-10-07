@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `30`
+- revision: `31`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T10:08:59Z`
+- updated: `2026-10-07T16:22:10Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 
 ## Текущее состояние
 
-Q06 installed and independently accepted: only axle1 lift remains; axle4 matches normal suspension of2/3. XML and13locales updated; actual editor tool round-trip PASS.14live targets match,67canonical/368live protected hashes exact. Q05 geometry remains frozen. Historical q01..q05 class aliases restored and current classes detached; atomic canonical write helper fixed. Local Git07f81975d932de2b88fa5352a22b6e77b7c8f797 saved. Editor/game/runtime UNRUN, release blocked.
+Q07 UV-only geometry installed in canonical/live: eight front lower-flange faces and 24 UV corners corrected; Q05 reservoir placement, rig/CDT/materials and Q06 front-only lift XML preserved. Astra max visual review, official cook and native audit PASS. All 459 non-target hashes exact; 13 locales unchanged. Complete current trailer restored in the single Blender, all 16 checks PASS, no input takeover. Local Git 84b6d75cb48c9793adaa47c5fe780d5f1d364b71 saved with five LFS pointers verified. Editor/game UNRUN; release blocked.
 
 ## Следующие действия
 
-- Fresh Editor class-load and front axle lift plus normal rear suspension runtime checks only with scoped screen authorization; then user game test. Preserve Q05 geometry and Q06 XML, do not repeat accepted static gates. Release and old-copy cleanup remain blocked pending runtime proof and acceptance.
+- Fresh Editor class-load and front axle lift plus standard rear suspension runtime checks only with scoped screen authorization; then user game test. Preserve Q07 geometry and Q06 XML. Accepted static gates need no repeat; release and old-copy cleanup await runtime proof and acceptance.
 
 ## Область
 
@@ -66,6 +66,7 @@ Q06 installed and independently accepted: only axle1 lift remains; axle4 matches
 - Sol read-only audit cannot writefiles: Terra materializes computed audit scripts/reports under independent Solreview. Reject hardcodedPASS/counts and untypedUVrow skipping; actual52rows classify16visual+36CDT with complete separateproof.
 - FreshTerra quadradem_q05_gate_worker owns computedQ05audit script/report materialization; Sol independentlyreviewsreadonly; oldTerra retains existingproductionhelpers and finalmetadata. Stricttyped52rowgate resolvedpriorpartialdraft, no waivedchecks.
 - 2026-10-07 user supersedes original dual-lift requirement: liftedAxles=[1] only. Axle4 must use ordinary suspension of middle axles2/3, with no rear lift command. Preserve first lift, stiffness, rig/geometry and all other functions.
+- Q07 supersedes Q05 geometry only for eight lower-flange/bevel UV faces. Reject stale Q03 subpixel UV refinement. Preserve muted red webs, dark flange donor styling, rust, all texture bytes and Q06 front-only lift.
 
 ## Открытые вопросы
 
@@ -97,5 +98,9 @@ Q06 installed and independently accepted: only axle1 lift remains; axle4 matches
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
 - Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
 - Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
-- Q05 official native cook, strict decoded native acceptance24/24, protected two-file canonical/live replacement, independently accepted installed integrity18/18, protected79canonical+380live files exact. FinalFBXf4c13ca4/nativef54954db; appearance, XML, lifts1/4,13locales and textures unchanged. Current plus Q04 rollback verified. Final local Git182e38a5a563ee3510333be4d24a198dc4d80e42 saved; no model remote publication or GUI takeover.
-- ... ещё 1; см. `state.json`.
+- ... ещё 3; см. `state.json`.
+
+## Evidence
+
+- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_scaffold_report.json
+- ... ещё 24; см. `state.json`.
