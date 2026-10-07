@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `19`
+- phase: `validation`
+- revision: `20`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T06:42:55Z`
+- updated: `2026-10-07T06:56:23Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q04 scoped plan accepted:80 rail through-holes (40/rail),3147 bore triangles,160 valid existing boundary rings. Close via ring vertices and adjacent red/rust web UV/normals; forecast183265visual (-320). Q03 live/Git781 protected; Astra candidate/apply underway, Sol independent proof pending.
+Q04 frozen: 80 rail bolt holes closed; clean matching red-rust UV on fills. FBX 18/18 independent PASS, local Git f1df7f4. Native cook and protected two-file install next.
 
 ## Следующие действия
 
-- Accept exact Q04 hole patch, final FBX/preflight and previews, preserve owned changes in localGit, cook and validate native, replace only Quadradem FBX/native. Editor/game remainUNRUN.
+- Official hidden Q04 native cook, independent native gate, exact FBX/native replacement, installed integrity, metadata and Git. Editor/game pending, no screen input.
 
 ## Область
 
@@ -85,6 +85,7 @@ Q04 scoped plan accepted:80 rail through-holes (40/rail),3147 bore triangles,160
 - Source-only rail albedo emission reproduces residual prints with no neighboring geometry. Pre-UV scene/raw/FBX/evidence/previews preserved in localGit6d95a5e089b253b72a419f15054a4c75aa36ab01 without new model variants.
 - Q03 finalFBXb343d12c, explicitUV2708faces/8124loops; cleanweb/flange donor checks and outside-scope exactPASS. Nativecook exit0 e8bd1654bbdce094800586e42136b4f36069e363a71fb06cc7fe702d70bfc7eb.
 - Q03 final localGit781d9b45a2fbdcbde9f4103837e1cdc8f13c1c8e; FBXb343d12c/nativee8bd1654; installedintegrity8ef41d75 PASS14. Only2targetfiles changed, physics/maps/13locales/othertrailers exact. Object/PLAN finalized; no cleanup or UI takeover.
+- Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
 
 ## Evidence
 
@@ -106,6 +107,7 @@ Q04 scoped plan accepted:80 rail through-holes (40/rail),3147 bore triangles,160
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q03_inner_front_albedo.png
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_export_preflight.json
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_independent_installed_integrity.json
+- q04_independent_fbx_acceptance.json SHA 1d742cb2ee545bd17c8d8741006c1d6c47c7ac61794dcd54488341d0d7c5a085; preflight ce4123c6224f5b28dca3d4855f25b985b382b638856a1204e950cd5b13abf234; FBX beaccad58833936aa439a9a6e44147596b3f4e3259014a527fe062f3184ede11
 
 ## Затронутые файлы
 
