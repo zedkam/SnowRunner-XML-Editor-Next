@@ -2,10 +2,10 @@
 
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
-- phase: `implementation`
-- revision: `25`
+- phase: `validation`
+- revision: `26`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T08:32:07Z`
+- updated: `2026-10-07T08:53:20Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer derived from exact Tridem D63 with first an
 
 ## Текущее состояние
 
-Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for sourcePieces1032-1151/120parts/6952tri. Slight original Y position collided by .11mm with spare clamps;20mm outward on existing continuous rear crossmember resolves it. Astra applying/exporting.
+Q05 geometry/visual completed and frozen, localGit3ff09b65a2b82f3bfe1a83c3e1b43ae236ec92e0. Exact existing reservoirs+mounts now rearcrossmember; candidate11checksPASS and independent finalFBX read-only parse exactQ04 outside6952movedfaces. Written FBXgate/preflight pending beforecook.
 
 ## Следующие действия
 
-- Finalize frozen relocation evidence+actualFBX checks, officialQ05cook, independentnativegate, two-fileinstall/integrity, metadata/Git. RuntimeUNRUN.
+- Materialize and review complete actualFBXgate, finalizepreflight, officialQ05cook/nativegate, FBX/native-only install/integrity, metadata/Git. LiveinstalledremainsQ04 untilgatesPASS;runtimeUNRUN.
 
 ## Область
 
@@ -62,6 +62,7 @@ Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for s
 - Only air reservoirs and their existing mounts may move; preserve fuel tank/repairbox/other geometry, Q04railholes/UV/colors/maps, rig/Body/XML/physics/lifts. One current Blender via MCP, no screen input; current+one rollback.
 - Move all120sourcepieces/6952tri including tanks,straps,mounts,welds andbolts; keep main-bone skin,materials/UV/normals,allotherfacets/rig/CDT/XML/physics exact. No separate reservoir CDT exists. Preserve Q04 as single rollback.
 - Supersede DY0 candidate with final DY-.020m; existing mounts remain within rear crossmember/body envelope. No new geometry; keep all maps/UV/colors/rig/CDT/XML/physics exact outside reservoir transform.
+- Sol read-only audit cannot writefiles: Terra materializes computed audit scripts/reports under independent Solreview. Reject hardcodedPASS/counts and untypedUVrow skipping; actual52rows classify16visual+36CDT with complete separateproof.
 
 ## Открытые вопросы
 
@@ -91,6 +92,7 @@ Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for s
 - Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
 - Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
+- Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
 
 ## Evidence
 
@@ -104,8 +106,8 @@ Q05 final rigid relocation accepted: DX=-2.398869514465332m,DY=-.020m,DZ=0 for s
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_pct_resolver_receipt.json SHA40b121bef91d5a111d85d9e12fb17ec34e15df361ac71a60a80dbb3191be9b38
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_independent_installed_integrity.json SHA256 3eb25932531fc65ac033eccd53a3443657f0ee5e6843801b747bf8166413a1ae
 - SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_live_install_receipt.json SHA256 ea1afd430d1f8ed9ca922a6de0f165e78f3c039dbce49c435c4a90864874b90c
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_removal_geometry.json
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/previews/q02_front_block_after.png
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_actual_native_audit.json SHA256 7cf60d03197af9a5a0807e70092cd09a2dd27a5a81f8fae0de2b94c00e87cff9
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q02_independent_installed_integrity.json SHA256 24a4810a118e6d7cbda05bccc2058374c3e589950c4632d61a18e2a733785716
-- ... ещё 7; см. `state.json`.
+- ... ещё 11; см. `state.json`.
+
+## Затронутые файлы
+
+Нет.
