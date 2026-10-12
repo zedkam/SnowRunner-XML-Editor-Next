@@ -2,10 +2,10 @@
 
 - task-id: `trecol_arktika_pickup_20261012`
 - status: `active`
-- phase: `design`
-- revision: `6`
+- phase: `research`
+- revision: `7`
 - branch: `codex/task-state/trecol_arktika_pickup_20261012`
-- updated: `2026-10-12T16:51:02Z`
+- updated: `2026-10-12T18:26:47Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@
 
 ## Текущее состояние
 
-USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hidden in the sole Blender; historical c00d35b is rollback trace, not accepted geometry. Restart with frame, then axles/suspension, steering/shafts, body by separate parts, interior last. Astra/max prepares frame-only source recipe.
+User stopped FRAME1 modelling and requires all visible-frame photo/video research followed by one small visible fragment at a time. Astra withdrew unsupported full-frame layout. Photo audit continues; no Blender changes after stop.
 
 ## Следующие действия
 
-- Receive Astra/max frame-only source reconstruction recipe; build and compare the frame first in existing Blender. Defer all body/interior work and runtime export until their ordered stages.
+- Finish remaining known-page photo acquisition and delta audit; finalize Russian evidence atlas. Do not build frame, suspension, body or interior.
 
 ## Область
 
@@ -38,6 +38,7 @@ USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hid
 - USER SUPERSEDES previous CAD prerequisite: photo-derived geometry and later declared simulation estimates are allowed; no proxy assets, false factory precision, donor import or unsupported runtime PASS.
 - USER requires one existing Blender GUI session only; never launch additional GUI or background Blender processes. Live inventory confirms only PID78500 with TRECOL and MCP.
 - Latest user order is mandatory: frame -> axles/suspension -> steering/driveline -> body one part at a time -> interior last. Each part requires real source comparison before expansion. One Blender process only.
+- Latest user STOP supersedes full FRAME1 and SUSP1 execution; current work is source audit only, then one bounded visible fragment after review.
 
 ## Принятые решения
 
@@ -49,6 +50,7 @@ USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hid
 - Use S02 p14 for macro scale and original profile loops, S01 pickup photos and S08/S09 wheel photos for visible details; every inferred dimension carries source and uncertainty. Unknown simulation fields remain pending until their separate design/test phase.
 - D3 preliminary exterior accepted after source comparison and two Astra geometry corrections; no factory-exact or runtime claim.
 - SUPERSEDES revision5 D3 visual acceptance: user rejected quality and whole-exterior-first method. Technical triangle/BVH passes remain measurements only.
+- WITHDRAWN_UNPROVEN_LAYOUT_USER_STOP: five crossmember stations, rail sections/walls and spring-base coordinates were not source-backed. Boolean proofs are historical technical method evidence only.
 
 ## Открытые вопросы
 
@@ -63,6 +65,7 @@ USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hid
 - Accepted source audit selected five primary Pickup/wheel views plus rim and bed companions; updated object/brief/measurement tasks for photo-based reconstruction.
 - D3: cab/windows, engine enclosure, open bed/niches and eight wheels. D4: sourced interior recipe only.
 - Recorded user visual rejection; hid d3_visual and renamed live scene trecol_arktika_pickup_working without new process or overwrite of protected D1.
+- Old 57-photo collection reviewed; 97 linked new-archive JPEGs reviewed; resized duplicates separated from new views. Two public videos inspected at selected times including OffRoadClub 18:24 underside.
 
 ## Evidence
 
@@ -75,6 +78,7 @@ USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hid
 - D3 180 Mesh/6 materials/59389 triangles; windows PASS, floor-wheel and apron-wheel BVH overlaps0, duplicate/degenerate0. Working SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; D1 unchanged.
 - Local-only Git/LFS checkpoint c00d35b29ca16a6fdc22b78656e7effd8494395e; model pointer matches saved SHA. One Blender PID78500; no new GUI/background process.
 - Live PID78500, current working.blend path, rejected exterior hidden. On-disk draft SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; hiding/rename unsaved, no new frame Mesh yet.
+- Protected D1 SHA297e836f10d48bbfba9423b3bce271956d9a4710bf84fe67de3d7c05459f0c61 and on-disk working SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac remain unchanged. Full FRAME1 was never created or saved.
 
 ## Затронутые файлы
 
@@ -89,3 +93,6 @@ USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hid
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_shape_correction_checks.json
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/d4_interior_recipe.json
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_user_visual_rejection.json
+- SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/frame1_user_stop_reference_audit.json
+- SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/FRAME_EVIDENCE.md
+- SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/official_gallery_manifest.json
