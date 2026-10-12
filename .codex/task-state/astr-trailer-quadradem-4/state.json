@@ -5,9 +5,9 @@
   "objective": "Create a four-slot four-axle trailer from Tridem D63, with only the front axle lift, ordinary rear suspension matching the two middle axles, and service capacity +25 percent.",
   "status": "active",
   "phase": "validation",
-  "revision": 33,
+  "revision": 34,
   "created_at": "2026-10-05T17:07:09Z",
-  "updated_at": "2026-10-12T11:29:35Z",
+  "updated_at": "2026-10-12T11:57:21Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4"
   ],
@@ -23,7 +23,7 @@
   },
   "accepted_work": null,
   "context": {
-    "current_summary": "2026-10-12 full model audit completed in same Blender. Current QuadrademQ07 remains open and clean, assets hash-exact. Astra max live audit19PASS/1inherited convex-property warning/4unverified domains; Sol independent currentfile checks459protectedhashes exact, XML/front-only lift/13locales/16maps verified. Concrete inherited warnings241zeroarea triangles,23zero cornernormals,103coordinate-duplicate triangles,10nonconvex CDT surfaces; source070 mainbody has9boundaryedges/maxsupport137.583mm. Engineclassification and physics remainUNRUN. Reports/previews/metadata committed locallyd442ba80c07d3573987e0ce0697f5e39547894bb with LFSpointersPASS. Releaseblocked.",
+    "current_summary": "Quadradem Q07 is ready for the requested user game test in live astr_trailers. Installed class, descriptor, FBX and native hashes are exact before and after the fresh Editor class render. All 16 material maps and 13 locale files were verified. Fresh Editor startup and class render PASS; screenshot saved, one double click performed, input stopped and node kernel reset. Front lift, rear suspension dynamics, collision-shape labels and gameplay remain UNRUN; release is pending game acceptance. Seven proof/metadata files saved locally in Git 1034f0b3bd09f00e996f386595039ced4db41d99. Inherited geometry warnings from the full audit remain recorded; no assets were changed.",
     "decisions": [
       "User allows200000 visual triangles; CDT1200 Body10 remain standard.",
       "Cargo pitch extension2.559m yields10.83822106m; width and track unchanged; lift axes1 and4 independently actions1 and2.",
@@ -58,7 +58,8 @@
       "FreshTerra quadradem_q05_gate_worker owns computedQ05audit script/report materialization; Sol independentlyreviewsreadonly; oldTerra retains existingproductionhelpers and finalmetadata. Stricttyped52rowgate resolvedpriorpartialdraft, no waivedchecks.",
       "2026-10-07 user supersedes original dual-lift requirement: liftedAxles=[1] only. Axle4 must use ordinary suspension of middle axles2/3, with no rear lift command. Preserve first lift, stiffness, rig/geometry and all other functions.",
       "Q07 supersedes Q05 geometry only for eight lower-flange/bevel UV faces. Reject stale Q03 subpixel UV refinement. Preserve muted red webs, dark flange donor styling, rust, all texture bytes and Q06 front-only lift.",
-      "User2026-10-12 requests fullmodelcheck and explicitly selects Quadradem fouraxles; inspect currentQ07 blend and Q06 front-only XML. Authorizes safe opening in the existing Blender through MCP; no new Blender instance or scene asset edits."
+      "User2026-10-12 requests fullmodelcheck and explicitly selects Quadradem fouraxles; inspect currentQ07 blend and Q06 front-only XML. Authorizes safe opening in the existing Blender through MCP; no new Blender instance or scene asset edits.",
+      "User on 2026-10-12 explicitly authorizes live test preparation and a very short Editor screenshot step with immediate input release; that UI step is complete. No further GUI input is authorized by this completed step."
     ],
     "completed": [
       "Saved all working checkpoints and autosaves through Git LFS; fsck pointers passed for2482a2f.",
@@ -88,10 +89,11 @@
       "Q05 official native cook, strict decoded native acceptance24/24, protected two-file canonical/live replacement, independently accepted installed integrity18/18, protected79canonical+380live files exact. FinalFBXf4c13ca4/nativef54954db; appearance, XML, lifts1/4,13locales and textures unchanged. Current plus Q04 rollback verified. Final local Git182e38a5a563ee3510333be4d24a198dc4d80e42 saved; no model remote publication or GUI takeover.",
       "Q06 exact rearChain Action2 removal, two rear SuspensionMin override removals, rearPrismatic limits0/.3. FrontAction1 exact,13locales remove only rear UID; actualNode roundtrip and independent canonical/live acceptance PASS. Helper writes atomically; q01..q05 oldXML186d71a9 restored from Git182e38a and current canonical/live classes detached. Model assets unchanged. Final local Git07f81975d932de2b88fa5352a22b6e77b7c8f797.",
       "Q07 FBX deccbba874a5360225edf7d55258d4da97f18271d0123eee8d3a0265f0e8dc5f; native 660742a1061e0bf7c54b588e59dab637038c1e051cfee8d8c9d8d085fa3e0b77. Official cook/native audit, geometry-only installation and restored saved scene PASS; Q05 single blend1 rollback retained. Local Git 84b6d75cb48c9793adaa47c5fe780d5f1d364b71.",
-      "Read-only full live model check covered all60meshes,78bones,weights/materials/UV/normals/transforms,52export digests,4axles4slots,36CDT/1198tri,183265visualtri. Dimensions10.838221073/pitch1.450/track2.034;309framegroupsfixedmain,80railholesclosed, rearreservoir retained. Four actual previews reviewed root, views restored and same Blender clean. File audit currentcanonical/live assethashes and459protectedfiles exact, all13locales and16TGA/DDS/PCT fullmips preserved, one4Kwithin numericalbudget; justification recordgap retained. New summary/filemetadata/PNGrecord saved in localGit only."
+      "Read-only full live model check covered all60meshes,78bones,weights/materials/UV/normals/transforms,52export digests,4axles4slots,36CDT/1198tri,183265visualtri. Dimensions10.838221073/pitch1.450/track2.034;309framegroupsfixedmain,80railholesclosed, rearreservoir retained. Four actual previews reviewed root, views restored and same Blender clean. File audit currentcanonical/live assethashes and459protectedfiles exact, all13locales and16TGA/DDS/PCT fullmips preserved, one4Kwithin numericalbudget; justification recordgap retained. New summary/filemetadata/PNGrecord saved in localGit only.",
+      "Verified current Q07 already installed; no replacement needed. Fresh Editor PID 73272 launched from Sources/BinEditor, actual Quadradem class rendered with four axles, wheels and textures and no visible load error. Control released. Local scoped Git commit 1034f0b3bd09f00e996f386595039ced4db41d99; screenshot LFS pointer hash verified."
     ],
     "next_actions": [
-      "After scoped screen authorization, run fresh Editor class-load and inspect actual shape labels for10warnedCDT, especiallycdt_d53_source_070 mainbody. Verifyfrontlift and normalrear suspension/contact travel; user gameplaycollision/cargo/coupling/lighting test follows. Do not auto-remesh/weld or delete inheritedparts under a check request. Preserve externalTridem sourcePNG dependencies; documentone4Kmap visualjustification before release. Full dynamicmechanism sweep/globalnonadjacentintersection classification remainunverified, notblanketPASS."
+      "User game test: coupling, idle and rolling stability, front-only axle lift, ordinary rear suspension and four-slot cargo. Record gameplay outcome before release. Actual Editor collision-shape classification and dynamic mechanism/contact sweep remain unverified; no geometry cleanup or further input control without a new request."
     ],
     "files": [],
     "evidence": [
@@ -121,7 +123,8 @@
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q07_installed_integrity.json SHA256 69b4019b8a4ed6324ecfe6cebe38a9b36c2cf66d0cfb538191c9e9b3c80e3806",
       "SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q07_blender_restored.json SHA256 09b18a887977893acb523ebe8e378adc6e70ac157e55b3bfbc5d89781146052f; native audit cec3c511395051fce0a37a12016f62538b0c81292ad74db848a7278734540fec; visual review 43d66d0db2b228cca2b777741d9e01ee3c9c2f51df67c5c2ec4157bee80c7b6b",
       "Current Q07 model source: blend595e9d7ed78c2ecf53a18d977ffc7cc33c37fbcf44ed74bd84a8b8ba8cd998b3, FBXdeccbba874a5360225edf7d55258d4da97f18271d0123eee8d3a0265f0e8dc5f, native660742a1061e0bf7c54b588e59dab637038c1e051cfee8d8c9d8d085fa3e0b77, XML0a47d81dd40f4914a8cb60992f435c4032ba702b95b6e4a6d21b589e9bc89337. Localaccepted Git84b6d75cb48c9793adaa47c5fe780d5f1d364b71.",
-      "Blender report full_model_audit_20261012_blender.json SHA262ba0439942612a9ab597a21e2b8f15db1eafd982c683562286b324901b361d; consolidated summary full_model_audit_20261012_summary.json SHAefcaed8770ef81189e29428751c174ad04897a32b5029937d975940e680b9452; Gitd442ba80c07d3573987e0ce0697f5e39547894bb. Actual modelSHA595e9d7ed78c2ecf53a18d977ffc7cc33c37fbcf44ed74bd84a8b8ba8cd998b3 unchanged. OfficialSaber collision guidance convexrecommendednotmandatory; Editor actualshapeclassificationunverified."
+      "Blender report full_model_audit_20261012_blender.json SHA262ba0439942612a9ab597a21e2b8f15db1eafd982c683562286b324901b361d; consolidated summary full_model_audit_20261012_summary.json SHAefcaed8770ef81189e29428751c174ad04897a32b5029937d975940e680b9452; Gitd442ba80c07d3573987e0ce0697f5e39547894bb. Actual modelSHA595e9d7ed78c2ecf53a18d977ffc7cc33c37fbcf44ed74bd84a8b8ba8cd998b3 unchanged. OfficialSaber collision guidance convexrecommendednotmandatory; Editor actualshapeclassificationunverified.",
+      "30_validation/reports/test_preparation_20261012.json SHA256 8b4c30eb0aa46c3bbe269eaf28649cfeff5031423cadac002197ea58c0bf48e3; editor_quick_20261012_result.json SHA256 592a3aad1820fe3cdbc203ba8fb5081bcc097e4cf04b4fe9702aefcefd2f64c1; screenshot editor_quick_20261012_class.jpg SHA256 f5675bf8df5e1a4ba170b6d3eae5c04d96fed308cdf6497713bd2f41331b2738. Capture title metadata is stale Untitled; actual UIA/screenshot identify astr_trailer_quadradem_4.xml."
     ]
   },
   "model_routes": {

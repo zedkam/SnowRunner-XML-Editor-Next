@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `33`
+- revision: `34`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-12T11:29:35Z`
+- updated: `2026-10-12T11:57:21Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 
 ## Текущее состояние
 
-2026-10-12 full model audit completed in same Blender. Current QuadrademQ07 remains open and clean, assets hash-exact. Astra max live audit19PASS/1inherited convex-property warning/4unverified domains; Sol independent currentfile checks459protectedhashes exact, XML/front-only lift/13locales/16maps verified. Concrete inherited warnings241zeroarea triangles,23zero cornernormals,103coordinate-duplicate triangles,10nonconvex CDT surfaces; source070 mainbody has9boundaryedges/maxsupport137.583mm. Engineclassification and physics remainUNRUN. Reports/previews/metadata committed locallyd442ba80c07d3573987e0ce0697f5e39547894bb with LFSpointersPASS. Releaseblocked.
+Quadradem Q07 is ready for the requested user game test in live astr_trailers. Installed class, descriptor, FBX and native hashes are exact before and after the fresh Editor class render. All 16 material maps and 13 locale files were verified. Fresh Editor startup and class render PASS; screenshot saved, one double click performed, input stopped and node kernel reset. Front lift, rear suspension dynamics, collision-shape labels and gameplay remain UNRUN; release is pending game acceptance. Seven proof/metadata files saved locally in Git 1034f0b3bd09f00e996f386595039ced4db41d99. Inherited geometry warnings from the full audit remain recorded; no assets were changed.
 
 ## Следующие действия
 
-- After scoped screen authorization, run fresh Editor class-load and inspect actual shape labels for10warnedCDT, especiallycdt_d53_source_070 mainbody. Verifyfrontlift and normalrear suspension/contact travel; user gameplaycollision/cargo/coupling/lighting test follows. Do not auto-remesh/weld or delete inheritedparts under a check request. Preserve externalTridem sourcePNG dependencies; documentone4Kmap visualjustification before release. Full dynamicmechanism sweep/globalnonadjacentintersection classification remainunverified, notblanketPASS.
+- User game test: coupling, idle and rolling stability, front-only axle lift, ordinary rear suspension and four-slot cargo. Record gameplay outcome before release. Actual Editor collision-shape classification and dynamic mechanism/contact sweep remain unverified; no geometry cleanup or further input control without a new request.
 
 ## Область
 
@@ -68,6 +68,7 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 - 2026-10-07 user supersedes original dual-lift requirement: liftedAxles=[1] only. Axle4 must use ordinary suspension of middle axles2/3, with no rear lift command. Preserve first lift, stiffness, rig/geometry and all other functions.
 - Q07 supersedes Q05 geometry only for eight lower-flange/bevel UV faces. Reject stale Q03 subpixel UV refinement. Preserve muted red webs, dark flange donor styling, rust, all texture bytes and Q06 front-only lift.
 - User2026-10-12 requests fullmodelcheck and explicitly selects Quadradem fouraxles; inspect currentQ07 blend and Q06 front-only XML. Authorizes safe opening in the existing Blender through MCP; no new Blender instance or scene asset edits.
+- User on 2026-10-12 explicitly authorizes live test preparation and a very short Editor screenshot step with immediate input release; that UI step is complete. No further GUI input is authorized by this completed step.
 
 ## Открытые вопросы
 
@@ -97,8 +98,8 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 - Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
 - Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
-- ... ещё 6; см. `state.json`.
+- ... ещё 7; см. `state.json`.
 
 ## Evidence
 
-- ... ещё 27; см. `state.json`.
+- ... ещё 28; см. `state.json`.
