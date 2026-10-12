@@ -2,10 +2,10 @@
 
 - task-id: `trecol_arktika_pickup_20261012`
 - status: `active`
-- phase: `design`
-- revision: `3`
+- phase: `implementation`
+- revision: `4`
 - branch: `codex/task-state/trecol_arktika_pickup_20261012`
-- updated: `2026-10-12T15:01:24Z`
+- updated: `2026-10-12T15:30:37Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@
 
 ## Текущее состояние
 
-D1 saved and open in Blender through verified MCP; D2 kinematic candidate accepted. Geometry remains blocked by missing dimensions.
+User has no CAD or survey access and explicitly requests reconstruction from images. Visible original geometry now proceeds from calibrated factory drawings and photos.
 
 ## Следующие действия
 
-- Resolve M01-M08 dimensional sources, verify rear balance topology and steering hardpoints, then begin measured geometry. Keep current D1 open via MCP.
+- Accept Astra/max D3 source-traced panel/tire recipe, create real visible Mesh in the one connected Blender via root MCP, compare orthographic views and save own working.blend while preserving D1.
 
 ## Область
 
@@ -35,6 +35,8 @@ D1 saved and open in Blender through verified MCP; D2 kinematic candidate accept
 - LOCAL REVIEW COPY ONLY: automatic approval rejected external state push; origin synchronization remains pending explicit authorization.
 - Previous LOCAL REVIEW-only sync restriction superseded by explicit user approval for three metadata files to zedkam/SnowRunner-XML-Editor-Next; models/photos/game resources remain excluded.
 - User explicitly authorized closing the current trailer and opening a new TRECOL file in the already connected Blender; do not overwrite trailer canonical; recover unsaved state if it appears.
+- USER SUPERSEDES previous CAD prerequisite: photo-derived geometry and later declared simulation estimates are allowed; no proxy assets, false factory precision, donor import or unsupported runtime PASS.
+- USER requires one existing Blender GUI session only; never launch additional GUI or background Blender processes. Live inventory confirms only PID78500 with TRECOL and MCP.
 
 ## Принятые решения
 
@@ -43,11 +45,11 @@ D1 saved and open in Blender through verified MCP; D2 kinematic candidate accept
 - Blender D1 uses own CURVE/FONT/EMPTY reference guides and 4 source images; non-exporting, distinct from vehicle meshes. New scene-only file will be opened in same live Blender.
 - Astra/max D2 separates passive balance Hinge from native wheel suspension; Axle is visual only. Balance link count, topology, hardpoints and numerical settings remain pending.
 - Blender 5.2 libraries.write failed; legacy writer disabled. D1 created in clean factory process, saved directly, then opened in GUI with existing MCP addon.
+- Use S02 p14 for macro scale and original profile loops, S01 pickup photos and S08/S09 wheel photos for visible details; every inferred dimension carries source and uncertainty. Unknown simulation fields remain pending until their separate design/test phase.
 
 ## Открытые вопросы
 
-- Critical steering pivots, rear balance geometry, frame sections, wheel profile and cabin dimensions are not yet measured.
-- Awaiting answer about local CAD/dimensioned drawings or access to vehicle for M01-M08 measurements. R0, geometry, rig, collision, Editor and game remain unverified.
+- D3 image-based geometry recipe in progress with Astra/max. Hidden topology and later simulation settings require declared estimates and Editor/game evidence, rather than unavailable CAD.
 
 ## Выполнено
 
@@ -55,6 +57,7 @@ D1 saved and open in Blender through verified MCP; D2 kinematic candidate accept
 - B00 object folder, passport, provenance, reference manifest and static setup report accepted; JSON 3/3 and reference hashes 8/8 passed.
 - Read-only live Blender preflight captured: Blender 5.2.0 LTS, saved quadradem_4_q07 scene with 65 objects and isDirty=false.
 - B00 passport; D1 reference workspace; B02 native wheel/body semantic audit and D2 document contract.
+- Accepted source audit selected five primary Pickup/wheel views plus rim and bed companions; updated object/brief/measurement tasks for photo-based reconstruction.
 
 ## Evidence
 
@@ -73,3 +76,4 @@ D1 saved and open in Blender through verified MCP; D2 kinematic candidate accept
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/kinematic_contract.json
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/scene/trecol_arktika_pickup_d1.blend
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d1_reference_build_report.json
+- SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/measurement_requests.json
