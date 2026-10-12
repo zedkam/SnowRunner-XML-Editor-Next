@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `32`
+- revision: `33`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-12T10:56:10Z`
+- updated: `2026-10-12T11:29:35Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 
 ## Текущее состояние
 
-2026-10-12 full current Quadradem model audit in progress. User clarified four-axle Quadradem, opened safely in same live Blender from currentQ07 scene, clean hash595e9d7e. Astra max owns read-only live3D audit; Sol owns independent current file/XML/material/native bindings. Onlyfront lift remains perQ06. Model/source changes, recook/install and screeninput not requested. ExistingQ07 receipts and scenes preserved; new report namespacefull_model_audit_20261012.
+2026-10-12 full model audit completed in same Blender. Current QuadrademQ07 remains open and clean, assets hash-exact. Astra max live audit19PASS/1inherited convex-property warning/4unverified domains; Sol independent currentfile checks459protectedhashes exact, XML/front-only lift/13locales/16maps verified. Concrete inherited warnings241zeroarea triangles,23zero cornernormals,103coordinate-duplicate triangles,10nonconvex CDT surfaces; source070 mainbody has9boundaryedges/maxsupport137.583mm. Engineclassification and physics remainUNRUN. Reports/previews/metadata committed locallyd442ba80c07d3573987e0ce0697f5e39547894bb with LFSpointersPASS. Releaseblocked.
 
 ## Следующие действия
 
-- Complete bounded read-only Blender and file audits, review focused previews and evidence, save report and localGitcheckpoint. Report all concrete findings with severity; distinguish modelstatic from Editor/gameUNRUN. No automaticgeometryrepair or cleanup during this audit.
+- After scoped screen authorization, run fresh Editor class-load and inspect actual shape labels for10warnedCDT, especiallycdt_d53_source_070 mainbody. Verifyfrontlift and normalrear suspension/contact travel; user gameplaycollision/cargo/coupling/lighting test follows. Do not auto-remesh/weld or delete inheritedparts under a check request. Preserve externalTridem sourcePNG dependencies; documentone4Kmap visualjustification before release. Full dynamicmechanism sweep/globalnonadjacentintersection classification remainunverified, notblanketPASS.
 
 ## Область
 
@@ -97,6 +97,8 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 - Q04 visual acceptance and frozen FBX/preflight accepted; Q03 retained as rollback.
 - Official hidden native cook exit0; 80 holes/160 rings closed and all protected non-rail semantics, rig/CDT/maps/XML exact Q03.
 - Exact FBX/native-only replacement applied in canonical/live astr_trailers. All79canonical+380live non-target files,13locales,XML/lifts/maps exact. Q04 object/PLAN reconciled; Q03 rollback retained; foreign Q03UVfiles untouched/untracked.
-- Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
-- Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
-- ... ещё 3; см. `state.json`.
+- ... ещё 6; см. `state.json`.
+
+## Evidence
+
+- ... ещё 27; см. `state.json`.
