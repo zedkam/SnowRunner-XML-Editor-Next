@@ -3,9 +3,9 @@
 - task-id: `trecol_arktika_pickup_20261012`
 - status: `active`
 - phase: `research`
-- revision: `7`
+- revision: `8`
 - branch: `codex/task-state/trecol_arktika_pickup_20261012`
-- updated: `2026-10-12T18:26:47Z`
+- updated: `2026-10-12T18:50:51Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@
 
 ## Текущее состояние
 
-User stopped FRAME1 modelling and requires all visible-frame photo/video research followed by one small visible fragment at a time. Astra withdrew unsupported full-frame layout. Photo audit continues; no Blender changes after stop.
+User stop honoured. Complete visual classification of 153 found media URL records: 147 originals and six archived previews; legacy 57 records separate. Astra/max selected one rear mounting-plate side fragment by transport eye for a future two-photo 2D contour comparison. Modelling remains stopped.
 
 ## Следующие действия
 
-- Finish remaining known-page photo acquisition and delta audit; finalize Russian evidence atlas. Do not build frame, suspension, body or interior.
+- One small next step: compare and mark the same visible plate side edge, lower contour and one transport-eye boundary on the two rear photographs; leave occluded areas untraced. No 3D build in the current research step.
 
 ## Область
 
@@ -51,6 +51,7 @@ User stopped FRAME1 modelling and requires all visible-frame photo/video researc
 - D3 preliminary exterior accepted after source comparison and two Astra geometry corrections; no factory-exact or runtime claim.
 - SUPERSEDES revision5 D3 visual acceptance: user rejected quality and whole-exterior-first method. Technical triangle/BVH passes remain measurements only.
 - WITHDRAWN_UNPROVEN_LAYOUT_USER_STOP: five crossmember stations, rail sections/walls and spring-base coordinates were not source-backed. Boolean proofs are historical technical method evidence only.
+- Withdrawn FRAME1 layout is historical only. First fragment uses ATV Pickup direct rear 13.jpg and oblique 12.jpg; manual p247 identifies the eye only. No hidden rail continuation, thickness or joint construction inferred.
 
 ## Открытые вопросы
 
@@ -66,6 +67,7 @@ User stopped FRAME1 modelling and requires all visible-frame photo/video researc
 - D3: cab/windows, engine enclosure, open bed/niches and eight wheels. D4: sourced interior recipe only.
 - Recorded user visual rejection; hid d3_visual and renamed live scene trecol_arktika_pickup_working without new process or overwrite of protected D1.
 - Old 57-photo collection reviewed; 97 linked new-archive JPEGs reviewed; resized duplicates separated from new views. Two public videos inspected at selected times including OffRoadClub 18:24 underside.
+- Classified every found new media record; prepared Russian evidence atlas with 18 focused cards and two first-fragment source photographs side by side; verified local paths and original/preview hashes.
 
 ## Evidence
 
@@ -79,6 +81,7 @@ User stopped FRAME1 modelling and requires all visible-frame photo/video researc
 - Local-only Git/LFS checkpoint c00d35b29ca16a6fdc22b78656e7effd8494395e; model pointer matches saved SHA. One Blender PID78500; no new GUI/background process.
 - Live PID78500, current working.blend path, rejected exterior hidden. On-disk draft SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; hiding/rename unsaved, no new frame Mesh yet.
 - Protected D1 SHA297e836f10d48bbfba9423b3bce271956d9a4710bf84fe67de3d7c05459f0c61 and on-disk working SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac remain unchanged. Full FRAME1 was never created or saved.
+- Root static QA: 153 of 153 media record paths present and hashes valid; all atlas local links resolve; object/report/audit fragment selections agree. HTML source checked, browser rendering not performed. Working blend and protected D1 hashes unchanged.
 
 ## Затронутые файлы
 
@@ -96,3 +99,5 @@ User stopped FRAME1 modelling and requires all visible-frame photo/video researc
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/frame1_user_stop_reference_audit.json
 - SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/FRAME_EVIDENCE.md
 - SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/official_gallery_manifest.json
+- SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/frame_evidence.html
+- SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011/frame_references_20261012/new_photo_visual_audit.json
