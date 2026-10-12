@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "task_id": "trecol_arktika_pickup_20261012",
+  "title": "ТРЭКОЛ АРКТИКА Пикап: проектирование и реализация",
+  "objective": "Работать по TRECOL_ARKTIKA_PICKUP_PLAN.md до проверенной собственной модели; начать B00-B02 и затем выполнять доступные стадии без выдуманной геометрии. Проектирование строго Astra/max.",
+  "status": "active",
+  "phase": "intake",
+  "revision": 1,
+  "created_at": "2026-10-12T13:50:27Z",
+  "updated_at": "2026-10-12T13:50:27Z",
+  "scope_paths": [
+    "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup",
+    "SnowRunner-Modding/docs/TRECOL_ARKTIKA_PICKUP_PLAN.md",
+    "SnowRunner-Modding/work/research/trecol_arktika_pickup_20261011"
+  ],
+  "authority": {
+    "constraints": [
+      "User authorized implementation and orkestr on 2026-10-12; prior information-only scope lifted.",
+      "Design: gpt-6-astra reasoning max, read-only architect duties; Terra edits files; Sol researches; root integrates.",
+      "Only trecol paths; preserve other object edits, game saves and active Blender/Editor sessions.",
+      "No invented geometry, proxy assets, guessed pivots, false Editor/game PASS or factory-reference release.",
+      "LOCAL REVIEW COPY ONLY: automatic approval rejected external state push; origin synchronization remains pending explicit authorization."
+    ],
+    "open_questions": [
+      "Critical steering pivots, rear balance geometry, frame sections, wheel profile and cabin dimensions are not yet measured."
+    ]
+  },
+  "accepted_work": {
+    "summary": "Приняты исследовательское досье (SHA256 7bc0a1f8962e68fc102bc6d6b68f78cd9052bea40dfcc1b5e890385d8ebba244), план (SHA256 f9e6b3d722051f75b5a64f767d94f18a8c07fb2b914032ef572b82a3cb330c87) и публичный reference archive. Объект инициализируется Terra; геометрия ещё не создана. Чужие текущие изменения прицепов не приняты и не затрагиваются.",
+    "working_path": "SnowRunner-Modding",
+    "captured_at": "2026-10-12T13:50:22Z",
+    "git": {
+      "root": "SnowRunner-Modding",
+      "branch": "codex/quadradem-4",
+      "head": "1034f0b3bd09f00e996f386595039ced4db41d99",
+      "status": [
+        "## codex/quadradem-4",
+        " M objects/trailers/astr_semitrailer_flatbed_6_4/object.json",
+        " M objects/trailers/trailer_sideboard_tridem_3/20_mod/astr_trailers/meshes/trucks/trailers/astr_trailer_tridem_3.fbx",
+        " M objects/trailers/trailer_sideboard_tridem_3/20_mod/astr_trailers/prebuild/meshes/trucks_trailers_astr_trailer_tridem_3",
+        "?? docs/TRECOL_ARKTIKA_PICKUP_PLAN.md",
+        "?? docs/TRECOL_ARKTIKA_PICKUP_RESEARCH.md",
+        "?? objects/trailers/astr_semitrailer_flatbed_6_4/10_blender/exports/audit_hs_fbx_root.py",
+        "?? objects/trailers/astr_semitrailer_flatbed_6_4/10_blender/exports/repair_hs_physical_root.py",
+        "?? objects/trailers/astr_semitrailer_flatbed_6_4/30_validation/attachment_physics_20261005/",
+        "?? objects/trailers/trailer_sideboard_quadradem_4/10_blender/scripts/q03_uv_refine_current_mcp.py",
+        "?? objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q03_uv_refinement_plan.json",
+        "?? objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q07_blender_connection_20261012.json",
+        "?? objects/trailers/trailer_sideboard_quadradem_4/30_validation/scripts/q03_uv_refinement_actual_audit.py",
+        "?? objects/trailers/trailer_sideboard_quadradem_4/30_validation/scripts/q03_uv_refinement_plan.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/10_blender/exports/d64/",
+        "?? objects/trailers/trailer_sideboard_tridem_3/10_blender/scripts/d64_blender_inspect_20261012.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/10_blender/scripts/d64_build_fixed_mount_removal.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/10_blender/scripts/d64_probe_scope.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/10_blender/scripts/d64_verify_asset.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_blender_check_20261012.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_blender_check_20261012_n2.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_candidate_handoff.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_candidate_handoff.md",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_component_scope_probe.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_editor_before_20261012.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_editor_handoff_gate_20261012.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_fixed_mount_asset_report.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_fixed_mount_readback_audit.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_fixed_mount_selection.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_forensic_d9_source_tag_packet.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_independent_native_audit.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_install_preflight.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/reports/d64_native_staging_preflight.json",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/scripts/d64_editor_handoff_gate_20261012.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/scripts/d64_independent_native_audit.py",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/scripts/d64_install_apply.ps1",
+        "?? objects/trailers/trailer_sideboard_tridem_3/30_validation/scripts/d64_native_staging.py"
+      ],
+      "diff_stat": [
+        " .../astr_semitrailer_flatbed_6_4/object.json       | 44 +++++++++++++++-------",
+        " .../trucks/trailers/astr_trailer_tridem_3.fbx      |  4 +-",
+        " .../meshes/trucks_trailers_astr_trailer_tridem_3   |  4 +-",
+        " 3 files changed, 34 insertions(+), 18 deletions(-)"
+      ]
+    }
+  },
+  "context": {
+    "current_summary": "Приняты исследовательское досье (SHA256 7bc0a1f8962e68fc102bc6d6b68f78cd9052bea40dfcc1b5e890385d8ebba244), план (SHA256 f9e6b3d722051f75b5a64f767d94f18a8c07fb2b914032ef572b82a3cb330c87) и публичный reference archive. Объект инициализируется Terra; геометрия ещё не создана. Чужие текущие изменения прицепов не приняты и не затрагиваются.",
+    "decisions": [],
+    "completed": [
+      "Принято текущее состояние работы."
+    ],
+    "next_actions": [
+      "Review Astra/max D1 and Sol B01 evidence; materialize accepted design with Terra."
+    ],
+    "files": [],
+    "evidence": []
+  },
+  "model_routes": {
+    "architecture": "gpt-6-astra",
+    "xml_and_scripts": "gpt-5.6-terra",
+    "analysis": "gpt-5.6-sol",
+    "summary": "gpt-5.6-luna"
+  }
+}
