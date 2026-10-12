@@ -3,9 +3,9 @@
 - task-id: `astr-trailer-quadradem-4`
 - status: `active`
 - phase: `validation`
-- revision: `31`
+- revision: `32`
 - branch: `codex/task-state/astr-trailer-quadradem-4`
-- updated: `2026-10-07T16:22:10Z`
+- updated: `2026-10-12T10:56:10Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@ Create a four-slot four-axle trailer from Tridem D63, with only the front axle l
 
 ## Текущее состояние
 
-Q07 UV-only geometry installed in canonical/live: eight front lower-flange faces and 24 UV corners corrected; Q05 reservoir placement, rig/CDT/materials and Q06 front-only lift XML preserved. Astra max visual review, official cook and native audit PASS. All 459 non-target hashes exact; 13 locales unchanged. Complete current trailer restored in the single Blender, all 16 checks PASS, no input takeover. Local Git 84b6d75cb48c9793adaa47c5fe780d5f1d364b71 saved with five LFS pointers verified. Editor/game UNRUN; release blocked.
+2026-10-12 full current Quadradem model audit in progress. User clarified four-axle Quadradem, opened safely in same live Blender from currentQ07 scene, clean hash595e9d7e. Astra max owns read-only live3D audit; Sol owns independent current file/XML/material/native bindings. Onlyfront lift remains perQ06. Model/source changes, recook/install and screeninput not requested. ExistingQ07 receipts and scenes preserved; new report namespacefull_model_audit_20261012.
 
 ## Следующие действия
 
-- Fresh Editor class-load and front axle lift plus standard rear suspension runtime checks only with scoped screen authorization; then user game test. Preserve Q07 geometry and Q06 XML. Accepted static gates need no repeat; release and old-copy cleanup await runtime proof and acceptance.
+- Complete bounded read-only Blender and file audits, review focused previews and evidence, save report and localGitcheckpoint. Report all concrete findings with severity; distinguish modelstatic from Editor/gameUNRUN. No automaticgeometryrepair or cleanup during this audit.
 
 ## Область
 
@@ -67,6 +67,7 @@ Q07 UV-only geometry installed in canonical/live: eight front lower-flange faces
 - FreshTerra quadradem_q05_gate_worker owns computedQ05audit script/report materialization; Sol independentlyreviewsreadonly; oldTerra retains existingproductionhelpers and finalmetadata. Stricttyped52rowgate resolvedpriorpartialdraft, no waivedchecks.
 - 2026-10-07 user supersedes original dual-lift requirement: liftedAxles=[1] only. Axle4 must use ordinary suspension of middle axles2/3, with no rear lift command. Preserve first lift, stiffness, rig/geometry and all other functions.
 - Q07 supersedes Q05 geometry only for eight lower-flange/bevel UV faces. Reject stale Q03 subpixel UV refinement. Preserve muted red webs, dark flange donor styling, rust, all texture bytes and Q06 front-only lift.
+- User2026-10-12 requests fullmodelcheck and explicitly selects Quadradem fouraxles; inspect currentQ07 blend and Q06 front-only XML. Authorizes safe opening in the existing Blender through MCP; no new Blender instance or scene asset edits.
 
 ## Открытые вопросы
 
@@ -99,8 +100,3 @@ Q07 UV-only geometry installed in canonical/live: eight front lower-flange faces
 - Root rearcontext/detailvisualaccepted; finalFBXf4c13ca44feb3868489046a74015b909896799d87cc0664080cf0f820cddac29 and raw4dbf39f408bc476819f4a4a8cb8c547374d680c92247982759896a7c7ca2406a frozen. Export sourceQ04normalsexact; liveBlender signedshortencoding drift separatelydisclosed.
 - Computed FBXgate89e2bc4cc76b8342ebc51d1a23b9f6b0da40fefe61f4629bc9abfb7fe11f0190; preflight272c32785b981120c7d8d5b6196622124a494b7a2d0c4ff3d7323c3753c586a6; nativef54954dbb9e8fef016a21f4eb62fd67f379f55125732863573df900741587648 bytes18403138.
 - ... ещё 3; см. `state.json`.
-
-## Evidence
-
-- SnowRunner-Modding/objects/trailers/trailer_sideboard_quadradem_4/30_validation/reports/q01_xml_scaffold_report.json
-- ... ещё 24; см. `state.json`.
