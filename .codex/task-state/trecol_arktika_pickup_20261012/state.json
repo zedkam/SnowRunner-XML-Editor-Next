@@ -4,10 +4,10 @@
   "title": "ТРЭКОЛ АРКТИКА Пикап: проектирование и реализация",
   "objective": "Работать по TRECOL_ARKTIKA_PICKUP_PLAN.md до проверенной собственной модели; начать B00-B02 и затем выполнять доступные стадии без выдуманной геометрии. Проектирование строго Astra/max.",
   "status": "active",
-  "phase": "implementation",
-  "revision": 5,
+  "phase": "design",
+  "revision": 6,
   "created_at": "2026-10-12T13:50:27Z",
-  "updated_at": "2026-10-12T16:38:39Z",
+  "updated_at": "2026-10-12T16:51:02Z",
   "scope_paths": [
     "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup",
     "SnowRunner-Modding/docs/TRECOL_ARKTIKA_PICKUP_PLAN.md",
@@ -23,11 +23,10 @@
       "Previous LOCAL REVIEW-only sync restriction superseded by explicit user approval for three metadata files to zedkam/SnowRunner-XML-Editor-Next; models/photos/game resources remain excluded.",
       "User explicitly authorized closing the current trailer and opening a new TRECOL file in the already connected Blender; do not overwrite trailer canonical; recover unsaved state if it appears.",
       "USER SUPERSEDES previous CAD prerequisite: photo-derived geometry and later declared simulation estimates are allowed; no proxy assets, false factory precision, donor import or unsupported runtime PASS.",
-      "USER requires one existing Blender GUI session only; never launch additional GUI or background Blender processes. Live inventory confirms only PID78500 with TRECOL and MCP."
+      "USER requires one existing Blender GUI session only; never launch additional GUI or background Blender processes. Live inventory confirms only PID78500 with TRECOL and MCP.",
+      "Latest user order is mandatory: frame -> axles/suspension -> steering/driveline -> body one part at a time -> interior last. Each part requires real source comparison before expansion. One Blender process only."
     ],
-    "open_questions": [
-      "Chassis pivots and runtime settings require Astra source/game estimates plus Editor/game proof; CAD is unavailable, not a prerequisite to original reconstruction."
-    ]
+    "open_questions": []
   },
   "accepted_work": {
     "summary": "Приняты исследовательское досье (SHA256 7bc0a1f8962e68fc102bc6d6b68f78cd9052bea40dfcc1b5e890385d8ebba244), план (SHA256 f9e6b3d722051f75b5a64f767d94f18a8c07fb2b914032ef572b82a3cb330c87) и публичный reference archive. Объект инициализируется Terra; геометрия ещё не создана. Чужие текущие изменения прицепов не приняты и не затрагиваются.",
@@ -85,7 +84,7 @@
     }
   },
   "context": {
-    "current_summary": "D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior design recorded, no interior Mesh yet. Main next block is B03 chassis/R0; B04, B05 finish and B06 remain pending.",
+    "current_summary": "USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hidden in the sole Blender; historical c00d35b is rollback trace, not accepted geometry. Restart with frame, then axles/suspension, steering/shafts, body by separate parts, interior last. Astra/max prepares frame-only source recipe.",
     "decisions": [
       "Baseline trecol_arktika_pickup_1600_open_v1: open pickup, 1600 tires, two seats+sleeper, deferred optional equipment; CTIS visual details only until proven.",
       "Astra/max technical decisions accepted as PRELIMINARY D1; B01 partial and B02 UNVERIFIED due absent hardpoints/profile/strokes. No R0 geometry or invented rig.",
@@ -93,7 +92,8 @@
       "Astra/max D2 separates passive balance Hinge from native wheel suspension; Axle is visual only. Balance link count, topology, hardpoints and numerical settings remain pending.",
       "Blender 5.2 libraries.write failed; legacy writer disabled. D1 created in clean factory process, saved directly, then opened in GUI with existing MCP addon.",
       "Use S02 p14 for macro scale and original profile loops, S01 pickup photos and S08/S09 wheel photos for visible details; every inferred dimension carries source and uncertainty. Unknown simulation fields remain pending until their separate design/test phase.",
-      "D3 preliminary exterior accepted after source comparison and two Astra geometry corrections; no factory-exact or runtime claim."
+      "D3 preliminary exterior accepted after source comparison and two Astra geometry corrections; no factory-exact or runtime claim.",
+      "SUPERSEDES revision5 D3 visual acceptance: user rejected quality and whole-exterior-first method. Technical triangle/BVH passes remain measurements only."
     ],
     "completed": [
       "Принято текущее состояние работы.",
@@ -101,10 +101,11 @@
       "Read-only live Blender preflight captured: Blender 5.2.0 LTS, saved quadradem_4_q07 scene with 65 objects and isDirty=false.",
       "B00 passport; D1 reference workspace; B02 native wheel/body semantic audit and D2 document contract.",
       "Accepted source audit selected five primary Pickup/wheel views plus rim and bed companions; updated object/brief/measurement tasks for photo-based reconstruction.",
-      "D3: cab/windows, engine enclosure, open bed/niches and eight wheels. D4: sourced interior recipe only."
+      "D3: cab/windows, engine enclosure, open bed/niches and eight wheels. D4: sourced interior recipe only.",
+      "Recorded user visual rejection; hid d3_visual and renamed live scene trecol_arktika_pickup_working without new process or overwrite of protected D1."
     ],
     "next_actions": [
-      "Accept Astra/max D5 source-estimated chassis recipe, implement real B03 mechanical geometry in the same Blender, then prepare the R0 rig/export and B04 gates. Interior finish follows B04."
+      "Receive Astra/max frame-only source reconstruction recipe; build and compare the frame first in existing Blender. Defer all body/interior work and runtime export until their ordered stages."
     ],
     "files": [
       "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/object.json",
@@ -116,7 +117,8 @@
       "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/measurement_requests.json",
       "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/scene/working.blend",
       "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_shape_correction_checks.json",
-      "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/d4_interior_recipe.json"
+      "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/d4_interior_recipe.json",
+      "SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_user_visual_rejection.json"
     ],
     "evidence": [
       "Research SHA256 7bc0a1f8962e68fc102bc6d6b68f78cd9052bea40dfcc1b5e890385d8ebba244; plan SHA256 f9e6b3d722051f75b5a64f767d94f18a8c07fb2b914032ef572b82a3cb330c87 unchanged.",
@@ -126,7 +128,8 @@
       "New D1 SHA256 297e836f10d48bbfba9423b3bce271956d9a4710bf84fe67de3d7c05459f0c61; original trailer SHA before/after 595e9d7ed78c2ecf53a18d977ffc7cc33c37fbcf44ed74bd84a8b8ba8cd998b3. GUI MCP owner PID78500 verified.",
       "Local modding Git/LFS checkpoint 7b97b16; no model/research binary pushed remotely. 12 JSON documents parse, 3 Python scripts AST valid, 8 wheel rows retain null physical settings.",
       "D3 180 Mesh/6 materials/59389 triangles; windows PASS, floor-wheel and apron-wheel BVH overlaps0, duplicate/degenerate0. Working SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; D1 unchanged.",
-      "Local-only Git/LFS checkpoint c00d35b29ca16a6fdc22b78656e7effd8494395e; model pointer matches saved SHA. One Blender PID78500; no new GUI/background process."
+      "Local-only Git/LFS checkpoint c00d35b29ca16a6fdc22b78656e7effd8494395e; model pointer matches saved SHA. One Blender PID78500; no new GUI/background process.",
+      "Live PID78500, current working.blend path, rejected exterior hidden. On-disk draft SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; hiding/rename unsaved, no new frame Mesh yet."
     ]
   },
   "model_routes": {

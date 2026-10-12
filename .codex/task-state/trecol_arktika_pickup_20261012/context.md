@@ -2,10 +2,10 @@
 
 - task-id: `trecol_arktika_pickup_20261012`
 - status: `active`
-- phase: `implementation`
-- revision: `5`
+- phase: `design`
+- revision: `6`
 - branch: `codex/task-state/trecol_arktika_pickup_20261012`
-- updated: `2026-10-12T16:38:39Z`
+- updated: `2026-10-12T16:51:02Z`
 - models: architecture=`gpt-6-astra`, files=`gpt-5.6-terra`, analysis=`gpt-5.6-sol`, summary=`gpt-5.6-luna`
 
 ## Цель
@@ -14,11 +14,11 @@
 
 ## Текущее состояние
 
-D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior design recorded, no interior Mesh yet. Main next block is B03 chassis/R0; B04, B05 finish and B06 remain pending.
+USER REJECTED D3 visual draft and corrected modelling order. Old exterior is hidden in the sole Blender; historical c00d35b is rollback trace, not accepted geometry. Restart with frame, then axles/suspension, steering/shafts, body by separate parts, interior last. Astra/max prepares frame-only source recipe.
 
 ## Следующие действия
 
-- Accept Astra/max D5 source-estimated chassis recipe, implement real B03 mechanical geometry in the same Blender, then prepare the R0 rig/export and B04 gates. Interior finish follows B04.
+- Receive Astra/max frame-only source reconstruction recipe; build and compare the frame first in existing Blender. Defer all body/interior work and runtime export until their ordered stages.
 
 ## Область
 
@@ -37,6 +37,7 @@ D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior 
 - User explicitly authorized closing the current trailer and opening a new TRECOL file in the already connected Blender; do not overwrite trailer canonical; recover unsaved state if it appears.
 - USER SUPERSEDES previous CAD prerequisite: photo-derived geometry and later declared simulation estimates are allowed; no proxy assets, false factory precision, donor import or unsupported runtime PASS.
 - USER requires one existing Blender GUI session only; never launch additional GUI or background Blender processes. Live inventory confirms only PID78500 with TRECOL and MCP.
+- Latest user order is mandatory: frame -> axles/suspension -> steering/driveline -> body one part at a time -> interior last. Each part requires real source comparison before expansion. One Blender process only.
 
 ## Принятые решения
 
@@ -47,10 +48,11 @@ D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior 
 - Blender 5.2 libraries.write failed; legacy writer disabled. D1 created in clean factory process, saved directly, then opened in GUI with existing MCP addon.
 - Use S02 p14 for macro scale and original profile loops, S01 pickup photos and S08/S09 wheel photos for visible details; every inferred dimension carries source and uncertainty. Unknown simulation fields remain pending until their separate design/test phase.
 - D3 preliminary exterior accepted after source comparison and two Astra geometry corrections; no factory-exact or runtime claim.
+- SUPERSEDES revision5 D3 visual acceptance: user rejected quality and whole-exterior-first method. Technical triangle/BVH passes remain measurements only.
 
 ## Открытые вопросы
 
-- Chassis pivots and runtime settings require Astra source/game estimates plus Editor/game proof; CAD is unavailable, not a prerequisite to original reconstruction.
+Нет.
 
 ## Выполнено
 
@@ -60,6 +62,7 @@ D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior 
 - B00 passport; D1 reference workspace; B02 native wheel/body semantic audit and D2 document contract.
 - Accepted source audit selected five primary Pickup/wheel views plus rim and bed companions; updated object/brief/measurement tasks for photo-based reconstruction.
 - D3: cab/windows, engine enclosure, open bed/niches and eight wheels. D4: sourced interior recipe only.
+- Recorded user visual rejection; hid d3_visual and renamed live scene trecol_arktika_pickup_working without new process or overwrite of protected D1.
 
 ## Evidence
 
@@ -71,6 +74,7 @@ D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior 
 - Local modding Git/LFS checkpoint 7b97b16; no model/research binary pushed remotely. 12 JSON documents parse, 3 Python scripts AST valid, 8 wheel rows retain null physical settings.
 - D3 180 Mesh/6 materials/59389 triangles; windows PASS, floor-wheel and apron-wheel BVH overlaps0, duplicate/degenerate0. Working SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; D1 unchanged.
 - Local-only Git/LFS checkpoint c00d35b29ca16a6fdc22b78656e7effd8494395e; model pointer matches saved SHA. One Blender PID78500; no new GUI/background process.
+- Live PID78500, current working.blend path, rejected exterior hidden. On-disk draft SHA28322159d413138945c1c12f37cf60467f54446b6256427b4f825918fc44c1ac; hiding/rename unsaved, no new frame Mesh yet.
 
 ## Затронутые файлы
 
@@ -84,3 +88,4 @@ D3 real exterior saved/open in the sole existing Blender. D4 Astra/max interior 
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/scene/working.blend
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_shape_correction_checks.json
 - SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/10_blender/design/d4_interior_recipe.json
+- SnowRunner-Modding/objects/vehicles/trecol_arktika_pickup/30_validation/reports/d3_user_visual_rejection.json
