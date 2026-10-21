@@ -40,7 +40,7 @@ import type { IParameterProps, ParameterEmits, ParameterValue } from '../types'
 import { ExportUtils, ImportUtils, ResetUtils } from '../utils'
 import { injectFile } from '../utils/import'
 import { useActive } from './utils'
-import { Config, Lang, type IExportedData } from '/mods/renderer'
+import { Config, Lang, Messages, type IExportedData } from '/mods/renderer'
 import { ContextMenu, Wrap } from '/rend/components'
 import type { EmitsToProps } from '/rend/types'
 import { isNullable, isString } from '/utils/renderer'
@@ -100,13 +100,20 @@ const contextTarget = ref<HTMLDivElement | null>(null)
 const contextItems = [{
   key: 'reset-param',
   label: `${texts.resetMenuItemLabel} "${labelRef.value}"`,
-  onClick: resetValue
+  onClick: async () => {
+    try {
+      await resetValue()
+    } catch (error) {
+      Messages.error(error instanceof Error ? error.message : String(error))
+    }
+  }
 }]
 
 async function resetValue() {
+  await ResetUtils.ensureAvailable(file, info.value)
   const defaultVal = await getDefaultValue()
 
-  if (!defaultVal) {
+  if (isNullable(defaultVal)) {
     return
   }
 

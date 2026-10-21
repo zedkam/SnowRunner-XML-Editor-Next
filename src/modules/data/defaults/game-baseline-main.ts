@@ -35,6 +35,11 @@ class GameBaseline {
   }
 
   @publicMethod()
+  async hasFile(name: string): Promise<boolean> {
+    return Object.hasOwn(this.snapshot.files, name)
+  }
+
+  @publicMethod()
   async getValue(name: string, selector: string, attribute: string): Promise<string | undefined> {
     const xml = this.snapshot.files[name]
     if (!xml) return

@@ -22,7 +22,7 @@ The current game data includes DLC 19: Wortek 250T and Derry Savior. Their
 images are read from the local `gfx.pak` only when the XML icon and texture
 hash match the verified game data; otherwise a placeholder is shown.
 
-Current release: [`v2.0.0-beta.5`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.5).
+Current release: [`v2.0.0-beta.6`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.6).
 
 This is not an official Saber Interactive or Focus Entertainment project. The
 original project copyright and license are preserved.
@@ -47,7 +47,7 @@ XML-файлов SnowRunner. Это самостоятельное продол�
 Их изображения читаются из локального `gfx.pak` только при совпадении ссылки
 XML и контрольной суммы текстуры; иначе показывается заглушка.
 
-Текущий релиз: [`v2.0.0-beta.5`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.5).
+Текущий релиз: [`v2.0.0-beta.6`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.6).
 
 Это не официальный проект Saber Interactive или Focus Entertainment. Авторские
 права и лицензия оригинального проекта сохраняются.

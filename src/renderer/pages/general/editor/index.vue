@@ -50,7 +50,7 @@ defineExpose({
     return header.value?.export(...args)
   },
   async reset(updateFiles = true) {
-    await header.value?.reset()
+    if (!await header.value?.reset()) return
     return header.value?.save(updateFiles)
   },
   async import(updateFiles = true, ...args: Parameters<HeaderExpose['import']>) {

@@ -34,12 +34,14 @@ const info = computed(() => new BaseLocalization<string[]>()
   .ru([
     'Добавлены Wortek 250T и Derry Savior из DLC 19',
     'Исправлены перепутанные изображения Mercedes',
-    'Новые изображения и параметры читаются из установленной игры'
+    'Новые изображения и параметры читаются из установленной игры',
+    'Исправлен сброс параметров и сообщений о его результате'
   ])
   .en([
     'Added Wortek 250T and Derry Savior from DLC 19',
     'Corrected the swapped Mercedes images',
-    'New images and baseline values are read from the installed game'
+    'New images and baseline values are read from the installed game',
+    'Corrected parameter reset and its result messages'
   ])
   .de([
     'Programmkomponenten wurden aktualisiert',

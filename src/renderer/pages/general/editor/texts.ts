@@ -50,6 +50,10 @@ export default await createTextsLoader({
     .de('Parameter wurden zurückgesetzt')
     .ch('参数已被重置'),
 
+  resetUnavailable: new BaseLocalization()
+    .ru('Сброс недоступен: исходные параметры этой машины не сохранены. Ваши настройки не изменены. Редактирование и сохранение доступны. Для сброса нужна исходная копия файлов игры.')
+    .en('Reset is unavailable because the original values for this vehicle were not saved. Your settings have not been changed. Editing and saving are available. Reset requires an original copy of the game files.'),
+
   resetConfirmMessage: new BaseLocalization()
     .ru('Вы действительно хотите сбросить все параметры до исходных?')
     .en('Do you really want to reset all the parameters to the original ones?')

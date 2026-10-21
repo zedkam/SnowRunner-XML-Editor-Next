@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0-beta.6] - 2026-10-21
+
+### Русский
+
+- Исправлен сброс новых машин: если исходные параметры не сохранены, редактор объясняет причину и не сообщает об успехе.
+- Неудавшийся сброс больше не вызывает автоматическую запись в игровые файлы.
+- Исправлено восстановление параметров с исходным значением `0`.
+- Проверка готовой сборки без открытия окон добавлена в выпуск на GitHub.
+
+### English
+
+- Reset now explains when a new vehicle's original values are unavailable instead of reporting success.
+- A failed reset no longer automatically saves the game files.
+- Parameters with an original value of `0` can now be reset correctly.
+- Added a packaged startup check without opening windows to GitHub releases.
+
 ## [2.0.0-beta.5] - 2026-10-21
 
 ### Русский

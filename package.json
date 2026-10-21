@@ -1,7 +1,7 @@
 {
 	"name": "snowrunner-xml-editor-desktop",
 	"productName": "SnowRunner XML Editor Next",
-	"version": "2.0.0-beta.5",
+	"version": "2.0.0-beta.6",
 	"description": "SnowRunner XML Editor Next — visual XML editor for SnowRunner / визуальный XML-редактор SnowRunner.",
 	"type": "module",
 	"repository": {
@@ -19,6 +19,8 @@
 		"lint:fix": "npm run lint -- --fix",
 		"check": "tsc --project src/tsconfig.json --noEmit && vue-tsc --project src/tsconfig.json --noEmit",
 		"test:dlc19": "node --test tools/tests/dlc19.test.mjs",
+		"test:reset": "node --test tools/tests/reset-actions.test.mjs",
+		"test:package": "node --experimental-vm-modules tools/tests/packaged-main-smoke.mjs",
 		"diagnose": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/diagnostics/check-dlc-readiness.ps1",
 		"generate:content": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-content.ps1",
 		"generate:images": "powershell -NoProfile -ExecutionPolicy Bypass -File tools/generation/generate-game-images.ps1",

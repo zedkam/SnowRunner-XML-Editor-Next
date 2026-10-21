@@ -31,8 +31,14 @@ jobs:
       - name: Test DLC support
         run: npm run test:dlc19
 
+      - name: Test reset actions
+        run: npm run test:reset
+
       - name: Build raw Windows package
         run: npm run package:portable:raw
+
+      - name: Check packaged application without windows
+        run: npm run test:package
 
       - name: Install Inno Setup
         shell: pwsh

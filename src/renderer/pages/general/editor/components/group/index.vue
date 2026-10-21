@@ -41,7 +41,7 @@ import type { IGroupProps } from '../../types'
 import { ResetUtils } from '../../utils'
 import Accordion from '../accordion.vue'
 import { provideGroupActive } from '../utils'
-import { Images } from '/mods/renderer'
+import { Images, Messages } from '/mods/renderer'
 import { ContextMenu } from '/rend/components'
 import type { EmitsToProps } from '/rend/types'
 
@@ -63,7 +63,13 @@ const panelKey = String(attrs['panelKey']) || ''
 const contextItems = [{
   key: 'reset-group',
   label: `${texts.resetMenuItemLabel} "${label}"`,
-  onClick: onReset
+  onClick: async () => {
+    try {
+      await onReset()
+    } catch (error) {
+      Messages.error(error instanceof Error ? error.message : String(error))
+    }
+  }
 }]
 
 const { isParentActive } = provideGroupActive(panelKey)

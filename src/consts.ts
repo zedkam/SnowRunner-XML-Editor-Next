@@ -5,7 +5,7 @@ export const APP_NAME = 'SnowRunner XML Editor Next'
 export const GITHUB_REPOSITORY = 'zedkam/SnowRunner-XML-Editor-Next'
 
 /** Версия программы. */
-export const PROGRAM_VERSION = '2.0.0-beta.5'
+export const PROGRAM_VERSION = '2.0.0-beta.6'
 
 /** В любом случае показать devtools. */
 export const FORCE_DEVTOOLS = false

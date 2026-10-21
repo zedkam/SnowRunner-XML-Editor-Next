@@ -163,14 +163,17 @@ async function exportFile(toExport?: IFile) {
 
 async function reset() {
   try {
+    await ResetUtils.ensureAvailable(file, info.value)
     await ResetUtils.emit(ResetUtils.globalID)
     setEditedAction(EditedAction.markAsNotEdited)
 
     if (showMessages.value) {
       Messages.success(texts.successReset)
     }
+    return true
   } catch (error: any) {
     Messages.error(error)
+    return false
   }
 }
 
