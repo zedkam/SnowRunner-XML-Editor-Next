@@ -1,14 +1,15 @@
 import { app } from 'electron'
+import { randomUUID } from 'node:crypto'
 import TextsLoader from './texts'
 import Archive from '/mods/archive/main'
 import Backup from '/mods/backup/main'
 import Config from '/mods/data/config/main'
+import GameBaseline from '/mods/data/defaults/game-baseline-main'
 import Sizes from '/mods/data/sizes/main'
 import Dialogs from '/mods/dialogs/main'
 import { ErrorText, ProgramError } from '/mods/errors/main'
 import type { IFSEntry } from '/mods/files/main'
 import { Dirs, Files } from '/mods/files/main'
-import Paths from '/mods/paths/main'
 import { getLatestAvailableRelease } from '/mods/updates/github'
 import { providePublic, publicMethod } from '/utils/bridge/main'
 
@@ -64,23 +65,33 @@ class Checks {
     const hasContent = await Dirs.mainTemp.dir(this.mediaFolder).exists()
     const withoutChanges = await Config.initial.getSize() === Sizes.initial
 
-    if (!hasInitial || (hasContent && withoutChanges)) {
+    if (!hasInitial) {
       return
     }
 
-    if (!await Files.backupInitial.exists()) {
-      await Backup.save()
-    }
+    if (!hasContent || !withoutChanges) {
+      if (!await Files.backupInitial.exists()) {
+        await Backup.save()
+      }
 
-    if (await Dirs.mainTemp.exists()) {
-      await Dirs.backupInitialData.remove()
-
-      if (!RENDERER_VITE_DEV_SERVER_URL) {
+      if (await Dirs.mainTemp.exists() && !RENDERER_VITE_DEV_SERVER_URL) {
+        await Dirs.backupFolder.make()
+        // Keep previous recovery data when the game archive changes again.
+        if (await Dirs.backupInitialData.exists()) {
+          await Dirs.backupInitialData.move(Dirs.backupFolder.dir(`previous_initial_${randomUUID()}`))
+        }
         await Dirs.mainTemp.move(Dirs.backupInitialData)
       }
+
+      await Archive.unpackMain(false)
     }
 
-    await Archive.unpackMain(false)
+    // Also repair an older unpacked cache even when the PAK size is unchanged.
+    try {
+      await GameBaseline.prepare()
+    } catch (error) {
+      console.error('Could not prepare local DLC 19 content:', error)
+    }
   }
 
   /**

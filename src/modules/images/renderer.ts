@@ -1,4 +1,6 @@
 import type { Category } from '../../renderer/pages/general/enums'
+import LocalGameImages from './local-game-renderer'
+import { verifiedCards } from './verified-cards'
 import { Config, Mods } from '/mods/data/renderer'
 import type { IFile } from '/mods/files/renderer'
 import { Dir, File } from '/mods/files/renderer'
@@ -28,6 +30,24 @@ class Images {
       return modImage
         ? modImage.path
         : defaultImage.path
+    }
+
+    // Never use the previously swapped bundled Mercedes images. The local
+    // PCT is accepted only for its exact XML icon and known SHA-256.
+    if (category === 'trucks' && verifiedCards[file.name]) {
+      const icon = xml.GameData?.UiDesc?.UiIcon328x458
+      if (icon !== verifiedCards[file.name].icon) return defaultImage.path
+      const localImage = await LocalGameImages.getSrc(file.name, icon)
+      if (localImage) return localImage
+      // These two existing project assets were swapped in beta.4. Their
+      // corrected correspondence was also checked against the local PCTs.
+      const corrected = file.name === 'mercedes_3850' ? 'mercedes_mamute_1519'
+        : file.name === 'mercedes_mamute_1519' ? 'mercedes_3850' : undefined
+      if (corrected) {
+        const image = images.file(`${corrected}.png`)
+        if (await this.imageExists(image)) return image.path
+      }
+      return defaultImage.path
     }
     
     const imageNames = [

@@ -24,6 +24,7 @@ class ForgeConfig {
 			packagerConfig: {
 				name: 'SnowRunnerXMLEditor',
 				overwrite: true,
+				...(process.env.SNOWRUNNER_ELECTRON_ZIP_DIR ? { electronZipDir: process.env.SNOWRUNNER_ELECTRON_ZIP_DIR } : {}),
 				icon: '.vite/build/favicon.ico'
 			},
 			hooks: {

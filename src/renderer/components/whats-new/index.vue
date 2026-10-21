@@ -32,14 +32,14 @@ import { BaseLocalization } from '/utils/texts/base-localization'
 const isOpen = defineModel<boolean>({ required: true })
 const info = computed(() => new BaseLocalization<string[]>()
   .ru([
-    'Обновлены компоненты программы',
-    'Добавлены картинки новых авто',
-    'Обновлены стандартные параметры'
+    'Добавлены Wortek 250T и Derry Savior из DLC 19',
+    'Исправлены перепутанные изображения Mercedes',
+    'Новые изображения и параметры читаются из установленной игры'
   ])
   .en([
-    'Updated program components',
-    'Added pictures of new cars',
-    'Standard parameters have been updated'
+    'Added Wortek 250T and Derry Savior from DLC 19',
+    'Corrected the swapped Mercedes images',
+    'New images and baseline values are read from the installed game'
   ])
   .de([
     'Programmkomponenten wurden aktualisiert',

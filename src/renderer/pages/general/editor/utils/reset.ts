@@ -1,6 +1,7 @@
 import type { InjectionKey } from 'vue'
 import { inject, onMounted, onUnmounted, provide } from 'vue'
 import ImportUtils from './import'
+import GameBaseline from '/mods/data/defaults/game-baseline-renderer'
 import type { FileInfo, IFile } from '/mods/renderer'
 import type { IAttrDescriptor } from '/mods/xml/game/attributes'
 
@@ -39,9 +40,10 @@ class ResetUtils {
     const defaults = (await import('/mods/data/defaults/renderer')).default
     const name = ImportUtils.getName(file, info.dlc, info.mod)
     
-    return defaults[name]
+    const value = defaults[name]
       ?.[descriptor.selector]
       ?.[descriptor.name]
+    return value ?? await GameBaseline.getValue(name, descriptor.selector, descriptor.name)
   }
 }
 

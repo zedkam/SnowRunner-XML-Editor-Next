@@ -15,6 +15,7 @@ import Windows, { Page, ProgramWindow } from '/mods/windows/main'
 
 import '/mods/epf/main'
 import '/mods/updates/main'
+import '/mods/images/main'
 
 const texts = await TextsLoader.loadMain()
 

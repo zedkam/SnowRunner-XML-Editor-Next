@@ -28,6 +28,9 @@ jobs:
       - name: Validate source
         run: npm run check
 
+      - name: Test DLC support
+        run: npm run test:dlc19
+
       - name: Build raw Windows package
         run: npm run package:portable:raw
 
@@ -102,9 +105,14 @@ jobs:
             $env:GITHUB_REF_NAME
           ) + $assets + @(
             '--repo', $env:GITHUB_REPOSITORY,
-            '--title', "SnowRunner XML Editor Next $env:GITHUB_REF_NAME",
-            '--generate-notes'
+            '--title', "SnowRunner XML Editor Next $env:GITHUB_REF_NAME"
           )
+          $notes = Join-Path $env:GITHUB_WORKSPACE ".github/release-notes/$env:GITHUB_REF_NAME.md"
+          if (Test-Path -LiteralPath $notes) {
+            $releaseArgs += @('--notes-file', $notes)
+          } else {
+            $releaseArgs += '--generate-notes'
+          }
           if ($env:GITHUB_REF_NAME -match '-') {
             $releaseArgs += '--prerelease'
           }
@@ -122,6 +130,9 @@ jobs:
               '--repo', $env:GITHUB_REPOSITORY,
               '--title', "SnowRunner XML Editor Next $env:GITHUB_REF_NAME"
             )
+            if (Test-Path -LiteralPath $notes) {
+              $editArgs += @('--notes-file', $notes)
+            }
             if ($env:GITHUB_REF_NAME -match '-') {
               $editArgs += '--prerelease'
             }

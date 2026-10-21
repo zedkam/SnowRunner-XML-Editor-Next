@@ -18,7 +18,11 @@ Vehicle descriptions are available in both Russian and English. The texts are
 read from the local game files `strings_russian.str` and `strings_english.str`,
 so the application uses the descriptions shipped with your game version.
 
-Current release: [`v2.0.0-beta.4`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.4).
+The current game data includes DLC 19: Wortek 250T and Derry Savior. Their
+images are read from the local `gfx.pak` only when the XML icon and texture
+hash match the verified game data; otherwise a placeholder is shown.
+
+Current release: [`v2.0.0-beta.5`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.5).
 
 This is not an official Saber Interactive or Focus Entertainment project. The
 original project copyright and license are preserved.
@@ -39,7 +43,11 @@ XML-файлов SnowRunner. Это самостоятельное продол�
 локальных игровых файлов `strings_russian.str` и `strings_english.str`, поэтому
 используются описания именно вашей версии игры.
 
-Текущий релиз: [`v2.0.0-beta.4`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.4).
+В данных текущей игры найдено DLC 19 с машинами Wortek 250T и Derry Savior.
+Их изображения читаются из локального `gfx.pak` только при совпадении ссылки
+XML и контрольной суммы текстуры; иначе показывается заглушка.
+
+Текущий релиз: [`v2.0.0-beta.5`](https://github.com/zedkam/SnowRunner-XML-Editor-Next/releases/tag/v2.0.0-beta.5).
 
 Это не официальный проект Saber Interactive или Focus Entertainment. Авторские
 права и лицензия оригинального проекта сохраняются.

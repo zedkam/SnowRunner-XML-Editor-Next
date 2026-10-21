@@ -1,6 +1,7 @@
 import TextsLoader from '../texts'
 import WinRAR from './archiver'
 import Config from '/mods/data/config/main'
+import GameBaseline from '/mods/data/defaults/game-baseline-main'
 import Mods from '/mods/data/mods/main'
 import Sizes from '/mods/data/sizes/main'
 import type { IDir, IFile } from '/mods/files/main'
@@ -32,6 +33,13 @@ class Archive {
     await marker.make()
     await WinRAR.add(marker, archive)
     await this.saveSize(archive)
+    if (archive.path === Config.initialPath) {
+      try {
+        await GameBaseline.recordEdited(archive.path)
+      } catch (error) {
+        console.error('Could not bind the local baseline to the edited archive:', error)
+      }
+    }
   }
 
   /**

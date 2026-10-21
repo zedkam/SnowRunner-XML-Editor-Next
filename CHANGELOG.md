@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.0-beta.5] - 2026-10-21
+
+### Русский
+
+- Добавлено чтение DLC 19: Wortek 250T, Derry Savior и связанных XML.
+- Новые изображения загружаются из локального `gfx.pak` после проверки ссылки XML и SHA-256.
+- Исправлена перепутанная привязка изображений Mercedes-Benz 3850 и Mercedes Mamute 1519.
+- Для сброса параметров DLC 19 сохраняется локальный снимок архива до изменений редактором. Для изменённого архива без привязанного снимка сброс недоступен.
+- Добавлены тесты распаковки, сохранности пользовательских изменений и обработки изображений.
+- При обновлении игровых данных предыдущая копия извлечённых файлов сохраняется, а не удаляется.
+
+### English
+
+- Added DLC 19: Wortek 250T, Derry Savior and related XML files.
+- New images are loaded from the local `gfx.pak` only after XML icon and SHA-256 checks.
+- Corrected the swapped Mercedes-Benz 3850 and Mercedes Mamute 1519 images.
+- DLC 19 reset values use a local snapshot made before editor modifications. Reset is unavailable for an edited archive without a snapshot bound to its exact hash.
+- Added extraction, user-edit preservation and image decoding tests.
+- Previous extracted-file backups are preserved when game data is refreshed.
+
 ## [2.0.0-beta.4] - 2026-09-05
 
 Двуязычная публичная страница и английские подписи управления.
